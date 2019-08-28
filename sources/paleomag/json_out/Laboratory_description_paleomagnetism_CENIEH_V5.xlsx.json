@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 42.3393,
-            "gpsLon": -3.6967
+            "gps_lat": 42.3393,
+            "gps_lon": -3.6967
         },
         "website": "https://www.cenieh.es/en/infrastructure/laboratories/archaeomagnetism",
         "contact_person": {
             "first_name": "Josep M",
             "family_name": "Pares",
             "identifier": {
-                "type": "",
-                "id": "ResearcherID:  K-9299-2014, ORCID:  0000-0001-8237-6869"
+                "id_type": "",
+                "id_value": "ResearcherID:  K-9299-2014, ORCID:  0000-0001-8237-6869"
             },
-            "e-mail": "josep.pares@cenieh.es",
+            "email": "josep.pares@cenieh.es",
             "affiliation": {
                 "legal_name": "CENIEH Burgos, Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Paleomagnetism",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Paleomagnetic and magnetic data"
             ],
             "equipment": [
@@ -49,168 +49,168 @@
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G SQUID magnetometer",
                     "equipment_brand": "2G Enterprises",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G SQUID magnetometer",
                     "equipment_brand": "2G Enterprises",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "ASC Scientific thermal demagnetizer, single chamber",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "ASC Scientific thermal demagnetizer, single chamber",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM",
                     "equipment_brand": "Princeton",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM",
                     "equipment_brand": "Princeton",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge MFK1",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge MFK1",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "Bartington magnetic susceptibility meter",
                     "equipment_brand": "Bartington",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "Bartington magnetic susceptibility meter",
                     "equipment_brand": "Bartington",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "ASC IM10-30 pulse magnetizer, 2 coils",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "ASC IM10-30 pulse magnetizer, 2 coils",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "GF Instruments SM-30",
                     "equipment_brand": "GF Instruments",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "GF Instruments SM-30",
                     "equipment_brand": "GF Instruments",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 }
             ],
             "measurement": [
@@ -260,13 +260,13 @@
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/c3fff0d9ca9fe9caae131ff2b11f6e67"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labc3fff0d9ca9fe9caae131ff2b11f6e67",
                 "payload": "json"
             }

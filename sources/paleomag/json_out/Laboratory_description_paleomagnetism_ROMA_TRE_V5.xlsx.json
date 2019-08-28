@@ -12,23 +12,23 @@
             "country": ""
         },
         "gps": {
-            "gpsLat": 41.854167,
-            "gpsLon": 12.464444
+            "gps_lat": 41.854167,
+            "gps_lon": 12.464444
         },
         "website": "http://host.uniroma3.it/docenti/mattei/Paleomagnetic_Lab.html",
         "contact_person": {
             "first_name": "Francesca",
             "family_name": "Cifelli",
             "identifier": {
-                "type": "",
-                "id": "https://orcid.org/0000-0002-6337-8786"
+                "id_type": "",
+                "id_value": "https://orcid.org/0000-0002-6337-8786"
             },
-            "e-mail": "francesca.cifelli@uniroma3.it",
+            "email": "francesca.cifelli@uniroma3.it",
             "affiliation": {
                 "legal_name": "Università di Roma TRE, Italy",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Paleomagnetism",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Paleomagnetic and magnetic data"
             ],
             "equipment": [
@@ -49,96 +49,96 @@
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "ASC Scientific thermal demagnetizer, absolute paleointensity",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "ASC Scientific thermal demagnetizer, absolute paleointensity",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "ASC IM10-30 pulse magnetizer, 4 coils",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "ASC IM10-30 pulse magnetizer, 4 coils",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-6",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-6",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY3",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY3",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 }
             ],
             "measurement": [
@@ -202,13 +202,13 @@
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/6c110ea0c47b7a32bbe553b6da1ce193"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab6c110ea0c47b7a32bbe553b6da1ce193",
                 "payload": "json"
             }

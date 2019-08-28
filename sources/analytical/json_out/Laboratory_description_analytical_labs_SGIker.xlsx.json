@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 43.3294345087,
-            "gpsLon": -2.968757309
+            "gps_lat": 43.3294345087,
+            "gps_lon": -2.968757309
         },
         "website": "https://www.ehu.eus/en/web/sgiker/geokronologia-eta-geokimika-isotopikoa-aurkezpena",
         "contact_person": {
             "first_name": "José Ignacio",
             "family_name": "Gil Ibarguchi",
             "identifier": {
-                "type": "",
-                "id": "ORCID  0000-0003-0279-5065, ResearcherID K-8158-2014"
+                "id_type": "",
+                "id_value": "ORCID  0000-0003-0279-5065, ResearcherID K-8158-2014"
             },
-            "e-mail": "josei.gil@ehu.es",
+            "email": "josei.gil@ehu.es",
             "affiliation": {
                 "legal_name": "Universidad del Pais Vasco,  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,71 +40,71 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "ICP-MS, Inductively coupled plasma mass spectrometer",
                     "equipment_brand": "Thermo Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Thermo iCAP Qc",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Thermo iCAP Qc",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "ICP-OES, Inductively coupled plasma optical emission spectrometer",
                     "equipment_brand": "Perkin Elmer",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Perkin Elmer Optima 8000",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Perkin Elmer Optima 8000",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "LA, Laser ablation system",
                     "equipment_brand": "New Wave",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "New Wave UP213",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "New Wave UP213",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "MC-ICP-MS, Multicollector inductively coupled plasma mass spectrometer",
                     "equipment_brand": "Thermo Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Thermo Neptune",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Thermo Neptune",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "TIMS, Thermal ionization mass spectrometer",
                     "equipment_brand": "Finnigan",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Finnigan MAT262",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Finnigan MAT262",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/6755019ede4f10b7393b127965236096"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab6755019ede4f10b7393b127965236096",
                 "payload": "json"
             }

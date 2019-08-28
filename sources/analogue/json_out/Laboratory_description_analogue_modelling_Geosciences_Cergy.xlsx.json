@@ -12,23 +12,23 @@
             "country": "France"
         },
         "gps": {
-            "gpsLat": 49.0177543,
-            "gpsLon": 2.07409380000001
+            "gps_lat": 49.0177543,
+            "gps_lon": 2.07409380000001
         },
         "website": "https://www.u-cergy.fr/fr/laboratoires/laboratoire-gec/equipement/modelisation-analogique.html",
         "contact_person": {
             "first_name": "Pauline",
             "family_name": "Souloumiac",
             "identifier": {
-                "type": "",
-                "id": ""
+                "id_type": "",
+                "id_value": ""
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "CNRS-Cergy-Pontoise University,  France ",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -48,251 +48,251 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sandbox > Sandbox (cm scale)",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Dimensions (0.3m x 0.4m x 0.04m), acquired in 2004",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Dimensions (0.3m x 0.4m x 0.04m), acquired in 2004",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sandbox > Sandbox (meter scale)",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Dimensions (1.1m x 1.0m x 0.07m), acquired in 2009",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Dimensions (1.1m x 1.0m x 0.07m), acquired in 2009",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sieving device",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Dimensions (0.4m x 0.4m x 1.93m)",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Dimensions (0.4m x 0.4m x 1.93m)",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sieving device",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Dimensions (1.3m x 1.3m x 1.93m), acquired in 2009",
-                    "Equipment_quantity": 1.0,
-                    "References": "Maillot, 2013"
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Dimensions (1.3m x 1.3m x 1.93m), acquired in 2009",
+                    "equipment_quantity": 1.0,
+                    "references": "Maillot, 2013"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Hubbert-type shear box",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Balance",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Model LPWG-503i, Precision 1 mg, Aquisition 2015",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Model LPWG-503i, Precision 1 mg, Aquisition 2015",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "3D-printer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Strain gauge",
                     "equipment_brand": "Data Digital System Vishay",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Time lapse camera",
                     "equipment_name": "Nikon",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Nikon D3200-D3300",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Nikon D3200-D3300",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "SLAMTEC",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": "Mary, 2013"
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": "Mary, 2013"
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "LabView Data Viewer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Matlab (Mathworks)",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > Matlab code",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > PIVlab",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Structure from Motion (SfM) > MicMac",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "OPTUM",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": "Krabbenhoft et al, 2014"
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": "Krabbenhoft et al, 2014"
                 }
             ],
             "material": [
                 {
-                    "Material": "Microspheres > Glassy",
-                    "Material brand": "",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Microspheres > Glassy",
+                    "material_brand": "",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Material": "Microspheres > Siliceus",
-                    "Material brand": "",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Microspheres > Siliceus",
+                    "material_brand": "",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Material": "Sand > Quartz Sand",
-                    "Material brand": "SIBELCO",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Sand > Quartz Sand",
+                    "material_brand": "SIBELCO",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Material": "Silicon/Silly putty/PDMS",
-                    "Material brand": "",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Silicon/Silly putty/PDMS",
+                    "material_brand": "",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 }
             ],
-            "measured property": [
+            "measured_property": [
                 {
-                    "Measured property": "Density",
-                    "Measured property specifics and comments": "",
-                    "References": "relevant papers referring to measured property"
+                    "measured_property": "Density",
+                    "measured_property_specifics_and_comments": "",
+                    "references": "relevant papers referring to measured property"
                 },
                 {
-                    "Measured property": "Friction coefficient",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Friction coefficient",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Measured property": "Surface image",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Surface image",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Measured property group": "Other",
-                    "Measured property": "Compressive force",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property_group": "Other",
+                    "measured_property": "Compressive force",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Measured property": "Cohesion",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Cohesion",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Measured property": "Grain size distribution",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Grain size distribution",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/3a9d5ca4a33e7f95d0a2eaa1e8479a13"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab3a9d5ca4a33e7f95d0a2eaa1e8479a13",
                 "payload": "json"
             }

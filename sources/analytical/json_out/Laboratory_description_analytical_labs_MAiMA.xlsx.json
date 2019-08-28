@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 41.38355,
-            "gpsLon": 2.118981
+            "gps_lat": 41.38355,
+            "gps_lon": 2.118981
         },
         "website": "http://www.ub.edu/maima/",
         "contact_person": {
             "first_name": "Albert",
             "family_name": "Soler Gil",
             "identifier": {
-                "type": "",
-                "id": "37737487F"
+                "id_type": "",
+                "id_value": "37737487F"
             },
-            "e-mail": "albertsolergil@ub.edu",
+            "email": "albertsolergil@ub.edu",
             "affiliation": {
                 "legal_name": "Universitat de Barcelona,  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
@@ -48,77 +48,77 @@
                     "equipment_group": "Other",
                     "equipment_name": "EA-TC-IRMS, Elemental analyzer and Thermal Conversion continuous flow isotope ratio mass spectrometer",
                     "equipment_brand": "Carlo Erba (EA); Thermo Fischer (IRMS)",
-                    "Equipment_contact_person": "Rosa Maria Marimon",
-                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ",
-                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
-                    "Equipment_specifics_and_comments": "TC/EA; EA (Carlo Erba 1108); IRMS (Delta Plus XP)",
-                    "Equipment_quantity": "2 TC/EA, 1 EA, 1 IRMS",
-                    "References": ""
+                    "equipment_contact_person": "Rosa Maria Marimon",
+                    "email_equipment_contact_person": "marimon@ccit.ub.edu ",
+                    "equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "equipment_specifics_and_comments": "TC/EA; EA (Carlo Erba 1108); IRMS (Delta Plus XP)",
+                    "equipment_quantity": "2 TC/EA, 1 EA, 1 IRMS",
+                    "references": ""
                 },
                 {
                     "equipment_group": "Other",
                     "equipment_name": "GasBench-PreCon-IRMS",
                     "equipment_brand": "Thermo Fischer",
-                    "Equipment_contact_person": "Rosa Maria Marimon",
-                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ",
-                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
-                    "Equipment_specifics_and_comments": "Gas Bench II; PreCon; IRMS (MAT 253)",
-                    "Equipment_quantity": "1 Gas Bench, 1 PerCon, 1 IRMS",
-                    "References": ""
+                    "equipment_contact_person": "Rosa Maria Marimon",
+                    "email_equipment_contact_person": "marimon@ccit.ub.edu ",
+                    "equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "equipment_specifics_and_comments": "Gas Bench II; PreCon; IRMS (MAT 253)",
+                    "equipment_quantity": "1 Gas Bench, 1 PerCon, 1 IRMS",
+                    "references": ""
                 },
                 {
                     "equipment_name": "DI-IRMS, Dual inlet isotope ratio mass spectrometer",
                     "equipment_brand": "Thermo Fischer",
-                    "Equipment_contact_person": "Rosa Maria Marimon",
-                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ",
-                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
-                    "Equipment_specifics_and_comments": "DI (Kiel Device  III); IRMS (MAT 252)",
-                    "Equipment_quantity": "1 DI, 1 IRMS",
-                    "References": ""
+                    "equipment_contact_person": "Rosa Maria Marimon",
+                    "email_equipment_contact_person": "marimon@ccit.ub.edu ",
+                    "equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "equipment_specifics_and_comments": "DI (Kiel Device  III); IRMS (MAT 252)",
+                    "equipment_quantity": "1 DI, 1 IRMS",
+                    "references": ""
                 },
                 {
                     "equipment_name": "EA-IRMS, Elemental analyser continuous-flow isotope ratio mass spectrometer",
                     "equipment_brand": "Carlo Erba (EA); Thermo Fischer (IRMS)",
-                    "Equipment_contact_person": "Rosa Maria Marimon and Pilar Texidor",
-                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ;teixidor@ccit.ub.edu ",
-                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
-                    "Equipment_specifics_and_comments": "Carlo Erba 1112; IRMS (Delta C)",
-                    "Equipment_quantity": "1 EA, 1 IRMS",
-                    "References": ""
+                    "equipment_contact_person": "Rosa Maria Marimon and Pilar Texidor",
+                    "email_equipment_contact_person": "marimon@ccit.ub.edu ;teixidor@ccit.ub.edu ",
+                    "equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "equipment_specifics_and_comments": "Carlo Erba 1112; IRMS (Delta C)",
+                    "equipment_quantity": "1 EA, 1 IRMS",
+                    "references": ""
                 },
                 {
                     "equipment_group": "GC/C/IRMS, Gas chromatography combustion isotope ratio mass spectrometer",
                     "equipment_name": "GC-C/HTC-IRMS, Gas chromatography- combustion and high temperature conversion- isotope retio mass spectrometer",
                     "equipment_brand": "Agilent (GC); Thermo Fischer (IRMS)",
-                    "Equipment_contact_person": "Pilar Texidor",
-                    "Email_equipment_contact_person": "teixidor@ccit.ub.edu ",
-                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
-                    "Equipment_specifics_and_comments": "GC (Agilent 6890); IRMS (Delta Plus)",
-                    "Equipment_quantity": "1 GC, 1 IRMS",
-                    "References": ""
+                    "equipment_contact_person": "Pilar Texidor",
+                    "email_equipment_contact_person": "teixidor@ccit.ub.edu ",
+                    "equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "equipment_specifics_and_comments": "GC (Agilent 6890); IRMS (Delta Plus)",
+                    "equipment_quantity": "1 GC, 1 IRMS",
+                    "references": ""
                 },
                 {
                     "equipment_group": "Other",
                     "equipment_name": "HPLC/GC-IRMS, High preformance liquid chromatography/gas chromatography- continuous flow isotope ratio mass spectrometer",
                     "equipment_brand": "Thermo Fischer",
-                    "Equipment_contact_person": "Pilar Texidor",
-                    "Email_equipment_contact_person": "teixidor@ccit.ub.edu ",
-                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
-                    "Equipment_specifics_and_comments": "HPLC/GC (Thermo Fisher Scientific Surveyor TRACE); IRMS (Delta V)",
-                    "Equipment_quantity": "1 HPLC, 1 GC, 1 IRMS",
-                    "References": ""
+                    "equipment_contact_person": "Pilar Texidor",
+                    "email_equipment_contact_person": "teixidor@ccit.ub.edu ",
+                    "equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "equipment_specifics_and_comments": "HPLC/GC (Thermo Fisher Scientific Surveyor TRACE); IRMS (Delta V)",
+                    "equipment_quantity": "1 HPLC, 1 GC, 1 IRMS",
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/15074907275ed2aab90a655e971429b9"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab15074907275ed2aab90a655e971429b9",
                 "payload": "json"
             }

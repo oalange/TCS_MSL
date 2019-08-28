@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 41.384719,
-            "gpsLon": 2.119097
+            "gps_lat": 41.384719,
+            "gps_lon": 2.119097
         },
         "website": "http://www.ictja.csic.es/index.php/services-and-facilities/simgeo",
         "contact_person": {
             "first_name": "Adelina",
             "family_name": "Geyer",
             "identifier": {
-                "type": "",
-                "id": "0000-0002-8803-6504"
+                "id_type": "",
+                "id_value": "0000-0002-8803-6504"
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "CSIC-ICTJA,  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -49,74 +49,74 @@
                     "equipment_group": "Other",
                     "equipment_name": "Pressurised cylinder with capacity to inject fluids and gas",
                     "equipment_brand": "NA ",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Videocamera",
                     "equipment_brand": "SONY",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Generic camera",
                     "equipment_brand": "NIKON",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 }
             ],
             "material": [
                 {
-                    "Material": "Water",
-                    "Material brand": "",
-                    "Material specifics and comments": "",
-                    "References": "relevant papers referring to the material"
+                    "material": "Water",
+                    "material_brand": "",
+                    "material_specifics_and_comments": "",
+                    "references": "relevant papers referring to the material"
                 },
                 {
-                    "Material group": "Other",
-                    "Material": "Sugar syrup",
-                    "Material brand": "various",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material_group": "Other",
+                    "material": "Sugar syrup",
+                    "material_brand": "various",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Material": "Air",
-                    "Material brand": "",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Air",
+                    "material_brand": "",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 }
             ],
-            "measured property": [
+            "measured_property": [
                 {
-                    "Measured property": "",
-                    "Measured property specifics and comments": "",
-                    "References": "relevant papers referring to measured property"
+                    "measured_property": "",
+                    "measured_property_specifics_and_comments": "",
+                    "references": "relevant papers referring to measured property"
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/31e69c18936ab14ffdecfb7f8695b78a"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab31e69c18936ab14ffdecfb7f8695b78a",
                 "payload": "json"
             }

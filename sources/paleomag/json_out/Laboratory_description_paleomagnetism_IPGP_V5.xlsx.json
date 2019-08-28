@@ -12,23 +12,23 @@
             "country": "France"
         },
         "gps": {
-            "gpsLat": 48.844769,
-            "gpsLon": 2.356478
+            "gps_lat": 48.844769,
+            "gps_lon": 2.356478
         },
         "website": "www.ipgp.fr",
         "contact_person": {
             "first_name": "France",
             "family_name": "Lagroix",
             "identifier": {
-                "type": "",
-                "id": "ORCID ID orcid.org/0000-0003-2873-2767; ResearcherID A-6112-2011"
+                "id_type": "",
+                "id_value": "ORCID ID orcid.org/0000-0003-2873-2767; ResearcherID A-6112-2011"
             },
-            "e-mail": "lagroix@ipgp.fr",
+            "email": "lagroix@ipgp.fr",
             "affiliation": {
                 "legal_name": "CNRS-Sorbonne Paris Cité University, France",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Paleomagnetism",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Paleomagnetic and magnetic data"
             ],
             "equipment": [
@@ -49,312 +49,312 @@
                     "equipment_group": "Shielded_Room",
                     "equipment_name": "Soudupin",
                     "equipment_brand": "Soudupin",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Controlled_Field_Area",
                     "equipment_group": "Shielded_Room",
                     "equipment_name": "Soudupin",
                     "equipment_brand": "Soudupin",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "ASC DTech2000 AF demagnetizer (up to 200 mT) with ARM and pARM",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "ASC DTech2000 AF demagnetizer (up to 200 mT) with ARM and pARM",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "Schonstedt GSD-1 AF demagnetizer",
                     "equipment_brand": "Schonstedt",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "Schonstedt GSD-1 AF demagnetizer",
                     "equipment_brand": "Schonstedt",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat and oven",
                     "equipment_brand": "Princeton",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat and oven",
                     "equipment_brand": "Princeton",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Quantum Design MPMS XL(-5)",
                     "equipment_brand": "Quantum Design",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Quantum Design MPMS XL(-5)",
                     "equipment_brand": "Quantum Design",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "MMPM10 pulse magnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "MMPM10 pulse magnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G cryogenic magnetometer discrete samples",
                     "equipment_brand": "2G Enterprises",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G cryogenic magnetometer discrete samples",
                     "equipment_brand": "2G Enterprises",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G cryogenic magnetometer long core",
                     "equipment_brand": "2G Enterprises",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G cryogenic magnetometer long core",
                     "equipment_brand": "2G Enterprises",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-5",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-5",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-6",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-6",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Other",
                     "equipment_name": "Other",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 2.0,
-                    "References": "Le Goff, M. and Gallet, Y., 2004. A new three-axis vibrating sample magnetometer for continuous high-temperature magnetization measurements: Applications to paleo- and archeo-intensity determinations. Earth and Planetary Science Letters, 229(1-2): 31-43."
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 2.0,
+                    "references": "Le Goff, M. and Gallet, Y., 2004. A new three-axis vibrating sample magnetometer for continuous high-temperature magnetization measurements: Applications to paleo- and archeo-intensity determinations. Earth and Planetary Science Letters, 229(1-2): 31-43."
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Other",
                     "equipment_name": "Other",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 2.0,
-                    "References": "Le Goff, M. and Gallet, Y., 2004. A new three-axis vibrating sample magnetometer for continuous high-temperature magnetization measurements: Applications to paleo- and archeo-intensity determinations. Earth and Planetary Science Letters, 229(1-2): 31-43."
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 2.0,
+                    "references": "Le Goff, M. and Gallet, Y., 2004. A new three-axis vibrating sample magnetometer for continuous high-temperature magnetization measurements: Applications to paleo- and archeo-intensity determinations. Earth and Planetary Science Letters, 229(1-2): 31-43."
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY2",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY2",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY3",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY3",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 }
             ],
             "measurement": [
@@ -411,13 +411,13 @@
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/ff0d8b7e60ac0b69e22ea6b8ecd0ac0d"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labff0d8b7e60ac0b69e22ea6b8ecd0ac0d",
                 "payload": "json"
             }

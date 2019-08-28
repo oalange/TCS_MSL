@@ -12,23 +12,23 @@
             "country": "Bulgaria"
         },
         "gps": {
-            "gpsLat": 42.676224,
-            "gpsLon": 23.369421
+            "gps_lat": 42.676224,
+            "gps_lon": 23.369421
         },
         "website": "www.niggg.bas.bg",
         "contact_person": {
             "first_name": "Neli (Daniela)",
             "family_name": "Jordanova",
             "identifier": {
-                "type": "",
-                "id": "ORCID ID:    0000-0002-9959-4456"
+                "id_type": "",
+                "id_value": "ORCID ID:    0000-0002-9959-4456"
             },
-            "e-mail": "neli_jordanova@hotmail.com",
+            "email": "neli_jordanova@hotmail.com",
             "affiliation": {
                 "legal_name": "NIGGG-BAS, Bulgaria",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Paleomagnetism",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Paleomagnetic and magnetic data"
             ],
             "equipment": [
@@ -49,264 +49,264 @@
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-6",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-6",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge MFK1",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2011, one working frequency",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2011, one working frequency",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge MFK1",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2011, one working frequency",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2011, one working frequency",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY2",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge KLY2",
                     "equipment_brand": "AGICO",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "Molspin AF-demagnetizer",
                     "equipment_brand": "Molspin",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "Molspin AF-demagnetizer",
                     "equipment_brand": "Molspin",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "MMTD80 thermal demagnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2004",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2004",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "MMTD80 thermal demagnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2004",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2004",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "ASC IM10-30 pulse magnetizer, 4 coils",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "ASC IM10-30 pulse magnetizer, 4 coils",
                     "equipment_brand": "ASC Scientific",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Pulverisette 6 mill ",
                     "equipment_brand": "Fritsch",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Pulverisette 6 mill ",
                     "equipment_brand": "Fritsch",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Analysette 3 PRO sieve",
                     "equipment_brand": "Fritsch",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008, wet sieving down to 5microns",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008, wet sieving down to 5microns",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Analysette 3 PRO sieve",
                     "equipment_brand": "Fritsch",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008, wet sieving down to 5microns",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008, wet sieving down to 5microns",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "MF306 muffle furnace ",
                     "equipment_brand": "NUVE",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2016; maximum temperature 1200C",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2016; maximum temperature 1200C",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "MF306 muffle furnace ",
                     "equipment_brand": "NUVE",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2016; maximum temperature 1200C",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2016; maximum temperature 1200C",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Sigma 2-6 centrifuge ",
                     "equipment_brand": "SIGMA Laborzentrifugen GmbH",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Sigma 2-6 centrifuge ",
                     "equipment_brand": "SIGMA Laborzentrifugen GmbH",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Franz magnetic barrier separator LB-1",
                     "equipment_brand": "S.G. Franz Co Inc.",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Field_Samples",
                     "equipment_group": "Sample_Preparation",
                     "equipment_name": "Franz magnetic barrier separator LB-1",
                     "equipment_brand": "S.G. Franz Co Inc.",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition - 2008",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition - 2008",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ],
             "measurement": [
@@ -342,13 +342,13 @@
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

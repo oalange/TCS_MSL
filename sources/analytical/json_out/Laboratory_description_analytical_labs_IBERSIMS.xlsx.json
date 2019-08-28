@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 37.181236,
-            "gpsLon": -3.610852
+            "gps_lat": 37.181236,
+            "gps_lon": -3.610852
         },
         "website": "https://www.ugr.es/~ibersims/ibersims/Welcome.html",
         "contact_person": {
             "first_name": "Pilar",
             "family_name": "Montero",
             "identifier": {
-                "type": "",
-                "id": "0000-0001-6245-2625"
+                "id_type": "",
+                "id_value": "0000-0001-6245-2625"
             },
-            "e-mail": "pmontero@ugr.es",
+            "email": "pmontero@ugr.es",
             "affiliation": {
                 "legal_name": "Universidad de Granada,  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
@@ -48,24 +48,24 @@
                     "equipment_group": "SIMS, Secondary ion mass spectrometer",
                     "equipment_name": "SHRIMP Ion Microprobe",
                     "equipment_brand": "Australian Scientific Instruments",
-                    "Equipment_contact_person": "Ian Williams",
-                    "Email_equipment_contact_person": "ian.williams@anu.edu.au",
-                    "Equipment_website": "https://asi-pl.com.au/shrimp/",
-                    "Equipment_specifics_and_comments": "Multicollector Sensitive High Resolution Ion Microprobe SHRIMP IIe/mc ",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "Ian Williams",
+                    "email_equipment_contact_person": "ian.williams@anu.edu.au",
+                    "equipment_website": "https://asi-pl.com.au/shrimp/",
+                    "equipment_specifics_and_comments": "Multicollector Sensitive High Resolution Ion Microprobe SHRIMP IIe/mc ",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/0d2892477f7ab2a23fdbbd22496e9d90"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab0d2892477f7ab2a23fdbbd22496e9d90",
                 "payload": "json"
             }
