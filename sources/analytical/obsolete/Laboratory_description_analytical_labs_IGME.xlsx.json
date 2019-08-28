@@ -1,0 +1,42 @@
+{
+    "facility": {
+        "type": "Laboratory",
+        "ID": "will be assigned later",
+        "RI_name": "Instituto Geológico y Minero de España (IGME, Spanish Geological Survey)",
+        "name": "",
+        "general_description": "The IGME laboratory provides support for the technical and research projects at IGME and does collaboration with Spanish universities, CSIC research centers, and foreign geological surveys . It also does analysis and laboratory assays for industrial stake holders such as natural stone quarries (Soil and Rock mechanics lab), mining companies and industrial minerals quarries. To the EPOS consortium we offer our analytical laboratories (TIMS, ICP, XRF and XRD laboratories), the core logging facility and the soil and rock mechanics laboratory.\nThe IGME analytical laboratory follows an internal Quality Control System based on the UNE-EN-ISO/IEC 17025 norm, which is externally audited by ENAC (Spanish accreditation agency).  As part of this quality control system the IGME laboratories are required to take part in interlaboratory comparision experiments. \nFor further information see:http://www.igme.es/servicios/labora_3C/CartaSer/Los%20Laboratorios%20del%20IGME.pdf\n\n",
+        "address": {
+            "street_with_number": "c/ La Calera 1",
+            "postal_code": "28760",
+            "city": "Tres Cantos, Madrid",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 40.5998835508,
+            "gpsLon": -3.6957541108
+        },
+        "website": "http://www.igme.es/servicios/laboratorios.htm",
+        "contact_person": {
+            "first_name": "Pablo",
+            "family_name": "Valverde-Vaquero",
+            "identifier": {
+                "type": "",
+                "id": "0000-0002-2184-0848, scopus 55911124900, id M-3394-2014"
+            },
+            "e-mail": "p.valverde@igme.es",
+            "affiliation": {
+                "legal_name": "",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        }
+    }
+}

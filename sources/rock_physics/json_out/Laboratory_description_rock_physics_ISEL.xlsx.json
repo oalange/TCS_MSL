@@ -1,0 +1,141 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "9d8748975fd5d8b44cfef516b8deb098",
+        "RI_name": "Instituto Superior de Engenharia de Lisboa - Physics Department",
+        "name": "Microseismology and Rock Physics Laboratory (ISEL - Physics Department, Portugal)",
+        "general_description": "Measurement of physical and mechanical properties of rocks and other natural or man-made materials (uniaxial compressive strength, strength under triaxial conditions – Hoek cell), elastic modulus, deformation modulus, Poisson’s ratio, strain field, stress field.\nMonitoring of acoustic emission (8 channels) and dynamic properties of rocks under uniaxial deformation., p- and s-wave velocities, etc.\n\n",
+        "address": {
+            "street_with_number": "Rua Conselheiro Emídio Navarro, 1",
+            "postal_code": "1958-007",
+            "city": "Lisboa",
+            "country": "Portugal"
+        },
+        "gps": {
+            "gpsLat": 38.7562,
+            "gpsLon": -9.11664
+        },
+        "website": "",
+        "contact_person": {
+            "first_name": "Mario",
+            "family_name": "Moreira",
+            "identifier": {
+                "type": "",
+                "id": "I-1214-2015"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "ISEL - Physics Department,  Portugal",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Uniaxial",
+                    "equipment_brand": "TecnoTest",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "C025C, 250 kN max force",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Hooke cell",
+                    "equipment_brand": "Controls",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "30.2 mm, 70 MPa",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Ultra sonic system",
+                    "equipment_brand": "Hyperion",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "8 channels",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Ultrasonic transducer > P wave transducer",
+                    "equipment_brand": "Physical Acoustics",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Nano 30",
+                    "Equipment_quantity": 8.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Ultrasonic transducer > P wave transducer",
+                    "equipment_brand": "Physical Acoustics",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "R6-alpha",
+                    "Equipment_quantity": 4.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Ultrasonic transducer > S wave transducer",
+                    "equipment_brand": "Valpey Fisher",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "SF014",
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Optical Microscope",
+                    "equipment_brand": "Olympus",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "BX-51",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/9d8748975fd5d8b44cfef516b8deb098"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab9d8748975fd5d8b44cfef516b8deb098",
+                "payload": "json"
+            }
+        ]
+    }
+}

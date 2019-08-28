@@ -1,0 +1,250 @@
+{
+  "facility": {
+    "type": "laboratory",
+    "id": "0cf823da3e5c151a2bd825a91d3b8454",
+    "RI_name": "Utrecht University - Experimental and Analytical Laboratories",
+    "name": "Paleomagnetic Laboratory Fort Hoofddijk (Utrecht University, The Netherlands)",
+    "general_description": "The research of the Fort Hoofddijk Paleomagnetic Laboratory cover nearly all fields of paleomagnetism. An important expertise of the research group is building high resolution and accurate time scales, using magnetostratigraphy and cyclostratigraphy (and astrochronology), based on correlation to astronomical solutions of past changes in the Earth’s orbit and rotation. Another major topic is the acquisition of reliable and detailed records of the geomagnetic field at all time scales, which serves to understand the past magnetic field of our planet Earth. This work includes paleointentsity and paleosecular variation studies – from recent periods (archaeomagnetism),  during periods when the field did not reverse (superchrons) -  to properties of the earliest field more than 3 billions of years ago. This field includes understanding how the ancient field was acquired in the remanent magnetization in different types of rocks (rock magnetism). Yet another key interest concerns geodynamic/tectonic studies, at different spatial and temporal scales and on several continents, but with an emphasis on the Alpine-Himalayan mountain belt. This includes the Mediterranean, Paratethys and Himalayan areas as one of the most active tectonic regions in the world. The laboratory is featured with sophisticated instruments for detailed stepwise demagnetization and measurement of the natural remanent magnetization (NRM) and various laboratory-imparted remanences. All with the overarching aim to unveil the NRM intricacies for robust geological and geophysical interpretations. This includes devices for measurement of the magnetic susceptibility and its anisotropy as well as instrumentation for measurement of magnetic hysteresis loops and FORC diagrams. The paleomagnetism group has access to other analytical facilities of the Department of Earth Sciences. Please find further information here: http://www.geo.uu.nl/~forth/",
+    "address": {
+      "street_with_number": "Budapestlaan 17",
+      "postal_code": "3584CD",
+      "city": "Utrecht",
+      "country": "The Netherlands"
+    },
+    "gps": {
+      "gpsLat": "52,088882",
+      "gpsLon": "5,164748"
+    },
+    "website": "http://www.geo.uu.nl/~forth/",
+    "contact_person": {
+      "first_name": "Mark",
+      "family_name": "Dekkers",
+      "identifier": {
+        "type": "ORCID",
+        "id": "0000-0002-4156-3841"
+      },
+      "e-mail": "m.j.dekkers@uu.nl",
+      "affiliation": {
+        "$ref": "#/facility/affiliation"
+      }
+    },
+    "research_field": "Paleomagnetism",
+    "EPOS_WP16_subdomain": [
+      "Paleomagnetic and magnetic data"
+    ],
+    "affiliation": {
+      "legal_name": "Utrecht University",
+      "identifier": {
+        "type": "PIC",
+        "id": "99985805"
+      },
+      "address": {
+        "street_with_number": "Domplein 29",
+        "postal_code": "3512JE",
+        "city": "Utrecht",
+        "country": "The Netherlands"
+      }
+    },
+    "lab_services": [
+      {
+        "equipment": [
+          {
+            "equipment_type": "(De)Magnetizer",
+            "equipment_group": "(De)Magnetizer - AF_Demagnetizer",
+            "equipment_name": "2G in-line AF degaussing",
+            "equipment_brand": "2G",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "(De)Magnetizer",
+            "equipment_group": "(De)Magnetizer - Thermal_Demagnetizer",
+            "equipment_name": "ASC Scientific thermal demagnetizer, absolute paleointensity",
+            "equipment_brand": "ASC Scientific",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetism",
+            "equipment_group": "Rock_Magnetism - Hysteresis_Properties",
+            "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat",
+            "equipment_brand": "Princeton",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetism",
+            "equipment_group": "Rock_Magnetism - Hysteresis_Properties",
+            "equipment_name": "MicroSense VSM with temperature control between 77-1000 K",
+            "equipment_brand": "MicroSense",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetism",
+            "equipment_group": "Rock_Magnetism - Variable_Field_Translational_Balance",
+            "equipment_name": "Modified horizontal translation Curie balance",
+            "equipment_brand": "",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetism",
+            "equipment_group": "Rock_Magnetism - Susceptibility_Meter",
+            "equipment_name": "AGICO Kappabridge KLY3S with CS3 furnace and CS-L cooler",
+            "equipment_brand": "AGICO",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetism",
+            "equipment_group": "Rock_Magnetism - Susceptibility_Meter",
+            "equipment_name": "AGICO Kappabridge MFK1 FA",
+            "equipment_brand": "AGICO",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetism",
+            "equipment_group": "Rock_Magnetism - Microscope",
+            "equipment_name": "AFM/MFM microscope (Veeco Nanoscope IIIa)",
+            "equipment_brand": "Veeco",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetometer",
+            "equipment_group": "Rock_Magnetometer - Cryogenic",
+            "equipment_name": "2G cryogenic magnetometer",
+            "equipment_brand": "2G",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Rock_Magnetometer",
+            "equipment_group": "Rock_Magnetometer - Cryogenic",
+            "equipment_name": "2G SQUID magnetometer",
+            "equipment_brand": "2G",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          },
+          {
+            "equipment_type": "Controlled_Field_Area",
+            "equipment_group": "Controlled_Field_Area - Shielded_Room",
+            "equipment_name": "In-house design",
+            "equipment_brand": "",
+            "Equipment_contact_person": "",
+            "Email_equipment_contact_person": "",
+            "Equipment_website": "",
+            "Equipment_specifics_and_comments": "",
+            "Equipment_quantity": "",
+            "References": ""
+          }
+        ],
+        "measurement": [
+          {
+            "measurement_type": "Remanent_Magnetisation",
+            "measurement_group": "Remanent_Magnetisation - Demagnetisation",
+            "measurement_name": "AF demagnetisation",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          },
+          {
+            "measurement_type": "Remanent_Magnetisation",
+            "measurement_group": "Remanent_Magnetisation - Demagnetisation",
+            "measurement_name": "Thermal demagnetisation",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          },
+          {
+            "measurement_type": "Remanent_Magnetisation",
+            "measurement_group": "Remanent_Magnetisation - Paleointensity",
+            "measurement_name": "Absolute paleointensity",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          },
+          {
+            "measurement_type": "Remanent_Magnetisation",
+            "measurement_group": "Remanent_Magnetisation - Paleointensity",
+            "measurement_name": "Relative paleointensity",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          },
+          {
+            "measurement_type": "Magnetic_Susceptibility",
+            "measurement_group": "Magnetic_Susceptibility - Anisotropy",
+            "measurement_name": "Anisotropy of magnetic susceptibility",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          },
+          {
+            "measurement_type": "Magnetic_Susceptibility",
+            "measurement_group": "Magnetic_Susceptibility - Susceptibility",
+            "measurement_name": "Bulk magnetic susceptibility",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          },
+          {
+            "measurement_type": "Magnetic_Properties",
+            "measurement_group": "Magnetic_Properties - FORC",
+            "measurement_name": "FORC",
+            "measured_type_specifics_and_comments": "",
+            "references": ""
+          }
+        ]
+      }
+    ],
+    "data_services": [
+      {
+        "type": "data_publications - TCS_portal",
+        "linklabel": "Data publications from this lab (TCS catalogue)",
+        "URL": "https://epos-msl.uu.nl/organization/0cf823da3e5c151a2bd825a91d3b8454"
+      },
+      {
+        "type": "data_publications - webservice",
+        "linklabel": "Show data publications from this lab",
+        "URL": "https://epos-msl.uu.nl/ics/api.php?Lab=0cf823da3e5c151a2bd825a91d3b8454"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "CSIC-ICTJA",
+        "name": "Laboratory of Geochemistry labGEOTOP (CSIC-ICTJA,  Spain)",
+        "general_description": "The labGEOTOP Service, Laboratory of Elemental and Isotopic Geochemistry for Petrological Applications, carry out multi-disciplinary research in Solid Earth Sciences using an established core of world class equipment and laboratories, and expertise in the technical and applied aspects of their use. The service plays a key role in catalysing leading edge cross-disciplinary research within the CSIC and into Spain. The labGEOTOP service provides a central mass of equipment that enables significant scientific collaboration on a regional, national and international scale. We undertake a wide variety of analytical work for scientific institutions and industry. The labGEOTOP offer elemental and isotopic analysis of solids and liquids covering the range of elements determined by high resolution-inductively coupled plasma-mass spectrometry.\n\nThe Service focuses on the analytical needs of R & D projects on:\n\n- Compositional structure and evolution of Earth's mantle: mantle geochemistry mainly through the open window of the volcanic rocks; origin of mantle plumes.\n- Compositional structure and evolution of the lithosphere: geochemical processes at the margins of tectonic plates.\n- Geochemical evolution of magmatic and metamorphic processes.\n- Sedimentary geology and paleoclimate reconstruction: geochronology and processes related to climate change.\n- Volcanism: temporal evolution of pre- and syn-eruptive magmatic processes: geochemical flows related to volcanic activity.\n- Experimental petrology and mineralogy.\nThe analytical services provided by the LabGEOTOP go beyond the ICTJA needs and represent a significant breakthrough in the analytical services required by the Spanish and international scientific community on element and isotope geochemistry for process modelling in both whole rock and high resolution single mineral analysis.\nPlease find further informations here: http://www.ictja.csic.es/index.php/services-and-facilities/labgeotop-geochemistry\n\n",
+        "address": {
+            "street_with_number": "Solé i Sabaris",
+            "postal_code": "08028",
+            "city": "Barcelona",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 41.38473,
+            "gpsLon": 2.1191
+        },
+        "website": "http://www.ictja.csic.es/index.php/services-and-facilities/labgeotop-geochemistry",
+        "contact_person": {
+            "first_name": "Marta",
+            "family_name": "Rejas",
+            "identifier": {
+                "type": "",
+                "id": "0000-0003-2356-0927"
+            },
+            "e-mail": "mrejas@ictja.csic.es",
+            "affiliation": {
+                "legal_name": "CSIC-ICTJA,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_name": "HR-ICP-MS, High-resolution inductively coupled plasma mass spectrometer",
+                    "equipment_brand": "Thermo Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "High resolution inductively coupled plasma mass spectrometer Thermo Scientific Element XR",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "LA, Laser ablation system",
+                    "equipment_brand": "New Wave Research",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Laser ablation New Wave Research UP-193 Excimer ",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "5432344142c578b52daf04e580d3ea14",
+        "RI_name": "C4G:",
+        "name": "LCGM Laboratory for Characterization of Geological Materials (FCUP, Portugal)",
+        "general_description": "Fluid Inclusions Laboratory \nFluid inclusions analysis\n• Description of different fluid inclusion populations. \nMicrothermometry (Th, Tm) \n• Salinity and minimal temperature of entrapment.\nRaman microspectrometry/spectroscopy \n• Concentration of gases (CH4, CO2, N2).\n• Identification of mineral phases.\nThe laboratory is equipped with a Chaixmeca and Linkam stages, cooled and heated (-180°C to 600°C) by automated temperature regulation and by a Horiba Jobin-Yvon LabRAM spectrometer (632.8 nm, He-Ne laser) coupled to an Olympus microscope.\n \nRaman Laboratory \nRaman spectroscopy analysis\n• Identification and characterisation of mineral phases. \nRaman spectrometry analysis\n• Concentration of gases in fluid inclusions (CH4, CO2, N2).\nThe laboratory is equipped with a LabRAM and XploRATM microspectrometers (Horiba Jobin Yvon) for localized analysis, sample mapping and combined Raman spectroscopy/microthermometry analysis. The available excitation wavelengths are 532 nm, 632.8 nm, and 785 nm.\n\n                                                                                                                                                                                    Please find further informations here: http://www.i-c-t.pt/g3/index.php/labcmg/",
+        "address": {
+            "street_with_number": "Faculdade de Ciências da Universidade do Porto (FCUP), Rua do Campo Alegre 687",
+            "postal_code": "4169-007",
+            "city": "Porto",
+            "country": "Portugal"
+        },
+        "gps": {
+            "gpsLat": 41.151869,
+            "gpsLon": -8.635223
+        },
+        "website": "http://www.i-c-t.pt/g3/index.php/labcmg/",
+        "contact_person": {
+            "first_name": "Alexandra",
+            "family_name": "Guedes",
+            "identifier": {
+                "type": "",
+                "id": "Scopus Author ID: 7004710138 "
+            },
+            "e-mail": "aguedes@fc.up.pt",
+            "affiliation": {
+                "legal_name": "Faculdade de Ciências da Universidade do Porto (FCUP)/Instituto de Ciências da Terra (ICT)/Colaboratório para as Geociências (C4G/UBI) ",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Solid Earth Geochemistry",
+            "EPOS_WP16_subdomain": [
+                "Geochemical data (elemental and isotope geochemistry)"
+            ],
+            "equipment": [
+                {
+                    "equipment_group": "Other",
+                    "equipment_name": "Fluid inclusions cooling stage",
+                    "equipment_brand": "Chaixmeca",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "Noronha, F., Cathelineau, M., Boiron, M.C., Banks, D.A., Dória, A., Ribeiro, M.A., Nogueira, P., Guedes, A., 2000. A three-stage fluid flow model for Variscan gold metallogenesis in northern Portugal. Journal of Geochemical Exploration 71, 209-224. "
+                },
+                {
+                    "equipment_group": "Other",
+                    "equipment_name": "Fluid inclusions heating stage",
+                    "equipment_brand": "Linkam",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2002.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "Guedes, A., Noronha, F., Boiron, M.C., Banks, D., 2002. Evolution of fluids associated with metasedimentary sequences from Chaves - North Portugal. Chemical Geology 190, 1-4, 273-289. "
+                },
+                {
+                    "equipment_name": "RAMANMICRO, Raman microspectrometer",
+                    "equipment_brand": "Horiba Jobin-Yvon LabRAM ",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2000.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "Guedes, A., Valentim, B., Prieto, A.C., Rodrigues, S., Noronha, F. 2010. Micro-Raman spectroscopy of collotelinite, fusinite and macrinite. International Journal of Coal Geology 83, 415–422. "
+                },
+                {
+                    "equipment_name": "RAMANMICRO, Raman microspectrometer",
+                    "equipment_brand": "XploRATM Horiba Jobin Yvon",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2009.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "Prieto, A.C., Guedes, A., Dória, A., Noronha, F., Jiménez, J., 2012. Quantitative determination of gaseous phase compositions in fluid inclusions by Raman microspectrometry. Spectroscopy Letters 45, 156-160. "
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/5432344142c578b52daf04e580d3ea14"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab5432344142c578b52daf04e580d3ea14",
+                "payload": "json"
+            }
+        ]
+    }
+}

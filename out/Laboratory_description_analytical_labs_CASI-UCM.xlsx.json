@@ -1,0 +1,70 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Centros de Asistencia a la Investigación (CASI-ICTS) de la UCM",
+        "name": "Geochronology and Isotope Geochemistry (Universidad Complutense de Madrid (UCM), Spain)",
+        "general_description": "The Geochronology and Isotope Geochemistry Service is a research support laboratory in the Complutense University of Madrid which provides radiogenic isotopic analyses to the scientist community. The laboratory is dedicated to isotope ratio analysis by thermal ionization mass spectrometry in well-known radioactive systems for geological investigation (Rb-Sr, Sm-Nd and common-Pb). These analyses are carried out on a variety of materials (water, soil, fossils, minerals and rocks) and the results can be applied to both obtaining absolute ages (geochronology) and the study of geological processes (isotopic geochemistry). Dating rocks and minerals gives us the age of geological processes occurring in the Earth\"s lithosphere. The isotopic composition is also a tracer for the origin of magmas and fluids involved in crustal processes (formation of mineral deposits, sedimentary processes and geochemistry of surface waters).\n\nGeological Sciences is the most important application, where the radiogenic isotopes area really helpful tool in all areas (geochemistry, petrology, stratigraphy, economic geology and hydrogeology). Some of the other main fields are Environment and Archaeology. Radiogenic systematics can address many issues: eg, processes forming mineral deposits, petrogenesis of igneous rocks, geochemistry and evolution of the lithosphere, dating of metamorphic processes and evolution of orogens, isotopic geochemistry of surface waters, chronostratigraphy, paleoclimatology in marine carbonates, diagenetic processes, analysis of sediment provenance and palaeogeography.\n\nThe laboratory consists of three units:\n1. TIMS room: this contains two thermal ionization mass spectrometers: a VG Sector 54 and an IsotopX-Phoenix. Both spectrometers are fully automated multicollector that perform analyses of Rb-Sr, Sm-Nd and common-Pb isotope compositions.\n2. Ultraclean room (ISO-7): sample evaporation and chromatography processing of small samples are carried out here. \n3. Sample preparation room: due to their susceptibility to contamination, samples are weighed and dissolved in a fully equipped clean space, where we also wash apparatus, prior to transfer to the ultraclean room.\n\nThe Geochronology and Isotope Geochemistry Service provides support for programs of pure and applied research projects in Complutense University and other universities, scientific institutions, and mining or oil companies all over the world.\n\nPlease find further information here: https://www.ucm.es/geocronologia\nhttps://www.ucm.es/isotope/\n",
+        "address": {
+            "street_with_number": "Calle José Antonio Novais, 12",
+            "postal_code": "28040",
+            "city": "Madrid",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 40.44946,
+            "gpsLon": -3.725047
+        },
+        "website": "http://www.ucm.es/geocronologia",
+        "contact_person": {
+            "first_name": "M. Carmen",
+            "family_name": "Galindo",
+            "identifier": {
+                "type": "",
+                "id": "0000-0003-1893-0452"
+            },
+            "e-mail": "cgalindo@ucm.es ",
+            "affiliation": {
+                "legal_name": "Universidad Complutense de Madrid (UCM),  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_name": "TIMS, Thermal ionization mass spectrometer",
+                    "equipment_brand": "IsotopX",
+                    "Equipment_contact_person": "José Manuel Fuenlabrada ",
+                    "Email_equipment_contact_person": "jmfuenla@ucm.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Phoenix, adquisition year 2011,  484.955 €",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "TIMS, Thermal ionization mass spectrometer",
+                    "equipment_brand": "VG",
+                    "Equipment_contact_person": "José Manuel Fuenlabrada ",
+                    "Email_equipment_contact_person": "jmfuenla@ucm.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Sector 54, adquisition year 1990,  CA. 470.000€",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        }
+    }
+}

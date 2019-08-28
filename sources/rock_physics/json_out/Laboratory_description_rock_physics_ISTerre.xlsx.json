@@ -1,0 +1,131 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "f28005bf8cf9ec0d284d123f0369131b",
+        "RI_name": "ISTERRE (CNRS-Université de Grenoble Alpes,  France)",
+        "name": "ISTERRE (CNRS-Université de Grenoble Alpes, France)",
+        "general_description": "ISTerre (Insitut des Sciences de la Terre - Institute of Earth Science) brings together all the researchers in Earth Sciences of the academy of Grenoble, positioning today as a leader in Earth Sciences in France and one of the most important in Europe.\nISTerre, gathering nearly 300 people into 10 research teams, is under the authority of: [1] University of Grenoble Alpes (UGA), Grenoble\u000b[2] National Center for Scientific Research (CNRS)  [3] University of Savoie Mont Blanc (USMB), Chambéry [4] Research Institute for Development (IRD) [5]  Institut Français des Sciences et Technologies des Transports, de l'Aménagement et des Réseaux (IFSTTAR).\u000bThis unit is part of the Observatoire des sciences de l'univers de Grenoble (OSUG) and the PAGE Pole of Research of the UGA. It provides solid Earth observation missions, hosts and maintains national parks of geophysical instruments, as well as a data centre.\u000b\nThe various research teams of ISTerre study the Earth with the various and complementary approaches of geology, chemistry or physics, with a particular focus on the coupling between observations of natural objects, experimentation and modelling of associated complex processes.\n3 main scientific priorities: \n[1] Understanding earthquakes, landslides, volcanic eruptions and Earth’s magnetic field\nLong-term observations and analyses based on experimental, numerical and field data with interpretation. Better understanding leads to better prediction, mitigation and remediation. This research is promoted at scientific and societal levels.\n[2] What is shaping the Earth?\nTopography is the expression of geodynamics related to fault activities, as well as processes involving erosion and deposition (internal and external constraints).To be understood, these processes need to be observed, imaged and modeled.\n[3] How do rocks change as a function of natural and human constraints?\nMineralogical and geochemical proxies are used to better quantify and model time and space variations of rock evolution and soil transformation under natural conditions (pressure, temperature, deformation, fluid migration) or anthropic influences (pollutions, mineral/oil&gas extraction) through laboratory experiments, high-resolution data acquisition and modeling.\nOur research activities and programs are continuing within this new framework. Whether they are based in Grenoble, Chambéry, Lima or Beirut, we are confident that ISTerre will provide the means to its 250 members to promote innovative research in Earth Sciences.",
+        "address": {
+            "street_with_number": "1381,rue de la Piscine         CS40700",
+            "postal_code": "38058",
+            "city": "GRENOBLE  Cedex 9",
+            "country": "France"
+        },
+        "gps": {
+            "gpsLat": 45.197968,
+            "gpsLon": 5.772221
+        },
+        "website": "https://isterre.fr/recherche/equipes/mecanique-des-failles/moyens-et-outils/plateforme-de-physique-et-chimie/?lang=en",
+        "contact_person": {
+            "first_name": "Mai-Linh",
+            "family_name": "Doan",
+            "identifier": {
+                "type": "",
+                "id": "0000-0002-6437-9756"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "CNRS-Université de Grenoble Alpes,  France",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Split Hopkinson Pressure Bar",
+                    "equipment_name": "mini-SHPB",
+                    "equipment_brand": "Home-made",
+                    "Equipment_contact_person": "Mai-Linh Doan",
+                    "Email_equipment_contact_person": "Mai-Linh.Doan@univ-grenoble-alpes.fr",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "3 sets of bars : Al, Steel and nylon. 2cm in diameter. Unconfined.  Gas gun (up to 6bar, ˜10m/s) and spring gun ",
+                    "Equipment_quantity": 1.0,
+                    "References": "14.\tAben, F. M., M. L. Doan, T. M. Mitchell, R. Toussaint, T. Reuschlé, M. Fondriest, J.-P. Gratier, and F. Renard Dynamic fracturing by successive coseismic loadings leads to pulverization in active fault zones, J. Geophys. Res. Solid Earth Res., 121, doi:10.1002/ 2015JB012542. 2016"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Triaxial",
+                    "equipment_name": "percolation cell",
+                    "equipment_brand": "Home-made",
+                    "Equipment_contact_person": "Mai-Linh Doan",
+                    "Email_equipment_contact_person": "Mai-Linh.Doan@univ-grenoble-alpes.fr",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Pc 20 MPa; Q= 10 MPa ; Oven (tested 150°C);  Pore system, pressure up to 5 Mpa;Autoclave for reactive fluids; The cell is designed for experiments of several weeks.",
+                    "Equipment_quantity": 1.0,
+                    "References": "Aben. F.M, M.-L. Doan, J-P Gratier, F. Renard. Experimental postseismic recovery of fracture rocks assisted by calcite sealing. Geophys. Res. Lett. 44, doi :10.1002/2017GL073965. 2017"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Uniaxial",
+                    "equipment_brand": "Home-made",
+                    "Equipment_contact_person": "David Amitrano",
+                    "Email_equipment_contact_person": "David.Amitrano@univ-grenble-alpes.fr",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Max load 300 kN; room temperature; Aquiped with ultrasonic sensors (AE detection). ",
+                    "Equipment_quantity": 1.0,
+                    "References": "Vu, C.-C., Amitrano, D., Plé, O., & Weiss, J. (2019). Compressive failure as a critical transition: Experimental evidences and universality. Physical Review Letters, 122(1). http://doi.org/10.1103/PhysRevLett.122.015502"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Atomic Force Microscope",
+                    "equipment_brand": "Oxford Instrument MFP-3D",
+                    "Equipment_contact_person": "Alexander Van Driessche",
+                    "Email_equipment_contact_person": "Alexander.Van-Driessche@univ-grenoble-alpes.fr ",
+                    "Equipment_website": "https://isterre.fr/platforms/chimie-analytique/analyse-d-echantillons-solides/article/microscope-a-force-atomique-mfp-3d-oxford-instruments?lang=fr",
+                    "Equipment_specifics_and_comments": "Large samples (8cm large and 1cm thick). Measurement of topographic and adhesion forces in air and liquids.",
+                    "Equipment_quantity": 1.0,
+                    "References": "no ref. yet"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Electron Microprobe",
+                    "equipment_brand": "JEOL JXA-8230",
+                    "Equipment_contact_person": "Alexander Sobolev",
+                    "Email_equipment_contact_person": "Alexander.Sobolev@univ-grenoble-alpes.fr",
+                    "Equipment_website": "https://isterre.fr/platforms/microanalyses/article/microsonde-electronique-jeol-jxa-8230?lang=en",
+                    "Equipment_specifics_and_comments": "equipped with 5 wavelenght dispersive X-ray spectrometers (WDS) and an energy dispersive SDD X-ray spectrometer (EDS) with highly efficient climate conditioning delivers precision down to 5 ppm 2σ of electron probe microanalysis of olivine",
+                    "Equipment_quantity": 1.0,
+                    "References": "Batanova, V.G., Sobolev, A.V., Kuzmin, D.V., 2015. Trace element analysis of olivine: High precision analytical method for JEOL JXA-8230 electron probe microanalyser. Chemical Geology, 419,149-157."
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Scanning Electrone Microscope",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "Nathaniel Findling",
+                    "Email_equipment_contact_person": "Nathaniel.Findling@univ-grenoble-alpes.fr",
+                    "Equipment_website": " ",
+                    "Equipment_specifics_and_comments": "To be inaugurated",
+                    "Equipment_quantity": 1.0,
+                    "References": "no ref. yet"
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/f28005bf8cf9ec0d284d123f0369131b"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Labf28005bf8cf9ec0d284d123f0369131b",
+                "payload": "json"
+            }
+        ]
+    }
+}

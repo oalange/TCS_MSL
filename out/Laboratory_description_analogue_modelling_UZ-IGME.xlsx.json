@@ -1,0 +1,278 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Departamento de Ciencias de la Tierra, Universidad de Zaragoza",
+        "name": "Laboratorio de Modelización Analógica (Universidad de Zaragoza-IGME, Spain)",
+        "general_description": "                                                                                                                                                                                                                                                                                                                              The Analogue Modelling Laboratory began operation at the Departamento de Ciencias de la Tierra of the University of Zaragoza in 2002. Its equipment was made possible thanks to the infrastructure project MECD-AFC2002-579-LD of the Spanish Ministry of Education. There is a close scientific collaboration with the Zaragoza Unit of the IGME (Geological and Mining Institute of Spain) since 2009. This laboratory ensures the realization of analog modelling experimental projects around the field of tectonics: brittle and ductile deformation, brittle/ductile couplings, coupling sedimentation/strain, extensional, compresional, strike-slip and salt tectonics, transpression and transtension.\n\nThe main lines of research developed are:\n • Influence of mechanical stratigraphy in basin geometry\n• Development of rotational and oblique structures\n• 3D deformational patterns in complex folds\n• Bidirectional extension and relay ramps in extensional tectonics\n• Magnetic fabrics analysis in analogue models \n\nEquipment: Table and modelling boxes, motors and frequency controllers, cylindrical-rotatory viscometer, precision balance, portable thermometer with probe, programmable digital photo camera, focus light, heating plate, concrete mixer for sand dyeing, industrial vacuum cleaner, sieves (500, 400, 300 y 200 mm), test tubes and graduated glasses (500, 600 y 1000 ml), materials for modeling: natural rubber, siliceous sands (L-70/80S, LS0103), silicones (rhodorsil gomme FB), clay, honey, EVA rubber, lead-tetraoxide.\n\nPermanent researchers: Teresa Román-Berdiel y Antonio Casas-Sainz (UZ), Emilio Pueyo y Ruth Soto (IGME)\n\nPlease find further information here: https://cienciastierra.unizar.es/laboratorio-de-modelizacion-analogica\n\nFurthermore, this laboratory is used for teaching purposes both in the Degree and in the Master's studies in Geology, and for informative purposes, to bring Structural Geology and Tectonics closer to society.\n\nPlease find a video documentary here: \nhttps://www.youtube.com/watch?v=mfC9zdjt_Oo\n“Modelización analógica. La Tierra en pequeño” (Analogue modelling: visions on a reduced Earth)\n\n\n\n",
+        "address": {
+            "street_with_number": "Calle Pedro Cerbuna 12",
+            "postal_code": "50009",
+            "city": "Zaragoza",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 41.642257,
+            "gpsLon": -0.901489
+        },
+        "website": "https://cienciastierra.unizar.es/laboratorio-de-modelizacion-analogica",
+        "contact_person": {
+            "first_name": "Teresa",
+            "family_name": "Román-Berdiel",
+            "identifier": {
+                "type": "",
+                "id": "ORCID: 0000-0002-9743-8695, ScopusAuthorID: 6603030469, ResearcherID: E-7648-2016"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "Universidad de Zaragoza-IGME,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Analogue modelling of geologic processes",
+            "EPOS_WP16_subdomain": [
+                "Analogue models on tectonic processes"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Glass/Plexiglas box > Glass/Plexiglas box (meter scale)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 5.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Electric engine (mm/hr)",
+                    "equipment_brand": "Eujo CE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Other",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Viscometer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Other",
+                    "equipment_brand": "CB Complet COBOS",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Temperature measurement",
+                    "equipment_brand": "TM 65 Crison",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Other",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Other",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Sieving device",
+                    "equipment_brand": "CISA",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Time lapse camera",
+                    "equipment_brand": "Sony RX100 III",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Generic camera",
+                    "equipment_brand": "Pentax Optio 430RS",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Shear box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
+                }
+            ],
+            "material": [
+                {
+                    "Material": "Clay",
+                    "Material brand": "SiO-2",
+                    "Material specifics and comments": "red clay for modeling, clay + H2O",
+                    "References": "Geogaceta, 61: 103-106.  EGU2017-18643-2"
+                },
+                {
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Rhodia silicones",
+                    "Material specifics and comments": "rhodorsil gomme FB",
+                    "References": "Journal of Geophysical Research, 111, B10402. Basin Research, 19, 3: 437-450. Geogaceta, 53: 49-52. Geo-Temas, 13. Proceedings GeoMod2018 v1.0: 9-10."
+                },
+                {
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "Sibelco, Le marchand de sable",
+                    "Material specifics and comments": "Silice L-70/80S ,  Fine quartz LS0103",
+                    "References": "Tectonics, 25, TC2005, doi:10.1029/2004TC001693. Enseñanza de las Ciencias de la Tierra, 24(1): 68-78.  Journal of Geophysical Research, 111, B10402. Basin Research, 19, 3: 437-450. Geogaceta, 53: 49-52. Geo-Temas, 13. Proceedings GeoMod2018 v1.0: 9-10."
+                },
+                {
+                    "Material": "Rubber",
+                    "Material brand": "",
+                    "Material specifics and comments": "ethylene vinyl acetate",
+                    "References": "Math Geosci (2016) 48:419-437.  Sp. Pub.-Geol. Soc. London, 425: 247-258. Tectonophysics 593 (2013) 57-72. Journal of Structural Geology 35 (2012) 28-39."
+                },
+                {
+                    "Material": "Rubber",
+                    "Material brand": "Materials World",
+                    "Material specifics and comments": "Vulcanized  Natural Rubber",
+                    "References": "Proceedings GeoMod2018 v1.0: 9-10."
+                },
+                {
+                    "Material": "Other",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Tectonophysics 593 (2013) 57-72."
+                },
+                {
+                    "Material": "Gelatine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Other",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Enseñanza de las Ciencias de la Tierra, 20.3: 262-269"
+                },
+                {
+                    "Material": "Other",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Enseñanza de las Ciencias de la Tierra, 20.3: 262-269"
+                },
+                {
+                    "Material": "Sugar",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Flour",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Plasticine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                }
+            ],
+            "mneasured property": [
+                {
+                    "Measured property": "Cohesion",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
+                },
+                {
+                    "Measured property": "Friction coefficient",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                }
+            ]
+        }
+    }
+}

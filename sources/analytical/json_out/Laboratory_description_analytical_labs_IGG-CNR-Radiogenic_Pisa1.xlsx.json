@@ -1,0 +1,62 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Istituto di Geoscienze e Georisorse(IGG)-CNR",
+        "name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa1",
+        "general_description": "The Laboratory of Geochronology and Isotope Geochemistry of IGG-CNR (Italy) provides an integrated system of expertise, instrumental facilities and analytical protocols, suitable to accurately carry out: 1) geochronologic data by means of i) 40Ar–39Ar radiometric dating of potassic glasses and mineral, ii) archaeomagentic dating of volcanic deposits and fiery structures, iii) fission track analysis on apatite and zircon: 2) isotopic analysis of a wide variety of solid and aqueous matrices thanks to the availability of TIMS and MC-ICPMS techniques. The analytical skills of the IGG-CNR of Pisa1 laboratory include:\n\nMethods and Expertise\nGeochronology\n40Ar–39Ar Geochronology of potassic glasses and minerals. The method can be applied to a wide range of geological problems and to rocks varying in age from a few thousand years to the oldest rocks available. Current extractions methods include: (i) in-situ dating of rock chips and of single mineral grains at high spatial resolution; (ii) step-heating analyses of single crystal or population of mineral grains; (iii) total fusion analyses of single crystal or population of grains.\nExpertise: geochronology of volcanic rocks, with special reference to Quaternary volcanic products (including tephra); geochronology of brittle (pseudotachylytes) and ductile deformations.\n\nIsotope Geochemistry (Thermal Ionization Mass Spectrometry – TIMS; MC-ICP-MS)\nAnalysis of Sr, Nd, and Pb radiogenic isotopes and Fe, Li, B stable isotopes on a wide variety of solid and aqueous matrices, such as silicate rocks and minerals, limestones, thermal waters, brines.\nExpertise includes: (I) characterization of magma mantle sources, magma evolutionary processes, relationships between geodynamics and magmatic activity; (II) magmatic-hydrothermal transition and implications for active and fossil hydrothermal systems; (III) subduction-related mass transfer, processes occurring at slab interface and deep recycling of subducted material.\n",
+        "address": {
+            "street_with_number": "Via Moruzzi 1",
+            "postal_code": 56124.0,
+            "city": "Pisa",
+            "country": "Italy"
+        },
+        "gps": {
+            "gpsLat": 43.717574,
+            "gpsLon": 10.422015
+        },
+        "website": "https://www.igg.cnr.it/en/laboratories/analytical-laboratories/tims-laboratories/pisa-territorial-unit/",
+        "contact_person": {
+            "first_name": "Gianfranco",
+            "family_name": "Di Vincenzo",
+            "identifier": {
+                "type": "",
+                "id": "ORCID ID: 0000-0002-9669-9789"
+            },
+            "e-mail": "gianfranco.divincenzo@igg.cnr.it",
+            "affiliation": {
+                "legal_name": "IGG-CNR,  Italy",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Solid Earth Geochemistry",
+            "EPOS_WP16_subdomain": [
+                "Geochemical data (elemental and isotope geochemistry)"
+            ],
+            "equipment": []
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
+                "payload": "json"
+            }
+        ]
+    }
+}

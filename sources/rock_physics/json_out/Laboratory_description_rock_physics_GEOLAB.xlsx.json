@@ -1,0 +1,496 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "5580650c9a079144208b62291de6e4fe",
+        "RI_name": "Técnico, Lisbon University ",
+        "name": "Geomechanics Laboratory, GEOLAB-CERENA (Instituto Superior Técnico, Portugal)",
+        "general_description": "The Geomechanics Laboratory of CERENA/Instituto Superior Técnico (GEOLAB-CERENA/TECNICO) develops investigation in the field of Rock and Soil Mechanics applied to Mining, Petroleum and Geotechnical Engineering. \n\nThe GEOLAB-CERENA/TECNICO is a member of the European Plate Observing System EPOS and is broadly supplied with experimental equipment for the analysis of rock physics and geomechanics with the measurement of rock properties like strenght, elasticity, porosity, etc, and the modeling of subsurface sites and geological environments through a suite of customizable deformation devices.\n \nGEOLAB-CERENA/TECNICO has equipment that provides the execution of standard laboratorial and in situ tests and quantifying deformation in analogue models and high-resolution digital modeling through acoustic emissions, piezo and MEM acceleroments and meets the requests of mining and geotechnical companies developing frequently experimental surveys and technical reports. The development of innovative tests in this laboratory is also strongly encouraged for PhD and Master Students.\n \nFor further informations: http://cerena.ist.utl.pt/?page_id=5270",
+        "address": {
+            "street_with_number": "Av. Rovisco Pais, no. 1",
+            "postal_code": "1049-001",
+            "city": "Lisboa",
+            "country": "Portugal"
+        },
+        "gps": {
+            "gpsLat": 38.73584,
+            "gpsLon": -9.137957
+        },
+        "website": "http://cerena.ist.utl.pt/",
+        "contact_person": {
+            "first_name": "Matilde",
+            "family_name": " Horta Costa e Silva",
+            "identifier": {
+                "type": "",
+                "id": "http://orcid.org/0000-0002-1354-8636"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "GEOLAB-CERENA/TECNICO,  Portugal",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "",
+                    "equipment_name": "",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Acoustic Emissions",
+                    "equipment_brand": "Peng Xiang Technology, PXPA1 and PXMA.",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "The pre-amplifiers produce a 50 dBe pre-gain signal at ~ 28 V DC.",
+                    "Equipment_quantity": "4 pre-amplifiers and 1 amplifier",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Bench Mounting Mixer",
+                    "equipment_brand": "Hobart",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Mixer 5 litre capacity",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Uniaxial",
+                    "equipment_name": "Load Machine",
+                    "equipment_brand": "FORM + TEST Prufsysteme",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Max load compression capacity of 1000 kN",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Uniaxial",
+                    "equipment_name": "Compressive load machine",
+                    "equipment_brand": "ELE Compact",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "loading capacity of 1560 kN",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Shear Box",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Used to determine the strength and slope stability of rock size max 115x125 mm or cores max. dia. 102 mm, both in the field and in the laboratory.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Convergencemeter Unit",
+                    "equipment_brand": "Geokon",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Core Cutting Machine",
+                    "equipment_brand": "EFI Máquinas and Dimar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Equipment to obtain core samples of diameter between 0,7 and 2,5 inches",
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Other",
+                    "equipment_name": "Data acquisition and monitoring system (ADU)",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Up to 32 input/output channels. Up to 100 readings per second in normal multi-tasking mode. Standard RS-232C interface. Compatible with a complete range of transducers for almost any test requirements.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Other",
+                    "equipment_name": "Data taker acquisition system",
+                    "equipment_brand": "DataTaker",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Other",
+                    "equipment_name": "Strain Indicator and Recorder",
+                    "equipment_brand": "Model P3",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Portable, battery-operated instrument capable of simultaneously accepting four inputs from quarter-, half-, and full-bridge strain-gage circuits, including strain-gage-based transducers. \nThe P3 functions as bridge amplifier, static strain indicator, and digital data logger.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Direct tension testing package",
+                    "equipment_brand": "Adapted by Geomechanics Laboratory, GEOLAB-CERENA",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Max load capacity of 1000 kN",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Flexural testing machine",
+                    "equipment_brand": "FORM + TEST Prufsysteme",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Max load capacity of  200 kN",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Strain gauge > Axial strain gauge",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "Variable",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Strain gauge > Radial strain gauge",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "Variable",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Strain gauge > Axial extensometer",
+                    "equipment_brand": "GCTS",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Strain gauge > Circumferential extensometer",
+                    "equipment_brand": "GCTS",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Ultrasonic transducer > P wave transducer",
+                    "equipment_brand": "Piceramic",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Circulars with a diameter of 10 mm.",
+                    "Equipment_quantity": "Variable",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Ultrasonic transducer > S wave transducer",
+                    "equipment_brand": "Piceramic",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Rectangular with lengths of 4 mm.",
+                    "Equipment_quantity": "Variable",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Roughness Testing Package",
+                    "equipment_brand": "Mitutoyo KA Counter",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Detector 0.75 mN type",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Moisture Cabinet",
+                    "equipment_brand": "Gilson",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "11ft³ capacity",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Inclinometer and accessories",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Plate Bearing test",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "500kN Capacity",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Point Load Test",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Max capacity 56 kN",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Permeameter",
+                    "equipment_name": "Permeability Pressure test 1700",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Rock Pressure test equipment for  permeability determination under a constant pressure (maximum of 1700 kPa)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Pull test machine and accessories",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Schmidt Hammer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Seismograph - Refractionand Vibration Recorder Signal Enhancemer",
+                    "equipment_brand": "Instantel",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "8 channel ground borne vibrations monitoring system (frequency domain of 2 and 250 Hz) with standard (vibration amplitudes range between 0.13 and 254 mm/s) and low-level (range of 0.0013 and 2.54 mm/s) Geophones.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Shear test machine",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Microprocessor control.  Fully variable speed, 0.00001 to 9.99999 mm/minute. Accepts specimens up to 100 mm square.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Slake durability apparatus",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Small Flat Jack",
+                    "equipment_brand": "Adapted by Geomechanics Laboratory, GEOLAB-CERENA",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Determine in situ stresses in rock masses",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Systems for shear testing with Protodyakonov method",
+                    "equipment_brand": "Adapted by Geomechanics Laboratory, GEOLAB-CERENA",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Triaxial",
+                    "equipment_brand": "GCTS HTRX-070-L",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Max Load Capacity 2000 kN. Max confining pressure 70 MPa",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Hooke cell",
+                    "equipment_brand": "ELE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "Pressures up to 70 MPa. Maximum lateral pressure of 5 MPa",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Hydraulic Piezometer and water-level sensor",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Vibration Shaking Table",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Cherchar equipment",
+                    "equipment_brand": "Adapted by Geomechanics Laboratory, GEOLAB-CERENA",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "http://cerena.ist.utl.pt/?page_id=5270",
+                    "Equipment_specifics_and_comments": "For rock abrasiveness determination",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/5580650c9a079144208b62291de6e4fe"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab5580650c9a079144208b62291de6e4fe",
+                "payload": "json"
+            }
+        ]
+    }
+}

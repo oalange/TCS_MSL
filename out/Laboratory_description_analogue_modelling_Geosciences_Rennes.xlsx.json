@@ -1,0 +1,468 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Univ Rennes - Géosciences Rennes",
+        "name": "TecMOD - GRmodel (CNRS-Rennes 1 University, France)",
+        "general_description": "The analog modeling laboratory is responsible for carrying out experimental projects focused on three main themes: tectonics (ductile deformations, brittle/ductile coupling, sedimentation/deformation coupling, salt tectonics), subduction and geomorphology dynamics (river incisions, sedimentary transport, evolution of reliefs) .\nThe laboratory is very open to the outside world with numerous national and international collaborations, both academic and industrial. It is recognized as one of the main experimental laboratories for modeling tectonic and geomorphological processes in France. It also helps implement practical courses on the experimental approach in Earth Sciences. The laboratory is also part of the TECMODF network (regrouping the French laboratories dedicated to the analog modeling of geological processes),  the European Plate Observing System EPOSt, and he  European Training Networks TOPOMOD and SUBITOP.\nPlease find further information here: https://geosciences.univ-rennes1.fr/en/analog-modeling-tectonics-and-geomorphology\n\n",
+        "address": {
+            "street_with_number": "Campus de Beaulieu",
+            "postal_code": "35042",
+            "city": "Rennes",
+            "country": "France"
+        },
+        "gps": {
+            "gpsLat": 48.115454,
+            "gpsLon": -1.636462
+        },
+        "website": "https://geosciences.univ-rennes1.fr/en/analog-modeling-tectonics-and-geomorphology",
+        "contact_person": {
+            "first_name": "Benjamin",
+            "family_name": "Guillaume",
+            "identifier": {
+                "type": "",
+                "id": "Scopus Author ID: 23980020900"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "CNRS-Rennes 1 University,  France",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Analogue modelling of geologic processes",
+            "EPOS_WP16_subdomain": [
+                "Analogue models on tectonic processes"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Densimeter",
+                    "equipment_brand": "METTLER-TOLEDO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Model LPWG-503i, Precision 1 mg, Aquisition 2015",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Electric engine (mm/hr)",
+                    "equipment_brand": "SLO-SYN",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "5 stepper motors, 2 electric engines",
+                    "Equipment_quantity": 7.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Thermomechanics apparatus",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "1mx1mx2m, Aquisition 2010",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Gravity sliding simulator",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "2.5mx1.5mx2m, Aquisition 2009",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Hubbert-type shear box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "50 cmx25cmx25cm",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "River sytem simulator",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "2.50mx0.70mx0.20m, Aquisition 2015",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Shear box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "0.2mx2mx0.40m",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Subduction box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "1mx1mx0.4m and °0.7mx0.5mx0.25m",
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Fluid pressure device",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "1mx1mx2m, Aquition 2006",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Fluid injector termally controlled",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "0.4mx0.3mx0.2m",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Extension box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "1mx1mx0.3m",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Other",
+                    "equipment_brand": "ZORTRAX M200 - VERTEX K8400",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Aquisition 2018",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Lidar",
+                    "equipment_brand": "LEICA",
+                    "Equipment_contact_person": "Dimitri Lague",
+                    "Email_equipment_contact_person": "dimitri.lague@univ-rennes1.fr",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Schlieren/MoirÃ©",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "Dimitri Lague",
+                    "Email_equipment_contact_person": "dimitri.lague@univ-rennes1.fr",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "SLR camera",
+                    "equipment_brand": "Nikon",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Nikon D3200-D3300",
+                    "Equipment_quantity": 5.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Time lapse camera",
+                    "equipment_brand": "Nikon",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Nikon D3200-D3300",
+                    "Equipment_quantity": 5.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Temperature measurement",
+                    "equipment_brand": "DIGI SENCE",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Aquisition 2000",
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Other",
+                    "equipment_brand": "Cobra",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Aquisition 2017",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "CloudCompare",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "LabView Data Viewer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Matlab (Mathworks)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > Matlab code",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > PIVlab",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Structure from Motion (SfM) > Photoscan (Agisoft)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "Dimitri Lague",
+                    "Email_equipment_contact_person": "dimitri.lague@univ-rennes1.fr",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Structure from Motion (SfM) > Other SFM based software",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Solidworks",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "material": [
+                {
+                    "Material": "Air",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "relevant papers referring to the material"
+                },
+                {
+                    "Material": "Cement-Plaster",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Clay",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Flour",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Gelatine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Iron Powder",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Microspheres > Glassy",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Microspheres > Siliceus",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Paraffin",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Plasticine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Polytungstate",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "SIBELCO",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Sand > Feldspar Sand",
+                    "Material brand": "SIBELCO",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "RodorSil",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Water",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Other",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Other",
+                    "Material brand": "CARGIL C*sweet M01623",
+                    "Material specifics and comments": "",
+                    "References": ""
+                }
+            ],
+            "mneasured property": [
+                {
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
+                },
+                {
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Measured property": "Surface image",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                }
+            ]
+        }
+    }
+}

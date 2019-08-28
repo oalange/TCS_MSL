@@ -1,0 +1,44 @@
+[
+    {
+        "facility": {
+            "type": "Laboratory",
+            "ID": "will be assigned later",
+            "RI_name": "University of Vigo",
+            "name": "Laboratory of Paleomagnetism (Universidad de Vigo, Spain)",
+            "general_description": "Paleomagnetic information is derived from a variety of materials and environments. Rock outcrops and lava flows are among the most common types. Marine sediments and rocks are also a useful archive of information about past magnetic fields. Among its advantages is the continuity of the record, frequently much better than continental counterparts. Our Laboratory of Paleomagnetism at the Univesity of Vigo is affiliated with the School of Marine Sciences at the University of Vigo, and marine research is our main, but not exclusive, focus. The equipment is therefore suited for managing both rock and sediment samples, either continental, lacustrine or marine in origin.\n\nOur laboratory has three main working areas for integrated studies, with a focus on the marine realm:\n\n1. Paleomagnetic sample processing and measurements\n2. Sedimentological processing and measurements\n3. Marine acoustics and physical oceanography\n\nIn addition, we also have easy access to an adjacent laboratory hosting a long-core cryogenic magnetometer, with capabilities to measure both discrete and u-channel samples, and a Physical Properties Measuring System, with capabilities to reach up to 9T.\n\nMore information can be found on our research group web and the paleomagnetic laboratory website.",
+            "address": {
+                "street_with_number": "CACTI, Campus Lagoas, Marcosende, s/n. Universidad de Vigo",
+                "postal_code": "36310",
+                "city": "Vigo",
+                "country": "Spain"
+            },
+            "gps": {
+                "gpsLat": 42.167674,
+                "gpsLon": -8.683303
+            },
+            "website": "www.geoma.net",
+            "contact_person": {
+                "first_name": "Daniel",
+                "family_name": "Rey",
+                "identifier": {
+                    "type": "",
+                    "id": "https://orcid.org/0000-0001-9309-2562"
+                },
+                "e-mail": "danirey@uvigo.es",
+                "affiliation": {
+                    "legal_name": "Universidad de Vigo,  Spain",
+                    "identifier": {
+                        "type": "",
+                        "id": ""
+                    },
+                    "address": {
+                        "street_with_number": "",
+                        "postal_code": "",
+                        "city": "",
+                        "country": ""
+                    }
+                }
+            }
+        }
+    }
+]

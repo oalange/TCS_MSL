@@ -1,0 +1,118 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Department of Geoscience, University of Tromsø",
+        "name": "Rock Physics Laboratories (University of Tromsø, Norway)",
+        "general_description": "Deep earth processes are either inferred form geophysical observations or from direct observation of formerly deep-seaed rocks that are  now accessible at the surface. The interpretation of the processes that have formed these rocks and are acting at great depth today is only prossible through experimental studies that simulate high pressure and high temperature conditions. Magma formation, mineral reactions, phase transformations, and deformation and their mutual interaction are the main processes studied in the rock physics laboratories at the Departmetn of Geosceinces at the University of Tromsø. There are two laboratories: (1) Rock Deformation Laboratory, and (2) Hydrostatic Piston Cylinder Laboratory. Both laboratories employ solid medium high pressure and temperature technology.\n                                                                                                                                                                                    Please find further information here: https://en.uit.no/forskning/forskningsgrupper/gruppe?p_document_id=343748\n\n",
+        "address": {
+            "street_with_number": "Dramsveien 201",
+            "postal_code": "9037",
+            "city": "Tromsø",
+            "country": "Norway"
+        },
+        "gps": {
+            "gpsLat": 69.649208,
+            "gpsLon": 18.955324
+        },
+        "website": "https://uit.no/om/enhet/artikkel?p_document_id=379991&p_dimension_id=88137&men=28713",
+        "contact_person": {
+            "first_name": "Holger",
+            "family_name": "Stunitz",
+            "identifier": {
+                "type": "",
+                "id": "http://orcid.org/0000-0001-6892-200X"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "Other",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Griggs Apparatus",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "implemented 2008, origin: UC Berkeley",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Griggs Apparatus",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "implemented 2008, origin Rice Univ.",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Piston Cylinder",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "implemented 2017, origin UiO",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Piston Cylinder",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "implemented 2017, origin UiO",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Piston Cylinder",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "implemented 2017, origin UiO",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
+                "payload": "json"
+            }
+        ]
+    }
+}

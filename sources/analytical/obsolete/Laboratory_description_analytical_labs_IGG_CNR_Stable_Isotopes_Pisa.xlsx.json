@@ -1,0 +1,42 @@
+{
+    "facility": {
+        "type": "Laboratory",
+        "ID": "will be assigned later",
+        "RI_name": "Institute of Geosciences and Earth Resources (IGG)-National Research Council of Italy (CNR",
+        "name": "",
+        "general_description": "The Laboratory of Geochemistry and Stable Isotope  of the Institute of Geosciences and Earth Resources (IGG) is a multicomponent lab where a wide spectrum of geochemical and isotope analyses could be performed. Our researches are focalized on the composition and the origin of terrestrial gases and fluids (magmatic, hydrothermal, geothermal ones), from which precipitate minerals, interact with the geo-bio sphere, feed aquifers, circulate in the Earth’s surface. Our aim is to Identify the history of an igneous, sedimentary, metamorphic rock, identify the role of fluids in the formation or alteration of rocks as well as to reconstruct climatic variation during the past. We characterize the physical-chemical processes active at depth and its evolution during the ascent of fluids as well as thermal and pressure conditions at depth. We identify the water origin and its quality and we study of the fate of contaminants.\n                                                                                                                                                                                                                                                                                                                            \n\nThe lab could be performed a large spectrum of analyses. In particular: \nMeasurement of both the content of total hydrogen, nitrogen, organic and inorganic carbon (H, TN, TOC, TIC) in solid, liquid and gas samples, their isotopic bulk composition, carbon and oxygen isotopic composition of CO2, carbon compound specific stable isotope analysis (CSIA) of gas samples;\nDetermination, by wet analysis, of the main, minor and trace chemical components in natural waters, geothermal brines, thermal waters and landfill effluents;\nDeterminations of gas components (CO2, H2S, HCl, HF, NH3 etc.) enriched in alkaline solution or present as dry gases in natural gases and/or geothermal/volcanic vapors. Diffuse flux measurements (in particular CO2 and CH4);\nNoble gas determinations (He, Ne, Ar, Kr and Xe) in gas samples and also in fumarole discharge.\n\n\n",
+        "address": {
+            "street_with_number": "Via Moruzzi, 1",
+            "postal_code": "56124",
+            "city": "Pisa",
+            "country": "Italy"
+        },
+        "gps": {
+            "gpsLat": 43.717574,
+            "gpsLon": 10.422015
+        },
+        "website": "www.igg.cnr.it/en/laboratories/analytical-laboratories/",
+        "contact_person": {
+            "first_name": "Chiara",
+            "family_name": "Boschi",
+            "identifier": {
+                "type": "",
+                "id": "https://www.researchgate.net/profile/Chiara_Boschi."
+            },
+            "e-mail": "c.boschi@igg.cnr.it",
+            "affiliation": {
+                "legal_name": "IGG-CNR,  Italy",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        }
+    }
+}

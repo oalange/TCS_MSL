@@ -1,0 +1,257 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Institut de Physique du Globe de Paris, Paleomagnetism Research Group",
+        "name": "Paléomagnétisme IPG Paris (CNRS-Sorbonne Paris Cité University, France)",
+        "general_description": "The paleomagnetism laboratory at the Institut de Physique du Globe de Paris analyses the magnetic properties of rocks, sediments and baked archeological materials. These properties are useful to study a broad range of questions from the acquisition mechanism of various natural remanent magnetisations to the alteration processes acting on earth materials, and a breath of disciplines including geomagnetism, plate tectonics, geodynamics, biomagnetism, volcanology, paleoclimat, paleoenvironment, and archaeology. The laboratory seeks to acquire paleomagnetic and rock magnetic data from various geological and archaeological materials spanning a wide range of ages and geographic locations, and accompanies this data acquisition with the development of novel experimental protocols, and models and simulations of the studied processes. The laboratory investigates a wide range of topics synthesized below under four main topics which allows the laboratory to explore a large number of phenomenon that has punctuated the Earth’s history. (1) The Earth’s paleomagnetic field: The laboratory seeks to further our understanding of the temporal and spatial evolution of the Earth’s geomagnetic field, its geometry, direction and intensity, across all time scales from historic periods to 3.5 billions of years. (2) Sediment magnetism and the environment: Iron oxides and other iron-bearing minerals are tracers of a rocks geological history. Characterising and determining the origin of iron-bearing minerals is primordial to all paleomagnetic but can also bring important information about changes to the environment and climate in which evolved the rock or sediment formation. (3) Paleogeography and paleoclimate: The Earth has experienced several major climate events over its history (e.g. Snowball Earths, the Great oxidation Event, …). A complex history that the laboratory attempts to untangle by decoding climate records with paleomagnetic and rock magnetic data, as well as climate and geochemical models. (4) Plate tectonics and geodynamics: The geometry of the geomagnetic field and its fossilization in rock and sediment records enables to trace the positions of continents and oceans in the past, thus to study the history and dynamics of global plate movements from Precambrian times to the present. Continental drift, which is an expression of mantle convection, opens the door to global scale geodynamics studies inclusive of all the terrestrial envelopes.",
+        "address": {
+            "street_with_number": "1 rue Jussieu",
+            "postal_code": "75238",
+            "city": "Paris Cedex 05",
+            "country": "France"
+        },
+        "gps": {
+            "gpsLat": 48.844769,
+            "gpsLon": 2.356478
+        },
+        "website": "www.ipgp.fr",
+        "contact_person": {
+            "first_name": "France",
+            "family_name": "Lagroix",
+            "identifier": {
+                "type": "",
+                "id": "ORCID ID orcid.org/0000-0003-2873-2767; ResearcherID A-6112-2011"
+            },
+            "e-mail": "lagroix@ipgp.fr",
+            "affiliation": {
+                "legal_name": "CNRS-Sorbonne Paris Cité University, France",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Paleomagnetism",
+            "EPOS_WP16_subdomain": [
+                "Paleomagnetic and magnetic data"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Controlled_Field_Area",
+                    "equipment_group": "Shielded_Room",
+                    "equipment_name": "Soudupin",
+                    "equipment_brand": "Soudupin",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "ASC DTech2000 AF demagnetizer (up to 200 mT) with ARM and pARM",
+                    "equipment_brand": "ASC Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "Schonstedt GSD-1 AF demagnetizer",
+                    "equipment_brand": "Schonstedt",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat and oven",
+                    "equipment_brand": "Princeton",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Quantum Design MPMS XL(-5)",
+                    "equipment_brand": "Quantum Design",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "IRM_Acquisition",
+                    "equipment_name": "MMPM10 pulse magnetizer",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Cryogenic",
+                    "equipment_name": "2G cryogenic magnetometer discrete samples",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Cryogenic",
+                    "equipment_name": "2G cryogenic magnetometer long core",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "AGICO spinner magnetometer JR-5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "AGICO spinner magnetometer JR-6",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Other",
+                    "equipment_name": "Other",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 2.0,
+                    "References": "Le Goff, M. and Gallet, Y., 2004. A new three-axis vibrating sample magnetometer for continuous high-temperature magnetization measurements: Applications to paleo- and archeo-intensity determinations. Earth and Planetary Science Letters, 229(1-2): 31-43."
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge KLY2",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge KLY3",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "measurement": [
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "AF demagnetization",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "Thermal demagnetisation",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Bulk magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Anisotropy",
+                    "measurement_name": "Anisotropy of magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Field dependence magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Frequency dependence magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Temperature dependence magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                }
+            ]
+        }
+    }
+}

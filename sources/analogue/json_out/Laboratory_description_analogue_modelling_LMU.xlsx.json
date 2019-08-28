@@ -1,0 +1,188 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "9cd562c216daa82792972a074a222c52",
+        "RI_name": "Ludwig-Maximilians-Universität München",
+        "name": "Fragmentation Lab (Ludwig-Maximilians-University Munich, Germany)",
+        "general_description": "Explosive volcanic eruptions and their eruptive products impact humans, the environment and infrastructures on local, regional and global scales. For the wide-reaching hazard they pose to our global society, the focus of volcanology is to determine the process controlling the eruptive dynamics of volcanoes and their impact on the Earth system. Modern volcanology is founded on three main methodological pillars: 1) field observations and measurements, 2) laboratory experiments, 3) numerical modelling. The combination of those techniques is paramount to untangle the highly complex nature of processes controlling volcanic eruptions and to provide a reliable and quantitative estimate of the hazard they pose. In particular  laboratory research is pivotal in the way it provides quntitative fundamental input parameters to constrain both field observation and numerical models. The experimental volcanology facilities at LMU University of Munich is equipped with world-class uniqueexperimental setups and bench instruments which enable characterization of materials and simulation of processes at conditions relevant to volcanic eruptions. Details on the equipments operative at the experimental facilities can be found at  https://www.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html ",
+        "address": {
+            "street_with_number": "Theresienstrasse 41",
+            "postal_code": "80333",
+            "city": "Munich",
+            "country": "Germany"
+        },
+        "gps": {
+            "gpsLat": 48.146874,
+            "gpsLon": 11.574604
+        },
+        "website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/index.html",
+        "contact_person": {
+            "first_name": "Corrado",
+            "family_name": "Cimarelli",
+            "identifier": {
+                "type": "",
+                "id": "https://orcid.org/0000-0002-5707-5930"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "Ludwig-Maximilians-University Munich,  Germany",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Analogue modelling of geologic processes",
+            "EPOS_WP16_subdomain": [
+                "Analogue models on tectonic processes"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Shock tube ",
+                    "equipment_brand": "Custom made",
+                    "Equipment_contact_person": "Bettina Scheu",
+                    "Email_equipment_contact_person": "betty@min.uni-muenchen.de",
+                    "Equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1016/j.epsl.2004.07.016."
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Shock tube ",
+                    "equipment_brand": "Custom made",
+                    "Equipment_contact_person": "Ulrich Küppers",
+                    "Email_equipment_contact_person": "u.kueppers@lmu.de",
+                    "Equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1016/j.epsl.2006.06.033"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Shock tube ",
+                    "equipment_brand": "Custom made",
+                    "Equipment_contact_person": "Corrado Cimarelli",
+                    "Email_equipment_contact_person": "cimarelli@min.uni-muenchen.de",
+                    "Equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1130/G34802.1"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Pycnometer",
+                    "equipment_brand": "Micromeritics",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Rheometer",
+                    "equipment_brand": "Anton Paar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "",
+                    "equipment_name": "Laser Particle Analyzer",
+                    "equipment_brand": "Coulter",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "material": [
+                {
+                    "Material group": "",
+                    "Material": "Rock cores",
+                    "Material brand": "",
+                    "Material specifics and comments": "Cylindrical samples of variable aspect ratios",
+                    "References": "relevant papers referring to the material"
+                },
+                {
+                    "Material group": "",
+                    "Material": "Volcanic ash",
+                    "Material brand": "",
+                    "Material specifics and comments": "Natural and synthetic glassy particles",
+                    "References": ""
+                },
+                {
+                    "Material": "Microspheres > Glassy",
+                    "Material brand": "Potters, Omega",
+                    "Material specifics and comments": "Borosilicate glass speres mm to micron size",
+                    "References": ""
+                },
+                {
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Wacker",
+                    "Material specifics and comments": "Silicon oils with variable Newtonian viscosities",
+                    "References": ""
+                }
+            ],
+            "measured property": [
+                {
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
+                },
+                {
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Measured property": "Grain size distribution",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Measured property": "P-wave velocity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Measured property": "S-wave velocity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/9cd562c216daa82792972a074a222c52"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab9cd562c216daa82792972a074a222c52",
+                "payload": "json"
+            }
+        ]
+    }
+}

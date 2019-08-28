@@ -1,0 +1,375 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "INGV",
+        "name": "HP-HT Laboratory of Experimental Volcanology and Geophysics (INGV, Italy)",
+        "general_description": "The High Pressure-High Temperature Laboratory of the Istituto Nazionale di Geofisica e Vulcanologia of Rome (hereafter HPHT Lab) is a multidisciplinary facility originally founded in 2002. The HPHT Lab includes three areas of investigation: 1) experimental testing of natural and synthetic materials; 2) microanalytical and physical analyses; 3) analog experiments. Volcanology, petrology, mineralogy, seismology, and rock physics are the main, broad areas of research at the HPHT Lab.\nConcerning the experimental investigations, research in magma evolution and rheology, and on mantle petrology are carried out with high-pressure and high-temperature apparata, including furnaces, piston-cylinder, and multi-anvil devices, covering conditions from surface eruption of magma to middle mantle. The frictional properties of faults and rocks are investigated under a wide range of slip rates and dynamics and under variable boundary conditions using unique rotary shear apparatus and large-scale bi-axial press. In addition, rock physics/mechanics studies, from rock permeability to fracturing and degassing can also be investigated with the above apparata and with more classical devices.\nThe analytical facilities include a Field-Emission Scanning Electron Microscope and an Electron Micro Probe Analyzer specifically tuned for natural rock analyses. Accessory to these are an helium pycnometer, particle size analyzer, sieves, and other basic instruments.\nThe analog investigations are carried out in a specific area where ad-hoc, temporary set-ups are developed. Analog materials are characterized using a rheometer, and the experiments are recorded and analyzed using a range of visual documentations, spanning from time-lapse cameras to high-definition and high-speed camcorders. The analog laboratory focuses mostly on explosive volcanism and the related products and processes, including the formation and release of Taylor bubbles, pyroclast ejection during supersonic eruptions, and the sedimentation and aggregation of volcanic ash particles.\nThe HPHT Lab also hosts and develops new systems for the in-situ study of explosive volcanic eruptions by combining high-speed, high-definition imaging in the visible and thermal infrared wavelengths with acoustic recording. Investigated processes cover the ejection of volcanic ash and bombs, their settling and potential hazard, the sources of volcanic sound, and shifting styles of explosive volcanic activity. The sharing of facilities and working space in between researchers with such a broad variety of backgrounds is a key component of the HPHT Lab, eventually leading to interdisciplinary exchange, facilitating the development of new projects, and ultimately promoting a stimulating research environment.",
+        "address": {
+            "street_with_number": "Via di Vigna Murata, 605",
+            "postal_code": "00143",
+            "city": "Rome",
+            "country": "Italy"
+        },
+        "gps": {
+            "gpsLat": 41.8273999,
+            "gpsLon": 12.5151783
+        },
+        "website": "under construction",
+        "contact_person": {
+            "first_name": "Piergiorgio",
+            "family_name": "Scarlato",
+            "identifier": {
+                "type": "",
+                "id": "https://orcid.org/0000-0003-1933-0192"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "INGV,  Italy",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Multi Anvil",
+                    "equipment_name": "Multiple press 840 ton",
+                    "equipment_brand": "Voggenreiter",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "The uniaxial hydraulic press is capable of exerting up to 840 tons of force. The system is equipped with two high-pressure devices used for experiments at temperatures and pressures up to 1800 °C and 3 GPa (end loaded piston cylinder) and up to 2800 °C and 25 GPa (multianvil). Both devices allow in-situ measurements of electrical properties by means of complex impedance spectroscopy and elastic properties by ultrasonic wave velocity analysis.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Piston Cylinder",
+                    "equipment_name": "Piston cylinder - 3/4” and 1” pressure plates",
+                    "equipment_brand": "Voggenreiter",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "The uniaxial hydraulic press is capable of exerting up to 840 tons of force. The system is equipped with two high-pressure devices used for experiments at temperatures and pressures up to 1800 °C and 3 GPa (end loaded piston cylinder) and up to 2800 °C and 25 GPa (multianvil). Both devices allow in-situ measurements of electrical properties by means of complex impedance spectroscopy and elastic properties by ultrasonic wave velocity analysis.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Piston Cylinder",
+                    "equipment_name": "Quick Press - Piston Cylinder 3/4” and 1” pressure plates",
+                    "equipment_brand": "Depth of the Earth",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Maximum temperature and pressure of 1800 °C and 1 GPa.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Biaxial",
+                    "equipment_name": "Bi-Tri-Axial Press (BRAVA)",
+                    "equipment_brand": "RMP - INGV",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "The Brittle Rock deformAtion Versatile Apparatus is an is extremely versatile machine since it works as a biaxial apparatus (also with confining & fluid pressure), a triaxial apparatus capable of running on large cylindrical blocks (10 cm in diameter and 20 cm in length), and a biaxial for large (20x20 cm) sliding surfaces.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Rotary Shear",
+                    "equipment_name": "Low to High Velocity rotary shear Apparatus (SHIVA)",
+                    "equipment_brand": "RMP - INGV",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Subjects cylindrical rocks samples (diameter 5 cm) to high normal stress (up to 50 MPa) and high slip rate (up to 6.5 m/s), while measuring the resulting friction and shortening of the sample. Accessories for tests under vacuum, fluid pressurization and on non-cohesive materials.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Uniaxial",
+                    "equipment_name": "Uniaxial testing machine with double load cell (15 and 250 kN) and LVDT controller",
+                    "equipment_brand": "Tecnotest",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Uniaxial press working up to 250 kN. Axial deformation with a resolution of ¼m is recorded during stress-strain tests. High temperature deformation experiments up to 1200 °C can be performed using a cylindrical furnace. An acoustic emission set up monitors the signal both in transmission and in receiving to sample during the load/temperature cycles.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Pycnometer",
+                    "equipment_name": "Helium Pycnometer",
+                    "equipment_brand": "AccuPyc II 1340",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Gas Displacement Pycnometry System for true, absolute, skeletal, and apparent volume and density. Inert gas: helium. Sample chamber capacity 1-100 cm3 Precision within ± 0.01% of reading, Accurate to within 0.03% of reading.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Permeameter",
+                    "equipment_name": "Permeameter with double intensifier",
+                    "equipment_brand": "Rock Physics",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Confining pressure up to 200 MPa, Pore pressure up to 70 MPa. Permeability measured throughout steady state flow. Elastic wave velocity (Vp and Vs) and porosity evolution vs. effective pressure.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Rheometer",
+                    "equipment_name": "Rheometer MCR 301 Physica",
+                    "equipment_brand": "Anton Paar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Modular rheometer, air bearing EC motor with frequency range 10-5 100 Hz, 0.05 ÃŽÂ¼Nm-200 mNm torque and 0,1 nNm torque resolution. Equipped with: double Peltier temperature control; parallel plates (2), plate-cone (2), concentric cylinder measurement geometries; pressure cell up to 150 bar.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Samples and rock preparation equipment",
+                    "equipment_brand": "vv",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Coring, sawing, grinding, lathing, rectifying, lapping machines, precision balance, welder, drying oven, carbon coater semiautomatic polisher",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Vertical Furnace RHTV 120-300/18",
+                    "equipment_brand": "Nabertherm",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Vertical tube furnace modified to perform controlled atmosphere experiments up to 1800 °C. One single gas or a two gas mixture can be used. Gases are mixed together in a gas mixing system equipped with two mass flow controllers. Oxygen fugacity is monitored using an yttria-doped-zirconia solid electrolyte oxygen sensor connected to a digital analyzer.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Low temperature furnace AWF 12/12",
+                    "equipment_brand": "Lenton",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Furnace working up to 1200 °C . Rapid heating and maximum temperature uniformity is provided by the heating elements. An advanced setpoint programming temperature controller allows several heating and cooling treatments",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "High Temperature Furnace LHT 04/18",
+                    "equipment_brand": "Nabertherm",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "High-temperature chamber furnace working up to 1800 °C. Rapid heating and maximum temperature uniformity is provided by the heating elements. An advanced setpoint programming temperature controller allows several heating and cooling treatments",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Particle Analyzer",
+                    "equipment_name": "Multi-Wavelenght Analyser with Particle sizing according to ISO 13317",
+                    "equipment_brand": "LUMiReader@PSA",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Multi-Wavelength Separation Analyser for Real-Time Dispersion Stability & Particle Size Distribution. Main parameters measured: Velocity Distribution Qv(v), qv(v), Intensity Weighted Particle Size Distribution QInt(x), qInt(x), Volume Weighted Particle Size Distribution Q3(x), q3(x) + Quantitative information about particle size and volume fraction of each class + Conversion into mass or number distribution. Specifications: Multiple light sources with different wavelengths Advanced optics, variable light intensity Temperature control from room temperature + 4K to 60° C, ±1 K Measuring time 1 sec - months Append measurement option for long-time monitoring Sample volume 0.5 ml - 4 ml (depending on cell type) Sample concentration 0.00015 Vol% - 75 Vol% Particle size: 500 nm - hundreds of µm PC controlled operation",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Other",
+                    "equipment_name": "Shock-tube apparatus (Jet-Buster) and two-phase flow apparatus (slug burster)",
+                    "equipment_brand": "INGV",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Vertical pipe system equipped with pressurising system, manometer, diaphragm and bursting system. Main parameters measured:Allows to perform scaled experiments of 1) Rapid decompression of gas-particle mixtures simulating particle-laden volcanic jets. 2) Taylor bubbles and two-phase flow processes simulating ascent and bursting dynamics of discrete gas pockets (slugs) in volcanic conduit. Specifications: 3 m of transparent PMMA tube Overpressure threshold is in the order of up to 6 bars ",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Other",
+                    "equipment_name": "Polarized Free-field Microphones 40AN 1/2”, Low Frequency (0.5Hz - 20kHz)",
+                    "equipment_brand": "G.R.A.S.",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "GRAS 40AN is a high-precision condenser microphone made according to IEC 61094-4 requirements optimized for low-frequency measurements. Freq range: 0.5 Hz to 20 kHz, Dyn range: 14 dBA to 149 dB, Sensitivity: 50 mV/Pa, Resonance frequency 14 kHz",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Video",
+                    "equipment_name": "4K digital camcorders Sony Handycam FDR-AX100 ",
+                    "equipment_brand": "Sony Handycam FDR-AX100",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Full HD digital videocamera, (3840x2160 pixels, 25 Hz) Product features: sensor type1.0 type (13.2 mm x 8.8 mm) back-illuminated exmor r® cmos sensor, effective pixels (video) approx.14.2 m pixels(16:9)4, lens type zeiss® vario-sonnar® t*, optical zoom12x,clear image zoom 4k: 18x hd: 24x5, screen type 3.5 type (3.5\") xtra fine lcd™ display (921k) wide (16:9)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Video",
+                    "equipment_name": "High speed digital camcorder Memrecam HX-3",
+                    "equipment_brand": "NAC",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "NAC Memrecam HX-3 top quality HIGH SPEED CAMERA that features Variable Framing Profile using a variety of frame rates, sequentially or in parallel; Versatile Recording Burst, multi-trigger, restart-trigger and image trigger. Product Features: Max Res (Pixels) 2560 X 1920,  Optical Format  35.20 mm, fps @ Max Res  2,000, Gpix /sec @ Max Res  9.83, High Resolution Mode ISO Rating - Mono  10,000, ISO Rating - Color  2,500, High Speed Mode ISO Rating - Mono  40,000, ISO Rating - Color  10.000, Fastest Shutter Speed  200 nano-seconds, Bit Depth  8/10/12-bit, Memory Options  16GB, 32GB, 64GB, 128GB, Max fps  1,333,200, Imaging Formats / Frame Rates (fps) @1920 x 1080 (Full HD) 4,670, Resolution @ Max fps  320 x 8, Dimensions (mm)  110W x 140H x 333D, Weight  5.5 kg ",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Video",
+                    "equipment_name": "High speed digital camcorder Memrecam HX-6",
+                    "equipment_brand": "NAC",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "NAC Memrecam HX-6 top quality HIGH SPEED CAMERA that features Variable Framing Profile using a variety of frame rates, sequentially or in parallel; Versatile Recording  Burst, multi-trigger, restart-trigger and image trigger. Product Features: Max Res (Pixels) 2560 x 1920, Optical Format 35.20 mm, fps @ Max Res 1,000, Gpix /sec @ Max Res 4.92, High Resolution Mode ISO Rating - Mono 10,000, ISO Rating - Color 2,500, High Speed Mode ISO Rating - Mono 40,000, ISO Rating - Color 10.000, Fastest Shutter Speed 200 nano-seconds, Bit Depth , Memory Options 8GB, 16GB, 32GB, Max fps 666,600, Imaging Formats / Frame Rates (fps) @1920 x 1080 (Full HD) 2,330, Resolution @ Max fps 320 x 8, Dimensions (mm) 110W x 140H x 333D, Weight 4.9 kg",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Video",
+                    "equipment_name": "Thermal High speed camera FLIR SC655",
+                    "equipment_brand": "FLIR",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": " -20/2000 °C, 25/200 Hz",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Video",
+                    "equipment_name": "High speed digital camcorder NAC 512 SC",
+                    "equipment_brand": "NAC",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "High-speed camera, monochrome, 512x512 resolution, 4000 fps at max resolution, 200k fps at reduced resolution, equipped with synchronized data logger (4 analog and 12 digital channels)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Video",
+                    "equipment_name": "High speed digital camcorder OPTRONIS CR600x2",
+                    "equipment_brand": "Optronis",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Compact high-speed camera, monochrome, 1280X1024 resolution, 500 fps @ max resolution, 100k fps @ reduced resolution, equipped with synchronized data logger (4 analog and 12 digital channels)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Photography",
+                    "equipment_name": "Time Lapse Camera with 24-70 lens Brinno TLC200 Pro",
+                    "equipment_brand": "Brinno",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Model TLC BCC200 Pro, LCD Screen 1.44\" TFT LCD, Waterproof Auto generation of Time Lapse video, Image Sensor, Type 1/3\" HDR sensor, Dynamic Range 115db, Resolution 1.3 Mega pixel, Pixel size 4.2um, Sensitivity 3650mV/lux-sec (Ultra good low light quality), Optics Lens (BCS 019), Type CS Mount (Aspherical Glass Lens), Aperture F 2.0, Field of View 112°, Focal Length 19 mm (35mm equivalent), Focus Distance Manual focus from 1 cm to ∞ (factory setting: 40 cm ), Recording Format: AVI,Resolution: 1280x 720, Memory Storage SD/ SDHC Card (Supported up to 32 GB), Time Interval Captures 3~ 5 photos in 1 second, Custom From 1 second to 24 hours, Power source Battery: 4 AA Batteries, DC IN: 5V (Micro USB connector), Battery Life 80 days(5 minutes time interval), Camera Body Dimension, Size (DxWxH) 64x 52x 107 mm, Weight 140 g (without batteries)",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Particle Analyzer",
+                    "equipment_name": "Precision test sieves",
+                    "equipment_brand": "Endecotts",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Woven Wire Sieves. Diameter 200 mm Mesh sizes: 20cm - 32 µm, Diameter 100 mm mesh sizes 63 µm and 32 µm.",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_group": "Laser",
+                    "equipment_name": "Laser MGL-III, 532nm 200mW, PSU-III-LED/Unit+ Laser line Generator ",
+                    "equipment_brand": "Changchun New Industries+Edmund optics",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Green DPSS laser MGL-III-532/1~300mW - up to 300 mW, 532 nm with TEM00 mode, high power stability Beam diameter at the aperture 1/e2 (mm) ~1.2 Beam divergence, full angle (mrad) <1. 5, Polarization ratio >100:1, Horizontal±5 degree (Vertical Optional), Warm-up time (minutes) <10, Beam height from base plate (mm) 24. 8",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_group": "Optical Microscope",
+                    "equipment_name": "Optical and stereo microscopes",
+                    "equipment_brand": "Leica and Nikon",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Optical and stereo microscopes DMRXP and Euromex Leica, Stereomicroscopes MZ 9.5Leica; Petrographic microscope Nikon ECLIPSE E-50i POL",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
+                "payload": "json"
+            }
+        ]
+    }
+}

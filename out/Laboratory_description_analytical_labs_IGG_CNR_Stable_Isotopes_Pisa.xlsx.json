@@ -1,0 +1,180 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Institute of Geosciences and Earth Resources (IGG)-National Research Council of Italy (CNR",
+        "name": "",
+        "general_description": "The Laboratory of Geochemistry and Stable Isotope  of the Institute of Geosciences and Earth Resources (IGG) is a multicomponent lab where a wide spectrum of geochemical and isotope analyses could be performed. Our researches are focalized on the composition and the origin of terrestrial gases and fluids (magmatic, hydrothermal, geothermal ones), from which precipitate minerals, interact with the geo-bio sphere, feed aquifers, circulate in the Earth’s surface. Our aim is to Identify the history of an igneous, sedimentary, metamorphic rock, identify the role of fluids in the formation or alteration of rocks as well as to reconstruct climatic variation during the past. We characterize the physical-chemical processes active at depth and its evolution during the ascent of fluids as well as thermal and pressure conditions at depth. We identify the water origin and its quality and we study of the fate of contaminants.\n                                                                                                                                                                                                                                                                                                                            \n\nThe lab could be performed a large spectrum of analyses. In particular: \nMeasurement of both the content of total hydrogen, nitrogen, organic and inorganic carbon (H, TN, TOC, TIC) in solid, liquid and gas samples, their isotopic bulk composition, carbon and oxygen isotopic composition of CO2, carbon compound specific stable isotope analysis (CSIA) of gas samples;\nDetermination, by wet analysis, of the main, minor and trace chemical components in natural waters, geothermal brines, thermal waters and landfill effluents;\nDeterminations of gas components (CO2, H2S, HCl, HF, NH3 etc.) enriched in alkaline solution or present as dry gases in natural gases and/or geothermal/volcanic vapors. Diffuse flux measurements (in particular CO2 and CH4);\nNoble gas determinations (He, Ne, Ar, Kr and Xe) in gas samples and also in fumarole discharge.\n\n\n",
+        "address": {
+            "street_with_number": "Via Moruzzi, 1",
+            "postal_code": "56124",
+            "city": "Pisa",
+            "country": "Italy"
+        },
+        "gps": {
+            "gpsLat": 43.717574,
+            "gpsLon": 10.422015
+        },
+        "website": "www.igg.cnr.it/en/laboratories/analytical-laboratories/",
+        "contact_person": {
+            "first_name": "Chiara",
+            "family_name": "Boschi",
+            "identifier": {
+                "type": "",
+                "id": "https://www.researchgate.net/profile/Chiara_Boschi."
+            },
+            "e-mail": "c.boschi@igg.cnr.it",
+            "affiliation": {
+                "legal_name": "IGG-CNR,  Italy",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_name": "GC, Gas chromatographer",
+                    "equipment_brand": "Perkin Elmer, Carlo Erba, Agilent, Varian",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.011 "
+                },
+                {
+                    "equipment_name": "ANC, Anion chromatographer",
+                    "equipment_brand": "Metrohm  883 and Dionex DX100",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 6.0,
+                    "References": "10.1038/s41598-017-06941-2;\n10.1016/j.jvolgeores.2013.03.011 "
+                },
+                {
+                    "equipment_name": "SP-PH, Spectrophotometer",
+                    "equipment_brand": "Jasco V-530",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 2.0,
+                    "References": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.011 "
+                },
+                {
+                    "equipment_name": "POT, Potentiometer",
+                    "equipment_brand": "Metrohm 905 Titrando and Metrohm Herisau E536",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.013"
+                },
+                {
+                    "equipment_name": "ICP-MS, Inductively coupled plasma mass spectrometer",
+                    "equipment_brand": "Agilent 7800",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1038/s41598-017-06941-2"
+                },
+                {
+                    "equipment_name": "CEAS, Cavity-enhanced laser absorption spectrometer",
+                    "equipment_brand": "Delta Ray, Thermo Fisher Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "CHN, Carbon hydrogen nitrogen analyser",
+                    "equipment_brand": "Flash EA1112, Thermo Fisher Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "DI-IRMS, Dual inlet isotope ratio mass spectrometer",
+                    "equipment_brand": "Thermo Delta Plus Advantage,  Finningan ThermoQuest Delta Plus",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "EA-IRMS, Elemental analyser continuous-flow isotope ratio mass spectrometer",
+                    "equipment_brand": "Carlo ErbaEA1108, Thermo Fisher Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "GC/C/IRMS, Gas chromatography combustion isotope ratio mass spectrometer",
+                    "equipment_brand": " Trace GC Ultra Thermo Fisher Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "TC/EA-IRMS, High temperature conversion elemental analyser",
+                    "equipment_brand": "Flash EA1112HT, Thermo Fisher Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "Other",
+                    "equipment_brand": "Thermo Fisher Scientific,  Finningan",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "NGA, Noble gases analyser",
+                    "equipment_brand": "Mass Analyser Products Ltd. MAP215-50",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        }
+    }
+}

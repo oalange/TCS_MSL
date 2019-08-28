@@ -1,0 +1,42 @@
+{
+    "facility": {
+        "type": "Laboratory",
+        "ID": "will be assigned later",
+        "RI_name": "Geochemistry Analytical Laboratories ",
+        "name": "Laboratorios Analíticos de Geoquímica (Universidad de Oviedo, Spain)",
+        "general_description": "In this lab facility, we work with both, natural and synthetic solid samples, performing structural characterization and mineralogical and chemical analyses.\nIn order to achieve any user’s demand, the technical staff can help to adjust the equipment for any analytical determination that may be out of the ordinary lab routine.\nElectron microprobe analyses\nThis facility was establish in 1987. Since then, with different CAMECA apparatus the facility offers the experience of the lab staff to satisfy the analytical needs suggested by the user. The analyses are qualitative and quantitative chemical analyses at micrometric scale in solid pre-polished samples. The analyses is based on the excitation by an electron beam of the polished surface. Electrons are accelerate between 15 and 35 kv and the beam is focused on a 1 to 2 micron size spot. The characteristic X –rays generated on the sample are detected by wavelength dispersive spectrometers (WDS).\nAmong the most common tasks in this facility are:\n- Chemical qualitative and quantitative analyses of minerals\n- Compositional variation studies\n- Homogeneity assessments at microscale\n- Quality control of glass and ceramic material\n- Semiconductor and multilayer materials analyses\n- Determination and natural element distribution on biological materials\n- REE, Th, U and Pb determination in monazite and zircon\nSpectroscopy and X ray diffraction\nThe facility takes in the chemical and mineralogical analysis of any solid: rock, soil, cement, ceramic, glass, metal alloy, environmental filters, etc.\n- X -ray fluorescence spectroscopy. XRF\nThe main goal is the qualitative and quantitative chemical analyses of the elements, including fluoride (F) and Uranium (U). The quantitative analyses has standard calibration for geological samples and related materials, with international reference standards. The major elements that can be determined are (in oxides): Al2O3, P2O5, K2O, CaO, SiO2, TiO2, MnO2, Fe2O3, MgO, Na2O, and as trace elements: V, Cr, Co, Ni, Cu, Zn, Ba, Nb, Rb, Sr, Y, Zr, U, Th, Pb, S.\nTo complement the quantitative determinations, the software “UNIQUANT”, by Omega Data System, offers semi-quantitative analyses of any kind of samples.\nRoutine analyses are made on solid samples that are prepared for its analyses by cold pressing (trace elements and semi-quantitative analyses) or by melting into beads (major elements).\n- Atomic absorption spectrophotometry. AAS\nThis spectroscopy method is used in this facility to accomplish the analyses of liquids or for the systematic determination of certain elements.\n- X -ray diffraction\nThis technique is used for the determination of structural characterization and the identification of crystalline phases, in both, natural and synthetic samples. X-ray reflectometry and grazing incidence on thin films can also be applied. The analyses can be performed on samples of a wide variety of size and amount, from few milligrams in case of powder samples, up to several centimeters in blocks, using a multipurpose platform. Two different software from PANalytical (Spectris Group) are available: X’Pert Datacollector, for data control and collection, and X’Pert HighScore for phase identification and comparison with PDF-2 database. The reference file used is JCPDS from the International Centre for Difraction Data, using PDF-1 and PDF-2 files.",
+        "address": {
+            "street_with_number": "Edificio Severo Ochoa, C/Fernando Bonguera, s/n",
+            "postal_code": "33006",
+            "city": "Oviedo",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 43.3545,
+            "gpsLon": -5.8716
+        },
+        "website": "http://www.sct.uniovi.es/",
+        "contact_person": {
+            "first_name": "Olga",
+            "family_name": "García-Moreno",
+            "identifier": {
+                "type": "",
+                "id": "0000-0001-7815-0242"
+            },
+            "e-mail": "garciaolga@uniovi.es",
+            "affiliation": {
+                "legal_name": "Universidad de Oviedo,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        }
+    }
+}

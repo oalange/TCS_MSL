@@ -1,0 +1,127 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "15074907275ed2aab90a655e971429b9",
+        "RI_name": "Universitat de Barcelona",
+        "name": "MAiMA Isòtops estables i Mineralogia (Universitat de Barcelona, Spain)",
+        "general_description": "MAiMA is a research group from the University of Barcelona that applies the latest technology in stable isotope analysis, mineralogy and geochemistry to offer customized solutions to studies related with environmental pollution, authentication of agri-food products and studies of mineral durability in civil works (http://www.ub.edu/maima/).\nWe have more than 25 years of recognized experience in mineralogy and isotope geochemistry. We have obtained more than 20 competitive projects from the Spanish government, five European projects, and we have published more than 150 scientific articles in high impact journals.\nMAiMA is part of the SGR group Applied Mineralogy Geochemistry and Geomicrobiology (http://www.ub.edu/minegeo).\nOur key technologies are stable isotope analysis and mineralogical and petrographic characterization. We apply these technologies to solve problems related to:\n- Environmental contamination (since 1997): we provide tailored solutions for the identification of contamination sources (agricultural and livestock, mining, industrial) in aquifers, and  for the evaluation of remediation strategies efficiency, using isotopic techniques.\n- Civil works (since 2010): we offer studies of degradation, aging and stability of geological and synthetic materials used in the construction of civil works (solid asphalt, embankments, slopes).\n- Food authentication (since 2014): we offer multi-isotopic studies for food authentication, in order to avoid commercial fraud and guarantee the products quality.\nWe also offer stable isotope analysis of different elements (H, C, N, O, and S) in many compounds and matrices (gaseous, liquid or solid) (http://www.ub.edu/maima/servicios-analiticos).\nMAiMA develops the sample preparation methods and performs the preparation step in its own laboratories. The stable isotope analysis are are performed at the Scientific and Technological Centers from the University of Barcelona (CCiT-UB) http://www.ccit.ub.edu/EN/home.html\n\n",
+        "address": {
+            "street_with_number": "C/Martí i Franquès s/n,  , España",
+            "postal_code": "08028",
+            "city": "Barcelona",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 41.38355,
+            "gpsLon": 2.118981
+        },
+        "website": "http://www.ub.edu/maima/",
+        "contact_person": {
+            "first_name": "Albert",
+            "family_name": "Soler Gil",
+            "identifier": {
+                "type": "",
+                "id": "37737487F"
+            },
+            "e-mail": "albertsolergil@ub.edu",
+            "affiliation": {
+                "legal_name": "Universitat de Barcelona,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Solid Earth Geochemistry",
+            "EPOS_WP16_subdomain": [
+                "Geochemical data (elemental and isotope geochemistry)"
+            ],
+            "equipment": [
+                {
+                    "equipment_group": "Other",
+                    "equipment_name": "EA-TC-IRMS, Elemental analyzer and Thermal Conversion continuous flow isotope ratio mass spectrometer",
+                    "equipment_brand": "Carlo Erba (EA); Thermo Fischer (IRMS)",
+                    "Equipment_contact_person": "Rosa Maria Marimon",
+                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ",
+                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "Equipment_specifics_and_comments": "TC/EA; EA (Carlo Erba 1108); IRMS (Delta Plus XP)",
+                    "Equipment_quantity": "2 TC/EA, 1 EA, 1 IRMS",
+                    "References": ""
+                },
+                {
+                    "equipment_group": "Other",
+                    "equipment_name": "GasBench-PreCon-IRMS",
+                    "equipment_brand": "Thermo Fischer",
+                    "Equipment_contact_person": "Rosa Maria Marimon",
+                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ",
+                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "Equipment_specifics_and_comments": "Gas Bench II; PreCon; IRMS (MAT 253)",
+                    "Equipment_quantity": "1 Gas Bench, 1 PerCon, 1 IRMS",
+                    "References": ""
+                },
+                {
+                    "equipment_name": "DI-IRMS, Dual inlet isotope ratio mass spectrometer",
+                    "equipment_brand": "Thermo Fischer",
+                    "Equipment_contact_person": "Rosa Maria Marimon",
+                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ",
+                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "Equipment_specifics_and_comments": "DI (Kiel Device  III); IRMS (MAT 252)",
+                    "Equipment_quantity": "1 DI, 1 IRMS",
+                    "References": ""
+                },
+                {
+                    "equipment_name": "EA-IRMS, Elemental analyser continuous-flow isotope ratio mass spectrometer",
+                    "equipment_brand": "Carlo Erba (EA); Thermo Fischer (IRMS)",
+                    "Equipment_contact_person": "Rosa Maria Marimon and Pilar Texidor",
+                    "Email_equipment_contact_person": "marimon@ccit.ub.edu ;teixidor@ccit.ub.edu ",
+                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "Equipment_specifics_and_comments": "Carlo Erba 1112; IRMS (Delta C)",
+                    "Equipment_quantity": "1 EA, 1 IRMS",
+                    "References": ""
+                },
+                {
+                    "equipment_group": "GC/C/IRMS, Gas chromatography combustion isotope ratio mass spectrometer",
+                    "equipment_name": "GC-C/HTC-IRMS, Gas chromatography- combustion and high temperature conversion- isotope retio mass spectrometer",
+                    "equipment_brand": "Agilent (GC); Thermo Fischer (IRMS)",
+                    "Equipment_contact_person": "Pilar Texidor",
+                    "Email_equipment_contact_person": "teixidor@ccit.ub.edu ",
+                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "Equipment_specifics_and_comments": "GC (Agilent 6890); IRMS (Delta Plus)",
+                    "Equipment_quantity": "1 GC, 1 IRMS",
+                    "References": ""
+                },
+                {
+                    "equipment_group": "Other",
+                    "equipment_name": "HPLC/GC-IRMS, High preformance liquid chromatography/gas chromatography- continuous flow isotope ratio mass spectrometer",
+                    "equipment_brand": "Thermo Fischer",
+                    "Equipment_contact_person": "Pilar Texidor",
+                    "Email_equipment_contact_person": "teixidor@ccit.ub.edu ",
+                    "Equipment_website": "http://www.ccit.ub.edu/CA/tq06.html",
+                    "Equipment_specifics_and_comments": "HPLC/GC (Thermo Fisher Scientific Surveyor TRACE); IRMS (Delta V)",
+                    "Equipment_quantity": "1 HPLC, 1 GC, 1 IRMS",
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/15074907275ed2aab90a655e971429b9"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab15074907275ed2aab90a655e971429b9",
+                "payload": "json"
+            }
+        ]
+    }
+}

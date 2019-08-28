@@ -1,0 +1,357 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "2cf0b82b7ad792977e26c32eaf79cbb3",
+        "RI_name": "INGV",
+        "name": "Paleomagnetic Laboratory (INGV, Italy)",
+        "general_description": "The INGV paleomagnetic laboratory is located in Rome, and was gradually developed since 1990, both in terms of the installed scientific instrumentation and of the qualified personnel, so that it presently constitutes the main Italian paleomagnetic facility and one of the best-equipped European laboratories of this kind. \nIt is intensively employed in the most of the fields of application of paleomagnetism, including rock magnetism and environmental magnetism, with continuous involvement in large scientific international projects and in scientific partnerships with Italian universities and scientific institutions. The research activities resulted in a wide scientific literature, which brought to the INGV paleomagnetic laboratory a remarkable scientific reputation.\nSince 1993, the core of the infrastructure is a shielded room, which reduces the intensity of the magnetic field inside to a few thousandths of the local geomagnetic field.\nThe room houses two cryogenic magnetometers and the Pyrox and ASC Scientific thermal demagnetizers, for heating the samples up to 700°C; all the instruments inside the room also have additional μ-metal shields for further insulation.\nThe paleomagnetic laboratory also benefits from a adjoining room and a cold room for the storage of cores and u-channel samples.\nHere is a list of the main available scientific instruments:\n\n• 2G Cryogenic Magnetometers \nThe DC SQUID magnetometers are based on superconducting loops containing Josephson junctions at liquid helium temperature (4K). They can measure both standard discrete (cylinders of rock to 2.5 cm in diameter 2.2 cm high) and continuous paleomagnetic samples (u-channels of up to 1.5 m in length and a square section of 1.9 cm side). The magnetometers are equipped with computer controlled in-line devices, including three orthogonal coils for alternating magnetic field (AF) degaussing of the samples, with the possibility of imparting anhysteretic remanent magnetization.\nThe older magnetometer was installed in 1996, and keeps the low temperature with a 60 l reservoir of liquid helium, enough for about 1.5 years of operation.\nThe liquid-helium-free 2G Cryogenic Magnetometer was installed in 2006 and works without the periodical liquid helium fillings.\n• AGICO JR6 Spinner Magnetometers\nIn these Faraday-Neumann law-operating magnetometers, the sample rotates up to 90 cycles/s inside a pair of coils, inducing a electromotive force proportional to the magnetization of the sample. These magnetometers are very reliable but less sensitive than cryogenic magnetometers, but they are recommended for highly magnetized samples, which saturate the cryo system.\n• Princeton Micromag 2900/3900 AGM/VSM Magnetometer\nHigh precision and sensitivity instrument for measuring hysteresis loops, FORCs and other magnetic properties; the sensitivity is 10 nemu as alternating gradient magnetometer and 0.5 μemu as vibrating sample magnetometer. The VSM is equipped with a cryostat device operating in 10 K to room temperature range.\n• AGICO MFK1_FA multifunction susceptibility meter\nFor measuring the magnetic susceptibility and its anisotropy on both cylindrical and cubic samples, as well as its variation according to the frequency and the intensity of the applied field. The MFK1 is coupled to a CS3 furnace, for analyzing the variation of the magnetic susceptibility during a cycle from room temperature up to 700 °C and back. Moreover, the CS-L apparatus allows the measurement of the variation of magnetic susceptibility in low-temperature cycles up to liquid nitrogen temperature.\nThe laboratory is equipped with other facilities and instruments, such as the AGICO LDA-3A AF demagnetizer, coupled to the AMU-1A anhysteretic magnetizer, or a 2G pulse magnetizer, for applying magnetic fields up to 2.7 T\nFor any further info, please visit the link:\nhttp://roma2.rm.ingv.it/en/units/3/laboratory_of_paleomagnetism_and_environmental_magnetism",
+        "address": {
+            "street_with_number": "Via di Vigna Murata, 605",
+            "postal_code": "14300",
+            "city": "Rome",
+            "country": "Italy"
+        },
+        "gps": {
+            "gpsLat": 41.82829,
+            "gpsLon": 1.51508
+        },
+        "website": "http://roma2.rm.ingv.it/en/facilities/laboratories/10/paleomagnetism_laboratory",
+        "contact_person": {
+            "first_name": "Aldo",
+            "family_name": "Winkler",
+            "identifier": {
+                "type": "",
+                "id": "0000-0002-0653-0059"
+            },
+            "e-mail": "aldo.winkler@ingv.it",
+            "affiliation": {
+                "legal_name": "INGV, Italy",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Paleomagnetism",
+            "EPOS_WP16_subdomain": [
+                "Paleomagnetic and magnetic data"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Cryogenic",
+                    "equipment_name": "2G cryogenic magnetometer",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Cryogenic",
+                    "equipment_name": "2G cryogenic magnetometer",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "Pyrox Scientific thermal demagnetizer",
+                    "equipment_brand": "Pyrox Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "Pyrox Scientific thermal demagnetizer",
+                    "equipment_brand": "Pyrox Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "ASC Scientific thermal demagnetizer, absolute paleointensity",
+                    "equipment_brand": "ASC Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "ASC Scientific thermal demagnetizer, absolute paleointensity",
+                    "equipment_brand": "ASC Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "AGICO AF demagnetizer LDA-3A",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "AGICO AF demagnetizer LDA-3A",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "IRM_Acquisition",
+                    "equipment_name": "2G pulse magnetizer",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "IRM_Acquisition",
+                    "equipment_name": "2G pulse magnetizer",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "AGICO spinner magnetometer JR-5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "AGICO spinner magnetometer JR-5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Molspin VSM",
+                    "equipment_brand": "Molspin",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Molspin VSM",
+                    "equipment_brand": "Molspin",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat",
+                    "equipment_brand": "Princeton",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat",
+                    "equipment_brand": "Princeton",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Controlled_Field_Area",
+                    "equipment_group": "Shielded_Room",
+                    "equipment_name": "Lodestar Magnetics",
+                    "equipment_brand": "Lodestar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Controlled_Field_Area",
+                    "equipment_group": "Shielded_Room",
+                    "equipment_name": "Lodestar Magnetics",
+                    "equipment_brand": "Lodestar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge MFK1",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge MFK1",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge KLY5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge KLY5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "measurement": [
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "AF demagnetization",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "Thermal demagnetisation",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Bulk magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Anisotropy",
+                    "measurement_name": "Anisotropy of magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/2cf0b82b7ad792977e26c32eaf79cbb3"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab2cf0b82b7ad792977e26c32eaf79cbb3",
+                "payload": "json"
+            }
+        ]
+    }
+}

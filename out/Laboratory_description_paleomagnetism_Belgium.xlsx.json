@@ -1,0 +1,44 @@
+[
+    {
+        "facility": {
+            "type": "Laboratory",
+            "ID": "will be assigned later",
+            "RI_name": "Royal Meteorological Institute of Belgium",
+            "name": "",
+            "general_description": "Interpreting magnetic properties of natural samples is a complex challenge. In contrast to artificial samples, natural ones consist almost always of several magnetic mineral species, evidence multimodal grain size distributions, different shapes and compositions. Measured bulk magnetic properties represent therefore a mixture of individual magnetic components, which one aims to decipher and to quantify. Proper interpretation is therefore only possible by applying a broad spectrum of experimental techniques requiring an appropriate technology.\nWe follow this multi-experimental approach on the one hand to characterise carriers of natural remanent magnetisation. This concerns for instance reliability assessment of palaeointensity determinations and palaeomagnetic directions, necessary for our research in magnetostratigraphy, archaeomagnetism and reconstruction of palaeosecular variation. On the other hand, we exploit this approach for characterisation and interpretation of Quaternary sedimentary sequences, Devonian marine carbonate platforms and archaeological as well as polluted environments. \nAt national level we are tightly linked with the archaeological community and the Belgian research landscape. At international level we are networked with communities dedicated to research in magnetic nanoparticles, standardisation of magnetic properties, archaeometry and palaeomagnetism. We are part of national and European networks such as for instance national cooperation conventions in archaeology, COST Actions TD1402, CA17131 and the European Plate Observing System (EPOS). In 2016, we hosted the 15th Castle Meeting “New Trends on Paleo, Rock and Environmental Magnetism” in Dinant and organised a pre-meeting short course for students on rock magnetism. Our laboratory facility consists of three units:\n                                                                                                                                                                                            \n1. The sample preparation unit is equipped with necessary devices for preparation of archaeological geological, soil samples and ferrofluid suspensions including treatments such as chemical extractions, hardening, magnetic separation and removal of organic matter.\n2. The remanence unit features necessary devices for acquisition, demagnetisation and measurement of the most common types of remanent magnetisation such as anhysteretic, crystallisation, isothermal, natural, post-depositional and thermo- and viscous remanence. These devices are used for archaeomagnetic dating, magnetostratigraphy and analysis of remanence carriers.\n3. The characterisation unit is endowed with typical instruments for field and laboratory measurements of magnetic properties, as well as with devices for non-magnetic characterisation such as grain density, pH and porosity. In addition, a highly sophisticated measurement system enables magnetic characterisation of samples over a wide range of fields and temperatures and at several AC-field frequencies.\n                                                                                                                                                                                    Please find further information here: http://dourbes.meteo.be/en/research/environmentalmagnetism\n",
+            "address": {
+                "street_with_number": "Geophysical Centre, rue du Centre Physique 4",
+                "postal_code": "B-5670",
+                "city": "Dourbes (Viroinval)",
+                "country": "Belgium"
+            },
+            "gps": {
+                "gpsLat": 50.09665,
+                "gpsLon": 4.58774
+            },
+            "website": "http://dourbes.meteo.be/en/research/environmentalmagnetism",
+            "contact_person": {
+                "first_name": "Simo",
+                "family_name": "Spassov",
+                "identifier": {
+                    "type": "",
+                    "id": "https://orcid.org/0000-0002-3365-935X ;  Scopus Author ID: 6701611100   ;    Publons 1582953"
+                },
+                "e-mail": "simo@meteo.be",
+                "affiliation": {
+                    "legal_name": "",
+                    "identifier": {
+                        "type": "",
+                        "id": ""
+                    },
+                    "address": {
+                        "street_with_number": "",
+                        "postal_code": "",
+                        "city": "",
+                        "country": ""
+                    }
+                }
+            }
+        }
+    }
+]

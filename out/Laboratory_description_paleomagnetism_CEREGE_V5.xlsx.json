@@ -1,0 +1,176 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "CEREGE Rock Magnetism Laboratory",
+        "name": "Other",
+        "general_description": "The CEREGE Rock Magnetism Laboratory offers a large panel of instruments for paleomagnetic and rock magnetic experiments and mesurements dedicated to the geosciences. The Laboratory focuses on different research topics of the CEREGE Institute : Earth magnetic field variations and magnetism of extraterrestral material (meteorites, lunar rock samples). In addition the laboratory study rock magnetic records of natural sedimentary archives in order to provide proxies of climatic, environmental and antropic interest. Finally the Laboraory deals with tectonics and studies dedicated to geodynamics and rock deformation. \n",
+        "address": {
+            "street_with_number": "Europôle de l'Arbois, BP80",
+            "postal_code": "13545",
+            "city": "Aix en Provence",
+            "country": "France"
+        },
+        "gps": {
+            "gpsLat": 43.491364,
+            "gpsLon": 5.333333
+        },
+        "website": "https://www.cerege.fr/fr/laboratoires-et-plateformes/laboratoire-de-magnetisme-des-roches",
+        "contact_person": {
+            "first_name": "François",
+            "family_name": "Demory",
+            "identifier": {
+                "type": "",
+                "id": "ORCID 0000-0002-7526-9886"
+            },
+            "e-mail": "demory@cerege.fr",
+            "affiliation": {
+                "legal_name": "CNRS-Aix Marseille University, France",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Paleomagnetism",
+            "EPOS_WP16_subdomain": [
+                "Paleomagnetic and magnetic data"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Cryogenic",
+                    "equipment_name": "2G cryogenic magnetometer",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "AGICO spinner magnetometer JR-5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Hysteresis_Properties",
+                    "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat and oven",
+                    "equipment_brand": "Princeton",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge MFK1",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "IRM_Acquisition",
+                    "equipment_name": "MMPM9 pulse magnetizer",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "AGICO AF demagnetizer LDA-5 (up to 200 mT)",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "ASC Scientific thermal demagnetizer, dual-chamber TD48-DC",
+                    "equipment_brand": "ASC Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "MMTD80 thermal demagnetizer",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "measurement": [
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "AF demagnetization",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "Thermal demagnetisation",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Bulk magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Anisotropy",
+                    "measurement_name": "Anisotropy of magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                }
+            ]
+        }
+    }
+}

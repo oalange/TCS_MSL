@@ -1,0 +1,70 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "CSIC-ICTJA",
+        "name": "Laboratory of X-ray Diffraction (CSIC-ICTJA, Spain)",
+        "general_description": "\nThe X-ray Diffraction (XRD) Service of the ICTJA-CSIC is an analytical facility focused on the qualitative and quantitative characterization of the crystalline phases of materials. The XRD Service, with more than 30 years of experience in the field, offers support to ICTJA researchers and also to external users from public and private universities and companies worlwide.\n\nOne of the main objectives of the XRD Service at ICTJA is to support the ongoing investigations carried out by ICTJA researchers and collaborators on Earth Sciences topics, including studies of volcanology, petrology and sedimentology. The XRD Service offers also support to external researchers working in geology, materials science, environment, chemistry, pharmacy, archaeology, etc. A large number of companies and organizations from the public or private sectors make use of the XRD Service at ICTJA-CSIC for their industrial applications, quality control, environmental studies, forensics, etc.\n\nOur lab also performs in-situ elemental analyses, using a portable (handheld) X-ray fluorescence (XRF) spectrometer. This equippment is ideally suited for field work, as it provides fast geochemical information that can be later complemented with more accurate laboratory measurements. This equipment is ideal to investigate cultural heritage materials and for a range of industrial applications.\n\nThis is a list of analytical servicies provided by the lab:\n- Identification and semi-quantification of crystalline phases by powder XRD\n- Crystal-quality assessment, composition determination and microstructural analyses\n- Application of the Rietveld method for profile adjustment, structure refinement and quantitative phase analyses\n- Investigation of small or inhomogeneous samples with micro-diffraction\n- Determination of crystalline structures\n- In-situ XRF measurements for prospective geology, sedimentology and cultural heritage studies\n\n\n\n",
+        "address": {
+            "street_with_number": "C/ Lluís Solé i Sabarís",
+            "postal_code": "08028",
+            "city": "Barcelona",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 41.38473,
+            "gpsLon": 2.1191
+        },
+        "website": "http://www.ictja.csic.es/index.php/services-and-facilities/x-ray-diffraction",
+        "contact_person": {
+            "first_name": "Jordi",
+            "family_name": "Ibañez",
+            "identifier": {
+                "type": "",
+                "id": "ORCID: 0000-0002-8909-6541"
+            },
+            "e-mail": "jibanez@ictja.csic.es",
+            "affiliation": {
+                "legal_name": "CSIC-ICTJA,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_name": "XRD, X-ray diffraction spectrometer",
+                    "equipment_brand": "Bruker B8-A25",
+                    "Equipment_contact_person": "Jordi Ibáñez Insa",
+                    "Email_equipment_contact_person": "jibanez@ictja.csic.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "X-RAY DIFFRACTION D8-A25 with LynxEye Detector",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_name": "XRF-EDS, Energy-dispersive X-ray fluorescence spectrometer",
+                    "equipment_brand": "Bruker Tracer Geo IV",
+                    "Equipment_contact_person": "Jordi Ibáñez Insa",
+                    "Email_equipment_contact_person": "jibanez@ictja.csic.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Portable Energy-dispersive X-ray fluorescence spectrometer Tracer-IV Geo",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        }
+    }
+}

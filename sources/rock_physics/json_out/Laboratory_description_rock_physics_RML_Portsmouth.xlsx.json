@@ -1,0 +1,118 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "bbbd439a8b031538e65b67ed37fd88d6",
+        "RI_name": "",
+        "name": "Rock Mechanics Laboratory (University of Portsmouth, UK)",
+        "general_description": "The research of the Rock Mechanics Laboratory focuses on how rocks deform, under what conditions of pressure and temperature, and how the physics of the process generate signals such as seismicity that be used to better understand our natural world. Earthquakes, whether small or large, are a ubiquitous method for monitoring rock deformational processes across a wide scale, from deep megathrust earthquakes such as the great Tohuku earthquake of 2011 (Japan), to volcano-tectonic earthquakes that commonly precede eruptions, to small, localised, tremors associated with mining, fluid injection, and geothermal activity. By understanding the physics behind these processes, the research of the Rock Mechanics Laboratory seeks to better link seismic and elastic wave velocity data to the pressure conditions and failure characteristics of the rock mass. To achieve this, we use the latest technology in high pressure rock deformation machines, equipped with systems for controlling stress, strain, temperature and fluid flow, and instrumented with advanced Acoustic Emission recording technology – the laboratory analogue of a natural earthquake. The group comprises five full time academic staff, a dedicated laboratory technician and engineer, and three research (PhD) students. The laboratory has recently benefitted from a major refit thanks to significant investment by the University of Portsmouth, as well as grant funding from the European Union (FP7). Research themes include hydraulic fracture by high pressure fluid injection, subduction zone processes, induced seismicity in volcano-tectonic regions, and fundamenal scattering / attenuation in porous media. More information can be found at http://www2.port.ac.uk/school-of-earth-and-environmental-sciences/research/rock-mechanics-laboratory/ ",
+        "address": {
+            "street_with_number": "Burnaby Building",
+            "postal_code": "PO1 3QL",
+            "city": "Portsmouth",
+            "country": "United Kingdom"
+        },
+        "gps": {
+            "gpsLat": 50.797862,
+            "gpsLon": -1.0098117
+        },
+        "website": "http://www2.port.ac.uk/school-of-earth-and-environmental-sciences/research/rock-mechanics-laboratory/",
+        "contact_person": {
+            "first_name": "Philip",
+            "family_name": "Benon",
+            "identifier": {
+                "type": "",
+                "id": "https://orcid.org/0000-0003-2120-3280"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "University of Portsmouth,  UK",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Uniaxial",
+                    "equipment_brand": "INSTRON",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Triaxial",
+                    "equipment_brand": "Sanchez",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Pycnometer",
+                    "equipment_brand": "Accupnyc",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Shear Box",
+                    "equipment_brand": "Controls",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Permeameter",
+                    "equipment_brand": "Harwood",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/bbbd439a8b031538e65b67ed37fd88d6"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Labbbbd439a8b031538e65b67ed37fd88d6",
+                "payload": "json"
+            }
+        ]
+    }
+}

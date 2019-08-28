@@ -1,0 +1,118 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "8c098870d3c06b9a98cbde1a50f88027",
+        "RI_name": "Ludwig-Maximilians-Universität München",
+        "name": "Melt and magma thermal analysis lab/High temperature melt lab (Ludwig-Maximilians-University Munich, Germany)",
+        "general_description": "",
+        "address": {
+            "street_with_number": "Theresienstrasse 41",
+            "postal_code": "80333",
+            "city": "Munich",
+            "country": "Germany"
+        },
+        "gps": {
+            "gpsLat": 48.148365,
+            "gpsLon": 11.572326
+        },
+        "website": "https://www.gfz-potsdam.de/en/section/lithosphere-dynamics/infrastructure/heltec-helmholtz-laboratory-for-tectonic-modelling/",
+        "contact_person": {
+            "first_name": "Corrado",
+            "family_name": "Cimarelli",
+            "identifier": {
+                "type": "",
+                "id": ""
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "Ludwig-Maximilians-University Munich, Germany",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Rock/melt physics & Microscopy",
+            "EPOS_WP16_subdomain": [
+                "Rock/melt physics & Microscopy"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Viscosimeter",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Rheometer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Thermal Analyzer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Spectroscopy > Raman",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Calorimeter",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ]
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/8c098870d3c06b9a98cbde1a50f88027"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab8c098870d3c06b9a98cbde1a50f88027",
+                "payload": "json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Complutense University of Madrid and CSIC-IGEO",
+        "name": "Laboratory of Paleomagnetism (Universidad Complutense de Madrid (UCM) and CSIC-IGEO, Spain)",
+        "general_description": "The Palaeomagnetic and rock magnetic laboratory unit belongs to the Central Services of the Complutense University (CAI: Physical and Chemical Techniques). The lab facilities include a superconducting rock magnetometer (SQUID 755SRM Magnetometer) and two thermal demagnetizers, located within a Magnetic Shielded Room, as well as a MMVFTB Curie Translation Balance. The research unit facilities also include several spinner magnetometers, susceptibility and coercivity meters and pulse magnetisers of the group of Paleomagnetism of the Department of Physics of the Earth and Astrophysics.\nIn addition to common rutine paleomagnetic and rockmagnetic measurements, we provide several models describing the evolution of the earth magnetic field for the last 14000 years (models: SCHA. DIF.3k and SCHA.DIF.8k, and SHA.DIF.14K) as well as an archaeomagnetic dating software package (archeo_dating) for dating archaeological sites and Holocene volcanic eruptions.\nPlease find further informations here: http://pc213fis.fis.ucm.es/index.html or https://www.ucm.es/cai\n\n",
+        "address": {
+            "street_with_number": "plaza de la Ciencias 4, Facultad de Ciencias Físicas",
+            "postal_code": "28040",
+            "city": "Madrid",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 40.448783,
+            "gpsLon": -3.725312
+        },
+        "website": "https://www.ucm.es/cai",
+        "contact_person": {
+            "first_name": "Maria Luisa ",
+            "family_name": "Osete",
+            "identifier": {
+                "type": "",
+                "id": ""
+            },
+            "e-mail": "mlosete@fis.ucm.es",
+            "affiliation": {
+                "legal_name": "Universidad Complutense de Madrid (UCM) and CSIC-IGEO, Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Paleomagnetism",
+            "EPOS_WP16_subdomain": [
+                "Paleomagnetic and magnetic data"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Cryogenic",
+                    "equipment_name": "2G cryogenic magnetometer",
+                    "equipment_brand": "2G Enterprises",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "AGICO spinner magnetometer JR-5",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetometer",
+                    "equipment_group": "Spinner",
+                    "equipment_name": "Molspin spinner",
+                    "equipment_brand": "Molspin",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Controlled_Field_Area",
+                    "equipment_group": "Shielded_Room",
+                    "equipment_name": "Lodestar Magnetics",
+                    "equipment_brand": "Lodestar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Controlled_Field_Area",
+                    "equipment_group": "Helmoltz_Coils",
+                    "equipment_name": "Magnetic Measurements active shielding",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "AGICO AF demagnetizer LDA-5 (up to 200 mT)",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "MMTD80 thermal demagnetizer",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "MMTDSC super-cooled thermal demagnetizer",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "AF_Demagnetizer",
+                    "equipment_name": "Schonstedt GSD-5 AF demagnetizer",
+                    "equipment_brand": "Schonstedt",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "Thermal_Demagnetizer",
+                    "equipment_name": "Schonstedt TSD-1 thermal demagnetizer",
+                    "equipment_brand": "Schonstedt",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "De_Magnetizer",
+                    "equipment_group": "IRM_Acquisition",
+                    "equipment_name": "ASC IM10-30 pulse magnetizer, 2 coils",
+                    "equipment_brand": "ASC Scientific",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Coercitivity_Spectrometer",
+                    "equipment_name": "Kazan Univ. “Coercitivity spectrometer” (up to 0.5 T)",
+                    "equipment_brand": "Kazan University",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Variable_Field_Translation_Balance",
+                    "equipment_name": "Magnetic Measurements variable field translation balance",
+                    "equipment_brand": "Magnetic Measurements",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "AGICO Kappabridge KLY3",
+                    "equipment_brand": "AGICO",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Rock_Magnetism",
+                    "equipment_group": "Susceptibility_Meter",
+                    "equipment_name": "Bartington magnetic susceptibility meter",
+                    "equipment_brand": "Bartington",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "measurement": [
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "AF demagnetization",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Remanent_Magnetisation",
+                    "measurement_group": "Demagnetization",
+                    "measurement_name": "Thermal demagnetisation",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Susceptibility",
+                    "measurement_name": "Bulk magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                },
+                {
+                    "measurement_type": "Magnetic_Susceptibility",
+                    "measurement_group": "Anisotropy",
+                    "measurement_name": "Anisotropy of magnetic susceptibility",
+                    "measured_type_specifics_and_comments": "",
+                    "references": ""
+                }
+            ]
+        }
+    }
+}

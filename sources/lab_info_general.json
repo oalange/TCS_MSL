@@ -1,0 +1,47 @@
+{
+  "facility": {    
+    "type": "",  
+    "id": "",   
+    "RI_name": "",  
+    "name": "",  
+    "general_description": "",   
+    "address": {     
+      "street_with_number": "",     
+      "postal_code": "",     
+      "city": "",     
+      "country": ""   
+    },   
+    "gps": {     
+      "gpsLat": "",     
+      "gpsLon": ""   
+    },   
+    "website": "",   
+    "contact_person": {    
+      "first_name": "",     
+      "family_name": "",    
+      "identifier": {
+        "type": "",       
+        "id": ""    
+      },    
+      "e-mail": "",    
+      "affiliation": {      
+        "$ref": ""    
+      }   
+    },   
+    "research_field": "",  
+    "EPOS_WP16_subdomain": [],   
+    "affiliation": {     
+      "legal_name": "",    
+      "identifier": {       
+        "type": "",       
+        "id": ""     
+      },     
+      "address": {       
+        "street_with_number": "",       
+        "postal_code": "",       
+        "city": "",       
+        "country": ""     
+      }  
+    }
+  }
+}

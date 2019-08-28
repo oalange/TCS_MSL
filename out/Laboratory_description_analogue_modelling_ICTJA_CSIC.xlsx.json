@@ -1,0 +1,104 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Institute of Earth Sciences Jaume Almera, ICTJA-CSIC",
+        "name": "Magma Chamber Analogue Modelling Laboratory (CSIC-ICTJA, Spain)",
+        "general_description": "Magma chamber analogue modelling systemconsists of a pressurisable (up to 6 atm) transparent glass cylinder of 25 cm diameter and 40 cm height, which includes a barometer and a thermocouple, to track temperature and internal pressure tracked during the whole experiment, allows the entrance of different fluids in the same experiment in order to visualise the effect of mixing magmas of diverse types and properties, also allows to inject pressurised gas into the mixture, so we can study the effect of volatiles in the occurring processes, and also can heat the fluids up to around 80 (degC) to be able to consider variations in their properties (e.g. density or viscosity) due to temperature changes. Decompression of the tank is controlled by a series of external valve remotely operated, and two high speed digital cameras of high resolution document the experiments allowing internal measurements of fluid structures developing during the experiments such as fountains, drops , etc.",
+        "address": {
+            "street_with_number": "Lluis Solé i Sabaris s/n",
+            "postal_code": "08028",
+            "city": "Barcelona",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 41.384719,
+            "gpsLon": 2.119097
+        },
+        "website": "http://www.ictja.csic.es/index.php/services-and-facilities/simgeo",
+        "contact_person": {
+            "first_name": "Adelina",
+            "family_name": "Geyer",
+            "identifier": {
+                "type": "",
+                "id": "0000-0002-8803-6504"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": "CSIC-ICTJA,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Analogue modelling of geologic processes",
+            "EPOS_WP16_subdomain": [
+                "Analogue models on tectonic processes"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Other",
+                    "equipment_brand": "NA ",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Videocamera",
+                    "equipment_brand": "SONY",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Generic camera",
+                    "equipment_brand": "NIKON",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "material": [
+                {
+                    "Material": "Water",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "relevant papers referring to the material"
+                },
+                {
+                    "Material": "Other",
+                    "Material brand": "various",
+                    "Material specifics and comments": "",
+                    "References": ""
+                },
+                {
+                    "Material": "Air",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
+                }
+            ],
+            "mneasured property": []
+        }
+    }
+}

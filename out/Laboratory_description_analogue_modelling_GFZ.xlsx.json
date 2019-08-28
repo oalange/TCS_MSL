@@ -1,0 +1,401 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": " GFZ German Research Centre for Geosciences, Potsdam, Germany",
+        "name": "HelTec - Helmholtz Laboratory for Tectonic Modelling (GFZ Potsdam, Germany)",
+        "general_description": "                                                                                                                                                                                                                                                                                                              Simulating geodynamic processes is a challenging task because of the non-linearity and scale dependence of most associated processes. A great challenge is the multispectral character of lithosphere deformation ranging from earthquake rupture (seconds) to fault zone evolution (Millions of years). Recent advances in experimental techniques like high resolution monitoring and complex analogue rheologies made it possible to develop models simulating deformation on all relevant timescales with high spatial resolution. We follow an integrated modelling approach involving structural-kinematic modelling, analogue experiments and numerical simulations. We are a member of the European Plate Observing System EPOS, the European Training Networks TOPOMOD and SUBITOP, the Helmholtz Graduate School GEOSIM and the DFG-Collaborative Research Center SFB1114 “Scaling Cascades in Complex Systems”. In the year 2014 we hosted the GEOMOD conference at GFZ Potsdam and edited the corresponding Tectonophysics special issue. Please find an introductory text to our lab here. Our lab facility consists of four basic components:\n                                                                                                                                                                                            1. The Analogue rock physics lab featuring all kind of experimental devices for measuring rock analogue materials’ properties including friction, elasticity, viscosity etc.\n2. The Analogue modelling lab featuring a suite of customizable deformation devices for simulating (seismo)tectonic and other geological processes\n3. The Experimental monitoring lab providing the means of quantifying deformation in analogue models and experiments using cutting-edge high-resolution digital image correlation methods, force and pressure sensors, piezo and MEMS accelerometers etc.\n4. The Numerical simulation and analysis lab allowing to cross-validate and analyse in great detail the models and experiments using state-of-the-art numerical simulation and data analysis tools\n                                                                                                                                                                                    Please find further informations here: https://www.gfz-potsdam.de/en/section/lithosphere-dynamics/infrastructure/heltec-helmholtz-laboratory-for-tectonic-modelling/\n\n",
+        "address": {
+            "street_with_number": "Telegraphenberg A14",
+            "postal_code": "14473",
+            "city": "Potsdam",
+            "country": "Germany"
+        },
+        "gps": {
+            "gpsLat": 52.381121,
+            "gpsLon": 13.066348
+        },
+        "website": "ttps://www.gfz-potsdam.de/en/section/lithosphere-dynamics/infrastructure/heltec-helmholtz-laboratory-for-tectonic-modelling/",
+        "contact_person": {
+            "first_name": "Matthias",
+            "family_name": "Rosenau",
+            "identifier": {
+                "type": "",
+                "id": "0000-0003-1134-5381"
+            },
+            "e-mail": "",
+            "affiliation": {
+                "legal_name": " GFZ German Research Centre for Geosciences, Potsdam, Germany",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Analogue modelling of geologic processes",
+            "EPOS_WP16_subdomain": [
+                "Analogue models on tectonic processes"
+            ],
+            "equipment": [
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Ring-shear tester",
+                    "equipment_brand": "Schulze",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2000.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Rheometer",
+                    "equipment_brand": "Anton Paar",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2007.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Triaxal tester",
+                    "equipment_brand": "Zwick-Roehl",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2017.0,
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Gravity sliding simulator",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1002/2014JF003406, 10.1007/978-3-319-05050-8_16"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Sandbox > Sandbox (meter scale)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "10.1016/j.epsl.2010.12.002, 10.1016/j.jsg.2015.03.008"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Shear box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1002/2017TC004787, 10.1016/j.tecto.2017.11.018"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Earthquake simulator",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.5194/se-2016-165, 10.1093/gji/ggv512"
+                },
+                {
+                    "equipment_type": "Apparatus",
+                    "equipment_name": "Extension box",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.5194/se-6-9-2015"
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "High frame rate camera",
+                    "equipment_brand": "Phantom",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2017.0,
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "High frame rate camera",
+                    "equipment_brand": "LaVision",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2014.0,
+                    "Equipment_quantity": 1.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "High frame rate camera",
+                    "equipment_brand": "LaVision",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2014.0,
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Time lapse camera",
+                    "equipment_brand": "LaVision",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2007.0,
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Time lapse camera",
+                    "equipment_brand": "LaVision",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2017.0,
+                    "Equipment_quantity": 2.0,
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "Force sensor",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Monitoring",
+                    "equipment_name": "MEMS accelerometer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > StrainMaster (La Vision GmbH)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "10.1016/j.jsg.2004.08.008"
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "LabView Data Viewer",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Structure from Motion (SfM) > Photoscan (Agisoft)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Matlab (Mathworks)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "PyLith (numerical software)",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "10.1029/2018GC007645, 10.1002/2016GL071995"
+                },
+                {
+                    "equipment_type": "Software",
+                    "equipment_name": "Other",
+                    "equipment_brand": "",
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
+                }
+            ],
+            "material": [
+                {
+                    "Material": "Flour > Rice",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "10.5194/se-2016-165,10.1029/2008jb005665"
+                },
+                {
+                    "Material": "Microspheres",
+                    "Material brand": "",
+                    "Material specifics and comments": "40 - 400 micron, glassy, ceramic",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                },
+                {
+                    "Material": "Rubber",
+                    "Material brand": "Melos",
+                    "Material specifics and comments": "EPDM 60 Shore A",
+                    "References": "10.5194/se-2016-165, 10.1029/2008jb005665"
+                },
+                {
+                    "Material": "Sand",
+                    "Material brand": "",
+                    "Material specifics and comments": "G23, G12",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                },
+                {
+                    "Material": "Sugar",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "10.5194/se-2016-165, 10.1029/2008jb005665"
+                },
+                {
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Korasilone",
+                    "Material specifics and comments": "M-series (oil), 10^2 to 10^4 Pas",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1029/2008JB005665"
+                }
+            ],
+            "mneasured property": [
+                {
+                    "Measured property": "Cohesion",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                },
+                {
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1016/S0191-8141(03)00005-1"
+                },
+                {
+                    "Measured property": "Friction coefficient",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                },
+                {
+                    "Measured property": "Grain size distribution",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1016/S0191-8141(03)00005-1"
+                },
+                {
+                    "Measured property": "Bulk modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
+                },
+                {
+                    "Measured property": "Loss modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Maxwell relaxation time",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1029/2008jb005665"
+                },
+                {
+                    "Measured property": "Poisson ratio",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Rate-state parameters",
+                    "Measured property specifics and comments": "",
+                    "References": "10.5194/se-2016-165, 10.1029/2008jb005665"
+                },
+                {
+                    "Measured property": "Rheological model",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Shear modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
+                },
+                {
+                    "Measured property": "Storage modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Stress exponent",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Yield stress",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                },
+                {
+                    "Measured property": "Young modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "facility": {
+        "type": "laboratory",
+        "ID": "",
+        "RI_name": "Istituto di Geoscienze e Georisorse(IGG)-CNR",
+        "name": "Laboratory of Geochronology and Radiogenic Isotope Geochemistry - Pisa2",
+        "general_description": "The Laboratory of Geochronology and Isotope Geochemistry of IGG-CNR (Italy) provides an integrated system of expertise, instrumental facilities and analytical protocols, suitable to accurately carry out: 1) geochronologic data by means of 40Ar–39Ar radiometric dating of potassic glasses and mineral, archaeomagentic dating of volcanic deposits and fiery structures, fission track analysis on apatite and zircon: 2) isotopic analysis of a wide variety of solid and aqueous matrices thanks to the availability of TIMS and MC-ICPMS techniques. The analytical skills of the IGG-CNR of Pisa2 are related to archaeomagnetic dating. The laboratory include an induction magnetometer with large cell; four sampling-in-the-field sets; sample conditioning and measurement facilities.\n\nMethods and Expertise\nArchaeomagentic dating of volcanic deposits and fiery structures. The method produces archaeomagnetic age by directional analyses on volcanic and archaeological materials. The technique used is the BSPM (Big Sample Plaster Method) based on the measurement of Inclination and Declination vectors the magnetic minerals inside samples acquired at the moment of the passage under the Curie Temperature. Archaeomagnetic dating is a powerful tool for the reconstruction of the chrono-stratigraphy of recent (up to 10.000 years BP) volcanic activity, and able to produce very good quality absolute ages of fiery object (typically furnaces) of archaeological interest.\n",
+        "address": {
+            "street_with_number": "Viale dei Tigli, 6",
+            "postal_code": "I-55049",
+            "city": "Viareggio (LU)",
+            "country": "Italy"
+        },
+        "gps": {
+            "gpsLat": 43.864366,
+            "gpsLon": 10.251405
+        },
+        "website": "https://www.igg.cnr.it/en/laboratories/analytical-laboratories/archaeometry-and-microstratigraphic-coring-lab/",
+        "contact_person": {
+            "first_name": "Gianfranco",
+            "family_name": "Di Vincenzo",
+            "identifier": {
+                "type": "",
+                "id": "ORCID ID: 0000-0002-9669-9789"
+            },
+            "e-mail": "gianfranco.divincenzo@igg.cnr.it",
+            "affiliation": {
+                "legal_name": "IGG-CNR,  Italy",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        },
+        "lab_services": {
+            "research_field": "Solid Earth Geochemistry",
+            "EPOS_WP16_subdomain": [
+                "Geochemical data (elemental and isotope geochemistry)"
+            ],
+            "equipment": []
+        },
+        "data_services": [
+            {
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "URL": "https://epos-msl.uu.nl/organization/"
+            },
+            {
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
+                "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
+                "payload": "json"
+            }
+        ]
+    }
+}

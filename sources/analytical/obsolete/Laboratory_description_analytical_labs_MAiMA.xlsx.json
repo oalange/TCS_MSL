@@ -1,0 +1,42 @@
+{
+    "facility": {
+        "type": "Research group/Laboratory",
+        "ID": "will be assigned later",
+        "RI_name": "Universitat de Barcelona",
+        "name": "MAiMA Isòtops estables i Mineralogia (Universitat de Barcelona, Spain)",
+        "general_description": "MAiMA is a research group from the University of Barcelona that applies the latest technology in stable isotope analysis, mineralogy and geochemistry to offer customized solutions to studies related with environmental pollution, authentication of agri-food products and studies of mineral durability in civil works (http://www.ub.edu/maima/).\nWe have more than 25 years of recognized experience in mineralogy and isotope geochemistry. We have obtained more than 20 competitive projects from the Spanish government, five European projects, and we have published more than 150 scientific articles in high impact journals.\nMAiMA is part of the SGR group Applied Mineralogy Geochemistry and Geomicrobiology (http://www.ub.edu/minegeo).\nOur key technologies are stable isotope analysis and mineralogical and petrographic characterization. We apply these technologies to solve problems related to:\n- Environmental contamination (since 1997): we provide tailored solutions for the identification of contamination sources (agricultural and livestock, mining, industrial) in aquifers, and  for the evaluation of remediation strategies efficiency, using isotopic techniques.\n- Civil works (since 2010): we offer studies of degradation, aging and stability of geological and synthetic materials used in the construction of civil works (solid asphalt, embankments, slopes).\n- Food authentication (since 2014): we offer multi-isotopic studies for food authentication, in order to avoid commercial fraud and guarantee the products quality.\nWe also offer stable isotope analysis of different elements (H, C, N, O, and S) in many compounds and matrices (gaseous, liquid or solid) (http://www.ub.edu/maima/servicios-analiticos).\nMAiMA develops the sample preparation methods and performs the preparation step in its own laboratories. The stable isotope analysis are are performed at the Scientific and Technological Centers from the University of Barcelona (CCiT-UB) http://www.ccit.ub.edu/EN/home.html\n\n",
+        "address": {
+            "street_with_number": "C/Martí i Franquès s/n,  , España",
+            "postal_code": "08028",
+            "city": "Barcelona",
+            "country": "Spain"
+        },
+        "gps": {
+            "gpsLat": 41.38355,
+            "gpsLon": 2.118981
+        },
+        "website": "http://www.ub.edu/maima/",
+        "contact_person": {
+            "first_name": "Albert",
+            "family_name": "Soler Gil",
+            "identifier": {
+                "type": "",
+                "id": "37737487F"
+            },
+            "e-mail": "albertsolergil@ub.edu",
+            "affiliation": {
+                "legal_name": "Universitat de Barcelona,  Spain",
+                "identifier": {
+                    "type": "",
+                    "id": ""
+                },
+                "address": {
+                    "street_with_number": "",
+                    "postal_code": "",
+                    "city": "",
+                    "country": ""
+                }
+            }
+        }
+    }
+}
