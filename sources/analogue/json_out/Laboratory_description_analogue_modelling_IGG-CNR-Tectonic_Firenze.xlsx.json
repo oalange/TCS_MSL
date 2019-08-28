@@ -12,23 +12,23 @@
             "country": "Italy"
         },
         "gps": {
-            "gpsLat": 43.778336,
-            "gpsLon": 11.259789
+            "gps_lat": 43.778336,
+            "gps_lon": 11.259789
         },
         "website": "https://www.igg.cnr.it/en/laboratories/analogical-and-numerical-modelling/tectonic-modelling-laboratory/",
         "contact_person": {
             "first_name": "Marco",
             "family_name": "Bonini",
             "identifier": {
-                "type": "",
-                "id": "orcid.org/0000-0003-4818-8076; Scopus Author ID: 7005184720."
+                "id_type": "",
+                "id_value": "orcid.org/0000-0003-4818-8076; Scopus Author ID: 7005184720."
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "IGG-CNR,  Italy",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -49,130 +49,130 @@
                     "equipment_group": "Other",
                     "equipment_name": "large-capacity centrifuge PM980R",
                     "equipment_brand": "ALC International",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition 2004",
-                    "Equipment_quantity": 1.0,
-                    "References": "Agostini A., Corti G. et al 2009. Geochem. Geophys. Geosyst. 10, Q11015. doi:10.1029/2009GC002676. Corti G., Costagliola P., Bonini M. et al 2015, Journal of Cultural Heritage 16, 26–31; doi: 10.1016/j.culher.2014.03.001."
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition 2004",
+                    "equipment_quantity": 1.0,
+                    "references": "Agostini A., Corti G. et al 2009. Geochem. Geophys. Geosyst. 10, Q11015. doi:10.1029/2009GC002676. Corti G., Costagliola P., Bonini M. et al 2015, Journal of Cultural Heritage 16, 26–31; doi: 10.1016/j.culher.2014.03.001."
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "pure-simple shear apparatus",
                     "equipment_brand": "Prototype",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "year of acquisition 2002",
-                    "Equipment_quantity": 1.0,
-                    "References": "Del Ventisette C., Montanari D., Sani F., Bonini M., 2006. Journal of Structural Geology 28, 2067-2083; doi: :10.1016/j.jsg.2006.07.012. Bonini M., Sani F., Antonielli B, 2012. Tectonophysics 522–523, 55–88; doi:10.1016/j.tecto.2011.11.014."
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "year of acquisition 2002",
+                    "equipment_quantity": 1.0,
+                    "references": "Del Ventisette C., Montanari D., Sani F., Bonini M., 2006. Journal of Structural Geology 28, 2067-2083; doi: :10.1016/j.jsg.2006.07.012. Bonini M., Sani F., Antonielli B, 2012. Tectonophysics 522–523, 55–88; doi:10.1016/j.tecto.2011.11.014."
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "pure shear apparatus ",
                     "equipment_brand": "Prototype",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "coni-cylindrical viscometer ",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Laser interferometer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Laser scanner",
                     "equipment_brand": "3D Digital Corporation Optix 400M",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 }
             ],
             "material": [
                 {
-                    "Material": "Sand > Quartz Sand",
-                    "Material brand": "Sibelco Italia S.p.A.",
-                    "Material specifics and comments": "",
-                    "References": "relevant papers referring to the material"
+                    "material": "Sand > Quartz Sand",
+                    "material_brand": "Sibelco Italia S.p.A.",
+                    "material_specifics_and_comments": "",
+                    "references": "relevant papers referring to the material"
                 },
                 {
-                    "Material": "Sand > Feldspar Sand",
-                    "Material brand": "AKW Kaolin",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Sand > Feldspar Sand",
+                    "material_brand": "AKW Kaolin",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Material": "Microspheres",
-                    "Material brand": "Prochima",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Microspheres",
+                    "material_brand": "Prochima",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Material": "Silicon/Silly putty/PDMS",
-                    "Material brand": "Dow Corning",
-                    "Material specifics and comments": "",
-                    "References": ""
+                    "material": "Silicon/Silly putty/PDMS",
+                    "material_brand": "Dow Corning",
+                    "material_specifics_and_comments": "",
+                    "references": ""
                 }
             ],
-            "measured property": [
+            "measured_property": [
                 {
-                    "Measured property": "Grain size distribution",
-                    "Measured property specifics and comments": "",
-                    "References": "relevant papers referring to measured propertyMontanari, D., Agostini, A., Bonini, M., Corti, C., Del Ventisette, C., 2017. The Use of Empirical Methods for Testing Granular Materials in Analogue Modelling. Materials 10, 635; doi:10.3390/ma10060635.\n"
+                    "measured_property": "Grain size distribution",
+                    "measured_property_specifics_and_comments": "",
+                    "references": "relevant papers referring to measured propertyMontanari, D., Agostini, A., Bonini, M., Corti, C., Del Ventisette, C., 2017. The Use of Empirical Methods for Testing Granular Materials in Analogue Modelling. Materials 10, 635; doi:10.3390/ma10060635.\n"
                 },
                 {
-                    "Measured property": "Cohesion",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Cohesion",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Measured property": "Density",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Density",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 },
                 {
-                    "Measured property": "Friction coefficient",
-                    "Measured property specifics and comments": "",
-                    "References": ""
+                    "measured_property": "Friction coefficient",
+                    "measured_property_specifics_and_comments": "",
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/5f7c8ccbe6dc7fa403b3f7c6041a76a8"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab5f7c8ccbe6dc7fa403b3f7c6041a76a8",
                 "payload": "json"
             }

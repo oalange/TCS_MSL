@@ -12,23 +12,23 @@
             "country": "Germany"
         },
         "gps": {
-            "gpsLat": 52.381513,
-            "gpsLon": 13.064456
+            "gps_lat": 52.381513,
+            "gps_lon": 13.064456
         },
         "website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/",
         "contact_person": {
             "first_name": "Harald",
             "family_name": "Milsch",
             "identifier": {
-                "type": "",
-                "id": ""
+                "id_type": "",
+                "id_value": ""
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "GFZ Potsdam,  Germany",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -49,48 +49,48 @@
                     "equipment_group": "Permeameter",
                     "equipment_name": "MuSPIS 1-3",
                     "equipment_brand": "N/A",
-                    "Equipment_contact_person": "Harald Milsch",
-                    "Email_equipment_contact_person": "milsch@gfz-potsdam.de",
-                    "Equipment_website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/muspis/",
-                    "Equipment_specifics_and_comments": "permeability, electrical conductivity, P and S-wave velocities",
-                    "Equipment_quantity": 3.0,
-                    "References": "DOI 10.1007/s11242-007-9186-4"
+                    "equipment_contact_person": "Harald Milsch",
+                    "email_equipment_contact_person": "milsch@gfz-potsdam.de",
+                    "equipment_website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/muspis/",
+                    "equipment_specifics_and_comments": "permeability, electrical conductivity, P and S-wave velocities",
+                    "equipment_quantity": 3.0,
+                    "references": "DOI 10.1007/s11242-007-9186-4"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Viscosimeter",
                     "equipment_name": "MuSPIS 4",
                     "equipment_brand": "N/A",
-                    "Equipment_contact_person": "Harald Milsch",
-                    "Email_equipment_contact_person": "milsch@gfz-potsdam.de",
-                    "Equipment_website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/laboratory-for-fluid-physics/",
-                    "Equipment_specifics_and_comments": "HPT viscosity of geothermal (aqueous) fluids",
-                    "Equipment_quantity": 1.0,
-                    "References": "Milsch et al. (2015), Proceedings World Geothermal Congress 2015, Paper 16028"
+                    "equipment_contact_person": "Harald Milsch",
+                    "email_equipment_contact_person": "milsch@gfz-potsdam.de",
+                    "equipment_website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/laboratory-for-fluid-physics/",
+                    "equipment_specifics_and_comments": "HPT viscosity of geothermal (aqueous) fluids",
+                    "equipment_quantity": 1.0,
+                    "references": "Milsch et al. (2015), Proceedings World Geothermal Congress 2015, Paper 16028"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Triaxial",
                     "equipment_name": "MTS 815",
                     "equipment_brand": "MTS",
-                    "Equipment_contact_person": "Guido Blöcher",
-                    "Email_equipment_contact_person": "bloech@gfz-potsdam.de",
-                    "Equipment_website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/mechanical-testing-system-mts/",
-                    "Equipment_specifics_and_comments": "rock mechanics at geothermal reservoir conditions",
-                    "Equipment_quantity": 1.0,
-                    "References": "DOI 10.1007/s00603-017-1313-0"
+                    "equipment_contact_person": "Guido Blöcher",
+                    "email_equipment_contact_person": "bloech@gfz-potsdam.de",
+                    "equipment_website": "https://www.gfz-potsdam.de/en/section/geoenergy/infrastructure/mechanical-testing-system-mts/",
+                    "equipment_specifics_and_comments": "rock mechanics at geothermal reservoir conditions",
+                    "equipment_quantity": 1.0,
+                    "references": "DOI 10.1007/s00603-017-1313-0"
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/f2973460d7af47a4cf1dd7853ffb03d7"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labf2973460d7af47a4cf1dd7853ffb03d7",
                 "payload": "json"
             }

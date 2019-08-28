@@ -12,23 +12,23 @@
             "country": "Italy"
         },
         "gps": {
-            "gpsLat": 43.778336,
-            "gpsLon": 11.259789
+            "gps_lat": 43.778336,
+            "gps_lon": 11.259789
         },
         "website": "https://www.igg.cnr.it/en/laboratories/analytical-laboratories/fission-track-laboratory/",
         "contact_person": {
             "first_name": "Gianfranco",
             "family_name": "Di Vincenzo",
             "identifier": {
-                "type": "",
-                "id": "ORCID ID: 0000-0002-9669-9789"
+                "id_type": "",
+                "id_value": "ORCID ID: 0000-0002-9669-9789"
             },
-            "e-mail": "gianfranco.divincenzo@igg.cnr.it",
+            "email": "gianfranco.divincenzo@igg.cnr.it",
             "affiliation": {
                 "legal_name": "IGG-CNR,  Italy",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,20 +40,20 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": []
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

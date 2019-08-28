@@ -12,23 +12,23 @@
             "country": "France"
         },
         "gps": {
-            "gpsLat": 45.197968,
-            "gpsLon": 5.772221
+            "gps_lat": 45.197968,
+            "gps_lon": 5.772221
         },
         "website": "https://isterre.fr/recherche/equipes/mecanique-des-failles/moyens-et-outils/plateforme-de-physique-et-chimie/?lang=en",
         "contact_person": {
             "first_name": "Mai-Linh",
             "family_name": "Doan",
             "identifier": {
-                "type": "",
-                "id": "0000-0002-6437-9756"
+                "id_type": "",
+                "id_value": "0000-0002-6437-9756"
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "CNRS-Université de Grenoble Alpes,  France",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -49,80 +49,80 @@
                     "equipment_group": "Split Hopkinson Pressure Bar",
                     "equipment_name": "mini-SHPB",
                     "equipment_brand": "Home-made",
-                    "Equipment_contact_person": "Mai-Linh Doan",
-                    "Email_equipment_contact_person": "Mai-Linh.Doan@univ-grenoble-alpes.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "3 sets of bars : Al, Steel and nylon. 2cm in diameter. Unconfined.  Gas gun (up to 6bar, ˜10m/s) and spring gun ",
-                    "Equipment_quantity": 1.0,
-                    "References": "14.\tAben, F. M., M. L. Doan, T. M. Mitchell, R. Toussaint, T. Reuschlé, M. Fondriest, J.-P. Gratier, and F. Renard Dynamic fracturing by successive coseismic loadings leads to pulverization in active fault zones, J. Geophys. Res. Solid Earth Res., 121, doi:10.1002/ 2015JB012542. 2016"
+                    "equipment_contact_person": "Mai-Linh Doan",
+                    "email_equipment_contact_person": "Mai-Linh.Doan@univ-grenoble-alpes.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "3 sets of bars : Al, Steel and nylon. 2cm in diameter. Unconfined.  Gas gun (up to 6bar, ˜10m/s) and spring gun ",
+                    "equipment_quantity": 1.0,
+                    "references": "14.\tAben, F. M., M. L. Doan, T. M. Mitchell, R. Toussaint, T. Reuschlé, M. Fondriest, J.-P. Gratier, and F. Renard Dynamic fracturing by successive coseismic loadings leads to pulverization in active fault zones, J. Geophys. Res. Solid Earth Res., 121, doi:10.1002/ 2015JB012542. 2016"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Triaxial",
                     "equipment_name": "percolation cell",
                     "equipment_brand": "Home-made",
-                    "Equipment_contact_person": "Mai-Linh Doan",
-                    "Email_equipment_contact_person": "Mai-Linh.Doan@univ-grenoble-alpes.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Pc 20 MPa; Q= 10 MPa ; Oven (tested 150°C);  Pore system, pressure up to 5 Mpa;Autoclave for reactive fluids; The cell is designed for experiments of several weeks.",
-                    "Equipment_quantity": 1.0,
-                    "References": "Aben. F.M, M.-L. Doan, J-P Gratier, F. Renard. Experimental postseismic recovery of fracture rocks assisted by calcite sealing. Geophys. Res. Lett. 44, doi :10.1002/2017GL073965. 2017"
+                    "equipment_contact_person": "Mai-Linh Doan",
+                    "email_equipment_contact_person": "Mai-Linh.Doan@univ-grenoble-alpes.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Pc 20 MPa; Q= 10 MPa ; Oven (tested 150°C);  Pore system, pressure up to 5 Mpa;Autoclave for reactive fluids; The cell is designed for experiments of several weeks.",
+                    "equipment_quantity": 1.0,
+                    "references": "Aben. F.M, M.-L. Doan, J-P Gratier, F. Renard. Experimental postseismic recovery of fracture rocks assisted by calcite sealing. Geophys. Res. Lett. 44, doi :10.1002/2017GL073965. 2017"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Uniaxial",
                     "equipment_brand": "Home-made",
-                    "Equipment_contact_person": "David Amitrano",
-                    "Email_equipment_contact_person": "David.Amitrano@univ-grenble-alpes.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Max load 300 kN; room temperature; Aquiped with ultrasonic sensors (AE detection). ",
-                    "Equipment_quantity": 1.0,
-                    "References": "Vu, C.-C., Amitrano, D., Plé, O., & Weiss, J. (2019). Compressive failure as a critical transition: Experimental evidences and universality. Physical Review Letters, 122(1). http://doi.org/10.1103/PhysRevLett.122.015502"
+                    "equipment_contact_person": "David Amitrano",
+                    "email_equipment_contact_person": "David.Amitrano@univ-grenble-alpes.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Max load 300 kN; room temperature; Aquiped with ultrasonic sensors (AE detection). ",
+                    "equipment_quantity": 1.0,
+                    "references": "Vu, C.-C., Amitrano, D., Plé, O., & Weiss, J. (2019). Compressive failure as a critical transition: Experimental evidences and universality. Physical Review Letters, 122(1). http://doi.org/10.1103/PhysRevLett.122.015502"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Atomic Force Microscope",
                     "equipment_brand": "Oxford Instrument MFP-3D",
-                    "Equipment_contact_person": "Alexander Van Driessche",
-                    "Email_equipment_contact_person": "Alexander.Van-Driessche@univ-grenoble-alpes.fr ",
-                    "Equipment_website": "https://isterre.fr/platforms/chimie-analytique/analyse-d-echantillons-solides/article/microscope-a-force-atomique-mfp-3d-oxford-instruments?lang=fr",
-                    "Equipment_specifics_and_comments": "Large samples (8cm large and 1cm thick). Measurement of topographic and adhesion forces in air and liquids.",
-                    "Equipment_quantity": 1.0,
-                    "References": "no ref. yet"
+                    "equipment_contact_person": "Alexander Van Driessche",
+                    "email_equipment_contact_person": "Alexander.Van-Driessche@univ-grenoble-alpes.fr ",
+                    "equipment_website": "https://isterre.fr/platforms/chimie-analytique/analyse-d-echantillons-solides/article/microscope-a-force-atomique-mfp-3d-oxford-instruments?lang=fr",
+                    "equipment_specifics_and_comments": "Large samples (8cm large and 1cm thick). Measurement of topographic and adhesion forces in air and liquids.",
+                    "equipment_quantity": 1.0,
+                    "references": "no ref. yet"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Electron Microprobe",
                     "equipment_brand": "JEOL JXA-8230",
-                    "Equipment_contact_person": "Alexander Sobolev",
-                    "Email_equipment_contact_person": "Alexander.Sobolev@univ-grenoble-alpes.fr",
-                    "Equipment_website": "https://isterre.fr/platforms/microanalyses/article/microsonde-electronique-jeol-jxa-8230?lang=en",
-                    "Equipment_specifics_and_comments": "equipped with 5 wavelenght dispersive X-ray spectrometers (WDS) and an energy dispersive SDD X-ray spectrometer (EDS) with highly efficient climate conditioning delivers precision down to 5 ppm 2σ of electron probe microanalysis of olivine",
-                    "Equipment_quantity": 1.0,
-                    "References": "Batanova, V.G., Sobolev, A.V., Kuzmin, D.V., 2015. Trace element analysis of olivine: High precision analytical method for JEOL JXA-8230 electron probe microanalyser. Chemical Geology, 419,149-157."
+                    "equipment_contact_person": "Alexander Sobolev",
+                    "email_equipment_contact_person": "Alexander.Sobolev@univ-grenoble-alpes.fr",
+                    "equipment_website": "https://isterre.fr/platforms/microanalyses/article/microsonde-electronique-jeol-jxa-8230?lang=en",
+                    "equipment_specifics_and_comments": "equipped with 5 wavelenght dispersive X-ray spectrometers (WDS) and an energy dispersive SDD X-ray spectrometer (EDS) with highly efficient climate conditioning delivers precision down to 5 ppm 2σ of electron probe microanalysis of olivine",
+                    "equipment_quantity": 1.0,
+                    "references": "Batanova, V.G., Sobolev, A.V., Kuzmin, D.V., 2015. Trace element analysis of olivine: High precision analytical method for JEOL JXA-8230 electron probe microanalyser. Chemical Geology, 419,149-157."
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Scanning Electrone Microscope",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "Nathaniel Findling",
-                    "Email_equipment_contact_person": "Nathaniel.Findling@univ-grenoble-alpes.fr",
-                    "Equipment_website": " ",
-                    "Equipment_specifics_and_comments": "To be inaugurated",
-                    "Equipment_quantity": 1.0,
-                    "References": "no ref. yet"
+                    "equipment_contact_person": "Nathaniel Findling",
+                    "email_equipment_contact_person": "Nathaniel.Findling@univ-grenoble-alpes.fr",
+                    "equipment_website": " ",
+                    "equipment_specifics_and_comments": "To be inaugurated",
+                    "equipment_quantity": 1.0,
+                    "references": "no ref. yet"
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/f28005bf8cf9ec0d284d123f0369131b"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labf28005bf8cf9ec0d284d123f0369131b",
                 "payload": "json"
             }

@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 40.9652,
-            "gpsLon": -5.6712
+            "gps_lat": 40.9652,
+            "gps_lon": -5.6712
         },
         "website": "https://nucleus.usal.es/es/isotopos",
         "contact_person": {
             "first_name": "Antonio",
             "family_name": "Álvarez Valero",
             "identifier": {
-                "type": "",
-                "id": "B-2732-2015; 0000-0001-9707-0168"
+                "id_type": "",
+                "id_value": "B-2732-2015; 0000-0001-9707-0168"
             },
-            "e-mail": "aav@usal.es",
+            "email": "aav@usal.es",
             "affiliation": {
                 "legal_name": "Universidad de Salamanca,  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,121 +40,121 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "CRDS, Cavity ringdown spectrometer",
                     "equipment_brand": "Picarro",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "DI-IRMS, Dual inlet isotope ratio mass spectrometer",
                     "equipment_brand": "SIRA-II",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 2.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 2.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "EA, Elemental analyser",
                     "equipment_brand": "Euro-Vector 3000",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "EA-IRMS, Elemental analyser continuous-flow isotope ratio mass spectrometer",
                     "equipment_brand": "ISOPRIME",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "GC, Gas chromatographer",
                     "equipment_brand": "Agilent",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "GC/C/IRMS, Gas chromatography combustion isotope ratio mass spectrometer",
                     "equipment_brand": "Agilent",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "NGA, Noble gases analyser",
                     "equipment_brand": "Thermo-Helix-SFT",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "NG-C, Noble gases analyser- crushing",
                     "equipment_brand": "Thermo-Helix-SFT",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "NG-LA, Noble gases analyser- laser-ablation",
                     "equipment_brand": "Thermo-Helix-SFT",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "NG-SH, Noble gases analyser-furnace/step-heating",
                     "equipment_brand": "Thermo-Helix-SFT",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/72f006ac24b7b6bc5588d3096ea0111f"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab72f006ac24b7b6bc5588d3096ea0111f",
                 "payload": "json"
             }

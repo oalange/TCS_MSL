@@ -12,23 +12,23 @@
             "country": "Germany"
         },
         "gps": {
-            "gpsLat": 48.148365,
-            "gpsLon": 11.572326
+            "gps_lat": 48.148365,
+            "gps_lon": 11.572326
         },
         "website": "https://www.gfz-potsdam.de/en/section/lithosphere-dynamics/infrastructure/heltec-helmholtz-laboratory-for-tectonic-modelling/",
         "contact_person": {
             "first_name": "Corrado",
             "family_name": "Cimarelli",
             "identifier": {
-                "type": "",
-                "id": ""
+                "id_type": "",
+                "id_value": ""
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "Ludwig-Maximilians-University Munich, Germany",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -48,68 +48,68 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Viscosimeter",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Rheometer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Thermal Analyzer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Spectroscopy > Raman",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Calorimeter",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": "",
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": "",
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/8c098870d3c06b9a98cbde1a50f88027"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab8c098870d3c06b9a98cbde1a50f88027",
                 "payload": "json"
             }

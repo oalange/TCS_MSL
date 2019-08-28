@@ -12,23 +12,23 @@
             "country": "France"
         },
         "gps": {
-            "gpsLat": 48.8534,
-            "gpsLon": 2.3488
+            "gps_lat": 48.8534,
+            "gps_lon": 2.3488
         },
         "website": "http://www.geologie.ens.fr/spiplabocnrs/spip.php?rubrique31&lang=en",
         "contact_person": {
             "first_name": "Jerome",
             "family_name": "Fortin",
             "identifier": {
-                "type": "",
-                "id": ""
+                "id_type": "",
+                "id_value": ""
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "CNRS-Ecole Normale Supérieure, Paris,  France",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -48,68 +48,68 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Triaxial",
                     "equipment_brand": "Top Industry",
-                    "Equipment_contact_person": "Jerome Fortin",
-                    "Email_equipment_contact_person": "Fortin@geologie.ens.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Pc 300 Mpa; Q=800 Mpa. Aquiped with ultrasonic sensors (P and Swave measurement + AE localization). Pore system, pressure up to 100 Mpa",
-                    "Equipment_quantity": 1.0,
-                    "References": "J. Fortin, A. Schubnel, and Y. Guéguen. Elastic wave velocities and permeability during compaction of sandstone. International Journal of Rock Mechanics, 42, 873-889, 2005 ; A. Schubnel, J. Fortin, L. Burlini, and Y. Guéguen. Damage and elastic recovery of calcite-rich rocks deformed in the cataclastic regime. Journal of the Geological Society of London, special edition on high strain zone, 203-221, 2005"
+                    "equipment_contact_person": "Jerome Fortin",
+                    "email_equipment_contact_person": "Fortin@geologie.ens.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Pc 300 Mpa; Q=800 Mpa. Aquiped with ultrasonic sensors (P and Swave measurement + AE localization). Pore system, pressure up to 100 Mpa",
+                    "equipment_quantity": 1.0,
+                    "references": "J. Fortin, A. Schubnel, and Y. Guéguen. Elastic wave velocities and permeability during compaction of sandstone. International Journal of Rock Mechanics, 42, 873-889, 2005 ; A. Schubnel, J. Fortin, L. Burlini, and Y. Guéguen. Damage and elastic recovery of calcite-rich rocks deformed in the cataclastic regime. Journal of the Geological Society of London, special edition on high strain zone, 203-221, 2005"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Triaxial",
                     "equipment_brand": "Sanchez",
-                    "Equipment_contact_person": "Alexandre Schubnel",
-                    "Email_equipment_contact_person": "aschubnel@geologie.ens.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Pc 100 Mpa; Q=700 Mpa ; room temperature; Aquiped with ultrasonic sensors (P and Swave measurement + AE localization). Pore system, pressure up to 100 Mpa",
-                    "Equipment_quantity": 1.0,
-                    "References": " Brantut N., A. Schubnel and Y. Guéguen (2011), Damage and Rupture Dynamics at the Brittle/Ductile Transition: the Case of Gypsum,  J. Geophys. Res., 116, B01404, doi:10.1029/2010JB007675 ; A.Ougier-Simonin, J.Fortin, Y. Guéguen, A. Schubnel and F. Bouyer.  Cracks in glass under triaxial conditions, 2010, International Journal of Engineering Science, doi:10.1016/j.ijengsci.2010.06.026  ;"
+                    "equipment_contact_person": "Alexandre Schubnel",
+                    "email_equipment_contact_person": "aschubnel@geologie.ens.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Pc 100 Mpa; Q=700 Mpa ; room temperature; Aquiped with ultrasonic sensors (P and Swave measurement + AE localization). Pore system, pressure up to 100 Mpa",
+                    "equipment_quantity": 1.0,
+                    "references": " Brantut N., A. Schubnel and Y. Guéguen (2011), Damage and Rupture Dynamics at the Brittle/Ductile Transition: the Case of Gypsum,  J. Geophys. Res., 116, B01404, doi:10.1029/2010JB007675 ; A.Ougier-Simonin, J.Fortin, Y. Guéguen, A. Schubnel and F. Bouyer.  Cracks in glass under triaxial conditions, 2010, International Journal of Engineering Science, doi:10.1016/j.ijengsci.2010.06.026  ;"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Triaxial",
                     "equipment_brand": "Top Industry",
-                    "Equipment_contact_person": "Jerome Fortin",
-                    "Email_equipment_contact_person": "Fortin@geologie.ens.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Pc=100 Mpa equiped for low frequency P and S wave measurements",
-                    "Equipment_quantity": 1.0,
-                    "References": "J. Borgomano, L Pimienta, J Fortin, Y Guéguen, 2017, Dispersion and attenuation measurements of the elastic moduli of a dual‐porosity limestone, Journal of Geophysical Research: Solid Earth 122 (4), 2690-2711 ; Forced oscillation measurements of seismic wave attenuation and stiffness moduli dispersion in glycerine‐saturated Berea sandstone 2018, S Chapman, J. Borgomano, H Yin, J Fortin, B Quintal, Geophysical Prospecting "
+                    "equipment_contact_person": "Jerome Fortin",
+                    "email_equipment_contact_person": "Fortin@geologie.ens.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Pc=100 Mpa equiped for low frequency P and S wave measurements",
+                    "equipment_quantity": 1.0,
+                    "references": "J. Borgomano, L Pimienta, J Fortin, Y Guéguen, 2017, Dispersion and attenuation measurements of the elastic moduli of a dual‐porosity limestone, Journal of Geophysical Research: Solid Earth 122 (4), 2690-2711 ; Forced oscillation measurements of seismic wave attenuation and stiffness moduli dispersion in glycerine‐saturated Berea sandstone 2018, S Chapman, J. Borgomano, H Yin, J Fortin, B Quintal, Geophysical Prospecting "
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Griggs Apparatus",
                     "equipment_brand": "Sanchez",
-                    "Equipment_contact_person": "Alexandre Schubnel",
-                    "Email_equipment_contact_person": "gasc@geologie.ens.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Pc= 5GPa, Q=5GPa, T=1100°C, Equipped with ultra-sonics",
-                    "Equipment_quantity": 1.0,
-                    "References": "no ref. yet"
+                    "equipment_contact_person": "Alexandre Schubnel",
+                    "email_equipment_contact_person": "gasc@geologie.ens.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Pc= 5GPa, Q=5GPa, T=1100°C, Equipped with ultra-sonics",
+                    "equipment_quantity": 1.0,
+                    "references": "no ref. yet"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Triaxial",
                     "equipment_brand": "Wile",
-                    "Equipment_contact_person": "Alexandre Schubnel",
-                    "Email_equipment_contact_person": "gasc@geologie.ens.fr",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Pc=400MPa, Q=1.5GPa, T=800°C, Equipped with ultra-sonics",
-                    "Equipment_quantity": 1.0,
-                    "References": "no ref. yet"
+                    "equipment_contact_person": "Alexandre Schubnel",
+                    "email_equipment_contact_person": "gasc@geologie.ens.fr",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Pc=400MPa, Q=1.5GPa, T=800°C, Equipped with ultra-sonics",
+                    "equipment_quantity": 1.0,
+                    "references": "no ref. yet"
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/d0133f39c5081a996fa8edfc6bdbaade"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labd0133f39c5081a996fa8edfc6bdbaade",
                 "payload": "json"
             }

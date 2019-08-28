@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 41.38473,
-            "gpsLon": 2.1191
+            "gps_lat": 41.38473,
+            "gps_lon": 2.1191
         },
         "website": "http://www.ictja.csic.es/index.php/services-and-facilities/x-ray-diffraction",
         "contact_person": {
             "first_name": "Jordi",
             "family_name": "Ibañez",
             "identifier": {
-                "type": "",
-                "id": "ORCID: 0000-0002-8909-6541"
+                "id_type": "",
+                "id_value": "ORCID: 0000-0002-8909-6541"
             },
-            "e-mail": "jibanez@ictja.csic.es",
+            "email": "jibanez@ictja.csic.es",
             "affiliation": {
                 "legal_name": "CSIC-ICTJA,  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,41 +40,41 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "XRD, X-ray diffraction spectrometer",
                     "equipment_brand": "Bruker B8-A25",
-                    "Equipment_contact_person": "Jordi Ibáñez Insa",
-                    "Email_equipment_contact_person": "jibanez@ictja.csic.es",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "X-RAY DIFFRACTION D8-A25 with LynxEye Detector",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "Jordi Ibáñez Insa",
+                    "email_equipment_contact_person": "jibanez@ictja.csic.es",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "X-RAY DIFFRACTION D8-A25 with LynxEye Detector",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "XRF-EDS, Energy-dispersive X-ray fluorescence spectrometer",
                     "equipment_brand": "Bruker Tracer Geo IV",
-                    "Equipment_contact_person": "Jordi Ibáñez Insa",
-                    "Email_equipment_contact_person": "jibanez@ictja.csic.es",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Portable Energy-dispersive X-ray fluorescence spectrometer Tracer-IV Geo",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "Jordi Ibáñez Insa",
+                    "email_equipment_contact_person": "jibanez@ictja.csic.es",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Portable Energy-dispersive X-ray fluorescence spectrometer Tracer-IV Geo",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/8ba860e8b22b52bec2f96a214f9e2568"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab8ba860e8b22b52bec2f96a214f9e2568",
                 "payload": "json"
             }

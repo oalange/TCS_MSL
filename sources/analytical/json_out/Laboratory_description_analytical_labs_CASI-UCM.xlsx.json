@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gpsLat": 40.44946,
-            "gpsLon": -3.725047
+            "gps_lat": 40.44946,
+            "gps_lon": -3.725047
         },
         "website": "http://www.ucm.es/geocronologia",
         "contact_person": {
             "first_name": "M. Carmen",
             "family_name": "Galindo",
             "identifier": {
-                "type": "",
-                "id": "0000-0003-1893-0452"
+                "id_type": "",
+                "id_value": "0000-0003-1893-0452"
             },
-            "e-mail": "cgalindo@ucm.es ",
+            "email": "cgalindo@ucm.es ",
             "affiliation": {
                 "legal_name": "Universidad Complutense de Madrid (UCM),  Spain",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,41 +40,41 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "TIMS, Thermal ionization mass spectrometer",
                     "equipment_brand": "IsotopX",
-                    "Equipment_contact_person": "José Manuel Fuenlabrada ",
-                    "Email_equipment_contact_person": "jmfuenla@ucm.es",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Phoenix, adquisition year 2011,  484.955 €",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "José Manuel Fuenlabrada ",
+                    "email_equipment_contact_person": "jmfuenla@ucm.es",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Phoenix, adquisition year 2011,  484.955 €",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_name": "TIMS, Thermal ionization mass spectrometer",
                     "equipment_brand": "VG",
-                    "Equipment_contact_person": "José Manuel Fuenlabrada ",
-                    "Email_equipment_contact_person": "jmfuenla@ucm.es",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "Sector 54, adquisition year 1990,  CA. 470.000€",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "José Manuel Fuenlabrada ",
+                    "email_equipment_contact_person": "jmfuenla@ucm.es",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "Sector 54, adquisition year 1990,  CA. 470.000€",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/3469c2abf3a0d3902c83e3adae683647"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab3469c2abf3a0d3902c83e3adae683647",
                 "payload": "json"
             }

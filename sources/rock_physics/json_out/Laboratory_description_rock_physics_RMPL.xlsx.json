@@ -12,23 +12,23 @@
             "country": "United Kingdom"
         },
         "gps": {
-            "gpsLat": 52.879783,
-            "gpsLon": -1.080667
+            "gps_lat": 52.879783,
+            "gps_lon": -1.080667
         },
         "website": "https://www.bgs.ac.uk/sciencefacilities/laboratories/engineering/mechanics.html",
         "contact_person": {
             "first_name": "Audrey",
             "family_name": "Ougier-Simonin",
             "identifier": {
-                "type": "",
-                "id": "ORCID 0000-0001-9778-4910"
+                "id_type": "",
+                "id_value": "ORCID 0000-0001-9778-4910"
             },
-            "e-mail": "",
+            "email": "",
             "affiliation": {
                 "legal_name": "British Geological Survey,  UK",
                 "identifier": {
-                    "type": "",
-                    "id": ""
+                    "id_type": "",
+                    "id_value": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_WP16_subdomain": [
+            "EPOS_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -48,112 +48,112 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Triaxial",
                     "equipment_brand": "MTS",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Uniaxial",
                     "equipment_brand": "MTS",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Brazilian Test",
                     "equipment_brand": "MTS",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Strain gauge > Axial extensometer",
                     "equipment_brand": "MTS",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 6.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 6.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Strain gauge > Circumferential extensometer",
                     "equipment_brand": "MTS",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 3.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 3.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Ultrasonic transducer > P wave transducer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 18.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 18.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Ultrasonic transducer > S wave transducer",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 6.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 6.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Thermocouple",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 4.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 4.0,
+                    "references": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Photography",
                     "equipment_brand": "",
-                    "Equipment_contact_person": "",
-                    "Email_equipment_contact_person": "",
-                    "Equipment_website": "",
-                    "Equipment_specifics_and_comments": "",
-                    "Equipment_quantity": 1.0,
-                    "References": ""
+                    "equipment_contact_person": "",
+                    "email_equipment_contact_person": "",
+                    "equipment_website": "",
+                    "equipment_specifics_and_comments": "",
+                    "equipment_quantity": 1.0,
+                    "references": ""
                 }
             ]
         },
         "data_services": [
             {
-                "type": "data_publications - TCS_portal",
-                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
+                "service_type": "data_publications_access",
+                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/9aa3578c25154d16a83d9902de774de4"
             },
             {
-                "type": "data_publications_web service",
-                "linklabel": "Show data publications from this lab",
+                "service_type": "data_publications_get",
+                "link_label": "Retrieve data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab9aa3578c25154d16a83d9902de774de4",
                 "payload": "json"
             }
