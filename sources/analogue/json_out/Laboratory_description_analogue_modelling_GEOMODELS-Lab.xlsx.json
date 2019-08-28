@@ -12,23 +12,23 @@
             "country": "SPAIN"
         },
         "gps": {
-            "gps_lat": 41.3844,
-            "gps_lon": 2.1197
+            "gpsLat": 41.3844,
+            "gpsLon": 2.1197
         },
         "website": "http://www.ub.edu/geomodels/Obj_en_Lab_mod.html",
         "contact_person": {
             "first_name": "Oriol",
             "family_name": "Ferrer",
             "identifier": {
-                "id_type": "",
-                "id_value": "0000-0001-5545-9992"
+                "type": "",
+                "id": "0000-0001-5545-9992"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Universitat de Barcelona,  Spain",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -49,419 +49,419 @@
                     "equipment_group": "Sandbox > Sandbox (meter scale)",
                     "equipment_name": "3D modelling rig (extension, contraction, strike-slip, gravitational glidding & salt tectonics simulations)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Sandbox > Sandbox (meter scale)",
                     "equipment_name": "2D 1/2 modelling rig (extension, contraction, inversion, salt tectonics)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Sandbox > Sandbox (meter scale)",
                     "equipment_name": "3D modelling rig (salt tectonics simulations)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Slicing machine",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "3D printer",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Time lapse camera",
                     "equipment_name": "8 Canon digital cameras (different models)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Other",
                     "equipment_name": "SIDIO XP (white light scanner)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "GOCAD (Earth Decision - Paradigm) ",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "The Kingdom Suite (SMT)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Lens (Agisoft)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "PhotoScan",
                     "equipment_brand": "Agisoft",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "StereoScan (Agisoft)",
                     "equipment_brand": "Agisoft",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Move (Midland Valley)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Petrel (Schlumberger)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "Petromod",
                     "equipment_brand": "Schlumberger",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > StrainMaster (La Vision GmbH)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Polyworks (Innovmetric)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Promax (Landmark) ",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Seiswork (Landmark) ",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "RMS (Roxar)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Matlab (Mathworks)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Visual Studio (Microsoft)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Visual Fortran (Compaq)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Erdas (LEYCA)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Microstation XM (Bentley)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "ArcInfo",
                     "equipment_brand": "ESRI",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "ArcMap",
                     "equipment_brand": "ESRI",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "ArcGis",
                     "equipment_brand": "ESRI",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "ArcPad",
                     "equipment_brand": "ESRI",
-                    "equipment_contact_person": "Oscar Gratacós",
-                    "email_equipment_contact_person": "ogratacos@ub.edu",
-                    "equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Oscar Gratacós",
+                    "Email_equipment_contact_person": "ogratacos@ub.edu",
+                    "Equipment_website": "http://www.ub.edu/geomodels/Serv_eng_Prog.html",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "Osirix",
                     "equipment_brand": "PIXMEO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Sand > Quartz Sand",
-                    "material_brand": "SIBELCO",
-                    "material_specifics_and_comments": "NE03S",
-                    "references": "relevant papers referring to the material"
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "SIBELCO",
+                    "Material specifics and comments": "NE03S",
+                    "References": "relevant papers referring to the material"
                 },
                 {
-                    "material": "Sand > Quartz Sand",
-                    "material_brand": "SIBELCO",
-                    "material_specifics_and_comments": "GA39S",
-                    "references": ""
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "SIBELCO",
+                    "Material specifics and comments": "GA39S",
+                    "References": ""
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Bluestar Silicones",
-                    "material_specifics_and_comments": "Rhodosil GOMME FB",
-                    "references": ""
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Bluestar Silicones",
+                    "Material specifics and comments": "Rhodosil GOMME FB",
+                    "References": ""
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "SMG-36",
-                    "material_specifics_and_comments": "Dow Corning",
-                    "references": ""
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "SMG-36",
+                    "Material specifics and comments": "Dow Corning",
+                    "References": ""
                 },
                 {
-                    "material": "Clay",
-                    "material_brand": "LORDA Y ROIG S.A.",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Clay",
+                    "Material brand": "LORDA Y ROIG S.A.",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material": "Gelatine",
-                    "material_brand": "GELATINES JUNCA",
-                    "material_specifics_and_comments": "Gelatine bloom 260",
-                    "references": ""
+                    "Material": "Gelatine",
+                    "Material brand": "GELATINES JUNCA",
+                    "Material specifics and comments": "Gelatine bloom 260",
+                    "References": ""
                 },
                 {
-                    "material": "Microspheres > Glassy",
-                    "material_brand": "SIGMUND LINDER",
-                    "material_specifics_and_comments": "SiLibeads Typ S 100-200 micrometers",
-                    "references": ""
+                    "Material": "Microspheres > Glassy",
+                    "Material brand": "SIGMUND LINDER",
+                    "Material specifics and comments": "SiLibeads Typ S 100-200 micrometers",
+                    "References": ""
                 },
                 {
-                    "material": "PVC rods",
-                    "material_brand": "SOLVIN",
-                    "material_specifics_and_comments": "258RD",
-                    "references": ""
+                    "Material": "PVC rods",
+                    "Material brand": "SOLVIN",
+                    "Material specifics and comments": "258RD",
+                    "References": ""
                 },
                 {
-                    "material": "Plasticine",
-                    "material_brand": "JOVI S.A.",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Plasticine",
+                    "Material brand": "JOVI S.A.",
+                    "Material specifics and comments": "",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "relevant papers referring to measured property"
+                    "Measured property": "",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/02b7608a7e58bf889973a20d82d217fe"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab02b7608a7e58bf889973a20d82d217fe",
                 "payload": "json"
             }

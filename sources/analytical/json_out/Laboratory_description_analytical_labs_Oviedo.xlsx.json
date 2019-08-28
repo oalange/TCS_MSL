@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gps_lat": 43.3545,
-            "gps_lon": -5.8716
+            "gpsLat": 43.3545,
+            "gpsLon": -5.8716
         },
         "website": "http://www.sct.uniovi.es/",
         "contact_person": {
             "first_name": "Olga",
             "family_name": "García-Moreno",
             "identifier": {
-                "id_type": "",
-                "id_value": "0000-0001-7815-0242"
+                "type": "",
+                "id": "0000-0001-7815-0242"
             },
-            "email": "garciaolga@uniovi.es",
+            "e-mail": "garciaolga@uniovi.es",
             "affiliation": {
                 "legal_name": "Universidad de Oviedo,  Spain",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,51 +40,51 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "XRF, X-ray fluorescence spectrometer",
                     "equipment_brand": "PHILIPS PW2404 ",
-                    "equipment_contact_person": "Emilio Ariño",
-                    "email_equipment_contact_person": "earino@geol.uniovi.es",
-                    "equipment_website": "http://www.sct.uniovi.es/unidades/analisis-estructural/fluorescencia/presentacion",
-                    "equipment_specifics_and_comments": "With automatic sample charger PHILIPS PW2540. Installed in 1998",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Emilio Ariño",
+                    "Email_equipment_contact_person": "earino@geol.uniovi.es",
+                    "Equipment_website": "http://www.sct.uniovi.es/unidades/analisis-estructural/fluorescencia/presentacion",
+                    "Equipment_specifics_and_comments": "With automatic sample charger PHILIPS PW2540. Installed in 1998",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "XRD, X-ray diffraction spectrometer",
                     "equipment_brand": "PHILIPS X' PERT PRO ",
-                    "equipment_contact_person": "Emilio Ariño",
-                    "email_equipment_contact_person": "earino@geol.uniovi.es",
-                    "equipment_website": "http://www.sct.uniovi.es/unidades/analisis-estructural/fluorescencia/presentacion",
-                    "equipment_specifics_and_comments": "With Cu anode tube, 2 diffracted beam optic configurations (Bragg-Brentano and parallel beam geometries). Installed in 2001",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Emilio Ariño",
+                    "Email_equipment_contact_person": "earino@geol.uniovi.es",
+                    "Equipment_website": "http://www.sct.uniovi.es/unidades/analisis-estructural/fluorescencia/presentacion",
+                    "Equipment_specifics_and_comments": "With Cu anode tube, 2 diffracted beam optic configurations (Bragg-Brentano and parallel beam geometries). Installed in 2001",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "EMP, Electron microprobe",
                     "equipment_brand": "CAMECA SX‐100 ",
-                    "equipment_contact_person": "Emilio Ariño",
-                    "email_equipment_contact_person": "earino@geol.uniovi.es",
-                    "equipment_website": "http://www.sct.uniovi.es/unidades/analisis-estructural/fluorescencia/presentacion",
-                    "equipment_specifics_and_comments": "With 5 WDS spectrometers, an energy‐dispersive spectrometer (EDS), SE, BSE‐ ABS detectors and cathodoluminescence.",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Emilio Ariño",
+                    "Email_equipment_contact_person": "earino@geol.uniovi.es",
+                    "Equipment_website": "http://www.sct.uniovi.es/unidades/analisis-estructural/fluorescencia/presentacion",
+                    "Equipment_specifics_and_comments": "With 5 WDS spectrometers, an energy‐dispersive spectrometer (EDS), SE, BSE‐ ABS detectors and cathodoluminescence.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/3ffb26ba67914aeb2ec22f93415088a8"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab3ffb26ba67914aeb2ec22f93415088a8",
                 "payload": "json"
             }

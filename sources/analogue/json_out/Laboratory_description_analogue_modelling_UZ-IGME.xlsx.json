@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gps_lat": 41.642257,
-            "gps_lon": -0.901489
+            "gpsLat": 41.642257,
+            "gpsLon": -0.901489
         },
         "website": "https://cienciastierra.unizar.es/laboratorio-de-modelizacion-analogica",
         "contact_person": {
             "first_name": "Teresa",
             "family_name": "Román-Berdiel",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID: 0000-0002-9743-8695, ScopusAuthorID: 6603030469, ResearcherID: E-7648-2016"
+                "type": "",
+                "id": "ORCID: 0000-0002-9743-8695, ScopusAuthorID: 6603030469, ResearcherID: E-7648-2016"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Universidad de Zaragoza-IGME,  Spain",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -48,264 +48,264 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Glass/Plexiglas box > Glass/Plexiglas box (meter scale)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 5.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 5.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Electric engine (mm/hr)",
                     "equipment_brand": "Eujo CE",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 3.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Load measuring ring",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Viscometer",
                     "equipment_name": "cylindrical-rotatory viscometer",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Precision balance",
                     "equipment_brand": "CB Complet COBOS",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Temperature measurement",
                     "equipment_name": "Portable thermometer",
                     "equipment_brand": "TM 65 Crison",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Focus light",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Heating plate",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Sieving device",
                     "equipment_name": "Sieves",
                     "equipment_brand": "CISA",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Time lapse camera",
                     "equipment_brand": "Sony RX100 III",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Generic camera",
                     "equipment_brand": "Pentax Optio 430RS",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Shear box",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 3.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Clay",
-                    "material_brand": "SiO-2",
-                    "material_specifics_and_comments": "red clay for modeling, clay + H2O",
-                    "references": "Geogaceta, 61: 103-106.  EGU2017-18643-2"
+                    "Material": "Clay",
+                    "Material brand": "SiO-2",
+                    "Material specifics and comments": "red clay for modeling, clay + H2O",
+                    "References": "Geogaceta, 61: 103-106.  EGU2017-18643-2"
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Rhodia silicones",
-                    "material_specifics_and_comments": "rhodorsil gomme FB",
-                    "references": "Journal of Geophysical Research, 111, B10402. Basin Research, 19, 3: 437-450. Geogaceta, 53: 49-52. Geo-Temas, 13. Proceedings GeoMod2018 v1.0: 9-10."
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Rhodia silicones",
+                    "Material specifics and comments": "rhodorsil gomme FB",
+                    "References": "Journal of Geophysical Research, 111, B10402. Basin Research, 19, 3: 437-450. Geogaceta, 53: 49-52. Geo-Temas, 13. Proceedings GeoMod2018 v1.0: 9-10."
                 },
                 {
-                    "material": "Sand > Quartz Sand",
-                    "material_brand": "Sibelco, Le marchand de sable",
-                    "material_specifics_and_comments": "Silice L-70/80S ,  Fine quartz LS0103",
-                    "references": "Tectonics, 25, TC2005, doi:10.1029/2004TC001693. Enseñanza de las Ciencias de la Tierra, 24(1): 68-78.  Journal of Geophysical Research, 111, B10402. Basin Research, 19, 3: 437-450. Geogaceta, 53: 49-52. Geo-Temas, 13. Proceedings GeoMod2018 v1.0: 9-10."
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "Sibelco, Le marchand de sable",
+                    "Material specifics and comments": "Silice L-70/80S ,  Fine quartz LS0103",
+                    "References": "Tectonics, 25, TC2005, doi:10.1029/2004TC001693. Enseñanza de las Ciencias de la Tierra, 24(1): 68-78.  Journal of Geophysical Research, 111, B10402. Basin Research, 19, 3: 437-450. Geogaceta, 53: 49-52. Geo-Temas, 13. Proceedings GeoMod2018 v1.0: 9-10."
                 },
                 {
-                    "material_group": "Rubber",
-                    "material": "EVA rubber",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "ethylene vinyl acetate",
-                    "references": "Math Geosci (2016) 48:419-437.  Sp. Pub.-Geol. Soc. London, 425: 247-258. Tectonophysics 593 (2013) 57-72. Journal of Structural Geology 35 (2012) 28-39."
+                    "Material group": "Rubber",
+                    "Material": "EVA rubber",
+                    "Material brand": "",
+                    "Material specifics and comments": "ethylene vinyl acetate",
+                    "References": "Math Geosci (2016) 48:419-437.  Sp. Pub.-Geol. Soc. London, 425: 247-258. Tectonophysics 593 (2013) 57-72. Journal of Structural Geology 35 (2012) 28-39."
                 },
                 {
-                    "material_group": "Rubber",
-                    "material": "Natural rubber",
-                    "material_brand": "Materials World",
-                    "material_specifics_and_comments": "Vulcanized  Natural Rubber",
-                    "references": "Proceedings GeoMod2018 v1.0: 9-10."
+                    "Material group": "Rubber",
+                    "Material": "Natural rubber",
+                    "Material brand": "Materials World",
+                    "Material specifics and comments": "Vulcanized  Natural Rubber",
+                    "References": "Proceedings GeoMod2018 v1.0: 9-10."
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Lead-tetraoxide",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "Tectonophysics 593 (2013) 57-72."
+                    "Material group": "Other",
+                    "Material": "Lead-tetraoxide",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Tectonophysics 593 (2013) 57-72."
                 },
                 {
-                    "material": "Gelatine",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Gelatine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Honey",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "Enseñanza de las Ciencias de la Tierra, 20.3: 262-269"
+                    "Material group": "Other",
+                    "Material": "Honey",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Enseñanza de las Ciencias de la Tierra, 20.3: 262-269"
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Tomato ketchup",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "Enseñanza de las Ciencias de la Tierra, 20.3: 262-269"
+                    "Material group": "Other",
+                    "Material": "Tomato ketchup",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Enseñanza de las Ciencias de la Tierra, 20.3: 262-269"
                 },
                 {
-                    "material": "Sugar",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Sugar",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material": "Flour",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Flour",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material": "Plasticine",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Plasticine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "Cohesion",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "relevant papers referring to measured property"
+                    "Measured property": "Cohesion",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
                 },
                 {
-                    "measured_property": "Friction coefficient",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Friction coefficient",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/84af0ba9f213bc36b12db7903c31e358"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab84af0ba9f213bc36b12db7903c31e358",
                 "payload": "json"
             }

@@ -12,23 +12,23 @@
             "country": "Switzerland"
         },
         "gps": {
-            "gps_lat": " 47.378578°",
-            "gps_lon": "  8.547219°"
+            "gpsLat": " 47.378578°",
+            "gpsLon": "  8.547219°"
         },
         "website": "http://www.rockdeformation.ethz.ch/",
         "contact_person": {
             "first_name": "Alba",
             "family_name": "Zapppone",
             "identifier": {
-                "id_type": "",
-                "id_value": "https://orcid.org/0000-0003-0965-7271"
+                "type": "",
+                "id": "https://orcid.org/0000-0003-0965-7271"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "ETHZ, Zurich, Switzerland",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -48,57 +48,57 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Vp/Vs Waves Velocity",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "Quinn C. Wenning, Bjarne S.G. Almqvist, Peter Hedin, Alba Zappone,\nSeismic anisotropy in mid to lower orogenic crust: Insights from laboratory measurements of Vp and Vs in drill core from central Scandinavian Caledonides, Tectonophysics, Volume 692, Part A, 2016, Pages 14-28, ISSN 0040-1951, https://doi.org/10.1016/j.tecto.2016.07.002."
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "Quinn C. Wenning, Bjarne S.G. Almqvist, Peter Hedin, Alba Zappone,\nSeismic anisotropy in mid to lower orogenic crust: Insights from laboratory measurements of Vp and Vs in drill core from central Scandinavian Caledonides, Tectonophysics, Volume 692, Part A, 2016, Pages 14-28, ISSN 0040-1951, https://doi.org/10.1016/j.tecto.2016.07.002."
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Permeameter",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "PINI R., OTTIGER S., BURLINI. L., STORTI G. & MAZZOTTI M. (2009) Role of adsorption and swelling on the dynamics of gas injection in coal. Journal of Geophysical Research: Solid Earth, 114 (B4), http://dx.doi.org/10.1029/2008JB00596                                         Wenning, Q. C. , Madonna, C. , de Haller, A. , Burg, J.-P., Permeability and seismic velocity anisotropy across a ductile--brittle fault zone in crystalline rock, Solid Earth, Volume 9, 2018, Pages 683--698, https://www.solid-earth.net/9/683/2018/, DOI 10.5194/se-9-683-2018"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "PINI R., OTTIGER S., BURLINI. L., STORTI G. & MAZZOTTI M. (2009) Role of adsorption and swelling on the dynamics of gas injection in coal. Journal of Geophysical Research: Solid Earth, 114 (B4), http://dx.doi.org/10.1029/2008JB00596                                         Wenning, Q. C. , Madonna, C. , de Haller, A. , Burg, J.-P., Permeability and seismic velocity anisotropy across a ductile--brittle fault zone in crystalline rock, Solid Earth, Volume 9, 2018, Pages 683--698, https://www.solid-earth.net/9/683/2018/, DOI 10.5194/se-9-683-2018"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Patterson Apparatus",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Pycnometer",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/fc52ed0d9e03a9603828eddc12bdfb7c"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labfc52ed0d9e03a9603828eddc12bdfb7c",
                 "payload": "json"
             }

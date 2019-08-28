@@ -12,23 +12,23 @@
             "country": "France"
         },
         "gps": {
-            "gps_lat": "43.632°N",
-            "gps_lon": "3.867°E"
+            "gpsLat": "43.632°N",
+            "gpsLon": "3.867°E"
         },
         "website": "http://tecmodweb.free.fr/TecMOD_France/Accueil_English.html",
         "contact_person": {
             "first_name": "Stephane",
             "family_name": "Dominguez",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID: 0000-0001-8218-7144, ResearcherID: C-5240-2011"
+                "type": "",
+                "id": "ORCID: 0000-0001-8218-7144, ResearcherID: C-5240-2011"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "CNRS-Université de Montpellier,  France",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -48,1113 +48,1113 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "",
                     "equipment_group": "TAB3D Passive margin simulator",
                     "equipment_name": "Passive margin simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Thermomechanics apparatus",
                     "equipment_group": "THERMOMEC",
                     "equipment_name": "Machine thermique",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "OVERPRESS",
                     "equipment_name": "Pression fluide",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Shear box",
                     "equipment_group": "SHEARBOX",
                     "equipment_name": "Machine à cisaillement",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus River system simulator",
                     "equipment_group": "MINIRIVER",
                     "equipment_name": "Chenal incision simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Subduction box",
                     "equipment_group": "SUBFLOW3D",
                     "equipment_name": "Subduction simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Benjamin GUILLAUME",
-                    "email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
-                    "equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Benjamin GUILLAUME",
+                    "Email_equipment_contact_person": "benjamin.guillaume@univ-rennes1.fr",
+                    "Equipment_website": "GRmodel - CNRS-Rennes 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Earthquake simulator",
                     "equipment_group": "MODEXSIS",
                     "equipment_name": "3D Strike-slip earthquake simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Earthquake simulator",
                     "equipment_group": "SUBQUAKEX-2D",
                     "equipment_name": "2D Subduction earthquake simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Earthquake simulator",
                     "equipment_group": "SUBQUAKEX-3D",
                     "equipment_name": "3D Subduction earthquake simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Wedge simulator ",
                     "equipment_group": "SUB2D",
                     "equipment_name": "2D subduction accretionary wedge simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Wedge simulator",
                     "equipment_group": "PRISM2D",
                     "equipment_name": "2D orogenic prism simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring Laser interferometer",
                     "equipment_group": "PORTmax",
                     "equipment_name": "Large ??????",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (meter scale)",
                     "equipment_group": "PRISM3Dmax",
                     "equipment_name": "Large 3D Deformation table",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid injector",
                     "equipment_group": "MAGINTRUSION",
                     "equipment_name": "Magmatic intrusion simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid injector",
                     "equipment_group": "VOLCANOMAKER",
                     "equipment_name": "Volcano simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (meter scale)",
                     "equipment_group": "PRISM3D",
                     "equipment_name": "Medium 3D deformation tabl",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fault simulator",
                     "equipment_group": "FAILLE3D",
                     "equipment_name": "3D Single Fault simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Tsunami simulator",
                     "equipment_group": "TSUNAMI",
                     "equipment_name": "2D subduction zone and tsunami simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Rainfall system",
                     "equipment_group": "BRUM1",
                     "equipment_name": "Large Rainfall system",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "16 sprinklers with rainfall rate controller",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "16 sprinklers with rainfall rate controller",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "",
                     "equipment_group": "BRUM2",
                     "equipment_name": "Medium Rainfall system",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "8 sprinklers with rainfall rate controller",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "8 sprinklers with rainfall rate controller",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus 3D Convection box",
                     "equipment_group": "CONVECT3D",
                     "equipment_name": "3D Mantle convection simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Hubbert-type shear box",
                     "equipment_group": "PARAMX",
                     "equipment_name": "Machine à cisaillement linéaire direct",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Ring-shear tester",
                     "equipment_group": "SHEAR",
                     "equipment_name": "Machine à cisaillement annulaire",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring Photoelasticity",
                     "equipment_group": "PHOTOELAST",
                     "equipment_name": "Banc de Photoélasticimétrie",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Triaxal tester",
                     "equipment_group": "TRIAX1",
                     "equipment_name": "Presse triaxiale",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Envi-IDL, Matlab, Photoscan (Agisoft), Visual Basic, StereoScan (Agisoft), Velocimetry (PIV) > COSI-Corr",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Stephane DOMINGUEZ",
-                    "email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
-                    "equipment_website": "GMmodel - CNRS-Montpellier University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stephane DOMINGUEZ",
+                    "Email_equipment_contact_person": "stephane.dominguez@gm.univ-montp2.fr",
+                    "Equipment_website": "GMmodel - CNRS-Montpellier University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (meter scale)",
                     "equipment_group": "TECTO3D",
                     "equipment_name": "Simulateur de tectonique crustale et/ou gravitaire",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bruno VENDEVILLE",
-                    "email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
-                    "equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bruno VENDEVILLE",
+                    "Email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
+                    "Equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid pressure device",
                     "equipment_group": "DOMALIS",
                     "equipment_name": "Pore/fluid pressure deformation simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bruno VENDEVILLE",
-                    "email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
-                    "equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bruno VENDEVILLE",
+                    "Email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
+                    "Equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Turbidity current simulator",
                     "equipment_group": "TURBIDITOR",
                     "equipment_name": " Turbidity current simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bruno VENDEVILLE",
-                    "email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
-                    "equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bruno VENDEVILLE",
+                    "Email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
+                    "Equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Bruno VENDEVILLE",
-                    "email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
-                    "equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bruno VENDEVILLE",
+                    "Email_equipment_contact_person": "Bruno.Vendeville@univ-lille1.fr ",
+                    "Equipment_website": "LOGmodel - CNRS-Lille 1 University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (meter scale)",
                     "equipment_group": "PRISM Fluid",
                     "equipment_name": "2D orogenic prism simulator with pressurized fluids",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Wedge simulator 2D",
                     "equipment_group": "PRISM 2D",
                     "equipment_name": "2D orogenic prism simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Glass/Plexiglas box > Glass/Plexiglas box (cm scale)\n",
                     "equipment_group": "HydroFRACT2D",
                     "equipment_name": "2D hydrofracturation simulator in a water saturized reservoir",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Glass/Plexiglas box > Glass/Plexiglas box (meter scale)\n",
                     "equipment_group": "HydroFRACT3D",
                     "equipment_name": "2D hydrofracturation simulator in a water saturized reservoir",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid injector",
                     "equipment_group": "SAND-INJECT2D",
                     "equipment_name": "Sand Intrusion simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid injector",
                     "equipment_group": "MAGMA-2D",
                     "equipment_name": "Magmatic Intrusion simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Gravity sliding simulator",
                     "equipment_group": "LANDSLIDE-Fluid1",
                     "equipment_name": "Fluid overpressured triggered landslide simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Gravity sliding simulator",
                     "equipment_group": "LANDSLIDE-Fluid2",
                     "equipment_name": "Etalement gravitaire de biseaux sédimentaires. Instabilités gravitaires déclenchées par de fortes pressions de fluide interstitiel",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Extension box",
                     "equipment_group": "HYDRO-TENSILE",
                     "equipment_name": "Perméabilité à l’air + résistance en tension des matériaux faiblement cohésifs fracturation hydraulique",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring High frame rate camera",
                     "equipment_group": "COREL100",
                     "equipment_name": "Caméra numérique rapide + corrélation d’images pour mesure 2D des déplacements et déformations",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "100 fp/s",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "100 fp/s",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Hubbert-type shear box",
                     "equipment_group": "MULTI-CIS",
                     "equipment_name": "Cohésion and Friction measurements of anisotrop materials",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Régis MOURGUES",
-                    "email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
-                    "equipment_website": "Geoϕlab - CNRS-Maine University,  France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Régis MOURGUES",
+                    "Email_equipment_contact_person": "Regis.Mourgues@univ-lemans.fr",
+                    "Equipment_website": "Geoϕlab - CNRS-Maine University,  France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Gravity load device (Centrifuge)",
                     "equipment_group": "GRAVI",
                     "equipment_name": "Dispositif de Chargement",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stéphane BOUISSOU",
-                    "email_equipment_contact_person": "bouissou@geoazur.unice.fr",
-                    "equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
-                    "equipment_specifics_and_comments": "Dimensions (2.5m x 1m x 1m) accelerometer 500 m.s-2",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stéphane BOUISSOU",
+                    "Email_equipment_contact_person": "bouissou@geoazur.unice.fr",
+                    "Equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (2.5m x 1m x 1m) accelerometer 500 m.s-2",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Triaxal tester",
                     "equipment_group": "TRIAX1",
                     "equipment_name": "Dispositif de chargement.",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Stéphane BOUISSOU",
-                    "email_equipment_contact_person": "bouissou@geoazur.unice.fr",
-                    "equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
-                    "equipment_specifics_and_comments": "Dimensions (2.5m x 2m x 1m) Uniaxiale 50 KN + Pressure 2 MPa",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stéphane BOUISSOU",
+                    "Email_equipment_contact_person": "bouissou@geoazur.unice.fr",
+                    "Equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (2.5m x 2m x 1m) Uniaxiale 50 KN + Pressure 2 MPa",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Triaxal tester",
                     "equipment_group": "TRIAX2",
                     "equipment_name": "Dispositif de chargement",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Stéphane BOUISSOU",
-                    "email_equipment_contact_person": "bouissou@geoazur.unice.fr",
-                    "equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
-                    "equipment_specifics_and_comments": "Dimensions (0.5m x 0.5m x 1m) Up to 2MPa blog 3 axis",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stéphane BOUISSOU",
+                    "Email_equipment_contact_person": "bouissou@geoazur.unice.fr",
+                    "Equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (0.5m x 0.5m x 1m) Up to 2MPa blog 3 axis",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus box Glass/Plexiglas box > Glass/Plexiglas box (meter scale)",
                     "equipment_group": "SUBD",
                     "equipment_name": "3D subduction, continental collision, rifting",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Stéphane BOUISSOU",
-                    "email_equipment_contact_person": "bouissou@geoazur.unice.fr",
-                    "equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
-                    "equipment_specifics_and_comments": "Dimensions : (0.5m x 0.5m x 0.4m) Strength and Strain gauges",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stéphane BOUISSOU",
+                    "Email_equipment_contact_person": "bouissou@geoazur.unice.fr",
+                    "Equipment_website": "GEOAZURmodel - CNRS-Nice Sophia Antipolis University, France",
+                    "Equipment_specifics_and_comments": "Dimensions : (0.5m x 0.5m x 0.4m) Strength and Strain gauges",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (meter scale)",
                     "equipment_name": "TECTO",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stéphane BONNET",
-                    "email_equipment_contact_person": "stephane.bonnet@get.obs-mip.fr",
-                    "equipment_website": "GETmodel - CNRS-Toulouse University, France",
-                    "equipment_specifics_and_comments": "Stepping motorized",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stéphane BONNET",
+                    "Email_equipment_contact_person": "stephane.bonnet@get.obs-mip.fr",
+                    "Equipment_website": "GETmodel - CNRS-Toulouse University, France",
+                    "Equipment_specifics_and_comments": "Stepping motorized",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fog box",
                     "equipment_group": "FOGBOX",
                     "equipment_name": "Rainfall system",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Stéphane BONNET",
-                    "email_equipment_contact_person": "stephane.bonnet@get.obs-mip.fr",
-                    "equipment_website": "GETmodel - CNRS-Toulouse University, France",
-                    "equipment_specifics_and_comments": "Dimensions (1.8m x 1.8m x 2.8m) fluxmeter",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Stéphane BONNET",
+                    "Email_equipment_contact_person": "stephane.bonnet@get.obs-mip.fr",
+                    "Equipment_website": "GETmodel - CNRS-Toulouse University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (1.8m x 1.8m x 2.8m) fluxmeter",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (cm scale)",
                     "equipment_name": "SMALLBOX",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bertrand MAILLOT",
-                    "email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
-                    "equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France ",
-                    "equipment_specifics_and_comments": "Dimensions (0.3m x 0.4m x 0.04m) - Strength gauge",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bertrand MAILLOT",
+                    "Email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
+                    "Equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France ",
+                    "Equipment_specifics_and_comments": "Dimensions (0.3m x 0.4m x 0.04m) - Strength gauge",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sandbox > Sandbox (meter scale)",
                     "equipment_name": "BIGBOX",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bertrand MAILLOT",
-                    "email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
-                    "equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
-                    "equipment_specifics_and_comments": "Dimensions (1.1m x 1m x 0.07m)",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bertrand MAILLOT",
+                    "Email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
+                    "Equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (1.1m x 1m x 0.07m)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sieving device",
                     "equipment_name": "SMALLSEM",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bertrand MAILLOT",
-                    "email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
-                    "equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
-                    "equipment_specifics_and_comments": "Dimensions (0.4m x 0.4m x 1.93m)",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bertrand MAILLOT",
+                    "Email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
+                    "Equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (0.4m x 0.4m x 1.93m)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Sieving device",
                     "equipment_name": "BIGSEM",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bertrand MAILLOT",
-                    "email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
-                    "equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
-                    "equipment_specifics_and_comments": "Dimensions (1.3m x 1.3m x 1.93m)",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bertrand MAILLOT",
+                    "Email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
+                    "Equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
+                    "Equipment_specifics_and_comments": "Dimensions (1.3m x 1.3m x 1.93m)",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Hubbert-type shear box",
                     "equipment_name": "FRICSYSTEM",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Bertrand MAILLOT",
-                    "email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
-                    "equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bertrand MAILLOT",
+                    "Email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
+                    "Equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Bertrand MAILLOT",
-                    "email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
-                    "equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Bertrand MAILLOT",
+                    "Email_equipment_contact_person": "bertrand.maillot@u-cergy.fr",
+                    "Equipment_website": "GECmodel - CNRS-Cergy-Pontoise University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Rheometer",
                     "equipment_name": "ROTARHEOMETER",
                     "equipment_brand": "Anton Paar MCR 501",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring  Thermochromic liquid crystals",
                     "equipment_group": "VISUTLC ",
                     "equipment_name": "Isotherms Visualization",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring ",
                     "equipment_group": "DFV ",
                     "equipment_name": "Diffusive Flow Velocimetry",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Granulometer",
                     "equipment_name": "GRANULOMETER",
                     "equipment_brand": "MorphologiG3 MALVERN",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Electromechanical Testing Machine «INSTRON 5882»",
                     "equipment_brand": "INSTRON 5882",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus 2D Convection box",
                     "equipment_group": "CONVECT2D",
                     "equipment_name": "2D Mantle convection simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus 3D Convection box",
                     "equipment_group": "CONVECT3D",
                     "equipment_name": "3D Mantle convection simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Aparatus",
                     "equipment_group": "PROFILOMETER",
                     "equipment_name": "2D profiling or 3D cartography of solid surfaces",
                     "equipment_brand": "Bruker - DEKTAKXT",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Densimeter",
                     "equipment_name": "DENSIMETER",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Labview software",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Anne DAVAILLE",
-                    "email_equipment_contact_person": "davaille@fast.u-psud.fr",
-                    "equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Anne DAVAILLE",
+                    "Email_equipment_contact_person": "davaille@fast.u-psud.fr",
+                    "Equipment_website": "FASTmodel - CNRS-Paris Sud Orsay University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Granular flow simulator",
                     "equipment_group": "EGRAFLU",
                     "equipment_name": "Experimental channel for fluidized granular flows",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Granular flow simulator",
                     "equipment_group": "EGRA",
                     "equipment_name": "Experimental channel for continuous granular flows",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid injector",
                     "equipment_group": "INTRUMAG",
                     "equipment_name": "Magmatic intrusion simulator",
                     "equipment_brand": "Lab-made prototype",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Fluid injector termally controlled",
                     "equipment_group": "BM",
                     "equipment_name": "Fluid injector under controled temperature",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Peristaltic pump",
                     "equipment_group": "PERISPUMP",
                     "equipment_name": "Peristaltic pump",
                     "equipment_brand": "Watson Marlow série 520S",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Heating device",
                     "equipment_group": "CHAUFIND",
                     "equipment_name": "Industrial water heater",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus Cooler device",
                     "equipment_group": "REFRIGIND",
                     "equipment_name": "Industrial refrigerator",
                     "equipment_brand": "?????",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Photoscan",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Olivier ROCHE",
-                    "email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
-                    "equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Olivier ROCHE",
+                    "Email_equipment_contact_person": "O.Roche@opgc.univ-bpclermont.fr",
+                    "Equipment_website": "LMVmodel - CNRS-Clermont-Ferrand University, France",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material_group": "Foam rubber",
-                    "material": "Young modulus 100KPa",
-                    "material_brand": "Bultex ",
-                    "material_specifics_and_comments": "Young modulus 100KPa",
-                    "references": "relevant papers referring to the material"
+                    "Material group": "Foam rubber",
+                    "Material": "Young modulus 100KPa",
+                    "Material brand": "Bultex ",
+                    "Material specifics and comments": "Young modulus 100KPa",
+                    "References": "relevant papers referring to the material"
                 },
                 {
-                    "material_group": "Gelatine > Xantan",
-                    "material": "Agar-Agar gelose",
-                    "material_brand": "Jaipur",
-                    "material_specifics_and_comments": "Agar-Agar gelose",
-                    "references": ""
+                    "Material group": "Gelatine > Xantan",
+                    "Material": "Agar-Agar gelose",
+                    "Material brand": "Jaipur",
+                    "Material specifics and comments": "Agar-Agar gelose",
+                    "References": ""
                 },
                 {
-                    "material_group": "Glass fragments",
-                    "material": "Granulometry 0-50 microns",
-                    "material_brand": "Sifraco",
-                    "material_specifics_and_comments": "Granulometry 0-50 microns",
-                    "references": ""
+                    "Material group": "Glass fragments",
+                    "Material": "Granulometry 0-50 microns",
+                    "Material brand": "Sifraco",
+                    "Material specifics and comments": "Granulometry 0-50 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "Glycerine",
-                    "material": "density 1.3",
-                    "material_brand": "Subolab",
-                    "material_specifics_and_comments": "density 1.3",
-                    "references": ""
+                    "Material group": "Glycerine",
+                    "Material": "density 1.3",
+                    "Material brand": "Subolab",
+                    "Material specifics and comments": "density 1.3",
+                    "References": ""
                 },
                 {
-                    "material_group": "Golden syrup",
-                    "material": "density 1.5",
-                    "material_brand": "Butiforce",
-                    "material_specifics_and_comments": "density 1.5",
-                    "references": ""
+                    "Material group": "Golden syrup",
+                    "Material": "density 1.5",
+                    "Material brand": "Butiforce",
+                    "Material specifics and comments": "density 1.5",
+                    "References": ""
                 },
                 {
-                    "material_group": "Graphite",
-                    "material": "Granulometry 0-40 microns",
-                    "material_brand": "Carbone Savoie",
-                    "material_specifics_and_comments": "Granulometry 0-40 microns",
-                    "references": ""
+                    "Material group": "Graphite",
+                    "Material": "Granulometry 0-40 microns",
+                    "Material brand": "Carbone Savoie",
+                    "Material specifics and comments": "Granulometry 0-40 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "Microspheres",
-                    "material": "Granulometry 0-50 microns, Granulometry 70-150 microns, Granulometry 100-200 microns",
-                    "material_brand": "Fillite ",
-                    "material_specifics_and_comments": "Granulometry 0-50 microns, Granulometry 70-150 microns, Granulometry 100-200 microns",
-                    "references": ""
+                    "Material group": "Microspheres",
+                    "Material": "Granulometry 0-50 microns, Granulometry 70-150 microns, Granulometry 100-200 microns",
+                    "Material brand": "Fillite ",
+                    "Material specifics and comments": "Granulometry 0-50 microns, Granulometry 70-150 microns, Granulometry 100-200 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "Microspheres > Siliceus",
-                    "material": "Granulometry 100-200 microns",
-                    "material_brand": "Eyraud",
-                    "material_specifics_and_comments": "Granulometry 100-200 microns",
-                    "references": ""
+                    "Material group": "Microspheres > Siliceus",
+                    "Material": "Granulometry 100-200 microns",
+                    "Material brand": "Eyraud",
+                    "Material specifics and comments": "Granulometry 100-200 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "Paraffin",
-                    "material": "density 0.9",
-                    "material_brand": "Carbamex",
-                    "material_specifics_and_comments": "density 0.9",
-                    "references": ""
+                    "Material group": "Paraffin",
+                    "Material": "density 0.9",
+                    "Material brand": "Carbamex",
+                    "Material specifics and comments": "density 0.9",
+                    "References": ""
                 },
                 {
-                    "material_group": "Plasticine",
-                    "material": "Granulometry 15 microns, density 1.6-1.7",
-                    "material_brand": "Herbig",
-                    "material_specifics_and_comments": "Granulometry 15 microns, density 1.6-1.7",
-                    "references": ""
+                    "Material group": "Plasticine",
+                    "Material": "Granulometry 15 microns, density 1.6-1.7",
+                    "Material brand": "Herbig",
+                    "Material specifics and comments": "Granulometry 15 microns, density 1.6-1.7",
+                    "References": ""
                 },
                 {
-                    "material_group": "Rubber",
-                    "material": "Granulometry 0.5-1.5mm",
-                    "material_brand": "VS rubber",
-                    "material_specifics_and_comments": "Granulometry 0.5-1.5mm",
-                    "references": ""
+                    "Material group": "Rubber",
+                    "Material": "Granulometry 0.5-1.5mm",
+                    "Material brand": "VS rubber",
+                    "Material specifics and comments": "Granulometry 0.5-1.5mm",
+                    "References": ""
                 },
                 {
-                    "material_group": "Sand",
-                    "material": "HN38",
-                    "material_brand": "Eyraud",
-                    "material_specifics_and_comments": "Granulometry 100-300 microns",
-                    "references": ""
+                    "Material group": "Sand",
+                    "Material": "HN38",
+                    "Material brand": "Eyraud",
+                    "Material specifics and comments": "Granulometry 100-300 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "Sand > Corundum Sand",
-                    "material": "Granulometry 200-500 microns",
-                    "material_brand": "Eyraud",
-                    "material_specifics_and_comments": "Granulometry 200-500 microns",
-                    "references": ""
+                    "Material group": "Sand > Corundum Sand",
+                    "Material": "Granulometry 200-500 microns",
+                    "Material brand": "Eyraud",
+                    "Material specifics and comments": "Granulometry 200-500 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "PVC powder",
-                    "material": "266SF",
-                    "material_brand": "Solvay",
-                    "material_specifics_and_comments": "Granulometry 30-90 microns",
-                    "references": ""
+                    "Material group": "PVC powder",
+                    "Material": "266SF",
+                    "Material brand": "Solvay",
+                    "Material specifics and comments": "Granulometry 30-90 microns",
+                    "References": ""
                 },
                 {
-                    "material_group": "Silicon/Silly putty/PDMS",
-                    "material": "SGM36, Silbione 70009",
-                    "material_brand": "Rhône-Poulenc",
-                    "material_specifics_and_comments": "SGM36, Silbione 70009",
-                    "references": ""
+                    "Material group": "Silicon/Silly putty/PDMS",
+                    "Material": "SGM36, Silbione 70009",
+                    "Material brand": "Rhône-Poulenc",
+                    "Material specifics and comments": "SGM36, Silbione 70009",
+                    "References": ""
                 },
                 {
-                    "material_group": "Anthracite",
-                    "material": "Granulometry 0.5-1.5mm",
-                    "material_brand": "Eyraud",
-                    "material_specifics_and_comments": "Granulometry 0.5-1.5mm",
-                    "references": ""
+                    "Material group": "Anthracite",
+                    "Material": "Granulometry 0.5-1.5mm",
+                    "Material brand": "Eyraud",
+                    "Material specifics and comments": "Granulometry 0.5-1.5mm",
+                    "References": ""
                 },
                 {
-                    "material_group": "Calcium carbonate powder",
-                    "material": "Granulometry 0-50 microns",
-                    "material_brand": "Marmosoft",
-                    "material_specifics_and_comments": "Granulometry 0-50 microns",
-                    "references": ""
+                    "Material group": "Calcium carbonate powder",
+                    "Material": "Granulometry 0-50 microns",
+                    "Material brand": "Marmosoft",
+                    "Material specifics and comments": "Granulometry 0-50 microns",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property_group": "Bulk modulus",
-                    "measured_property": "Lab-made measurement device",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "relevant papers referring to measured property"
+                    "Measured property group": "Bulk modulus",
+                    "Measured property": "Lab-made measurement device",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
                 },
                 {
-                    "measured_property_group": "Cohesion",
-                    "measured_property": "Lab-made measurement device",
-                    "measured_property_specifics_and_comments": "Hubert type shear box measurements",
-                    "references": ""
+                    "Measured property group": "Cohesion",
+                    "Measured property": "Lab-made measurement device",
+                    "Measured property specifics and comments": "Hubert type shear box measurements",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property_group": "Friction coefficient",
-                    "measured_property": "Lab-made measurement device",
-                    "measured_property_specifics_and_comments": "Hubert type shear box measurements",
-                    "references": ""
+                    "Measured property group": "Friction coefficient",
+                    "Measured property": "Lab-made measurement device",
+                    "Measured property specifics and comments": "Hubert type shear box measurements",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Grain size distribution",
-                    "measured_property_specifics_and_comments": "Laser granulometer",
-                    "references": ""
+                    "Measured property": "Grain size distribution",
+                    "Measured property specifics and comments": "Laser granulometer",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Lame constant",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Lame constant",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Loss modulus",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Loss modulus",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Maxwell relaxation time",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Maxwell relaxation time",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property_group": "Poisson ratio",
-                    "measured_property": "Lab-made measurement device",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property group": "Poisson ratio",
+                    "Measured property": "Lab-made measurement device",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "P-wave velocity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "P-wave velocity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Rate-state parameters",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Rate-state parameters",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property_group": "Shear modulus",
-                    "measured_property": "Lab-made measurement device",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property group": "Shear modulus",
+                    "Measured property": "Lab-made measurement device",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Surface image",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Surface image",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "S-wave velocity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "S-wave velocity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Tensile strength",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Tensile strength",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "Brookfield Viscosimeter DV2",
-                    "references": ""
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "Brookfield Viscosimeter DV2",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Yield stress",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Yield stress",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property_group": "Young modulus",
-                    "measured_property": "Lab-made measurement device",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property group": "Young modulus",
+                    "Measured property": "Lab-made measurement device",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/f780441f60a30a86b752e00adb66f107"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labf780441f60a30a86b752e00adb66f107",
                 "payload": "json"
             }

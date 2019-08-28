@@ -12,23 +12,23 @@
             "country": "Portugal"
         },
         "gps": {
-            "gps_lat": 38.7562,
-            "gps_lon": -9.11664
+            "gpsLat": 38.7562,
+            "gpsLon": -9.11664
         },
         "website": "",
         "contact_person": {
             "first_name": "Mario",
             "family_name": "Moreira",
             "identifier": {
-                "id_type": "",
-                "id_value": "I-1214-2015"
+                "type": "",
+                "id": "I-1214-2015"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "ISEL - Physics Department,  Portugal",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -48,91 +48,91 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Uniaxial",
                     "equipment_brand": "TecnoTest",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "C025C, 250 kN max force",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "C025C, 250 kN max force",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Hooke cell",
                     "equipment_brand": "Controls",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "30.2 mm, 70 MPa",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "30.2 mm, 70 MPa",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Ultra sonic system",
                     "equipment_brand": "Hyperion",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "8 channels",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "8 channels",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Ultrasonic transducer > P wave transducer",
                     "equipment_brand": "Physical Acoustics",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Nano 30",
-                    "equipment_quantity": 8.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Nano 30",
+                    "Equipment_quantity": 8.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Ultrasonic transducer > P wave transducer",
                     "equipment_brand": "Physical Acoustics",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "R6-alpha",
-                    "equipment_quantity": 4.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "R6-alpha",
+                    "Equipment_quantity": 4.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Ultrasonic transducer > S wave transducer",
                     "equipment_brand": "Valpey Fisher",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "SF014",
-                    "equipment_quantity": 2.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "SF014",
+                    "Equipment_quantity": 2.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Optical Microscope",
                     "equipment_brand": "Olympus",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "BX-51",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "BX-51",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/9d8748975fd5d8b44cfef516b8deb098"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab9d8748975fd5d8b44cfef516b8deb098",
                 "payload": "json"
             }

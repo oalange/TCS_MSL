@@ -12,23 +12,23 @@
             "country": "Italy"
         },
         "gps": {
-            "gps_lat": 43.864366,
-            "gps_lon": 10.251405
+            "gpsLat": 43.864366,
+            "gpsLon": 10.251405
         },
         "website": "https://www.igg.cnr.it/en/laboratories/analytical-laboratories/archaeometry-and-microstratigraphic-coring-lab/",
         "contact_person": {
             "first_name": "Gianfranco",
             "family_name": "Di Vincenzo",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID ID: 0000-0002-9669-9789"
+                "type": "",
+                "id": "ORCID ID: 0000-0002-9669-9789"
             },
-            "email": "gianfranco.divincenzo@igg.cnr.it",
+            "e-mail": "gianfranco.divincenzo@igg.cnr.it",
             "affiliation": {
                 "legal_name": "IGG-CNR,  Italy",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,20 +40,20 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": []
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

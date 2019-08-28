@@ -11,12 +11,6 @@ This inital version is meant to handle 4 different Excel-templates, i.e. one for
 The initial templates were partially inconsistently structured. If we proceed by using Excel-templates
 we may move to a single highly structured template. The 'single-usage' code will then be translated
 into OO-code ready for sustainable re-use.
-
-Version 0.2
-
-- Consistent use of 'snake_case' format for JSON field names
-- Added missing lab identifiers
-- Added default string 'coming' for missing required field values
 """
 
 import xlrd
@@ -79,7 +73,7 @@ def getCellNumberByStringValue(sheet,key):
     return cellNumber
 
 def getMultipleCellNumbersByStringValue(sheet,key):
-    # keys are not necessarily unique; no exception handling therefore at this moment
+    # assumption: keys are unique; no exception handling therefore at this moment
     cellNumbers = []
     for row in range(sheet.nrows):
         for col in range(sheet.ncols):
@@ -88,11 +82,10 @@ def getMultipleCellNumbersByStringValue(sheet,key):
     return cellNumbers
     
 def getFieldValue(sheet,keyName,templateSheet):
-    # This routine is only to be used to get the general lab info; equipment information is differently structured in the Excel-template
     # pre-assumptions:
     # field names are unique in the template
-    # value is to be found in the cell next to the right of the label-field cell
-    # To remove fill in instruction values: value is checked against value from template: if equal return empty string
+    # value is to be found in the cell next to the right of the label field cell
+    # value is checked against value from template: if equal return empty string
     cellNumber = getCellNumberByStringValue(sheet,keyName)
     if len(cellNumber) != 0:
         returnVal = sheet.cell(int(cellNumber[0]),int(cellNumber[1]+1)).value
@@ -126,8 +119,6 @@ def getFieldValueByCellNum(sheet,cellNum,templateDefaultValuesList):
     return returnVal
 
 def getListOfMergedCellValues(sheet):
-    # merged cells are separator rows in the template
-    # returns a list values for these rows
     mergedCellsList = sheet.merged_cells
     mergedValues = []
     for c in mergedCellsList:
@@ -153,7 +144,6 @@ def readLabIdentifier(labName):
             name = lab["name"].replace('  ', ' ')
             name = name.replace('"', '')
             if name.find(labNameStripped) != -1:
-                # when the name provided in the template is a non-empty substring then we have a hit
                 labId = lab["id"]
     return labId
         
@@ -203,21 +193,21 @@ def fillGeneralLabInfo(sheet,domain,templateSheet):
     labName = labName.replace('  ', ' ') # remove possible double spaces
     labId = getFieldValue(sheet,'Facility ID',templateSheet)
     if labId in ['will be assigned later', '']:
-        # if not already provided
         labId = readLabIdentifier(labName)
-    # links to the MSL CKAN catalogue portal
-    dataServices = [{'service_type': 'data_publications_access',
-                     'link_label' : 'Go to data publications from this lab (MSL TCS catalogue portal)',
+    
+    dataServices = [{'service_type': 'data_publications - TCS_portal',
+                     'link_label' : 'Go to data publications from this lab (TCS catalogue portal)',
                      'URL': 'https://epos-msl.uu.nl/organization/' + labId},
-                  {'service_type': 'data_publications_get',
-                   'link_label': 'Retrieve data publications from this lab',
+                  {'service_type': 'data_publications_web service',
+                   'link_label': 'Show data publications from this lab',
                    'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab' + labId,
                    'payload' : 'json'}]
 
     if labId == '':
         log = {'Missing identifier for' : fileName + ' (labName = ' + labName + ')'}
         logIdentifiers.append(log)
-
+        global numMissingIdentifiers
+        numMissingIdentifiers += 1
     facility = {'facility' : {'type' : 'laboratory',
                 'ID' : labId,
                 'RI_name' : getFieldValue(sheet, 'RI name',templateSheet),
@@ -279,7 +269,7 @@ def fillPaleoLabServices(sheet,templateSheet):
                 entrancePart1 = {'equipment_type' : eqType,
                                  'equipment_group' : getFieldValueByCellNum(sheet,(valueRow,1),defaults),
                                  'equipment_name' : equipment_name,
-                                 'equipment_secondary_name': equipment_custom_name}
+                                 'equipment_sub_name': equipment_custom_name}
                 log = {'domain' : 'paleomag',
                        'category' : 'equipment',
                        'File' : fileName,
@@ -295,12 +285,12 @@ def fillPaleoLabServices(sheet,templateSheet):
                 log = {'empty equipment type in non-empty entrance' : fileName}
                 logInfo.append(log)
             entrancePart2 = {'equipment_brand' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
-                        'equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
-                        'email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
-                        'equipment_website' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
-                        'equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
-                        'equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,9),defaults),
-                        'references' : getFieldValueByCellNum(sheet,(valueRow,10),defaults)}
+                        'Equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
+                        'Email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
+                        'Equipment_website' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
+                        'Equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
+                        'Equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,9),defaults),
+                        'References' : getFieldValueByCellNum(sheet,(valueRow,10),defaults)}
             entrance = {}
             entrance.update(entrancePart1)
             entrance.update(entrancePart2)
@@ -339,7 +329,7 @@ def fillPaleoLabServices(sheet,templateSheet):
 
         
     returnValue = {'research_field': 'Paleomagnetism', 
-                      'EPOS_subdomain': ['Paleomagnetic and magnetic data'],
+                      'EPOS_WP16_subdomain': ['Paleomagnetic and magnetic data'],
                       'equipment' : equipmentTypes,
                       'measurement' : measurementTypes}
     return returnValue
@@ -393,12 +383,12 @@ def fillAnalogueLabServices(sheet,templateSheet):
                 logInfo.append(log)
             # common part:
             entrancePart2 = {'equipment_brand' : getFieldValueByCellNum(sheet,(valueRow,3),defaults),
-                             'equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
-                             'email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
-                             'equipment_website' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
-                             'equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
-                             'equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
-                             'references' : getFieldValueByCellNum(sheet,(valueRow,9),defaults)}
+                             'Equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
+                             'Email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
+                             'Equipment_website' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
+                             'Equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
+                             'Equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
+                             'References' : getFieldValueByCellNum(sheet,(valueRow,9),defaults)}
             entrance = {}
             entrance.update(entrancePart1)
             entrance.update(entrancePart2)
@@ -424,8 +414,8 @@ def fillAnalogueLabServices(sheet,templateSheet):
             # check whether the 'other material type' column was filled
             material_custom_name = getFieldValueByCellNum(sheet,(valueRow,1),defaults)
             if material_custom_name != '':
-                entrancePart1 = {'material_group' : materialType,
-                                 'material' : material_custom_name}
+                entrancePart1 = {'Material group' : materialType,
+                                 'Material' : material_custom_name}
                 log = {'domain' : 'analogue',
                        'category' : 'Material',
                        'File' : fileName,
@@ -434,11 +424,11 @@ def fillAnalogueLabServices(sheet,templateSheet):
                 logInfo.append(log)
                 
             else:
-                entrancePart1 = {'material' : materialType}
+                entrancePart1 = {'Material' : materialType}
     
-            entrancePart2 = {'material_brand' : getFieldValueByCellNum(sheet,(valueRow,2),defaults),
-                        'material_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,3),defaults),
-                        'references' : getFieldValueByCellNum(sheet,(valueRow,4),defaults)}
+            entrancePart2 = {'Material brand' : getFieldValueByCellNum(sheet,(valueRow,2),defaults),
+                        'Material specifics and comments' : getFieldValueByCellNum(sheet,(valueRow,3),defaults),
+                        'References' : getFieldValueByCellNum(sheet,(valueRow,4),defaults)}
             entrance = {}
             entrance.update(entrancePart1)
             entrance.update(entrancePart2)
@@ -464,8 +454,8 @@ def fillAnalogueLabServices(sheet,templateSheet):
         if not checkOnEmptyRow(sheet,valueRow):
             property_custom_name = getFieldValueByCellNum(sheet,(valueRow,1),defaults)
             if property_custom_name != '':
-                entrancePart1 = {'measured_property_group' : propertyType,
-                                 'measured_property' : property_custom_name}
+                entrancePart1 = {'Measured property group' : propertyType,
+                                 'Measured property' : property_custom_name}
                 log = {'domain' : 'analogue',
                        'category' : 'Measured property',
                        'File' : fileName,
@@ -474,9 +464,9 @@ def fillAnalogueLabServices(sheet,templateSheet):
                 logInfo.append(log)
                 
             else:
-                entrancePart1 = {'measured_property' : propertyType}
-            entrancePart2 = {'measured_property_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,2),defaults),
-                        'references' : getFieldValueByCellNum(sheet,(valueRow,3),defaults)}
+                entrancePart1 = {'Measured property' : propertyType}
+            entrancePart2 = {'Measured property specifics and comments' : getFieldValueByCellNum(sheet,(valueRow,2),defaults),
+                        'References' : getFieldValueByCellNum(sheet,(valueRow,3),defaults)}
             entrance = {}
             entrance.update(entrancePart1)
             entrance.update(entrancePart2)
@@ -488,10 +478,10 @@ def fillAnalogueLabServices(sheet,templateSheet):
 
         
     returnValue = {'research_field': 'Analogue modelling of geologic processes', 
-                      'EPOS_subdomain': ['Analogue models on tectonic processes'],
+                      'EPOS_WP16_subdomain': ['Analogue models on tectonic processes'],
                       'equipment' : equipmentTypes,
                       'material' : materialTypes,
-                      'measured_property' : measuredProperties}
+                      'measured property' : measuredProperties}
     return returnValue
 
 def fillRockPhysicsLabServices(sheet,templateSheet):
@@ -536,12 +526,12 @@ def fillRockPhysicsLabServices(sheet,templateSheet):
                 log = {'empty equipment type in non-empty entrance' : fileName}
                 logInfo.append(log)
             entrancePart2 = {'equipment_brand' : getFieldValueByCellNum(sheet,(valueRow,3),defaults),
-                            'equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
-                            'email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
-                            'equipment_website' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
-                            'equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
-                            'equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
-                            'references' : getFieldValueByCellNum(sheet,(valueRow,9),defaults)}
+                            'Equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
+                            'Email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
+                            'Equipment_website' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
+                            'Equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
+                            'Equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
+                            'References' : getFieldValueByCellNum(sheet,(valueRow,9),defaults)}
             entrance = {}
             entrance.update(entrancePart1)
             entrance.update(entrancePart2)
@@ -550,7 +540,7 @@ def fillRockPhysicsLabServices(sheet,templateSheet):
         eqType = getFieldValueByCellNum(sheet,(valueRow,0),defaults)
         
     returnValue = {'research_field': 'Rock/melt physics & Microscopy', 
-                      'EPOS_subdomain': ['Rock/melt physics & Microscopy'],
+                      'EPOS_WP16_subdomain': ['Rock/melt physics & Microscopy'],
                       'equipment' : equipmentTypes}
     return returnValue
 
@@ -593,12 +583,12 @@ def fillAnalyticalLabServices(sheet,templateSheet):
             entrancePart1 = {'equipment_name' : equipment_name}
 
         entrancePart2 = {'equipment_brand' : getFieldValueByCellNum(sheet,(valueRow,2),defaults),
-                    'equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,3),defaults),
-                    'email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
-                    'equipment_website' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
-                    'equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
-                    'equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
-                    'references' : getFieldValueByCellNum(sheet,(valueRow,8),defaults)}
+                    'Equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,3),defaults),
+                    'Email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
+                    'Equipment_website' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
+                    'Equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
+                    'Equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
+                    'References' : getFieldValueByCellNum(sheet,(valueRow,8),defaults)}
         entrance = {}
         entrance.update(entrancePart1)
         entrance.update(entrancePart2)
@@ -607,7 +597,7 @@ def fillAnalyticalLabServices(sheet,templateSheet):
         eqType = getFieldValueByCellNum(sheet,(valueRow,0),defaults)
         
     returnValue = {'research_field': 'Solid Earth Geochemistry', 
-                      'EPOS_subdomain': ['Geochemical data (elemental and isotope geochemistry)'],
+                      'EPOS_WP16_subdomain': ['Geochemical data (elemental and isotope geochemistry)'],
                       'equipment' : equipmentTypes}
     return returnValue
     
@@ -622,9 +612,7 @@ def processExcel(sourceDomain,fullPath, outputDir,templateFile):
     template = openWorkBook(templateFile)
     templateSheet = template.sheet_by_index(0)
     labInfo = fillGeneralLabInfo(sheet,sourceDomain,templateSheet)
-    if labInfo['facility'].get('ID') != '':
-        # we only add labs with a valid identifier to the allLabs export for ICS
-        allLabsExport.append(labInfo)
+    allLabsExport.append(labInfo)
     writeJSONFile(outputDir + '/' + fileName + '.json',labInfo)
 
 #---------------
@@ -648,8 +636,8 @@ if __name__ == "__main__":
     global allLabsExport
     allLabsExport = []
     
-    #global numMissingIdentifiers
-    #numMissingIdentifiers = 0
+    global numMissingIdentifiers
+    numMissingIdentifiers = 0
     
     for domain in domains:
         domainName = domain[0]
@@ -665,9 +653,10 @@ if __name__ == "__main__":
     log.append(logIdentifiers)
     log.append(logInfo)
     writeJSONFile('sources/log.json',log)
-    infraStructures = {'infrastructures' : allLabsExport}
+    infraStructures = {'Infrastructures' : allLabsExport}
     writeJSONFile('sources/allLabs.json', infraStructures)
- 
+    
+    print('Missing identifiers: ' + str(numMissingIdentifiers))
     
     #print(testJSONFileIO('sources/lab_info_general.json'))
     

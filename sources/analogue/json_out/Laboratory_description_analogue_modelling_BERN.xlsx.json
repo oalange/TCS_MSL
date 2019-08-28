@@ -12,23 +12,23 @@
             "country": "Switzerland"
         },
         "gps": {
-            "gps_lat": 46.951311,
-            "gps_lon": 7.428887
+            "gpsLat": 46.951311,
+            "gpsLon": 7.428887
         },
         "website": "http://www.geo.unibe.ch/research/tectonics/laboratories/tectonic_modelling_lab/index_eng.html",
         "contact_person": {
             "first_name": "Guido",
             "family_name": "Schreurs",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID: 0000-0002-4544-7514; ScopusID: 6603382961; ResearcherID: A-7532-2012"
+                "type": "",
+                "id": "ORCID: 0000-0002-4544-7514; ScopusID: 6603382961; ResearcherID: A-7532-2012"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Other",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -48,230 +48,230 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sandbox > Sandbox (meter scale)",
                     "equipment_brand": "Prototype (developed and constructed by HSR Rapperswil)",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "(oblique) shortening, (oblique) extension, strike-slip",
-                    "equipment_quantity": 1.0,
-                    "references": "https://doi.org/10.1016/j.gloplacha.2017.11.002"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "(oblique) shortening, (oblique) extension, strike-slip",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1016/j.gloplacha.2017.11.002"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sandbox > Sandbox (meter scale)",
                     "equipment_brand": "Prototype (developed and constructed by HSR Rapperswil)",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "rotational extension",
-                    "equipment_quantity": 1.0,
-                    "references": "Zwaan, F., Schreurs, G., Rosenau, M. Rift development and propagation under orthogonal versus rotational extensional conditions as observed in 4D analogue models, Submitted to Journal of Structural Geology, October 2018"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "rotational extension",
+                    "Equipment_quantity": 1.0,
+                    "References": "Zwaan, F., Schreurs, G., Rosenau, M. Rift development and propagation under orthogonal versus rotational extensional conditions as observed in 4D analogue models, Submitted to Journal of Structural Geology, October 2018"
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "X-ray computed tomographic scanner (CT-scan)",
                     "equipment_brand": "64-slice Siemens Somatom Definition AS medical scanner",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "diameter of analysis c. 50 cm",
-                    "equipment_quantity": "",
-                    "references": "https://doi.org/10.1016/j.gloplacha.2017.11.002"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "diameter of analysis c. 50 cm",
+                    "Equipment_quantity": "",
+                    "References": "https://doi.org/10.1016/j.gloplacha.2017.11.002"
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Time lapse camera",
                     "equipment_brand": "Nikon",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Other",
                     "equipment_name": "Digital volume correlation techniques applied to X-ray CT data for strain quantification at high spatial and temporal resolution",
                     "equipment_brand": "LaVision software (in collaboration with Jürgen Adam)",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "Osirix",
                     "equipment_brand": "PIXMEO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Petrel (Schlumberger)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "SLR camera",
                     "equipment_brand": "Nikon",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "The Kingdom Suite (SMT)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Structure from Motion (SfM) > Photoscan (Agisoft)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "MeshLab",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Move (Midland Valley)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > Matlab code",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "PDMS SGM 36",
-                    "material_specifics_and_comments": "http://doi.org/doi:10.5880/GFZ.4.1.2016.001",
-                    "references": "http://doi.org/doi:10.5880/GFZ.4.1.2016.001"
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "PDMS SGM 36",
+                    "Material specifics and comments": "http://doi.org/doi:10.5880/GFZ.4.1.2016.001",
+                    "References": "http://doi.org/doi:10.5880/GFZ.4.1.2016.001"
                 },
                 {
-                    "material": "Sand > Corundum Sand",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "DOI",
-                    "references": "10.1016/j.jsg.2004.11.001"
+                    "Material": "Sand > Corundum Sand",
+                    "Material brand": "",
+                    "Material specifics and comments": "DOI",
+                    "References": "10.1016/j.jsg.2004.11.001"
                 },
                 {
-                    "material": "Sand > Quartz Sand",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "http://doi.org/doi:10.5880/fidgeo.2018.028",
-                    "references": "http://doi.org/doi:10.5880/fidgeo.2018.028"
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "",
+                    "Material specifics and comments": "http://doi.org/doi:10.5880/fidgeo.2018.028",
+                    "References": "http://doi.org/doi:10.5880/fidgeo.2018.028"
                 },
                 {
-                    "material": "Glass fragments",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Glass fragments",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material": "Pyrex",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Pyrex",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Mixtures of corundum sand and PDMS",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "http://doi.org/doi:10.5880/fidgeo.2018.023"
+                    "Material group": "Other",
+                    "Material": "Mixtures of corundum sand and PDMS",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "http://doi.org/doi:10.5880/fidgeo.2018.023"
                 },
                 {
-                    "material": "Foam",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Foam",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "Cohesion",
-                    "measured_property_specifics_and_comments": "ring-shear tester at GFZ Potsdam",
-                    "references": "see papers above"
+                    "Measured property": "Cohesion",
+                    "Measured property specifics and comments": "ring-shear tester at GFZ Potsdam",
+                    "References": "see papers above"
                 },
                 {
-                    "measured_property": "Grain size distribution",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "see papers above"
+                    "Measured property": "Grain size distribution",
+                    "Measured property specifics and comments": "",
+                    "References": "see papers above"
                 },
                 {
-                    "measured_property": "Friction coefficient",
-                    "measured_property_specifics_and_comments": "ring-shear tester at GFZ Potsdam",
-                    "references": "see papers above"
+                    "Measured property": "Friction coefficient",
+                    "Measured property specifics and comments": "ring-shear tester at GFZ Potsdam",
+                    "References": "see papers above"
                 },
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "see papers above"
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": "see papers above"
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "rheometer at GFZ Potsdam",
-                    "references": "http://doi.org/doi:10.5880/fidgeo.2018.023"
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "rheometer at GFZ Potsdam",
+                    "References": "http://doi.org/doi:10.5880/fidgeo.2018.023"
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

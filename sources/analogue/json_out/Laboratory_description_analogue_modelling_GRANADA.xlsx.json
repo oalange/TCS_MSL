@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gps_lat": 37.140832,
-            "gps_lon": -3.616828
+            "gpsLat": 37.140832,
+            "gpsLon": -3.616828
         },
         "website": "https://www.ugr.es/~geodina/web_acrespo/",
         "contact_person": {
             "first_name": "Analogue modelling of geologic processes",
             "family_name": "Crespo Blanc ",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID: orcid.org/0000-0003-3723-2529; SCOPUS: 56625194800; ResearcherID: W-4544-2017"
+                "type": "",
+                "id": "ORCID: orcid.org/0000-0003-3723-2529; SCOPUS: 56625194800; ResearcherID: W-4544-2017"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Universidad de Granada,  Spain",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -48,73 +48,73 @@
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sandbox > Sandbox (meter scale)",
                     "equipment_brand": "Own manufacturing",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Generic camera",
                     "equipment_brand": "Nikon",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Sand > Quartz Sand",
-                    "material_brand": "Cadiz beach dunes",
-                    "material_specifics_and_comments": "Well-rounded quartz, 0.2-0.3mm of diameter",
-                    "references": "Crespo-Blanc et al. 2008"
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "Cadiz beach dunes",
+                    "Material specifics and comments": "Well-rounded quartz, 0.2-0.3mm of diameter",
+                    "References": "Crespo-Blanc et al. 2008"
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Rhone Poulenc",
-                    "material_specifics_and_comments": "",
-                    "references": "Crespo-Blanc et al. 2008"
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Rhone Poulenc",
+                    "Material specifics and comments": "",
+                    "References": "Crespo-Blanc et al. 2008"
                 },
                 {
-                    "material": "Microspheres > Glassy",
-                    "material_brand": "Sedinfra",
-                    "material_specifics_and_comments": "Microsphere with a 0.2-0.3mm of diameter",
-                    "references": ""
+                    "Material": "Microspheres > Glassy",
+                    "Material brand": "Sedinfra",
+                    "Material specifics and comments": "Microsphere with a 0.2-0.3mm of diameter",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "sand: 1,77; silicone: 0.98",
-                    "references": "Crespo-Blanc et al. 2008"
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "sand: 1,77; silicone: 0.98",
+                    "References": "Crespo-Blanc et al. 2008"
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "50000 Pa·s",
-                    "references": "Crespo-Blanc et al. 2008"
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "50000 Pa·s",
+                    "References": "Crespo-Blanc et al. 2008"
                 },
                 {
-                    "measured_property_group": "",
-                    "measured_property": "5 x 104",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property group": "",
+                    "Measured property": "5 x 104",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/c8a8a396b310eb8b6aff45dc25c64864"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labc8a8a396b310eb8b6aff45dc25c64864",
                 "payload": "json"
             }

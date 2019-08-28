@@ -12,23 +12,23 @@
             "country": "Germany"
         },
         "gps": {
-            "gps_lat": 52.381121,
-            "gps_lon": 13.066348
+            "gpsLat": 52.381121,
+            "gpsLon": 13.066348
         },
         "website": "ttps://www.gfz-potsdam.de/en/section/lithosphere-dynamics/infrastructure/heltec-helmholtz-laboratory-for-tectonic-modelling/",
         "contact_person": {
             "first_name": "Matthias",
             "family_name": "Rosenau",
             "identifier": {
-                "id_type": "",
-                "id_value": "0000-0003-1134-5381"
+                "type": "",
+                "id": "0000-0003-1134-5381"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": " GFZ German Research Centre for Geosciences, Potsdam, Germany",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -49,372 +49,372 @@
                     "equipment_group": "Ring-shear tester",
                     "equipment_name": "Schulze RST-01.pc",
                     "equipment_brand": "Schulze",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2000.0,
-                    "equipment_quantity": 1.0,
-                    "references": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2000.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Rheometer",
                     "equipment_name": "Anton Paar MCR 301",
                     "equipment_brand": "Anton Paar",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2007.0,
-                    "equipment_quantity": 1.0,
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2007.0,
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Triaxal tester",
                     "equipment_name": "Zwickiline 2.5 kN",
                     "equipment_brand": "Zwick-Roehl",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2017.0,
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2017.0,
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Gravity sliding simulator",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.1002/2014JF003406, 10.1007/978-3-319-05050-8_16"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1002/2014JF003406, 10.1007/978-3-319-05050-8_16"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sandbox > Sandbox (meter scale)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": "10.1016/j.epsl.2010.12.002, 10.1016/j.jsg.2015.03.008"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "10.1016/j.epsl.2010.12.002, 10.1016/j.jsg.2015.03.008"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Shear box",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.1002/2017TC004787, 10.1016/j.tecto.2017.11.018"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1002/2017TC004787, 10.1016/j.tecto.2017.11.018"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Earthquake simulator",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.5194/se-2016-165, 10.1093/gji/ggv512"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.5194/se-2016-165, 10.1093/gji/ggv512"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Extension box",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.5194/se-6-9-2015"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.5194/se-6-9-2015"
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "High frame rate camera",
                     "equipment_name": "Phantom VEO 640L (2 MPx, 20kHz)",
                     "equipment_brand": "Phantom",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2017.0,
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2017.0,
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "High frame rate camera",
                     "equipment_name": "LaVision MX4 (4MPx, 100 Hz)",
                     "equipment_brand": "LaVision",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2014.0,
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2014.0,
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "High frame rate camera",
                     "equipment_name": "LaVision sCMOS (5 MPx, 50 Hz)",
                     "equipment_brand": "LaVision",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2014.0,
-                    "equipment_quantity": 2.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2014.0,
+                    "Equipment_quantity": 2.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Time lapse camera",
                     "equipment_name": "LaVision Imager ProX (11 MPx, 4 Hz)",
                     "equipment_brand": "LaVision",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2007.0,
-                    "equipment_quantity": 2.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2007.0,
+                    "Equipment_quantity": 2.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Time lapse camera",
                     "equipment_name": "LaVision Imager LX (29 MPx, 1 Hz)",
                     "equipment_brand": "LaVision",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": 2017.0,
-                    "equipment_quantity": 2.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": 2017.0,
+                    "Equipment_quantity": 2.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Force sensor",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "MEMS accelerometer",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > StrainMaster (La Vision GmbH)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": "10.1016/j.jsg.2004.08.008"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "10.1016/j.jsg.2004.08.008"
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "LabView Data Viewer",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Structure from Motion (SfM) > Photoscan (Agisoft)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Matlab (Mathworks)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "PyLith (numerical software)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": "10.1029/2018GC007645, 10.1002/2016GL071995"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "10.1029/2018GC007645, 10.1002/2016GL071995"
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "Python",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Flour > Rice",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "10.5194/se-2016-165,10.1029/2008jb005665"
+                    "Material": "Flour > Rice",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "10.5194/se-2016-165,10.1029/2008jb005665"
                 },
                 {
-                    "material": "Microspheres",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "40 - 400 micron, glassy, ceramic",
-                    "references": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                    "Material": "Microspheres",
+                    "Material brand": "",
+                    "Material specifics and comments": "40 - 400 micron, glassy, ceramic",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
                 },
                 {
-                    "material": "Rubber",
-                    "material_brand": "Melos",
-                    "material_specifics_and_comments": "EPDM 60 Shore A",
-                    "references": "10.5194/se-2016-165, 10.1029/2008jb005665"
+                    "Material": "Rubber",
+                    "Material brand": "Melos",
+                    "Material specifics and comments": "EPDM 60 Shore A",
+                    "References": "10.5194/se-2016-165, 10.1029/2008jb005665"
                 },
                 {
-                    "material": "Sand",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "G23, G12",
-                    "references": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                    "Material": "Sand",
+                    "Material brand": "",
+                    "Material specifics and comments": "G23, G12",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
                 },
                 {
-                    "material": "Sugar",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "10.5194/se-2016-165, 10.1029/2008jb005665"
+                    "Material": "Sugar",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "10.5194/se-2016-165, 10.1029/2008jb005665"
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Korasilone",
-                    "material_specifics_and_comments": "M-series (oil), 10^2 to 10^4 Pas",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1029/2008JB005665"
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Korasilone",
+                    "Material specifics and comments": "M-series (oil), 10^2 to 10^4 Pas",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1029/2008JB005665"
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "Cohesion",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                    "Measured property": "Cohesion",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
                 },
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2016.01.017, 10.1016/S0191-8141(03)00005-1"
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1016/S0191-8141(03)00005-1"
                 },
                 {
-                    "measured_property": "Friction coefficient",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
+                    "Measured property": "Friction coefficient",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1002/2016JB012915, 10.1016/j.tecto.2016.01.017"
                 },
                 {
-                    "measured_property": "Grain size distribution",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2016.01.017, 10.1016/S0191-8141(03)00005-1"
+                    "Measured property": "Grain size distribution",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1016/S0191-8141(03)00005-1"
                 },
                 {
-                    "measured_property": "Bulk modulus",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
+                    "Measured property": "Bulk modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
                 },
                 {
-                    "measured_property": "Loss modulus",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Loss modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Maxwell relaxation time",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1029/2008jb005665"
+                    "Measured property": "Maxwell relaxation time",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1029/2008jb005665"
                 },
                 {
-                    "measured_property": "Poisson ratio",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Poisson ratio",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Rate-state parameters",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.5194/se-2016-165, 10.1029/2008jb005665"
+                    "Measured property": "Rate-state parameters",
+                    "Measured property specifics and comments": "",
+                    "References": "10.5194/se-2016-165, 10.1029/2008jb005665"
                 },
                 {
-                    "measured_property": "Rheological model",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Rheological model",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Shear modulus",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
+                    "Measured property": "Shear modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
                 },
                 {
-                    "measured_property": "Storage modulus",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Storage modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Stress exponent",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Stress exponent",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Yield stress",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Yield stress",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2015.11.028, 10.1016/j.tecto.2014.12.005"
                 },
                 {
-                    "measured_property": "Young modulus",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
+                    "Measured property": "Young modulus",
+                    "Measured property specifics and comments": "",
+                    "References": "10.1016/j.tecto.2016.01.017, 10.1029/2008jb005665"
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/9ba34c109b827b177aab36e0266b1643"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab9ba34c109b827b177aab36e0266b1643",
                 "payload": "json"
             }

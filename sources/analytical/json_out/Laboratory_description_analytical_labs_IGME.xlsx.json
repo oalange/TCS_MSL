@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gps_lat": 40.5998835508,
-            "gps_lon": -3.6957541108
+            "gpsLat": 40.5998835508,
+            "gpsLon": -3.6957541108
         },
         "website": "http://www.igme.es/servicios/laboratorios.htm",
         "contact_person": {
             "first_name": "Pablo",
             "family_name": "Valverde-Vaquero",
             "identifier": {
-                "id_type": "",
-                "id_value": "0000-0002-2184-0848, scopus 55911124900, id M-3394-2014"
+                "type": "",
+                "id": "0000-0002-2184-0848, scopus 55911124900, id M-3394-2014"
             },
-            "email": "p.valverde@igme.es",
+            "e-mail": "p.valverde@igme.es",
             "affiliation": {
                 "legal_name": "",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,91 +40,91 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "TIMS, Thermal ionization mass spectrometer",
                     "equipment_brand": "Thermo (Triton)",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "ICP-OES, Inductively coupled plasma optical emission spectrometer",
                     "equipment_brand": "Thermo",
-                    "equipment_contact_person": "Jesus Reyes ",
-                    "email_equipment_contact_person": "j.reyes@igme.es",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Jesus Reyes ",
+                    "Email_equipment_contact_person": "j.reyes@igme.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_name": "ICP-MS, Inductively coupled plasma mass spectrometer",
                     "equipment_brand": "Agilent",
-                    "equipment_contact_person": "Jesus Reyes ",
-                    "email_equipment_contact_person": "j.reyes@igme.es",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Agilent 7500ce",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "Jesus Reyes ",
+                    "Email_equipment_contact_person": "j.reyes@igme.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Agilent 7500ce",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "AAS, Atomic absorption spectrometer",
                     "equipment_brand": "",
-                    "equipment_contact_person": "Jesus Reyes ",
-                    "email_equipment_contact_person": "j.reyes@igme.es",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Jesus Reyes ",
+                    "Email_equipment_contact_person": "j.reyes@igme.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_name": "LA, Laser ablation system",
                     "equipment_brand": "Cetac",
-                    "equipment_contact_person": "Jesus Reyes ",
-                    "email_equipment_contact_person": "j.reyes@igme.es",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Cetac 266 nm (old model)",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Jesus Reyes ",
+                    "Email_equipment_contact_person": "j.reyes@igme.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Cetac 266 nm (old model)",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_name": "XRD, X-ray diffraction spectrometer",
                     "equipment_brand": "PANalytical",
-                    "equipment_contact_person": "Jesus Reyes ",
-                    "email_equipment_contact_person": "j.reyes@igme.es",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "WDDXRF Magic PANalytical",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Jesus Reyes ",
+                    "Email_equipment_contact_person": "j.reyes@igme.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "WDDXRF Magic PANalytical",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_name": "XRF, X-ray fluorescence spectrometer",
                     "equipment_brand": "PANalytical",
-                    "equipment_contact_person": "Jesus Reyes ",
-                    "email_equipment_contact_person": "j.reyes@igme.es",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "XPERT PRO MPD PANalytical X-Ray difractometer",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "Jesus Reyes ",
+                    "Email_equipment_contact_person": "j.reyes@igme.es",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "XPERT PRO MPD PANalytical X-Ray difractometer",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/abffc206fde4d92e6a99314edff00f98"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lababffc206fde4d92e6a99314edff00f98",
                 "payload": "json"
             }

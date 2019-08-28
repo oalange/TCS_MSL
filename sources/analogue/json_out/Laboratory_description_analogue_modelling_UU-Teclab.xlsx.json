@@ -12,23 +12,23 @@
             "country": "Netherlands"
         },
         "gps": {
-            "gps_lat": 52.088875,
-            "gps_lon": 5.164761
+            "gpsLat": 52.088875,
+            "gpsLon": 5.164761
         },
         "website": "https://www.uu.nl/en/organisation/faculty-of-geosciences/collaboration/labs-and-facilities/teclab",
         "contact_person": {
             "first_name": "Ernst",
             "family_name": "Willingshofer",
             "identifier": {
-                "id_type": "",
-                "id_value": "0000-0002-9119-5557"
+                "type": "",
+                "id": "0000-0002-9119-5557"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Utrecht University,  The Netherlands",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -48,376 +48,376 @@
                     "equipment_type": "Monitoring",
                     "equipment_name": "X-ray computed tomographic scanner (CT-scan)",
                     "equipment_brand": "Philips, Tomoscan LX",
-                    "equipment_contact_person": "dr. Fred Beekman",
-                    "email_equipment_contact_person": "fred.beekman@uu.nl",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2005. Costs: 180 K€. Specifics: The analysis of the scanned slices allows for the calculation of 3d-volumes.  Maximum size of the models that can be used in the sacnner is 40 cm (width) x 150 cm (length). Application:  Analysis of deep structure of crustal- and lithosphere-scale analogue models and slice and volume scans of drill cores. ",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "dr. Fred Beekman",
+                    "Email_equipment_contact_person": "fred.beekman@uu.nl",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2005. Costs: 180 K€. Specifics: The analysis of the scanned slices allows for the calculation of 3d-volumes.  Maximum size of the models that can be used in the sacnner is 40 cm (width) x 150 cm (length). Application:  Analysis of deep structure of crustal- and lithosphere-scale analogue models and slice and volume scans of drill cores. ",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Laser scanner",
                     "equipment_brand": "Mephisto CX 3D Scanner",
-                    "equipment_contact_person": "dr. Ernst Willingshofer",
-                    "email_equipment_contact_person": "e.willingshofer@uu.nl",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2015. Costs: 20 K€ . Specifics: maximum scan area is 1.2 x 1m  Application:  Analysis of surface structure and topography of crustal- and lithosphere-scale analogue models. Aquisition of xyz data of model surface\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "dr. Ernst Willingshofer",
+                    "Email_equipment_contact_person": "e.willingshofer@uu.nl",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2015. Costs: 20 K€ . Specifics: maximum scan area is 1.2 x 1m  Application:  Analysis of surface structure and topography of crustal- and lithosphere-scale analogue models. Aquisition of xyz data of model surface\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Laser scanner",
                     "equipment_brand": "Optix 400",
-                    "equipment_contact_person": "dr. Ernst Willingshofer",
-                    "email_equipment_contact_person": "e.willingshofer@uu.nl",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2005. Costs: 45 K€ . Specifics: maximum scan area is 1.5 x 1m  Application:  Analysis of surface structure and topography of crustal- and lithosphere-scale analogue models. Aquisition of xyz data of model surface\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "dr. Ernst Willingshofer",
+                    "Email_equipment_contact_person": "e.willingshofer@uu.nl",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2005. Costs: 45 K€ . Specifics: maximum scan area is 1.5 x 1m  Application:  Analysis of surface structure and topography of crustal- and lithosphere-scale analogue models. Aquisition of xyz data of model surface\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Squeeze box",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2003. Costs: 5 K€. Specifics: Deformation apparatus with 2 stepping motors connected to 2 movable walls, which can move with different velocities and directions. Application: Crustal scale models\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2003. Costs: 5 K€. Specifics: Deformation apparatus with 2 stepping motors connected to 2 movable walls, which can move with different velocities and directions. Application: Crustal scale models\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Squeeze box",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2003. Costs: 3 K€. Specifics: Squeeze box with stepping motor. Maximum size of models: 46x36x14cm (LxWxD). Application: Lithosphere-scale models\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2003. Costs: 3 K€. Specifics: Squeeze box with stepping motor. Maximum size of models: 46x36x14cm (LxWxD). Application: Lithosphere-scale models\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Squeeze box",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2005. Costs: 3 K€ . Specifics: Squeeze box with stepping motor. Maximum size of models: 82x36x12cm (LxWxD). Application:Crustal and lithosphere-scale models\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2005. Costs: 3 K€ . Specifics: Squeeze box with stepping motor. Maximum size of models: 82x36x12cm (LxWxD). Application:Crustal and lithosphere-scale models\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Squeeze box",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2007. Costs: 4 K€ . Specifics: Squeeze box with stepping motor. Maximum size of models: 75x55x15cm (LxWxD). Suitable for experiments in the CT-scan. Application:Crustal and lithosphere-scale models\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2007. Costs: 4 K€ . Specifics: Squeeze box with stepping motor. Maximum size of models: 75x55x15cm (LxWxD). Suitable for experiments in the CT-scan. Application:Crustal and lithosphere-scale models\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Electric engine (mm/hr)",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2018. Costs: 3 K€ . Specifics: stepping motor.  Application:Crustal-scale models\n",
-                    "equipment_quantity": 3.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2018. Costs: 3 K€ . Specifics: stepping motor.  Application:Crustal-scale models\n",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Rheometer",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2003. Costs: 4 K€ . Specifics: Coni-cylindrical viscometer. Application: Determination of viscosity of analogue materials\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2003. Costs: 4 K€ . Specifics: Coni-cylindrical viscometer. Application: Determination of viscosity of analogue materials\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Pycnometer",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2003. Costs: 1.5 K€ . Specifics: Manual picnometer. Application: Determination of density of analogue materials\n",
-                    "equipment_quantity": 2.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2003. Costs: 1.5 K€ . Specifics: Manual picnometer. Application: Determination of density of analogue materials\n",
+                    "Equipment_quantity": 2.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Generic camera",
                     "equipment_brand": "Canon EOS 700D",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2016. Costs: 1.5 K€ . Specifics: Digital cameras and time lapse system Application: Imaging of model surface, sideviews and cross-sections and partical tracking (PIV)\n",
-                    "equipment_quantity": 3.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2016. Costs: 1.5 K€ . Specifics: Digital cameras and time lapse system Application: Imaging of model surface, sideviews and cross-sections and partical tracking (PIV)\n",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_name": "Generic camera",
                     "equipment_brand": "Canon EOS 1100D",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2016. Costs: 1.5 K€ . Specifics: Digital cameras and time lapse system Application: Imaging of model surface, sideviews and cross-sections and partical tracking (PIV)\n",
-                    "equipment_quantity": 3.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2016. Costs: 1.5 K€ . Specifics: Digital cameras and time lapse system Application: Imaging of model surface, sideviews and cross-sections and partical tracking (PIV)\n",
+                    "Equipment_quantity": 3.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Sieving device",
                     "equipment_brand": "Xinxiang lysheng General Machine",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2013. Costs: 1.5 K€ . Specifics: Rotary vibrating screen. Application: Sieving dry sand\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2013. Costs: 1.5 K€ . Specifics: Rotary vibrating screen. Application: Sieving dry sand\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Cooler device",
                     "equipment_name": "Freezer",
                     "equipment_brand": "Bosch economic super electronic freezer",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2008. Costs: 5 K€ . Specifics: temperature range up to -30 C Application: Freezing and subsequent cutting of lithosphere-scale models\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2008. Costs: 5 K€ . Specifics: temperature range up to -30 C Application: Freezing and subsequent cutting of lithosphere-scale models\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Heating device",
                     "equipment_name": "Stove",
                     "equipment_brand": "Memmert; Heraeus",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2002. Costs: 4 K€ . Specifics: temperature range up to 300 C Application: Drying painted brittle materials\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2002. Costs: 4 K€ . Specifics: temperature range up to 300 C Application: Drying painted brittle materials\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Cement mixer",
                     "equipment_brand": "Belle, Easymix 150",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2004. Costs: 0.5 K€ . Specifics: capacity: 50kg Application: coloring sand\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2004. Costs: 0.5 K€ . Specifics: capacity: 50kg Application: coloring sand\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Electronic Balance",
                     "equipment_brand": "Mettler PC 4400",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2002. Costs: 0.5 K€ . Application:Determine the weight of materials\n",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2002. Costs: 0.5 K€ . Application:Determine the weight of materials\n",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Glass/Plexiglas box > Glass/Plexiglas box (cm scale)",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Total costs: 9K Various sizes: 120x100x15, 120x60x15, 80x40x20, 70x60x15, 50x36x15, 45x36x28, 45x36x18, 45x36x15, 40x36x15. Application: Crustal and lithosperic scale models",
-                    "equipment_quantity": 9.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Total costs: 9K Various sizes: 120x100x15, 120x60x15, 80x40x20, 70x60x15, 50x36x15, 45x36x28, 45x36x18, 45x36x15, 40x36x15. Application: Crustal and lithosperic scale models",
+                    "Equipment_quantity": 9.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Hubbert-type shear box",
                     "equipment_brand": "In house manufactured",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Year of installation: 2006. Costs: 1.5K Specifics: Hubert-type shear apparatus. Application: Determination shear strength, Friction coefficient and cohesion of brittle materials.",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Year of installation: 2006. Costs: 1.5K Specifics: Hubert-type shear apparatus. Application: Determination shear strength, Friction coefficient and cohesion of brittle materials.",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Matlab (Mathworks)",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": " ",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": " ",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "MeshLab",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Application: Analyzing syn-deformation surface topography, Aquisition of xyz data of model surface",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Application: Analyzing syn-deformation surface topography, Aquisition of xyz data of model surface",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_name": "Digital Image Correlation (DIC) / Particle Image Velocimetry (PIV) > PIVlab",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Application: Particle tracking for aquisition of strain and strain rate.",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Application: Particle tracking for aquisition of strain and strain rate.",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "Ulysses 3D scanner software",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Application: Analyzing syn-deformation surface topography, Aquisition of xyz data of model surface",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Application: Analyzing syn-deformation surface topography, Aquisition of xyz data of model surface",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "RealScanUSB scan control software and RapidForm 2004",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "Application: Analyzing syn-deformation surface topography, Aquisition of xyz data of model surface",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "Application: Analyzing syn-deformation surface topography, Aquisition of xyz data of model surface",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Sand > Quartz Sand",
-                    "material_brand": "Sibelco - MAM1ST300",
-                    "material_specifics_and_comments": "Grain size: 125-300μm, density: 1.5g/cm3, Peak, dynamic and reactivation friction coefficients: µP = 0.63, µD = 0.48, and µR =  0.52\n",
-                    "references": "Willingshofer, E., Sokoutis, D., Beekman, F., Schönebeck, J.-M., Warsitzka, M. & Rosenau, M. (2018). Ring shear test data of feldspar sand and quartz sand used in the Tectonic Laboratory (TecLab) at Utrecht University for experimental Earth Science applications. GFZ Data Services, http://doi.org/10.5880/fidgeo.2018.---"
+                    "Material": "Sand > Quartz Sand",
+                    "Material brand": "Sibelco - MAM1ST300",
+                    "Material specifics and comments": "Grain size: 125-300μm, density: 1.5g/cm3, Peak, dynamic and reactivation friction coefficients: µP = 0.63, µD = 0.48, and µR =  0.52\n",
+                    "References": "Willingshofer, E., Sokoutis, D., Beekman, F., Schönebeck, J.-M., Warsitzka, M. & Rosenau, M. (2018). Ring shear test data of feldspar sand and quartz sand used in the Tectonic Laboratory (TecLab) at Utrecht University for experimental Earth Science applications. GFZ Data Services, http://doi.org/10.5880/fidgeo.2018.---"
                 },
                 {
-                    "material": "Sand > Feldspar Sand",
-                    "material_brand": "Amberger Kaolinwerke - Feldspar FS 900 S",
-                    "material_specifics_and_comments": "Grain size: 100-250μm, density: 1.3g/cm3, Peak, dynamic and reactivation friction coefficients: µP =0.68, µD = 0.55, and µR = 0.61\n",
-                    "references": "Willingshofer, E., Sokoutis, D., Beekman, F., Schönebeck, J.-M., Warsitzka, M. & Rosenau, M. (2018). Ring shear test data of feldspar sand and quartz sand used in the Tectonic Laboratory (TecLab) at Utrecht University for experimental Earth Science applications. GFZ Data Services, http://doi.org/10.5880/fidgeo.2018.---"
+                    "Material": "Sand > Feldspar Sand",
+                    "Material brand": "Amberger Kaolinwerke - Feldspar FS 900 S",
+                    "Material specifics and comments": "Grain size: 100-250μm, density: 1.3g/cm3, Peak, dynamic and reactivation friction coefficients: µP =0.68, µD = 0.55, and µR = 0.61\n",
+                    "References": "Willingshofer, E., Sokoutis, D., Beekman, F., Schönebeck, J.-M., Warsitzka, M. & Rosenau, M. (2018). Ring shear test data of feldspar sand and quartz sand used in the Tectonic Laboratory (TecLab) at Utrecht University for experimental Earth Science applications. GFZ Data Services, http://doi.org/10.5880/fidgeo.2018.---"
                 },
                 {
-                    "material_group": "Sand",
-                    "material": "\"Plastic sand\"",
-                    "material_brand": "Maxi-Blast Inc. - Enduro-Grade EG5”",
-                    "material_specifics_and_comments": "grain-size of 150-250 μm, density: 0,7g/cm3, eak, dynamic and reactivation friction coefficients: µP =0.76, µD = 0.60, and µR = 0.66",
-                    "references": "Willingshofer, E., Sokoutis, D., Kleinhans, M., Beekmann, F., Warsitzka, M. & Rosenau, M.(2018): Ring-shear test data of plastic sand, a new rock analogue material used for experimental Earth Science applications at Utrecht University, The Netherlands. GFZ Data Services, http://doi.org/10.5880/GFZ.4.1.2018.---"
+                    "Material group": "Sand",
+                    "Material": "\"Plastic sand\"",
+                    "Material brand": "Maxi-Blast Inc. - Enduro-Grade EG5”",
+                    "Material specifics and comments": "grain-size of 150-250 μm, density: 0,7g/cm3, eak, dynamic and reactivation friction coefficients: µP =0.76, µD = 0.60, and µR = 0.66",
+                    "References": "Willingshofer, E., Sokoutis, D., Kleinhans, M., Beekmann, F., Warsitzka, M. & Rosenau, M.(2018): Ring-shear test data of plastic sand, a new rock analogue material used for experimental Earth Science applications at Utrecht University, The Netherlands. GFZ Data Services, http://doi.org/10.5880/GFZ.4.1.2018.---"
                 },
                 {
-                    "material": "Microspheres > Glassy",
-                    "material_brand": "Unicorn Industrial Clearing Solutions - ",
-                    "material_specifics_and_comments": "Grain size: 200-400μm, Density: 2.45-2.5 gr/ml, Hardness: 6Mohs\n",
-                    "references": ""
+                    "Material": "Microspheres > Glassy",
+                    "Material brand": "Unicorn Industrial Clearing Solutions - ",
+                    "Material specifics and comments": "Grain size: 200-400μm, Density: 2.45-2.5 gr/ml, Hardness: 6Mohs\n",
+                    "References": ""
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Dow Corning, USA - PDMS SGM36",
-                    "material_specifics_and_comments": "Specific gravity: 0.97, stress exponent (n): 1, Viscosity at 20°C: 5.0*10^4 Pa s, colourless\n",
-                    "references": ""
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Dow Corning, USA - PDMS SGM36",
+                    "Material specifics and comments": "Specific gravity: 0.97, stress exponent (n): 1, Viscosity at 20°C: 5.0*10^4 Pa s, colourless\n",
+                    "References": ""
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Rhône-Poulenc - Rhodersil Gomme Slbione 70007 or 70009",
-                    "material_specifics_and_comments": "Specific gravity: 1.23, stress exponent (n): 1, Viscosity at  20°C: 1.5*, colour: Salmon\n",
-                    "references": ""
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Rhône-Poulenc - Rhodersil Gomme Slbione 70007 or 70009",
+                    "Material specifics and comments": "Specific gravity: 1.23, stress exponent (n): 1, Viscosity at  20°C: 1.5*, colour: Salmon\n",
+                    "References": ""
                 },
                 {
-                    "material": "Clay",
-                    "material_brand": "Becks plastilin - Natur Kreativknete",
-                    "material_specifics_and_comments": "Density: 1143 kg/m3",
-                    "references": ""
+                    "Material": "Clay",
+                    "Material brand": "Becks plastilin - Natur Kreativknete",
+                    "Material specifics and comments": "Density: 1143 kg/m3",
+                    "References": ""
                 },
                 {
-                    "material": "Iron Powder",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "Very fine iron powder, Density: 7874 kg/m3\n",
-                    "references": ""
+                    "Material": "Iron Powder",
+                    "Material brand": "",
+                    "Material specifics and comments": "Very fine iron powder, Density: 7874 kg/m3\n",
+                    "References": ""
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Glucose syrup (Taco)",
-                    "material_brand": "Belgosuc nv - Belgogluc HDE",
-                    "material_specifics_and_comments": "Viscosity at 20°C: 1.6*10^2 Pa s",
-                    "references": ""
+                    "Material group": "Other",
+                    "Material": "Glucose syrup (Taco)",
+                    "Material brand": "Belgosuc nv - Belgogluc HDE",
+                    "Material specifics and comments": "Viscosity at 20°C: 1.6*10^2 Pa s",
+                    "References": ""
                 },
                 {
-                    "material": "Glycerine",
-                    "material_brand": "Sigma-Aldrich",
-                    "material_specifics_and_comments": " Density: 1.25 g/L\n",
-                    "references": ""
+                    "Material": "Glycerine",
+                    "Material brand": "Sigma-Aldrich",
+                    "Material specifics and comments": " Density: 1.25 g/L\n",
+                    "References": ""
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Sodium polytungstate solution",
-                    "material_brand": "Sigma-Aldrich",
-                    "material_specifics_and_comments": " Molar weight: 2968.00 g/mol\n",
-                    "references": ""
+                    "Material group": "Other",
+                    "Material": "Sodium polytungstate solution",
+                    "Material brand": "Sigma-Aldrich",
+                    "Material specifics and comments": " Molar weight: 2968.00 g/mol\n",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "Cohesion",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "relevant papers referring to measured property"
+                    "Measured property": "Cohesion",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
                 },
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Friction coefficient",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Friction coefficient",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/aa45f98e5c098237d0c57b58e5f953e1"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labaa45f98e5c098237d0c57b58e5f953e1",
                 "payload": "json"
             }

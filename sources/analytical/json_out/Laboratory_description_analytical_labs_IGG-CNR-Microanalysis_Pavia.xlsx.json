@@ -12,23 +12,23 @@
             "country": "Italy"
         },
         "gps": {
-            "gps_lat": 45.392347,
-            "gps_lon": 11.893692
+            "gpsLat": 45.392347,
+            "gpsLon": 11.893692
         },
         "website": "https://www.igg.cnr.it/en/laboratories/analytical-laboratories/mass-spectrometry-la-icp-laboratory/",
         "contact_person": {
             "first_name": "Alberto",
             "family_name": "Zanetti",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID ID: orcid.org/0000-0003-4818-8076; Scopus Author ID: 7005184720."
+                "type": "",
+                "id": "ORCID ID: orcid.org/0000-0003-4818-8076; Scopus Author ID: 7005184720."
             },
-            "email": "zanetti@igg.cnr.it",
+            "e-mail": "zanetti@igg.cnr.it",
             "affiliation": {
                 "legal_name": "IGG-CNR,  Italy",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,20 +40,20 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": []
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

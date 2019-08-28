@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gps_lat": 41.499508,
-            "gps_lon": 2.107209
+            "gpsLat": 41.499508,
+            "gpsLon": 2.107209
         },
         "website": "http://grupsderecerca.uab.cat/miet/content/laboratory",
         "contact_person": {
             "first_name": "Elena",
             "family_name": "Druguet",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID  0000-0001-5907-7721 "
+                "type": "",
+                "id": "ORCID  0000-0001-5907-7721 "
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Universitat Autònoma de Barcelona (UAB),  Spain",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -49,106 +49,106 @@
                     "equipment_group": "Shear box",
                     "equipment_name": "BCN-Stage",
                     "equipment_brand": "Prototype",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": "Druguet, E., Carreras, J., Castaño, L.M., Biermanns, P., Caldera, N., Checa, H., Obiols, A., Pascual, R., Zuñiga, E., (2015). Deformation of multilayers. Why can it be so complex? Experimental evidences. Geotectonic Research, 97, 27-29."
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "Druguet, E., Carreras, J., Castaño, L.M., Biermanns, P., Caldera, N., Checa, H., Obiols, A., Pascual, R., Zuñiga, E., (2015). Deformation of multilayers. Why can it be so complex? Experimental evidences. Geotectonic Research, 97, 27-29."
                 },
                 {
                     "equipment_type": "Monitoring",
                     "equipment_group": "Generic camera",
                     "equipment_name": "Mamiya 645DF digital medium format",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": "Druguet, E., Carreras, J., 2006. Analogue modelling of syntectonic leucosomes in migmatitic schists. Journal of Structural Geology 28, 1734-1747."
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": "Druguet, E., Carreras, J., 2006. Analogue modelling of syntectonic leucosomes in migmatitic schists. Journal of Structural Geology 28, 1734-1747."
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Rolling press",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Electric saw",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Software",
                     "equipment_group": "Other",
                     "equipment_name": "Makina",
                     "equipment_brand": "",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material": "Plasticine",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "Druguet, E., Carreras, J., Castaño, L.M., Biermanns, P., Caldera, N., Checa, H., Obiols, A., Pascual, R., Zuñiga, E., (2015). Deformation of multilayers. Why can it be so complex? Experimental evidences. Geotectonic Research, 97, 27-29."
+                    "Material": "Plasticine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Druguet, E., Carreras, J., Castaño, L.M., Biermanns, P., Caldera, N., Checa, H., Obiols, A., Pascual, R., Zuñiga, E., (2015). Deformation of multilayers. Why can it be so complex? Experimental evidences. Geotectonic Research, 97, 27-29."
                 },
                 {
-                    "material": "Paraffin",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Paraffin",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material": "Glycerine",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": ""
+                    "Material": "Glycerine",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "material_group": "Other",
-                    "material": "Chocolate",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "",
-                    "references": "Druguet, E., Carreras, J., 2006. Analogue modelling of syntectonic leucosomes in migmatitic schists. Journal of Structural Geology 28, 1734-1747."
+                    "Material group": "Other",
+                    "Material": "Chocolate",
+                    "Material brand": "",
+                    "Material specifics and comments": "",
+                    "References": "Druguet, E., Carreras, J., 2006. Analogue modelling of syntectonic leucosomes in migmatitic schists. Journal of Structural Geology 28, 1734-1747."
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "relevant papers referring to measured property"
+                    "Measured property": "",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/c708c8a6df37eef7e827312f182ea80d"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Labc708c8a6df37eef7e827312f182ea80d",
                 "payload": "json"
             }

@@ -12,23 +12,23 @@
             "country": "Italy"
         },
         "gps": {
-            "gps_lat": 45.660068,
-            "gps_lon": 13.802235
+            "gpsLat": 45.660068,
+            "gpsLon": 13.802235
         },
         "website": "",
         "contact_person": {
             "first_name": "Andrea",
             "family_name": "Caburlotto",
             "identifier": {
-                "id_type": "",
-                "id_value": "https://orcid.org/0000-0001-7259-6884"
+                "type": "",
+                "id": "https://orcid.org/0000-0001-7259-6884"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Other",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Rock/melt physics & Microscopy",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Rock/melt physics & Microscopy"
             ],
             "equipment": [
@@ -49,48 +49,48 @@
                     "equipment_group": "Other",
                     "equipment_name": "MSCL-S, Multisensor core logger scanner",
                     "equipment_brand": "GEOTEK®",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "https://www.geotek.co.uk/products/mscl-s/",
-                    "equipment_specifics_and_comments": " MSCL-S Equipped with Bulk density, Vp velocity, Magnetic susceptibility and GeoscanV core imaging system and RGB index colour ",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "https://www.geotek.co.uk/products/mscl-s/",
+                    "Equipment_specifics_and_comments": " MSCL-S Equipped with Bulk density, Vp velocity, Magnetic susceptibility and GeoscanV core imaging system and RGB index colour ",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "MSCL-X digital Xray imaging system",
                     "equipment_brand": "GEOTEK®",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "https://www.geotek.co.uk/x-ray-ct-systems/mscl-xct/",
-                    "equipment_specifics_and_comments": "MSCL-XCTXrays at different anf+gles are possible",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "https://www.geotek.co.uk/x-ray-ct-systems/mscl-xct/",
+                    "Equipment_specifics_and_comments": "MSCL-XCTXrays at different anf+gles are possible",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Geoscan line imaging system",
                     "equipment_brand": "GEOTEK®",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "https://www.geotek.co.uk/sensors/geoscan/",
-                    "equipment_specifics_and_comments": "High resolution imaging and RGB index coulour",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "https://www.geotek.co.uk/sensors/geoscan/",
+                    "Equipment_specifics_and_comments": "High resolution imaging and RGB index coulour",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

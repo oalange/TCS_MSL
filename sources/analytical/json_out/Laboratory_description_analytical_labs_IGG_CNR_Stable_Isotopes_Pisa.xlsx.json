@@ -12,23 +12,23 @@
             "country": "Italy"
         },
         "gps": {
-            "gps_lat": 43.717574,
-            "gps_lon": 10.422015
+            "gpsLat": 43.717574,
+            "gpsLon": 10.422015
         },
         "website": "www.igg.cnr.it/en/laboratories/analytical-laboratories/",
         "contact_person": {
             "first_name": "Chiara",
             "family_name": "Boschi",
             "identifier": {
-                "id_type": "",
-                "id_value": "https://www.researchgate.net/profile/Chiara_Boschi."
+                "type": "",
+                "id": "https://www.researchgate.net/profile/Chiara_Boschi."
             },
-            "email": "c.boschi@igg.cnr.it",
+            "e-mail": "c.boschi@igg.cnr.it",
             "affiliation": {
                 "legal_name": "IGG-CNR,  Italy",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,152 +40,152 @@
         },
         "lab_services": {
             "research_field": "Solid Earth Geochemistry",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Geochemical data (elemental and isotope geochemistry)"
             ],
             "equipment": [
                 {
                     "equipment_name": "GC, Gas chromatographer",
                     "equipment_brand": "Perkin Elmer, Carlo Erba, Agilent, Varian",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.011 "
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.011 "
                 },
                 {
                     "equipment_name": "ANC, Anion chromatographer",
                     "equipment_brand": "Metrohm  883 and Dionex DX100",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 6.0,
-                    "references": "10.1038/s41598-017-06941-2;\n10.1016/j.jvolgeores.2013.03.011 "
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 6.0,
+                    "References": "10.1038/s41598-017-06941-2;\n10.1016/j.jvolgeores.2013.03.011 "
                 },
                 {
                     "equipment_name": "SP-PH, Spectrophotometer",
                     "equipment_brand": "Jasco V-530",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 2.0,
-                    "references": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.011 "
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 2.0,
+                    "References": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.011 "
                 },
                 {
                     "equipment_name": "POT, Potentiometer",
                     "equipment_brand": "Metrohm 905 Titrando and Metrohm Herisau E536",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.013"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1016/j.gexplo.2018.11.009;\n10.1007/s12665-013-2776-3;\n10.1016/j.jvolgeores.2013.03.013"
                 },
                 {
                     "equipment_name": "ICP-MS, Inductively coupled plasma mass spectrometer",
                     "equipment_brand": "Agilent 7800",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "10.1038/s41598-017-06941-2"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "10.1038/s41598-017-06941-2"
                 },
                 {
                     "equipment_name": "CEAS, Cavity-enhanced laser absorption spectrometer",
                     "equipment_brand": "Delta Ray, Thermo Fisher Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "CHN, Carbon hydrogen nitrogen analyser",
                     "equipment_brand": "Flash EA1112, Thermo Fisher Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "DI-IRMS, Dual inlet isotope ratio mass spectrometer",
                     "equipment_brand": "Thermo Delta Plus Advantage,  Finningan ThermoQuest Delta Plus",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "EA-IRMS, Elemental analyser continuous-flow isotope ratio mass spectrometer",
                     "equipment_brand": "Carlo ErbaEA1108, Thermo Fisher Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "GC/C/IRMS, Gas chromatography combustion isotope ratio mass spectrometer",
                     "equipment_brand": " Trace GC Ultra Thermo Fisher Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "TC/EA-IRMS, High temperature conversion elemental analyser",
                     "equipment_brand": "Flash EA1112HT, Thermo Fisher Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_group": "Other",
                     "equipment_name": "Gasbench II-IRMS",
                     "equipment_brand": "Thermo Fisher Scientific,  Finningan",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 },
                 {
                     "equipment_name": "NGA, Noble gases analyser",
                     "equipment_brand": "Mass Analyser Products Ltd. MAP215-50",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab",
                 "payload": "json"
             }

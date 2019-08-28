@@ -12,23 +12,23 @@
             "country": "France"
         },
         "gps": {
-            "gps_lat": 43.491364,
-            "gps_lon": 5.333333
+            "gpsLat": 43.491364,
+            "gpsLon": 5.333333
         },
         "website": "https://www.cerege.fr/fr/laboratoires-et-plateformes/laboratoire-de-magnetisme-des-roches",
         "contact_person": {
             "first_name": "François",
             "family_name": "Demory",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID 0000-0002-7526-9886"
+                "type": "",
+                "id": "ORCID 0000-0002-7526-9886"
             },
-            "email": "demory@cerege.fr",
+            "e-mail": "demory@cerege.fr",
             "affiliation": {
                 "legal_name": "CNRS-Aix Marseille University, France",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Paleomagnetism",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Paleomagnetic and magnetic data"
             ],
             "equipment": [
@@ -49,192 +49,192 @@
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G cryogenic magnetometer",
                     "equipment_brand": "2G Enterprises",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Cryogenic",
                     "equipment_name": "2G cryogenic magnetometer",
                     "equipment_brand": "2G Enterprises",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-5",
                     "equipment_brand": "AGICO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetometer",
                     "equipment_group": "Spinner",
                     "equipment_name": "AGICO spinner magnetometer JR-5",
                     "equipment_brand": "AGICO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat and oven",
                     "equipment_brand": "Princeton",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Hysteresis_Properties",
                     "equipment_name": "Princeton Micromag 2900/3900 AGM/VSM with cryostat and oven",
                     "equipment_brand": "Princeton",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge MFK1",
                     "equipment_brand": "AGICO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "AGICO Kappabridge MFK1",
                     "equipment_brand": "AGICO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "MMPM9 pulse magnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "IRM_Acquisition",
                     "equipment_name": "MMPM9 pulse magnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "AGICO AF demagnetizer LDA-5 (up to 200 mT)",
                     "equipment_brand": "AGICO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "AF_Demagnetizer",
                     "equipment_name": "AGICO AF demagnetizer LDA-5 (up to 200 mT)",
                     "equipment_brand": "AGICO",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "ASC Scientific thermal demagnetizer, dual-chamber TD48-DC",
                     "equipment_brand": "ASC Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "ASC Scientific thermal demagnetizer, dual-chamber TD48-DC",
                     "equipment_brand": "ASC Scientific",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "MMTD80 thermal demagnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "De_Magnetizer",
                     "equipment_group": "Thermal_Demagnetizer",
                     "equipment_name": "MMTD80 thermal demagnetizer",
                     "equipment_brand": "Magnetic Measurements",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "measurement": [
@@ -270,13 +270,13 @@
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/1dc5d11b9353599d153f139c02d9e458"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab1dc5d11b9353599d153f139c02d9e458",
                 "payload": "json"
             }

@@ -12,23 +12,23 @@
             "country": "Spain"
         },
         "gps": {
-            "gps_lat": 41.49978,
-            "gps_lon": 2.106803
+            "gpsLat": 41.49978,
+            "gpsLon": 2.106803
         },
         "website": "https://www.uab.cat/web/departament-de-geologia-1248847644180.html",
         "contact_person": {
             "first_name": "Lluís",
             "family_name": "Casas",
             "identifier": {
-                "id_type": "",
-                "id_value": "ORCID: 000-0003-0948-8658, Research ID: L-1242-2014, Scopus Author ID: 35619083800"
+                "type": "",
+                "id": "ORCID: 000-0003-0948-8658, Research ID: L-1242-2014, Scopus Author ID: 35619083800"
             },
-            "email": "Lluis.Casas@uab.cat",
+            "e-mail": "Lluis.Casas@uab.cat",
             "affiliation": {
                 "legal_name": "Universitat Autònoma de Barcelona (UAB), Spain",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Paleomagnetism",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Paleomagnetic and magnetic data"
             ],
             "equipment": [
@@ -49,48 +49,48 @@
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "Bartington magnetic susceptibility meter",
                     "equipment_brand": "Bartington",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "available sensors: MS2, MS3, MS2B, MS2F and MS2W, purchased in 2011 and 2012",
-                    "equipment_quantity": 2.0,
-                    "references": "Ll. Casas, J. Ramírez, A. Navarro, B. Fouzai, E. Estop, J.R. Rosell, Journal of Cultural Heritage 15 (2014) 550-556; B. Fouzai, Ll. Casas, N. Laridhi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714; Ll. Casas, B. Fouzai, M. Prevosti, N. Laridhi-Ouazaa, R. Járrega, S. Baklouti, Geoarchaeology: An International Journal 31 (2016) 564-576"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "available sensors: MS2, MS3, MS2B, MS2F and MS2W, purchased in 2011 and 2012",
+                    "Equipment_quantity": 2.0,
+                    "References": "Ll. Casas, J. Ramírez, A. Navarro, B. Fouzai, E. Estop, J.R. Rosell, Journal of Cultural Heritage 15 (2014) 550-556; B. Fouzai, Ll. Casas, N. Laridhi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714; Ll. Casas, B. Fouzai, M. Prevosti, N. Laridhi-Ouazaa, R. Járrega, S. Baklouti, Geoarchaeology: An International Journal 31 (2016) 564-576"
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Susceptibility_Meter",
                     "equipment_name": "Bartington magnetic susceptibility meter",
                     "equipment_brand": "Bartington",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "available sensors: MS2, MS3, MS2B, MS2F and MS2W, purchased in 2011 and 2012",
-                    "equipment_quantity": 2.0,
-                    "references": "Ll. Casas, J. Ramírez, A. Navarro, B. Fouzai, E. Estop, J.R. Rosell, Journal of Cultural Heritage 15 (2014) 550-556; B. Fouzai, Ll. Casas, N. Laridhi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714; Ll. Casas, B. Fouzai, M. Prevosti, N. Laridhi-Ouazaa, R. Járrega, S. Baklouti, Geoarchaeology: An International Journal 31 (2016) 564-576"
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "available sensors: MS2, MS3, MS2B, MS2F and MS2W, purchased in 2011 and 2012",
+                    "Equipment_quantity": 2.0,
+                    "References": "Ll. Casas, J. Ramírez, A. Navarro, B. Fouzai, E. Estop, J.R. Rosell, Journal of Cultural Heritage 15 (2014) 550-556; B. Fouzai, Ll. Casas, N. Laridhi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714; Ll. Casas, B. Fouzai, M. Prevosti, N. Laridhi-Ouazaa, R. Járrega, S. Baklouti, Geoarchaeology: An International Journal 31 (2016) 564-576"
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Coercitivity_Spectrometer",
                     "equipment_name": "Mössbauer spectrometer",
                     "equipment_brand": "Mössbauer",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "possibility to perform measurements from 70K to RT, equipment locates at nearby Material Science Institute, on UAB Campus",
-                    "equipment_quantity": 1.0,
-                    "references": "Ll. Casas, J. Shaw, M. Giach, J.A. Share, Geophys. J. Int. (2005) 161, 655-661; Ll. Casas, J.L. Briansó, A. Álvarez, K. Benzzi, J. Shaw, Physics and Chemistry of the Earth 33 (2008) 474-480; B. Fouzai, Ll. Casas, N. Larishi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714."
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "possibility to perform measurements from 70K to RT, equipment locates at nearby Material Science Institute, on UAB Campus",
+                    "Equipment_quantity": 1.0,
+                    "References": "Ll. Casas, J. Shaw, M. Giach, J.A. Share, Geophys. J. Int. (2005) 161, 655-661; Ll. Casas, J.L. Briansó, A. Álvarez, K. Benzzi, J. Shaw, Physics and Chemistry of the Earth 33 (2008) 474-480; B. Fouzai, Ll. Casas, N. Larishi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714."
                 },
                 {
                     "equipment_type": "Rock_Magnetism",
                     "equipment_group": "Coercitivity_Spectrometer",
                     "equipment_name": "Mössbauer spectrometer",
                     "equipment_brand": "Mössbauer",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "possibility to perform measurements from 70K to RT, equipment locates at nearby Material Science Institute, on UAB Campus",
-                    "equipment_quantity": 1.0,
-                    "references": "Ll. Casas, J. Shaw, M. Giach, J.A. Share, Geophys. J. Int. (2005) 161, 655-661; Ll. Casas, J.L. Briansó, A. Álvarez, K. Benzzi, J. Shaw, Physics and Chemistry of the Earth 33 (2008) 474-480; B. Fouzai, Ll. Casas, N. Larishi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714."
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "possibility to perform measurements from 70K to RT, equipment locates at nearby Material Science Institute, on UAB Campus",
+                    "Equipment_quantity": 1.0,
+                    "References": "Ll. Casas, J. Shaw, M. Giach, J.A. Share, Geophys. J. Int. (2005) 161, 655-661; Ll. Casas, J.L. Briansó, A. Álvarez, K. Benzzi, J. Shaw, Physics and Chemistry of the Earth 33 (2008) 474-480; B. Fouzai, Ll. Casas, N. Larishi-Ouazaa, M. Fantar, A. Álvarez, Journal of Archaeological Science 40 (2013) 1703-1714."
                 }
             ],
             "measurement": [
@@ -112,13 +112,13 @@
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/009b51690050c9179ad1ff09fc8b5fdd"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab009b51690050c9179ad1ff09fc8b5fdd",
                 "payload": "json"
             }

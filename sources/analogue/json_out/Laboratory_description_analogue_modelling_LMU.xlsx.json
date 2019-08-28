@@ -12,23 +12,23 @@
             "country": "Germany"
         },
         "gps": {
-            "gps_lat": 48.146874,
-            "gps_lon": 11.574604
+            "gpsLat": 48.146874,
+            "gpsLon": 11.574604
         },
         "website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/index.html",
         "contact_person": {
             "first_name": "Corrado",
             "family_name": "Cimarelli",
             "identifier": {
-                "id_type": "",
-                "id_value": "https://orcid.org/0000-0002-5707-5930"
+                "type": "",
+                "id": "https://orcid.org/0000-0002-5707-5930"
             },
-            "email": "",
+            "e-mail": "",
             "affiliation": {
                 "legal_name": "Ludwig-Maximilians-University Munich,  Germany",
                 "identifier": {
-                    "id_type": "",
-                    "id_value": ""
+                    "type": "",
+                    "id": ""
                 },
                 "address": {
                     "street_with_number": "",
@@ -40,7 +40,7 @@
         },
         "lab_services": {
             "research_field": "Analogue modelling of geologic processes",
-            "EPOS_subdomain": [
+            "EPOS_WP16_subdomain": [
                 "Analogue models on tectonic processes"
             ],
             "equipment": [
@@ -49,137 +49,137 @@
                     "equipment_group": "Other",
                     "equipment_name": "Shock tube ",
                     "equipment_brand": "Custom made",
-                    "equipment_contact_person": "Bettina Scheu",
-                    "email_equipment_contact_person": "betty@min.uni-muenchen.de",
-                    "equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "https://doi.org/10.1016/j.epsl.2004.07.016."
+                    "Equipment_contact_person": "Bettina Scheu",
+                    "Email_equipment_contact_person": "betty@min.uni-muenchen.de",
+                    "Equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1016/j.epsl.2004.07.016."
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Shock tube ",
                     "equipment_brand": "Custom made",
-                    "equipment_contact_person": "Ulrich Küppers",
-                    "email_equipment_contact_person": "u.kueppers@lmu.de",
-                    "equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "https://doi.org/10.1016/j.epsl.2006.06.033"
+                    "Equipment_contact_person": "Ulrich Küppers",
+                    "Email_equipment_contact_person": "u.kueppers@lmu.de",
+                    "Equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1016/j.epsl.2006.06.033"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "Other",
                     "equipment_name": "Shock tube ",
                     "equipment_brand": "Custom made",
-                    "equipment_contact_person": "Corrado Cimarelli",
-                    "email_equipment_contact_person": "cimarelli@min.uni-muenchen.de",
-                    "equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": 1.0,
-                    "references": "https://doi.org/10.1130/G34802.1"
+                    "Equipment_contact_person": "Corrado Cimarelli",
+                    "Email_equipment_contact_person": "cimarelli@min.uni-muenchen.de",
+                    "Equipment_website": "https://www.en.mineralogie.geowissenschaften.uni-muenchen.de/facilities/frag/index.html#4%20Shock",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": 1.0,
+                    "References": "https://doi.org/10.1130/G34802.1"
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Pycnometer",
                     "equipment_brand": "Micromeritics",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_name": "Rheometer",
                     "equipment_brand": "Anton Paar",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 },
                 {
                     "equipment_type": "Apparatus",
                     "equipment_group": "",
                     "equipment_name": "Laser Particle Analyzer",
                     "equipment_brand": "Coulter",
-                    "equipment_contact_person": "",
-                    "email_equipment_contact_person": "",
-                    "equipment_website": "",
-                    "equipment_specifics_and_comments": "",
-                    "equipment_quantity": "",
-                    "references": ""
+                    "Equipment_contact_person": "",
+                    "Email_equipment_contact_person": "",
+                    "Equipment_website": "",
+                    "Equipment_specifics_and_comments": "",
+                    "Equipment_quantity": "",
+                    "References": ""
                 }
             ],
             "material": [
                 {
-                    "material_group": "",
-                    "material": "Rock cores",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "Cylindrical samples of variable aspect ratios",
-                    "references": "relevant papers referring to the material"
+                    "Material group": "",
+                    "Material": "Rock cores",
+                    "Material brand": "",
+                    "Material specifics and comments": "Cylindrical samples of variable aspect ratios",
+                    "References": "relevant papers referring to the material"
                 },
                 {
-                    "material_group": "",
-                    "material": "Volcanic ash",
-                    "material_brand": "",
-                    "material_specifics_and_comments": "Natural and synthetic glassy particles",
-                    "references": ""
+                    "Material group": "",
+                    "Material": "Volcanic ash",
+                    "Material brand": "",
+                    "Material specifics and comments": "Natural and synthetic glassy particles",
+                    "References": ""
                 },
                 {
-                    "material": "Microspheres > Glassy",
-                    "material_brand": "Potters, Omega",
-                    "material_specifics_and_comments": "Borosilicate glass speres mm to micron size",
-                    "references": ""
+                    "Material": "Microspheres > Glassy",
+                    "Material brand": "Potters, Omega",
+                    "Material specifics and comments": "Borosilicate glass speres mm to micron size",
+                    "References": ""
                 },
                 {
-                    "material": "Silicon/Silly putty/PDMS",
-                    "material_brand": "Wacker",
-                    "material_specifics_and_comments": "Silicon oils with variable Newtonian viscosities",
-                    "references": ""
+                    "Material": "Silicon/Silly putty/PDMS",
+                    "Material brand": "Wacker",
+                    "Material specifics and comments": "Silicon oils with variable Newtonian viscosities",
+                    "References": ""
                 }
             ],
-            "measured_property": [
+            "measured property": [
                 {
-                    "measured_property": "Density",
-                    "measured_property_specifics_and_comments": "",
-                    "references": "relevant papers referring to measured property"
+                    "Measured property": "Density",
+                    "Measured property specifics and comments": "",
+                    "References": "relevant papers referring to measured property"
                 },
                 {
-                    "measured_property": "Viscosity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Viscosity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "Grain size distribution",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "Grain size distribution",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "P-wave velocity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "P-wave velocity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 },
                 {
-                    "measured_property": "S-wave velocity",
-                    "measured_property_specifics_and_comments": "",
-                    "references": ""
+                    "Measured property": "S-wave velocity",
+                    "Measured property specifics and comments": "",
+                    "References": ""
                 }
             ]
         },
         "data_services": [
             {
-                "service_type": "data_publications_access",
-                "link_label": "Go to data publications from this lab (MSL TCS catalogue portal)",
+                "type": "data_publications - TCS_portal",
+                "linklabel": "Go to data publications from this lab (TCS catalogue portal)",
                 "URL": "https://epos-msl.uu.nl/organization/9cd562c216daa82792972a074a222c52"
             },
             {
-                "service_type": "data_publications_get",
-                "link_label": "Retrieve data publications from this lab",
+                "type": "data_publications_web service",
+                "linklabel": "Show data publications from this lab",
                 "URL": "https://epos-msl.uu.nl/ics/api.php?Lab9cd562c216daa82792972a074a222c52",
                 "payload": "json"
             }
