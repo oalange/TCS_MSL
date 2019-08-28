@@ -1,8 +1,8 @@
 {
     "facility": {
         "type": "laboratory",
-        "ID": "9d8748975fd5d8b44cfef516b8deb098",
-        "RI_name": "Instituto Superior de Engenharia de Lisboa - Physics Department",
+        "lab_id": "9d8748975fd5d8b44cfef516b8deb098",
+        "research_infrastructure_name": "Instituto Superior de Engenharia de Lisboa - Physics Department",
         "name": "Microseismology and Rock Physics Laboratory (ISEL - Physics Department, Portugal)",
         "general_description": "Measurement of physical and mechanical properties of rocks and other natural or man-made materials (uniaxial compressive strength, strength under triaxial conditions – Hoek cell), elastic modulus, deformation modulus, Poisson’s ratio, strain field, stress field.\nMonitoring of acoustic emission (8 channels) and dynamic properties of rocks under uniaxial deformation., p- and s-wave velocities, etc.\n\n",
         "address": {

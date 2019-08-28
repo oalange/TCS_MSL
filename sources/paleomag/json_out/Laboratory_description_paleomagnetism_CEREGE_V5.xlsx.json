@@ -1,8 +1,8 @@
 {
     "facility": {
         "type": "laboratory",
-        "ID": "1dc5d11b9353599d153f139c02d9e458",
-        "RI_name": "CEREGE Rock Magnetism Laboratory",
+        "lab_id": "1dc5d11b9353599d153f139c02d9e458",
+        "research_infrastructure_name": "CEREGE Rock Magnetism Laboratory",
         "name": "Paléomagnétisme CEREGE Aix en Provence (CNRS-Aix Marseille University, France)",
         "general_description": "The CEREGE Rock Magnetism Laboratory offers a large panel of instruments for paleomagnetic and rock magnetic experiments and mesurements dedicated to the geosciences. The Laboratory focuses on different research topics of the CEREGE Institute : Earth magnetic field variations and magnetism of extraterrestral material (meteorites, lunar rock samples). In addition the laboratory study rock magnetic records of natural sedimentary archives in order to provide proxies of climatic, environmental and antropic interest. Finally the Laboraory deals with tectonics and studies dedicated to geodynamics and rock deformation. \n",
         "address": {

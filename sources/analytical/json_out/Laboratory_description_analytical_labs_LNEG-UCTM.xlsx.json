@@ -1,8 +1,8 @@
 {
     "facility": {
         "type": "laboratory",
-        "ID": "3b8fed72cf84e5c6bcccb0a74562a95d",
-        "RI_name": "LNEG, I.P. - Laboratório Nacional de Energia e Geologia",
+        "lab_id": "3b8fed72cf84e5c6bcccb0a74562a95d",
+        "research_infrastructure_name": "LNEG, I.P. - Laboratório Nacional de Energia e Geologia",
         "name": "Electron Microprobe (LNEG-UCTM, Portugal)",
         "general_description": "LNEG-UCTM Laboratory. \nUCTM Laboratory of LNEG is a Mineral Technology Laboratory and focusses on the properties of geological materials having in mind to promote their adequate integration in the respective industrial value chain. The three main vectors of activity are:\n1. Bulk chemical characterization of geological materials – quantification of rocks’ major and minor elements, using different techniques and quantification limits;\n2. Mineralogy of geological materials – identification of the relevant mineral phases that host the valuable chemical elements and of the correlated physical properties and modelling (experimental, “ab-initio”, “multiscale molecular dynamics”, etc.) of the behavior of those materials when incorporated in artifacts;\n3. Technological characterization and mineral processing – characterization and upgrading of the minerals natural properties, industrial rocks and ores before entering in the more advanced steps of the industrial value chain.\nThese vectors are applied to several types of geological materials:\n− Metallic ores\n− Industrial minerals\n− Dimension and ornamental stones\n− Natural mineral waters\nGiving support to projects of:\n− Exploration of mineral deposits\n− Technical characterization of industrial minerals and rocks, including the dimension stones\n− Textural and quantitative mineralogy\n− Mineral Processing for the valorization of mineral raw materials\nUsing different techniques and methods:\n− Chemical analysis (classic methods; AA, XRF, Plasma, IC)\n− Optical Microscopy, EPMA and XRD\n− Technical testwork\n− Mineral Processing batch and experimental intensification tests (piloting)\n",
         "address": {

@@ -1,8 +1,8 @@
 {
     "facility": {
         "type": "laboratory",
-        "ID": "3a9d5ca4a33e7f95d0a2eaa1e8479a13",
-        "RI_name": "Univ Cergy - Géosciences et Environnement Cergy",
+        "lab_id": "3a9d5ca4a33e7f95d0a2eaa1e8479a13",
+        "research_infrastructure_name": "Univ Cergy - Géosciences et Environnement Cergy",
         "name": "TecMOD - GECmodel (CNRS-Cergy-Pontoise University, France)",
         "general_description": "The analog modeling laboratory is responsible for carrying out experimental projects focused on three main themes: tectonics (ductile deformations, brittle/ductile coupling, sedimentation/deformation coupling, salt tectonics), subduction and geomorphology dynamics (river incisions, sedimentary transport, evolution of reliefs) .\nThe laboratory is very open to the outside world with numerous national and international collaborations, both academic and industrial. It is recognized as one of the main experimental laboratories for modeling tectonic and geomorphological processes in France. It also helps implement practical courses on the experimental approach in Earth Sciences. The laboratory is also part of the TECMODF network (regrouping the French laboratories dedicated to the analog modeling of geological processes),  the European Plate Observing System EPOSt, and he  European Training Networks TOPOMOD and SUBITOP.\nPlease find further information here: https://geosciences.univ-rennes1.fr/en/analog-modeling-tectonics-and-geomorphology\n\n",
         "address": {

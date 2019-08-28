@@ -219,8 +219,8 @@ def fillGeneralLabInfo(sheet,domain,templateSheet):
         logIdentifiers.append(log)
 
     facility = {'facility' : {'type' : 'laboratory',
-                'ID' : labId,
-                'RI_name' : getFieldValue(sheet, 'RI name',templateSheet),
+                'lab_id' : labId,
+                'research_infrastructure_name' : getFieldValue(sheet, 'RI name',templateSheet),
                 'name' : labName,
                 'general_description' : getFieldValue(sheet,'Lab information',templateSheet),
                 'address' : address,
@@ -622,7 +622,7 @@ def processExcel(sourceDomain,fullPath, outputDir,templateFile):
     template = openWorkBook(templateFile)
     templateSheet = template.sheet_by_index(0)
     labInfo = fillGeneralLabInfo(sheet,sourceDomain,templateSheet)
-    if labInfo['facility'].get('ID') != '':
+    if labInfo['facility'].get('lab_id') != '':
         # we only add labs with a valid identifier to the allLabs export for ICS
         allLabsExport.append(labInfo)
     writeJSONFile(outputDir + '/' + fileName + '.json',labInfo)

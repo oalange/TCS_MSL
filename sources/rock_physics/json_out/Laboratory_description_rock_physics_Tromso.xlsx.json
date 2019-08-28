@@ -1,8 +1,8 @@
 {
     "facility": {
         "type": "laboratory",
-        "ID": "",
-        "RI_name": "Department of Geoscience, University of Tromsø",
+        "lab_id": "",
+        "research_infrastructure_name": "Department of Geoscience, University of Tromsø",
         "name": "Rock Physics Laboratories (University of Tromsø, Norway)",
         "general_description": "Deep earth processes are either inferred form geophysical observations or from direct observation of formerly deep-seaed rocks that are  now accessible at the surface. The interpretation of the processes that have formed these rocks and are acting at great depth today is only prossible through experimental studies that simulate high pressure and high temperature conditions. Magma formation, mineral reactions, phase transformations, and deformation and their mutual interaction are the main processes studied in the rock physics laboratories at the Departmetn of Geosceinces at the University of Tromsø. There are two laboratories: (1) Rock Deformation Laboratory, and (2) Hydrostatic Piston Cylinder Laboratory. Both laboratories employ solid medium high pressure and temperature technology.\n                                                                                                                                                                                    Please find further information here: https://en.uit.no/forskning/forskningsgrupper/gruppe?p_document_id=343748\n\n",
         "address": {

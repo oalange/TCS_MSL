@@ -1,8 +1,8 @@
 {
     "facility": {
         "type": "laboratory",
-        "ID": "8c098870d3c06b9a98cbde1a50f88027",
-        "RI_name": "Ludwig-Maximilians-Universität München",
+        "lab_id": "8c098870d3c06b9a98cbde1a50f88027",
+        "research_infrastructure_name": "Ludwig-Maximilians-Universität München",
         "name": "Melt and magma thermal analysis lab/High temperature melt lab (Ludwig-Maximilians-University Munich, Germany)",
         "general_description": "",
         "address": {
