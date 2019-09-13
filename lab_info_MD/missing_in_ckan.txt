@@ -1,0 +1,27 @@
+FASTmodel- Laboratoire de modélisation analogique Fluides Automatique et Systèmes Thermiques (CNRS-Paris Sud Orsay University,  France) | 1b9abbf97c7caa2d763b647d476b2910
+Geoϕlab - Laboratoire de modélisation analogique Géosciences Le Mans (CNRS-Maine University,  France) | cdc8a61ba9f1327a72b75602773a8aa4
+GEOAZURmodel - Laboratoire de modélisation analogique Géoazur (CNRS-Nice Sophia Antipolis University,  France) | 2fbc7ed93520ec97286452aac791c0bc
+GETmodel - Laboratoire de modélisation analogique Géosciences Environnement (CNRS-Toulouse University,  France) | d3ee46d9f26bd5d38cd9212b2a107b2d
+LMVmodel - Laboratoire de modélisation analogique Magmas et Volcans (CNRS-Clermont-Ferrand University,  France) | 912d3d031446daf09e7e6152038f64d3
+LOGmodel - Laboratoire de modélisation analogique d’Océanologie et de Géosciences (CNRS-Lille 1 University,  France) | 25c2850521e61ccfc1056acf7a172a07
+Ar-Ar Geochronology laboratory (IGG-CNR,  Italy) | ea0ba15ea6bf983b1d8d8568829aa943
+Archeometry and microstratigraphic coring laboratory (IGG-CNR,  Italy) | c1308c50e38b0be85a39688bd6b1ec56
+Cristallography and crystal chemistry laboratory (IGG-CNR,  Italy) | 462c4266a34a608173dd2c0dd5eea0da
+Electron Microscopy Facilities (Utrecht University,  The Netherlands) | f9e0f3b0be7565fb3b95d1c2ece8978c
+Fission Track Laboratory (IGG-CNR,  Italy) | 65021cb629dc653b5c5323112dbabc2d
+Fluid geochemistry laboratory (IGG-CNR,  Italy) | 630c5c2bb83ae93e4cb8933c780b836e
+HP-HT Laboratory of Experimental Volcanology and Geophysics (INGV, Italy) | 3f145405812f5c7f69206bbd78b33a86
+Laboratori analisi con microsonda eletrronica (IGG-CNR,  Italy) | 9133c6af15c88c70ec4979321d4ef44b
+Laboratorio de Geocronología (Universidad de Cádiz,  Spain) | 5d7c0ecb67f5442088ae3b38946d41e3
+Mass spectrometry la-icp laboratory (IGG-CNR,  Italy) | d67c9a04c0a838a931ef0363edc9f5b2
+Secondary-ion-mass-spectrometry-sims-ion-microporbe laboratory (IGG-CNR,  Italy) | 27d80c967351a6ae6b84c5343aa0d05b
+Stable Isotopes laboratory (IGG-CNR,  Italy) | acaf6a251b15f25564dbc0252883b702
+TIMS laboratories (IGG-CNR,  Italy) | ee6638b045a3678b09d3c90ff8de8908
+Laboratory of Paleomagnetism (CSIC-IPNA,  Spain) | 92d921228718acdf875d1a919ddd10f3
+Paléomagnétisme Géosciences Environnement (CNRS-Toulouse University,  France) | a964b1861b23b1a3ab45366737a6c096
+Paléomagnétisme Géosciences Montpellier (CNRS-Montpellier University,  France) | f0a8cd7e3e62ad8998ec863a7db63132
+Laboratoire de mécaniques des solides (Ecole Polytechnique,  France) | 423b1218dc5426c1569326c050081fbd
+Laboratoire 3S-R (CNRS-Université de Grenoble,  France) | 2a7a775bbfe0e2a9ba8438fc250a2a1d
+Laboratoire des fluides complexes et leur réservoirs (CNRS-Université de Pau,  France) | b03f4137ada3325fff270b348555d5d5
+Rock & Ice Physics Laboratory (UCL University College London,  UK) | 519e854908885ee38b7671fd82aca203
+Rock Mechanics Laboratory (Durham University,  UK) | 48df4be4c4d6662ed4273f16b00343f6

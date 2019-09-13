@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep 12 17:19:10 2019
+
+@author: otto
+"""
+
+# managing JSON I/O
+
+import json
+    
+def getJSONPrettyDumpAsString(myDict):
+    # returns a pretty formatted JSON fragment from a Python dictionary
+    jsonDump = json.dumps(myDict, indent=4, separators=(', ', ': '))
+    return jsonDump
+    
+def loadJSONFromFile(fileName):
+    # returns JSON-file's content as Python dictionary
+    with open(fileName) as f:
+        jsonDict = json.load(f)
+        return jsonDict
+
+def writeJSONFile(fileName, jsonData):
+    with open(fileName, 'w', encoding='utf-8') as f:
+        json.dump(jsonData, f, ensure_ascii=False, indent=4)
+        
+if __name__ == "__main__":
+    
+    IDFILE = './lab_info_MD/lab_identifiers.json'
+    CKANIDs = './lab_info_MD/organization_list_ckan.json'
+    
+    missing_in_CKAN = []
+    
+    loadedIDs = loadJSONFromFile(IDFILE)
+    idList = loadedIDs['entries']
+    loadCKANs = loadJSONFromFile(CKANIDs)
+    ckanList = loadCKANs['result']
+    
+    for entry in idList: # is a list of small json-fragments
+        if not entry['id'] in ckanList:
+            print(entry['name'] + ' | ' + entry['id'])
+        

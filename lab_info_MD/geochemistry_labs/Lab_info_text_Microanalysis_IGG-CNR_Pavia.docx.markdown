@@ -1,0 +1,66 @@
+The Laboratory of Geochemical Microanalysis of IGG-CNR (Italy) provides
+an integrated system of expertise, instrumental facilities and
+analytical protocols, suitable to accurately determine both the
+elemental and isotopic composition at tens-of-microns-scale (LAM & SIMS
+& EMPA). Thanks to the presence of a SIMS and of several LA-ICP-MS
+probes, the analytical skills of the IGG-CNR of Pavia include:
+
+-   Quantitative chemical micro-analysis (scale: 8-100 μm) of solid
+    matrices to determine the concentration (from wt.% to ppb level) of
+    Li, Be, B, Na, Mg, Al, Si, P, K, Ca, Sc, Ti, V, Mn, Fe, Co, Ni, Cu,
+    Zn, Ga, Ge, As, Rb, Sr, Y, Zr, Nb, Mo, Ag, Cs, Ba, La, Ce, Pr, Nd,
+    Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, Au, Bi, Th and U:
+    detection limits typically at ppb-ppm;
+
+-   Quantitative chemical micro-analysis (scale: 5-20 μm) of the content
+    (from wt.% to tens of ppm) of volatile elements (H, F, Cl) in solid
+    matrices;
+
+-   Micro-analytical determination (at 10-60 μm scale) of the U-Th-Pb
+    isotopic composition of zircons, monazites, titanites, rutiles for
+    geochronological purposes;
+
+-   Research activity. Due to the strong analytical flexibility and the
+    wide variety of expertise, the associated analytical laboratory of
+    IGG-Pavia and Padova can provide an integrated multi-technique
+    approach for the investigation of the physicochemical processes in
+    all natural and synthetic systems which require the geochemical
+    characterization of mineral or inorganic phases, as well as the
+    characterization of the geochemical composition of glasses, melt
+    inclusions and/or lavas while considering spatial compositional
+    heterogeneity at micro and/or nano-scale.
+
+Although many applications have been developed for issues related to
+environmental sciences, human health, archaeometry (glass, ceramics,
+bricks, alloys) and industrial materials (glasses, alloys), the lab has
+a world-renown reputation for studies related to the Solid Earth
+Sciences, including extraterrestrial materials, among which we remind:
+
+-   Characterization of the chemical/physical parameters that rule the
+    production, migration and emplacement of melts and fluids from
+    mantle and crustal levels up to the surface, in all the geodynamic
+    environments;
+
+-   Characterization of mineral/fluid chemical exchanges in reactive
+    processes;
+
+-   Quantification of mineral/liquid and mineral/mineral trace-element
+    partition coefficients in both natural and synthetic systems, as
+    well as characterization of their correct mechanisms of
+    incorporation in minerals;
+
+-   Detection and quantification of light, trace and volatile elements
+    in melt inclusions from volcanic materials;
+
+-   Quantification of H and volatile elements (F, Cl) on a wide range of
+    concentrations, in a variety of matrices;
+
+-   U-Pb geochronology of geological processes, from crystallization to
+    cooling;
+
+-   Models for melt/fluid partitioning of light, volatiles and trace
+    elements;
+
+-   Kinetics of cation ordering at controlled temperature;
+
+-   Geothermometry and geobarometry of minerals and rocks
