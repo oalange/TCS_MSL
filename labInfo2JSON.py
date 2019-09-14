@@ -22,6 +22,7 @@ Version 0.2
 
 import xlrd
 import glob
+import tcs_portal
 
 try:
     import simplejson as json
@@ -214,16 +215,24 @@ def fillGeneralLabInfo(sheet,research_field, subdomain,templateSheet):
         # if not already provided
         labId = readLabIdentifier(labNameForIdRetrieval)
     # links to the MSL CKAN catalogue portal
-    dataServices = [{'service_type': 'data_publications_access',
-                     'link_label' : 'Go to data publications from this lab (MSL TCS catalogue portal)',
-                     'URL': 'https://epos-msl.uu.nl/organization/' + labId},
-                  {'service_type': 'data_publications_get',
-                   'link_label': 'Retrieve data publications from this lab',
-                   'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab=' + labId,
-                   'payload' : 'json'},
-                   {'service_type': 'TCS_portal_redirection',
+    # We use the TCS Portal Webservice to check whether this lab has data publications already:
+    
+    numOfPublications = tcs_portal.retrieveNumberOfLabPublications(labId)
+    if numOfPublications > 0:
+        dataServices = [{'service_type': 'data_publications_access',
+                         'link_label' : 'Go to data publications from this lab (MSL TCS catalogue portal)',
+                         'URL': 'https://epos-msl.uu.nl/organization/' + labId},
+                      {'service_type': 'data_publications_get',
+                       'link_label': 'Retrieve data publications from this lab',
+                       'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab=' + labId,
+                       'payload' : 'json'}]
+    else:
+        dataServices = []
+    
+    dataServices.append({'service_type': 'TCS_portal_redirection',
                     'link_label': 'More facility information',
-                    'URL': 'https://epos-msl.uu.nl/organization/about/' + labId}]
+                    'URL': 'https://epos-msl.uu.nl/organization/about/' + labId})
+
 
     if labId == '':
         log = {'Missing identifier for' : fileName + ' (labName = ' + labName + ')'}
