@@ -23,16 +23,11 @@ Version 0.2
 import xlrd
 import glob
 import tcs_portal
-import hashlib
 
 try:
     import simplejson as json
 except ImportError:
     import json
-    
-# we create a dictionary for testing the id against the algorithm:
-matchGenIDs = {'generated_ids':[]}
-unmatchGenIDs = {'generated_ids':[]}
     
 # I/O routines
     
@@ -166,40 +161,27 @@ def readLabIdentifier(labName, IDsFile):
                 # when the name provided in the template is a non-empty substring then we have a hit
                 labId = lab["id"]
     return labId
-
-def generateLabIdentifier(labName):
-    idBaseName = labName
-    idBaseName = idBaseName.replace(' ', '')
-    idBaseName = idBaseName.lower()
-    return hashlib.md5(idBaseName.encode()).hexdigest()
+        
 
 def fillGeneralLabInfo(sheet,research_field, subdomain,templateSheet,IDsFile):
 
     # address
-    facility_address = getFieldValue(sheet,'Facility address (street + number)',templateSheet)
-    postal_code = getFieldValue(sheet,'Facility address (postcode)',templateSheet)
-    city = getFieldValue(sheet,'Facility address (city)',templateSheet)
-    country = getFieldValue(sheet,'Facility address (country)',templateSheet)
-    address = {'street_with_number' : facility_address,
-               'postal_code' : postal_code,
-               'city' : city,
-               'country': country 
+    address = {'street_with_number' : getFieldValue(sheet,'Facility address (street + number)',templateSheet),
+               'postal_code' : getFieldValue(sheet,'Facility address (postcode)',templateSheet),
+               'city' : getFieldValue(sheet,'Facility address (city)',templateSheet),
+               'country' : getFieldValue(sheet,'Facility address (country)',templateSheet)
                }
     
     # gps
-    gps_lat = getFieldValue(sheet, 'Facility gpsLat (decimal degree)',templateSheet)
-    gps_lon = getFieldValue(sheet, 'Facility gpsLon (decimal degree)',templateSheet)
-    gps = {'gps_lat': gps_lat,
-           'gps_lon': gps_lon
+    gps = {'gps_lat': getFieldValue(sheet, 'Facility gpsLat (decimal degree)',templateSheet),
+           'gps_lon': getFieldValue(sheet, 'Facility gpsLon (decimal degree)',templateSheet)
            }
     
-    tna = getFieldValue(sheet, 'Facility participates to TNA call? Add TNA call website if YES',templateSheet)
     
     # affiliation
     # Currently not further elaborated upon.
     # The Excel template does not currently request address and PIC e.g.
-    affiliation = getFieldValue(sheet, 'Affiliation of Facility contact person',templateSheet)
-    affiliation = {'legal_name': affiliation,
+    affiliation = {'legal_name': getFieldValue(sheet, 'Affiliation of Facility contact person',templateSheet),
                    'identifier': {
                            'id_type': '',
                            'id_value': ''},
@@ -250,22 +232,15 @@ def fillGeneralLabInfo(sheet,research_field, subdomain,templateSheet,IDsFile):
     dataServices.append({'service_type': 'TCS_portal_redirection',
                     'link_label': 'More facility information',
                     'URL': 'https://epos-msl.uu.nl/organization/about/' + labId})
-            
-    if tna != '':
-        dataServices.append({'service_type': 'TNA_redirection',
-                             'link_label': 'More information about TNA possibilities at this lab',
-                             'URL': tna})
 
 
     if labId == '':
         log = {'Missing identifier for' : fileName + ' (labName = ' + labName + ')'}
         logIdentifiers.append(log)
-        
-    riName = getFieldValue(sheet, 'RI name',templateSheet)
 
     facility = {'facility' : {'type' : 'laboratory',
                 'lab_id' : labId,
-                'research_infrastructure_name' : riName,
+                'research_infrastructure_name' : getFieldValue(sheet, 'RI name',templateSheet),
                 'facility_name' : labName,
                 'address' : address,
                 'gps' : gps,
@@ -275,12 +250,7 @@ def fillGeneralLabInfo(sheet,research_field, subdomain,templateSheet,IDsFile):
                 }
         #'contact_person' : contact_person,
         # 'general_description' : getFieldValue(sheet,'Lab information',templateSheet),
-    # generate test identifiers file
-    genID = generateLabIdentifier(labNameForIdRetrieval)
-    if genID == labId:
-        matchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
-    else:
-        unmatchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
+
     return facility
 
 def fillLabServices(research_field, subdomain, sheet,templateSheet):
@@ -389,7 +359,7 @@ def fillLabServices(research_field, subdomain, sheet,templateSheet):
         measurementTypes = newList
         
     else:
-        measurementTypes = []
+        measurementTypes ={}
     
     returnValue = {'research_field': research_field, 
                       'subdomain': [subdomain],
@@ -414,8 +384,6 @@ def processExcel(research_field, subdomain,fullPath, outputDir,templateFile,IDsF
     if labInfo['facility'].get('lab_id') != '':
         # we only add labs with a valid identifier to the allLabs export for ICS
         allLabsExport.append(labInfo)
-    else:
-        allLabsNotExported.append(labInfo)
     writeJSONFile(outputDir + '/' + fileName + '.json',labInfo)
 
 #---------------
@@ -430,8 +398,7 @@ def getSources(root):
 
 # running the conversion script with special parameters from the jupyter notebook:
 
-def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
-                  ANALYTICALTEMPLATE, ANALYTICALFILES, IDS_FILE,JSONOUTPUT,JSONOUTPUT_ISSUES):
+def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,IDS_FILE,JSONOUTPUT):
     domains = [{'research_field': 'Paleomagnetism',
                 'subdomain': 'Paleomagnetic and magnetic data',
                 'sourceDir' : PALEOFILES,
@@ -441,12 +408,7 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
                 'subdomain': 'Rock and melt physical properties',
                 'sourceDir' : ROCKFILES,
                 'sourceFiles': getSources(ROCKFILES),
-                'template': PALEOTEMPLATE},
-         {'research_field': 'Analytical and microscopy',
-                'subdomain': 'Analytical and microscopy data',
-                'sourceDir' : ANALYTICALFILES,
-                'sourceFiles': getSources(ANALYTICALFILES),
-                'template': ANALYTICALTEMPLATE}]
+                'template': PALEOTEMPLATE}]
     
     IDENTIFIERSFILE = IDS_FILE
     
@@ -462,9 +424,6 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
     # for creating one single exportfile
     global allLabsExport
     allLabsExport = []
-    
-    global allLabsNotExported
-    allLabsNotExported = []
     
     import os
     
@@ -495,8 +454,6 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
     # writeJSONFile(outputDir + '/allpaleomagLabs_v6.1.json', infraStructures)
     # and write the new source for the service:
     writeJSONFile(JSONOUTPUT, infraStructures)
-    notExported = {'infrastructures' : allLabsNotExported}
-    writeJSONFile(JSONOUTPUT_ISSUES, notExported)
 
 
 
@@ -507,17 +464,11 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
     
 if __name__ == "__main__":
     
-    PALEOTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.2/TEMPLATE_Laboratory description_paleomagnetism_V6.2.xlsx'
-    PALEOFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.2/'
+    PALEOTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.1/TEMPLATE_Laboratory description_paleomagnetism_V6.1.xlsx'
+    PALEOFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.1/'
     
-    ROCKTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Rock physics/Updated_Rock_Physics_Lab_Description_V3.2/TEMPLATE_Laboratory description_rock physics_V3.2.xlsx'
-    ROCKFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Rock physics/Updated_Rock_Physics_Lab_Description_V3.2/'
-    
-    ANALYTICALTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analytical&Microscopy/Updated_Analytical&Microscopy_Lab_Description_V3.1/TEMPLATE_Laboratory description_analytical labs_V3.1.xlsx'
-    ANALYTICALFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analytical&Microscopy/Updated_Analytical&Microscopy_Lab_Description_V3.1/'
-    
-    ANALOGUETEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analogue modelling/Updated_Analogue_Lab_Description_V3/TEMPLATE_Laboratory description_analogue modelling_V3.xlsx'
-    ANALOGUEFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analogue modelling/Updated_Analogue_Lab_Description_V3/'
+    ROCKTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Rock physics/Updated_Rock_Physics_Lab_Description_V3/TEMPLATE_Laboratory description_rock physics_V3.xlsx'
+    ROCKFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Rock physics/Updated_Rock_Physics_Lab_Description_V3/'
     
     IDENTIFIERSFILE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/lab_identifiers.json'
 
@@ -531,17 +482,7 @@ if __name__ == "__main__":
                 'subdomain': 'Rock and melt physical properties',
                 'sourceDir' : ROCKFILES,
                 'sourceFiles': getSources(ROCKFILES),
-                'template': PALEOTEMPLATE},
-         {'research_field': 'Analytical and microscopy',
-                'subdomain': 'Analytical and microscopy data',
-                'sourceDir' : ANALYTICALFILES,
-                'sourceFiles': getSources(ANALYTICALFILES),
-                'template': ANALYTICALTEMPLATE},
-          {'research_field': 'Analogue modelling',
-                'subdomain': 'Analogue modelling of geologic processes',
-                'sourceDir' : ANALOGUEFILES,
-                'sourceFiles': getSources(ANALOGUEFILES),
-                'template': ANALOGUETEMPLATE}]
+                'template': PALEOTEMPLATE}]
     
     # Analogue modelling of geologic processes
     # Analytical and microscopy data
@@ -557,9 +498,6 @@ if __name__ == "__main__":
     # for creating one single exportfile
     global allLabsExport
     allLabsExport = []
-    
-    global allLabsNotExported
-    allLabsNotExported = []
     
     import os
     
@@ -590,7 +528,3 @@ if __name__ == "__main__":
     # writeJSONFile(outputDir + '/allpaleomagLabs_v6.1.json', infraStructures)
     # and write the new source for the service:
     writeJSONFile('/Users/otto/Documents/GitLab/inframsl/labs.json', infraStructures)
-    notExported = {'infrastructures' : allLabsNotExported}
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/labs_issues.json', notExported)
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/ids_generated_match.json', matchGenIDs)
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/ids_generated_unmatch.json', unmatchGenIDs)

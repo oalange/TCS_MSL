@@ -30,11 +30,10 @@ try:
 except ImportError:
     import json
     
-# we create a dictionary for testing the id against the algorithm:
-matchGenIDs = {'generated_ids':[]}
-unmatchGenIDs = {'generated_ids':[]}
-    
-# I/O routines
+
+#***************    
+# I/O routines *
+#***************
     
 def getFileList(pattern):
     return glob.glob(pattern)
@@ -56,7 +55,9 @@ def writeJSONFile(fileName, jsonData):
     with open(fileName, 'w', encoding='utf-8') as f:
         json.dump(jsonData, f, ensure_ascii=False, indent=4)
 
-# managing Excel workbooks
+#***************************
+# managing Excel workbooks *
+#***************************
 
 def getSheetNames(book):
     # returns a list of sheet names in given workbook
@@ -73,6 +74,19 @@ def openWorkBook(path):
     # Open and read an Excel file
     book = xlrd.open_workbook(path)
     return book
+
+# ************************************************
+# class for managing identifiers for laboratories*
+# ************************************************
+    
+class labId:
+    
+    def __init__(self):
+        self.dictIDs = {'allIDs': []}
+    
+# we create a dictionary for testing the id against the algorithm:
+matchGenIDs = {'generated_ids':[]}
+unmatchGenIDs = {'generated_ids':[]}
 
 # specific code for the EPOS TNA/Infrastructure portal project
     
