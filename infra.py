@@ -217,7 +217,8 @@ class lab:
         self.subdomain = subdomain
         self.templateWb = templateWb
         self.IDs = IDs
-        self.jsonRecord = {}
+        self.labInfo = {}
+        self.readLabInfo()
 
     def fillGeneralLabInfo(self):
     
@@ -269,6 +270,18 @@ class lab:
         # we use representation names from V6.1 onwards:
         labName = self.labWb.getFieldValue('Facility Name (if other)',self.templateWb.activeSheet)
         
+        #***************************************
+        # Procedure for choosing identifiers:
+        #
+        # 1) check on FacilityName in IDsFile
+        # 2) if not found then generateID with inputstring = labName + (RI, City)
+        # 3) append new id with inputstring, labname, id to IDsFile
+        #
+        # generate check on identifiersexport CKAN, connect them to IDsFile for retrieval of original oinputstrings
+        # second check with generation of identifiers and compare to #ids in CKAN
+        #
+        #***************************************
+        
         labNameForIdRetrieval = self.labWb.getFieldValue('Facility Name',self.templateWb.activeSheet)
         if labNameForIdRetrieval.lower() in ['other', '']:
             labNameForIdRetrieval = self.labWb.getFieldValue('Facility Name (if other)',self.templateWb.activeSheet)
@@ -304,7 +317,7 @@ class lab:
     
     
         if labId == '':
-            log = {'Missing identifier for' : fileName + ' (labName = ' + labName + ')'}
+            log = {'Missing identifier for' : fileName + ' (labName = ' + labNameForIdRetrieval + ')'}
             logIdentifiers.append(log)
             
         riName = self.labWb.getFieldValue('RI name',self.templateWb.activeSheet)
@@ -444,6 +457,12 @@ class lab:
         
         
         return returnValue
+    
+    def readLabInfo(self):
+        self.labInfo = self.fillGeneralLabInfo()
+        
+    def getValue(self, keyName):
+        return self.labInfo['facility'].get(keyName) # TODO: need exception handling
 
 # ****************************************
 # END OF CLASS DEFINITIONS               *
@@ -457,13 +476,12 @@ def processExcel(research_field, subdomain, fullLabfilePath, outputDir, template
     book = excelWB(fullLabfilePath)
     template = excelWB(templateFile)
     newLab = lab(book, research_field, subdomain, template, IDs)
-    labInfo = newLab.fillGeneralLabInfo()
-    if labInfo['facility'].get('lab_id') != '':
+    if newLab.labInfo['facility'].get('lab_id') != '':
         # we only add labs with a valid identifier to the allLabs export for ICS
-        allLabsExport.append(labInfo)
+        allLabsExport.append(newLab.labInfo)
     else:
-        allLabsNotExported.append(labInfo)
-    writeJSONFile(outputDir + '/' + fileName + '.json',labInfo)
+        allLabsNotExported.append(newLab.labInfo)
+    writeJSONFile(outputDir + '/' + fileName + '.json',newLab.labInfo)
 
 #---------------
     
@@ -637,7 +655,7 @@ if __name__ == "__main__":
     log = []
     log.append(logIdentifiers)
     log.append(logInfo)
-    # writeJSONFile(outputDir + '/log.json',log)
+    writeJSONFile('./log.json',log)
     infraStructures = {'infrastructures' : allLabsExport}
     # writeJSONFile(outputDir + '/allpaleomagLabs_v6.1.json', infraStructures)
     # and write the new source for the service:
