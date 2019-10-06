@@ -58,373 +58,406 @@ def writeJSONFile(fileName, jsonData):
 #***************************
 # managing Excel workbooks *
 #***************************
+        
+class excelWB:
+    def __init__(self, pathToExcelFile, activeSheetName = ''):
+        self.workbook = self.openWorkBook(pathToExcelFile)
+        self.sheetnamesList = self.getSheetNames()
+        if activeSheetName == '':
+            self.activeSheet = self.getSheet(self.sheetnamesList[0]) # we initialize on first sheet
+        else:
+            self.activeSheet = self.getSheet(activeSheetName)
 
-def getSheetNames(book):
-    # returns a list of sheet names in given workbook
-    sheetList = []
-    for s in book.sheets():
-        sheetList.append(s.name)
-    return sheetList
-
-def getSheet(book,sheetName):
-    # returns a sheet object sheetname in workbook
-    return book.sheet_by_name(sheetName)
-
-def openWorkBook(path):
-    # Open and read an Excel file
-    book = xlrd.open_workbook(path)
-    return book
-
-# ************************************************
-# class for managing identifiers for laboratories*
-# ************************************************
+    def getSheetNames(self):
+        # returns a list of sheet names in workbook
+        sheetList = []
+        for s in self.workbook.sheets():
+            sheetList.append(s.name)
+        return sheetList
     
-class labId:
+    def getSheet(self,sheetName):
+        # returns a sheet object sheetname in workbook
+        return self.workbook.sheet_by_name(sheetName)
     
-    def __init__(self):
-        self.dictIDs = {'allIDs': []}
+    def openWorkBook(self, path):
+        # Open and read an Excel file
+        book = xlrd.open_workbook(path)
+        return book
     
-# we create a dictionary for testing the id against the algorithm:
-matchGenIDs = {'generated_ids':[]}
-unmatchGenIDs = {'generated_ids':[]}
+    def getCellNumberByStringValue(self,key): #???
+        # returns the first cell with value == key
+        cellNumber = [-1,-1] # returned when value is not found
+        
+        for row in range(self.activeSheet.nrows):
+            for col in range(self.activeSheet.ncols):
+                if self.activeSheet.cell_value(row, col) == key:
+                    cellNumber = [row, col]
+        return cellNumber
 
-# specific code for the EPOS TNA/Infrastructure portal project
+#        row = 1
+#        col = 1
+#        while row < self.activeSheet.nrows:
+#            while col < self.activeSheet.ncols:
+#                if self.activeSheet.cell_value(row, col) == key:
+#                    cellNumber = [row, col]
+#                    row = self.activeSheet.nrows
+#                    col = self.activeSheet.ncols
+#                else:
+#                    col += 1
+#            row += 1
+#        return cellNumber
     
-def getCellNumberByStringValue(sheet,key):
-    # assumption: keys are unique; no exception handling therefore at this moment
-    cellNumber = [-1,-1] # returned when value is not found
-    for row in range(sheet.nrows):
-        for col in range(sheet.ncols):
-            if sheet.cell_value(row, col) == key:
-                cellNumber = [row, col]
-    return cellNumber
-
-def getMultipleCellNumbersByStringValue(sheet,key):
-    # keys are not necessarily unique; no exception handling therefore at this moment
-    cellNumbers = []
-    for row in range(sheet.nrows):
-        for col in range(sheet.ncols):
-            if sheet.cell_value(row, col) == key:
-                cellNumbers.append([row, col])
-    return cellNumbers
-    
-def getFieldValue(sheet,keyName,templateSheet):
-    # This routine is only to be used to get the general lab info; equipment information is differently structured in the Excel-template
-    # pre-assumptions:
-    # field names are unique in the template
-    # value is to be found in the cell next to the right of the label-field cell
-    # To remove fill in instruction values: value is checked against value from template: if equal return empty string
-    cellNumber = getCellNumberByStringValue(sheet,keyName)
-    if len(cellNumber) != 0:
-        returnVal = sheet.cell(int(cellNumber[0]),int(cellNumber[1]+1)).value
-    else:
-        returnVal =''
-    # check against default value from template:
-    templateCellNumber = getCellNumberByStringValue(templateSheet,keyName)
-    if len(templateCellNumber) != 0:
-        templateVal = templateSheet.cell(int(templateCellNumber[0]),int(templateCellNumber[1]+1)).value
-    else:
-        templateVal =''
-    if returnVal == templateVal:
-        returnVal = ''
-    return returnVal
-
-def getFieldValueByAdjacentCellNum(sheet,cellNum):
-    # pre-assumptions:
-    # value is to be found in the cell next to the right
-    returnVal = sheet.cell(int(cellNum[0]),int(cellNum[1]+1)).value
-    return returnVal
-
-def getFieldValueByCellNum(sheet,cellNum,templateDefaultValuesList):  
-    try:
-        returnVal = sheet.cell(int(cellNum[0]),int(cellNum[1])).value
-        # skip default values from template
-        if returnVal in templateDefaultValuesList:
+    def getMultipleCellNumbersByStringValue(self,key):
+        # keys are not necessarily unique, so we return a list
+        cellNumbers = []
+        for row in range(self.activeSheet.nrows):
+            for col in range(self.activeSheet.ncols):
+                if self.activeSheet.cell_value(row, col) == key:
+                    cellNumbers.append([row, col])
+        return cellNumbers
+        
+    def getFieldValue(self, keyName,templateSheet): #???
+        # This routine is only to be used to get the general lab info; equipment information is differently structured in the Excel-template
+        # pre-assumptions:
+        # field names are unique in the template
+        # value is to be found in the cell next to the right of the label-field cell
+        # To remove fill in instruction values: value is checked against value from template: if equal return empty string
+        cellNumber = self.getCellNumberByStringValue(keyName)
+        if len(cellNumber) != 0:
+            returnVal = self.activeSheet.cell(int(cellNumber[0]),int(cellNumber[1]+1)).value
+        else:
+            returnVal =''
+        # check against default value from template:
+        templateCellNumber = self.getCellNumberByStringValue(keyName)
+        if len(templateCellNumber) != 0:
+            templateVal = templateSheet.cell(int(templateCellNumber[0]),int(templateCellNumber[1]+1)).value
+        else:
+            templateVal =''
+        if returnVal == templateVal:
             returnVal = ''
-    except:
-        returnVal = ''
-
-    return returnVal
-
-def getListOfMergedCellValues(sheet):
-    # merged cells are separator rows in the template
-    # returns a list values for these rows
-    mergedCellsList = sheet.merged_cells
-    mergedValues = []
-    for c in mergedCellsList:
-        mergedValues.append(sheet.cell(c[0],0).value)
-    return mergedValues
-
-def checkOnEmptyRow(sheet,nrow):
-    empty = True
-    row = sheet.row(nrow)
-    for cell in row:
-        if not (cell.ctype in (xlrd.XL_CELL_EMPTY, xlrd.XL_CELL_BLANK)):
-            empty = False
-    return empty
-
-def readLabIdentifier(labName, IDsFile):
-    # we know there are occasionally double spaces encountered
-    labId = ''
-    if labName != '':
-        print(labName)
-        labNameStripped = labName.replace('  ', ' ')
-        labNameStripped = labNameStripped.replace('"', '')
-        labNameStripped = labNameStripped.replace(',', '')
-        labs = loadJSONFromFile(IDsFile)
-        for lab in labs:
-            name = lab["name"].replace('  ', ' ')
-            name = name.replace('"', '')
-            name = name.replace(',', '')
-            if name.find(labNameStripped) != -1:
-                # when the name provided in the template is a non-empty substring then we have a hit
-                labId = lab["id"]
-    return labId
-
-def generateLabIdentifier(labName):
-    idBaseName = labName
-    idBaseName = idBaseName.replace(' ', '')
-    idBaseName = idBaseName.lower()
-    return hashlib.md5(idBaseName.encode()).hexdigest()
-
-def fillGeneralLabInfo(sheet,research_field, subdomain,templateSheet,IDsFile):
-
-    # address
-    facility_address = getFieldValue(sheet,'Facility address (street + number)',templateSheet)
-    postal_code = getFieldValue(sheet,'Facility address (postcode)',templateSheet)
-    city = getFieldValue(sheet,'Facility address (city)',templateSheet)
-    country = getFieldValue(sheet,'Facility address (country)',templateSheet)
-    address = {'street_with_number' : facility_address,
-               'postal_code' : postal_code,
-               'city' : city,
-               'country': country 
-               }
+        return returnVal
     
-    # gps
-    gps_lat = getFieldValue(sheet, 'Facility gpsLat (decimal degree)',templateSheet)
-    gps_lon = getFieldValue(sheet, 'Facility gpsLon (decimal degree)',templateSheet)
-    gps = {'gps_lat': gps_lat,
-           'gps_lon': gps_lon
-           }
+    def getFieldValueByAdjacentCellNum(self,cellNum):
+        # pre-assumptions:
+        # value is to be found in the cell next to the right
+        returnVal = self.activeSheet.cell(int(cellNum[0]),int(cellNum[1]+1)).value
+        return returnVal
     
-    tna = getFieldValue(sheet, 'Facility participates to TNA call? Add TNA call website if YES',templateSheet)
+    def getFieldValueByCellNum(self,cellNum,templateDefaultValuesList):  
+        try:
+            returnVal = self.activeSheet.cell(int(cellNum[0]),int(cellNum[1])).value
+            # skip default values from template
+            if returnVal in templateDefaultValuesList:
+                returnVal = ''
+        except:
+            returnVal = ''
     
-    # affiliation
-    # Currently not further elaborated upon.
-    # The Excel template does not currently request address and PIC e.g.
-    affiliation = getFieldValue(sheet, 'Affiliation of Facility contact person',templateSheet)
-    affiliation = {'legal_name': affiliation,
-                   'identifier': {
-                           'id_type': '',
-                           'id_value': ''},
-                   'address': {
-                           'street_with_number': '',
-                           'postal_code': '',
-                           'city': '',
-                           'country': ''}
+        return returnVal
+    
+    def getListOfMergedCellValues(self):
+        # merged cells are separator rows in the template
+        # returns a list values for these rows
+        mergedCellsList = self.activeSheet.merged_cells
+        mergedValues = []
+        for c in mergedCellsList:
+            mergedValues.append(self.activeSheet.cell(c[0],0).value)
+        return mergedValues
+    
+    def checkOnEmptyRow(self,nrow):
+        empty = True
+        row = self.activeSheet.row(nrow)
+        for cell in row:
+            if not (cell.ctype in (xlrd.XL_CELL_EMPTY, xlrd.XL_CELL_BLANK)):
+                empty = False
+        return empty
+
+# *************************************************
+# class for managing identifiers for laboratories *
+# *************************************************
+    
+class labIDs:
+    
+    def __init__(self, IDsFile):
+        self.dictIDs = {'allIDs': []} # all template-based generated IDs
+        self.matchGenIDs = {'generated_ids':[]} # all template-based generated IDs that match IDsFile
+        self.unmatchGenIDs = {'generated_ids':[]} # all template-based generated IDs that do not match IDsFile
+        self.IDsFile = IDsFile
+
+
+    def readLabIdentifier(self, labName):
+        # we know there are occasionally double spaces encountered
+        labId = ''
+        if labName != '':
+            print(labName)
+            labNameStripped = labName.replace('  ', ' ')
+            labNameStripped = labNameStripped.replace('"', '')
+            labNameStripped = labNameStripped.replace(',', '')
+            labs = loadJSONFromFile(self.IDsFile)
+            for lab in labs:
+                name = lab["name"].replace('  ', ' ')
+                name = name.replace('"', '')
+                name = name.replace(',', '')
+                if name.find(labNameStripped) != -1:
+                    # when the name provided in the template is a non-empty substring then we have a hit
+                    labId = lab["id"]
+        return labId
+    
+    def generateLabIdentifier(self, labName):
+        idBaseName = labName
+        idBaseName = idBaseName.replace(' ', '')
+        idBaseName = idBaseName.lower()
+        return hashlib.md5(idBaseName.encode()).hexdigest()
+    
+class lab:
+    
+    def __init__(self, labWb, research_field, subdomain, templateWb, IDs):
+        self.labWb = labWb
+        self.sheet = labWb.activeSheet
+        self.research_field = research_field
+        self.subdomain = subdomain
+        self.templateWb = templateWb
+        self.IDs = IDs
+        self.jsonRecord = {}
+
+    def fillGeneralLabInfo(self):
+    
+        # address
+        facility_address = self.labWb.getFieldValue('Facility address (street + number)',self.templateWb.activeSheet)
+        postal_code = self.labWb.getFieldValue('Facility address (postcode)',self.templateWb.activeSheet)
+        city = self.labWb.getFieldValue('Facility address (city)',self.templateWb.activeSheet)
+        country = self.labWb.getFieldValue('Facility address (country)',self.templateWb.activeSheet)
+        address = {'street_with_number' : facility_address,
+                   'postal_code' : postal_code,
+                   'city' : city,
+                   'country': country 
                    }
-      
-    # contact person
-    contact_person = {'first_name' : getFieldValue(sheet, 'Facility contact person (first name)',templateSheet),
-                      'family_name': getFieldValue(sheet,'Facility contact person (family name)',templateSheet),
-                      'identifier': {
-                              'id_type': '',
-                              'id_value': getFieldValue(sheet,'Facility contact person ID ',templateSheet)},
-                      'email': getFieldValue(sheet, 'Email of Facility contact person',templateSheet),
-                      'affiliation': affiliation}
-    
-    # facility
-    # we use representation names from V6.1 onwards:
-    labName = getFieldValue(sheet, 'Facility Name (if other)',templateSheet)
-    
-    labNameForIdRetrieval = getFieldValue(sheet, 'Facility Name',templateSheet)
-    if labNameForIdRetrieval.lower() in ['other', '']:
-        labNameForIdRetrieval = getFieldValue(sheet, 'Facility Name (if other)',templateSheet)
-    labName = labName.replace('  ', ' ') # remove possible double spaces
-    labNameForIdRetrieval = labNameForIdRetrieval.replace('  ', ' ') # remove possible double spaces
-    labId = getFieldValue(sheet,'Facility ID',templateSheet)
-    if labId in ['will be assigned later', '']:
-        # if not already provided
-        labId = readLabIdentifier(labNameForIdRetrieval,IDsFile)
-    # links to the MSL CKAN catalogue portal
-    # We use the TCS Portal Webservice to check whether this lab has data publications already:
-    
-    numOfPublications = tcs_portal.retrieveNumberOfLabPublications(labId)
-    if numOfPublications > 0:
-        dataServices = [{'service_type': 'data_publications_access',
-                         'link_label' : 'Go to data publications from this lab (MSL TCS catalogue portal)',
-                         'URL': 'https://epos-msl.uu.nl/organization/' + labId},
-                      {'service_type': 'data_publications_get',
-                       'link_label': 'Retrieve data publications from this lab',
-                       'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab=' + labId,
-                       'payload' : 'json'}]
-    else:
-        dataServices = []
-    
-    dataServices.append({'service_type': 'TCS_portal_redirection',
-                    'link_label': 'More facility information',
-                    'URL': 'https://epos-msl.uu.nl/organization/about/' + labId})
-            
-    if tna != '':
-        dataServices.append({'service_type': 'TNA_redirection',
-                             'link_label': 'More information about TNA possibilities at this lab',
-                             'URL': tna})
-
-
-    if labId == '':
-        log = {'Missing identifier for' : fileName + ' (labName = ' + labName + ')'}
-        logIdentifiers.append(log)
         
-    riName = getFieldValue(sheet, 'RI name',templateSheet)
-
-    facility = {'facility' : {'type' : 'laboratory',
-                'lab_id' : labId,
-                'research_infrastructure_name' : riName,
-                'facility_name' : labName,
-                'address' : address,
-                'gps' : gps,
-                'website' : getFieldValue(sheet, 'Facility website',templateSheet),
-                'lab_services' : fillLabServices(research_field, subdomain, sheet,templateSheet),
-                'data_services' : dataServices},
-                }
-        #'contact_person' : contact_person,
-        # 'general_description' : getFieldValue(sheet,'Lab information',templateSheet),
-    # generate test identifiers file
-    genID = generateLabIdentifier(labNameForIdRetrieval)
-    if genID == labId:
-        matchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
-    else:
-        unmatchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
-    return facility
-
-def fillLabServices(research_field, subdomain, sheet,templateSheet):
-    # equipment types
-    equipmentTypes = []
-    # find header row
-    equipmentTypeHeaderRowNum = getCellNumberByStringValue(sheet, 'Equipment type')[0]
-    valueRow = equipmentTypeHeaderRowNum+1
-    equipmentTemplateTypeHeaderRowNum = getCellNumberByStringValue(templateSheet, 'Equipment type')[0]
-    valueTemplateRow = equipmentTemplateTypeHeaderRowNum+1
-    
-    # in the template valueRow contains possible default values against which we must check:
-    defaults = []
-    for x in range(0, 11):
-        defaults.append(getFieldValueByCellNum(templateSheet,(valueTemplateRow,x),[]))
-    
-    # get separator by checking on merged cells values
-    mergedCells = getListOfMergedCellValues(sheet)
-    mergedCells.append('') # otherwise we'll fail on the empty row
-
-    eqType = getFieldValueByCellNum(sheet,(valueRow,0),defaults)
-
-    while (not eqType in mergedCells) and (valueRow < sheet.nrows):
-        if not checkOnEmptyRow(sheet,valueRow):    
-            equipment_name = getFieldValueByCellNum(sheet,(valueRow,2),defaults)
-            equipment_custom_name = getFieldValueByCellNum(sheet,(valueRow,3),defaults)
-            if equipment_custom_name != '':
-                # turn base name into group, assign 'other value' to name
-                entrancePart1 = {'equipment_type' : eqType,
-                                 'equipment_group' : getFieldValueByCellNum(sheet,(valueRow,1),defaults),
-                                 'equipment_name' : equipment_name,
-                                 'equipment_secondary_name': equipment_custom_name}
-                log = {'domain' : 'paleomag',
-                       'category' : 'equipment',
-                       'File' : fileName,
-                       'base_name' : equipment_name,
-                       'specific name' : equipment_custom_name}
-                logInfo.append(log)
-            
-            else:
-                entrancePart1 = {'equipment_type' : eqType,
-                                 'equipment_group' : getFieldValueByCellNum(sheet,(valueRow,1),defaults),
-                                 'equipment_name' : equipment_name}
-            if eqType == '':
-                log = {'empty equipment type in non-empty entrance' : fileName}
-                logInfo.append(log)
-            entrancePart2 = {'equipment_brand' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
-                        'equipment_website' : getFieldValueByCellNum(sheet,(valueRow,7),defaults),
-                        'equipment_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,8),defaults),
-                        'equipment_quantity' : getFieldValueByCellNum(sheet,(valueRow,9),defaults),
-                        'references' : getFieldValueByCellNum(sheet,(valueRow,10),defaults)}
-            
-            # The next fields are not exported as of 2019-09-13. We have to check against GPRD
-            # 'equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
-            # 'email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
-           
-            entrance = {}
-            entrance.update(entrancePart1)
-            entrance.update(entrancePart2)
-            equipmentTypes.append(entrance)
-            
-        valueRow += 1
-        eqType = getFieldValueByCellNum(sheet,(valueRow,0),defaults)
+        # gps
+        gps_lat = self.labWb.getFieldValue('Facility gpsLat (decimal degree)',self.templateWb.activeSheet)
+        gps_lon = self.labWb.getFieldValue('Facility gpsLon (decimal degree)',self.templateWb.activeSheet)
+        gps = {'gps_lat': gps_lat,
+               'gps_lon': gps_lon
+               }
         
-    # We'll sort on equipment names: discussed in Prague Sept 2019
-    from operator import itemgetter
-    newList = sorted(equipmentTypes, key=itemgetter('equipment_name'))
-    equipmentTypes = newList
+        tna = self.labWb.getFieldValue('Facility participates to TNA call? Add TNA call website if YES',self.templateWb.activeSheet)
         
-    # measurement types
-    measurementTypes = []
-    # find header row
-    # update 2019-09-13: not all domains provide this, so we have to build in an exception
-    
-    measurementTypeHeaderRowNum = getCellNumberByStringValue(sheet, 'Measurement type')[0]
-    
-    if measurementTypeHeaderRowNum != -1:
-    
-        valueRow = measurementTypeHeaderRowNum+1
-        measurementTypeTemplateHeaderRowNum = getCellNumberByStringValue(templateSheet, 'Measurement type')[0]
-        templateValueRow = measurementTypeTemplateHeaderRowNum+1
-        defaults.clear()
-        for x in range(6):
-            defaults.append(getFieldValueByCellNum(templateSheet,(templateValueRow,x),['']))
+        # affiliation
+        # Currently not further elaborated upon.
+        # The Excel template does not currently request address and PIC e.g.
+        affiliation = self.labWb.getFieldValue('Affiliation of Facility contact person',self.templateWb.activeSheet)
+        affiliation = {'legal_name': affiliation,
+                       'identifier': {
+                               'id_type': '',
+                               'id_value': ''},
+                       'address': {
+                               'street_with_number': '',
+                               'postal_code': '',
+                               'city': '',
+                               'country': ''}
+                       }
+          
+        # contact person
+        contact_person = {'first_name' : self.labWb.getFieldValue('Facility contact person (first name)',self.templateWb.activeSheet),
+                          'family_name': self.labWb.getFieldValue('Facility contact person (family name)',self.templateWb.activeSheet),
+                          'identifier': {
+                                  'id_type': '',
+                                  'id_value': self.labWb.getFieldValue('Facility contact person ID ',self.templateWb.activeSheet)},
+                          'email': self.labWb.getFieldValue('Email of Facility contact person',self.templateWb.activeSheet),
+                          'affiliation': affiliation}
         
-        measurementType = getFieldValueByCellNum(sheet,(valueRow,0),defaults)
+        # facility
+        # we use representation names from V6.1 onwards:
+        labName = self.labWb.getFieldValue('Facility Name (if other)',self.templateWb.activeSheet)
+        
+        labNameForIdRetrieval = self.labWb.getFieldValue('Facility Name',self.templateWb.activeSheet)
+        if labNameForIdRetrieval.lower() in ['other', '']:
+            labNameForIdRetrieval = self.labWb.getFieldValue('Facility Name (if other)',self.templateWb.activeSheet)
+        labName = labName.replace('  ', ' ') # remove possible double spaces
+        labNameForIdRetrieval = labNameForIdRetrieval.replace('  ', ' ') # remove possible double spaces
+        labId = self.labWb.getFieldValue('Facility ID',self.templateWb.activeSheet)
+        if labId in ['will be assigned later', '']:
+            # if not already provided
+            labId = self.IDs.readLabIdentifier(labNameForIdRetrieval)
+        # links to the MSL CKAN catalogue portal
+        # We use the TCS Portal Webservice to check whether this lab has data publications already:
+        
+        numOfPublications = tcs_portal.retrieveNumberOfLabPublications(labId)
+        if numOfPublications > 0:
+            dataServices = [{'service_type': 'data_publications_access',
+                             'link_label' : 'Go to data publications from this lab (MSL TCS catalogue portal)',
+                             'URL': 'https://epos-msl.uu.nl/organization/' + labId},
+                          {'service_type': 'data_publications_get',
+                           'link_label': 'Retrieve data publications from this lab',
+                           'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab=' + labId,
+                           'payload' : 'json'}]
+        else:
+            dataServices = []
+        
+        dataServices.append({'service_type': 'TCS_portal_redirection',
+                        'link_label': 'More facility information',
+                        'URL': 'https://epos-msl.uu.nl/organization/about/' + labId})
+                
+        if tna != '':
+            dataServices.append({'service_type': 'TNA_redirection',
+                                 'link_label': 'More information about TNA possibilities at this lab',
+                                 'URL': tna})
     
-        while (not measurementType in mergedCells) and (valueRow < sheet.nrows):
-            measurement_name = getFieldValueByCellNum(sheet,(valueRow,2),defaults)
-            if measurement_name.lower() == 'other':
-                measurement_custom_name = getFieldValueByCellNum(sheet,(valueRow,3),defaults)
-                if measurement_custom_name != '':
-                    measurement_name = measurement_custom_name
-            entrance = {'measurement_type' : measurementType,
-                        'measurement_group' : getFieldValueByCellNum(sheet,(valueRow,1),defaults),
-                        'measurement_name' : measurement_name,
-                        'measured_type_specifics_and_comments' : getFieldValueByCellNum(sheet,(valueRow,4),defaults),
-                        'references' : getFieldValueByCellNum(sheet,(valueRow,5),defaults)}
-            measurementTypes.append(entrance)
+    
+        if labId == '':
+            log = {'Missing identifier for' : fileName + ' (labName = ' + labName + ')'}
+            logIdentifiers.append(log)
+            
+        riName = self.labWb.getFieldValue('RI name',self.templateWb.activeSheet)
+    
+        facility = {'facility' : {'type' : 'laboratory',
+                    'lab_id' : labId,
+                    'research_infrastructure_name' : riName,
+                    'facility_name' : labName,
+                    'address' : address,
+                    'gps' : gps,
+                    'website' : self.labWb.getFieldValue('Facility website',self.templateWb.activeSheet),
+                    'lab_services' : self.fillLabServices(),
+                    'data_services' : dataServices},
+                    }
+            #'contact_person' : contact_person,
+            # 'general_description' : getFieldValue(sheet,'Lab information',templateSheet),
+        # generate test identifiers file
+        genID = self.IDs.generateLabIdentifier(labNameForIdRetrieval)
+        if genID == labId:
+            self.IDs.matchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
+        else:
+            self.IDs.unmatchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
+        return facility
+
+    def fillLabServices(self):
+        # equipment types
+        equipmentTypes = []
+        # find header row
+        equipmentTypeHeaderRowNum = self.labWb.getCellNumberByStringValue('Equipment type')[0]
+        valueRow = equipmentTypeHeaderRowNum+1
+        equipmentTemplateTypeHeaderRowNum = self.templateWb.getCellNumberByStringValue('Equipment type')[0]
+        valueTemplateRow = equipmentTemplateTypeHeaderRowNum+1
+        
+        # in the template valueRow contains possible default values against which we must check:
+        defaults = []
+        for x in range(0, 11):
+            defaults.append(self.templateWb.getFieldValueByCellNum((valueTemplateRow,x),[]))
+        
+        # get separator by checking on merged cells values
+        mergedCells = self.labWb.getListOfMergedCellValues()
+        mergedCells.append('') # otherwise we'll fail on the empty row
+    
+        eqType = self.labWb.getFieldValueByCellNum((valueRow,0),defaults)
+    
+        while (not eqType in mergedCells) and (valueRow < self.sheet.nrows):
+            if not self.labWb.checkOnEmptyRow(valueRow):    
+                equipment_name = self.labWb.getFieldValueByCellNum((valueRow,2),defaults)
+                equipment_custom_name = self.labWb.getFieldValueByCellNum((valueRow,3),defaults)
+                if equipment_custom_name != '':
+                    # turn base name into group, assign 'other value' to name
+                    entrancePart1 = {'equipment_type' : eqType,
+                                     'equipment_group' : self.labWb.getFieldValueByCellNum((valueRow,1),defaults),
+                                     'equipment_name' : equipment_name,
+                                     'equipment_secondary_name': equipment_custom_name}
+                    log = {'domain' : 'paleomag',
+                           'category' : 'equipment',
+                           'File' : fileName,
+                           'base_name' : equipment_name,
+                           'specific name' : equipment_custom_name}
+                    logInfo.append(log)
+                
+                else:
+                    entrancePart1 = {'equipment_type' : eqType,
+                                     'equipment_group' : self.labWb.getFieldValueByCellNum((valueRow,1),defaults),
+                                     'equipment_name' : equipment_name}
+                if eqType == '':
+                    log = {'empty equipment type in non-empty entrance' : fileName}
+                    logInfo.append(log)
+                entrancePart2 = {'equipment_brand' : self.labWb.getFieldValueByCellNum((valueRow,4),defaults),
+                            'equipment_website' : self.labWb.getFieldValueByCellNum((valueRow,7),defaults),
+                            'equipment_specifics_and_comments' : self.labWb.getFieldValueByCellNum((valueRow,8),defaults),
+                            'equipment_quantity' : self.labWb.getFieldValueByCellNum((valueRow,9),defaults),
+                            'references' : self.labWb.getFieldValueByCellNum((valueRow,10),defaults)}
+                
+                # The next fields are not exported as of 2019-09-13. We have to check against GPRD
+                # 'equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,5),defaults),
+                # 'email_equipment_contact_person' : getFieldValueByCellNum(sheet,(valueRow,6),defaults),
+               
+                entrance = {}
+                entrance.update(entrancePart1)
+                entrance.update(entrancePart2)
+                equipmentTypes.append(entrance)
+                
             valueRow += 1
-            measurementType = getFieldValueByCellNum(sheet,(valueRow,0),defaults)
+            eqType = self.labWb.getFieldValueByCellNum((valueRow,0),defaults)
             
-        # Sorting
-        #from operator import itemgetter
-        newList = sorted(measurementTypes, key=itemgetter('measurement_name'))
-        measurementTypes = newList
-        
-    else:
+        # We'll sort on equipment names: discussed in Prague Sept 2019
+        from operator import itemgetter
+        newList = sorted(equipmentTypes, key=itemgetter('equipment_name'))
+        equipmentTypes = newList
+            
+        # measurement types
         measurementTypes = []
-    
-    returnValue = {'research_field': research_field, 
-                      'subdomain': [subdomain],
-                      'equipment' : equipmentTypes,
-                      'measurement' : measurementTypes}
-    
-    
-    return returnValue
+        # find header row
+        # update 2019-09-13: not all domains provide this, so we have to build in an exception
+        
+        measurementTypeHeaderRowNum = self.labWb.getCellNumberByStringValue('Measurement type')[0]
+        
+        if measurementTypeHeaderRowNum != -1:
+        
+            valueRow = measurementTypeHeaderRowNum+1
+            measurementTypeTemplateHeaderRowNum = self.labWb.getCellNumberByStringValue('Measurement type')[0]
+            templateValueRow = measurementTypeTemplateHeaderRowNum+1
+            defaults.clear()
+            for x in range(6):
+                defaults.append(self.templateWb.getFieldValueByCellNum((templateValueRow,x),['']))
+            
+            measurementType = self.labWb.getFieldValueByCellNum((valueRow,0),defaults)
+        
+            while (not measurementType in mergedCells) and (valueRow < self.sheet.nrows):
+                measurement_name = self.labWb.getFieldValueByCellNum((valueRow,2),defaults)
+                if measurement_name.lower() == 'other':
+                    measurement_custom_name = self.labWb.getFieldValueByCellNum((valueRow,3),defaults)
+                    if measurement_custom_name != '':
+                        measurement_name = measurement_custom_name
+                entrance = {'measurement_type' : measurementType,
+                            'measurement_group' : self.labWb.getFieldValueByCellNum((valueRow,1),defaults),
+                            'measurement_name' : measurement_name,
+                            'measured_type_specifics_and_comments' : self.labWb.getFieldValueByCellNum((valueRow,4),defaults),
+                            'references' : self.labWb.getFieldValueByCellNum((valueRow,5),defaults)}
+                measurementTypes.append(entrance)
+                valueRow += 1
+                measurementType = self.labWb.getFieldValueByCellNum((valueRow,0),defaults)
+                
+            # Sorting
+            #from operator import itemgetter
+            newList = sorted(measurementTypes, key=itemgetter('measurement_name'))
+            measurementTypes = newList
+            
+        else:
+            measurementTypes = []
+        
+        returnValue = {'research_field': research_field, 
+                          'subdomain': [subdomain],
+                          'equipment' : equipmentTypes,
+                          'measurement' : measurementTypes}
+        
+        
+        return returnValue
 
-   
+# ****************************************
+# END OF CLASS DEFINITIONS               *
+# ****************************************
 
 
-def processExcel(research_field, subdomain,fullPath, outputDir,templateFile,IDsFile):
-    fileName = fullPath.rsplit('/',1)[1]
+def processExcel(research_field, subdomain, fullLabfilePath, outputDir, templateFile, IDs):
+    fileName = fullLabfilePath.rsplit('/',1)[1]
     #to be sure that we have no space in the filename:
     fileName = fileName.replace(' ', '_')
-    book = openWorkBook(fullPath)
-    sheet = book.sheet_by_index(0) #because rock phys uu sheetname gives an unexplained error
-    template = openWorkBook(templateFile)
-    templateSheet = template.sheet_by_index(0)
-    labInfo = fillGeneralLabInfo(sheet,research_field, subdomain,templateSheet,IDsFile)
+    book = excelWB(fullLabfilePath)
+    template = excelWB(templateFile)
+    newLab = lab(book, research_field, subdomain, template, IDs)
+    labInfo = newLab.fillGeneralLabInfo()
     if labInfo['facility'].get('lab_id') != '':
         # we only add labs with a valid identifier to the allLabs export for ICS
         allLabsExport.append(labInfo)
@@ -464,6 +497,9 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
     
     IDENTIFIERSFILE = IDS_FILE
     
+    # we create an object for manipulating lab IDs:
+    allIDs = labIDs(IDENTIFIERSFILE)
+    
     
     # managing 'other' entrances' with globals
     global logInfo
@@ -499,7 +535,7 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
             print(outputDir, "outputfolder exists.")
         for file in files:
             fileName = file.rsplit('/',1)[1]
-            processExcel(research_field, subdomain,file, outputDir,templateFile,IDENTIFIERSFILE)
+            processExcel(research_field, subdomain,file, outputDir,templateFile,allIDs)
             
     log = []
     log.append(logIdentifiers)
@@ -534,7 +570,9 @@ if __name__ == "__main__":
     ANALOGUEFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analogue modelling/Updated_Analogue_Lab_Description_V3/'
     
     IDENTIFIERSFILE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/lab_identifiers.json'
-
+    
+    # we create an object for manipulating lab IDs:
+    allIDs = labIDs(IDENTIFIERSFILE)
     
     domains = [{'research_field': 'Paleomagnetism',
                 'subdomain': 'Paleomagnetic and magnetic data',
@@ -594,7 +632,7 @@ if __name__ == "__main__":
             print(outputDir, "outputfolder exists.")
         for file in files:
             fileName = file.rsplit('/',1)[1]
-            processExcel(research_field, subdomain,file, outputDir,templateFile,IDENTIFIERSFILE)
+            processExcel(research_field, subdomain,file, outputDir,templateFile,allIDs)
             
     log = []
     log.append(logIdentifiers)
@@ -603,8 +641,8 @@ if __name__ == "__main__":
     infraStructures = {'infrastructures' : allLabsExport}
     # writeJSONFile(outputDir + '/allpaleomagLabs_v6.1.json', infraStructures)
     # and write the new source for the service:
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/labs.json', infraStructures)
+    writeJSONFile('/Users/otto/GitLab/inframsl/labs.json', infraStructures)
     notExported = {'infrastructures' : allLabsNotExported}
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/labs_issues.json', notExported)
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/ids_generated_match.json', matchGenIDs)
-    writeJSONFile('/Users/otto/Documents/GitLab/inframsl/ids_generated_unmatch.json', unmatchGenIDs)
+    writeJSONFile('/Users/otto/GitLab/inframsl/labs_issues.json', notExported)
+    writeJSONFile('/Users/otto/GitLab/inframsl/ids_generated_match.json', allIDs.matchGenIDs)
+    writeJSONFile('/Users/otto/GitLab/inframsl/ids_generated_unmatch.json', allIDs.unmatchGenIDs)
