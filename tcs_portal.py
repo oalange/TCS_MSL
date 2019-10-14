@@ -15,6 +15,7 @@ class TCS_PortalRequests:
                  TCS_PORTAL_CKAN_API_BASE = 'https://epos-msl.uu.nl/api/3/action/'):
         self.TCS_PORTAL_API_BASE = TCS_PORTAL_API_BASE # custom API
         self.TCS_PORTAL_CKAN_API_BASE = TCS_PORTAL_CKAN_API_BASE # tag_list'
+        self.idsInPortal = self.retrieveAllIdentifiers() # list
 
     def retrieveNumberOfLabPublications(self, labId):
         portalRequest = requests.get(self.TCS_PORTAL_API_BASE + 'Lab=' + labId)
@@ -81,5 +82,12 @@ class TCS_PortalRequests:
         returnValue = json.load(f)
         f.close()
         return returnValue
+    
+    def identifierInPortal(self,id):
+        if id in self.idsInPortal:
+            return True
+        else:
+            return False
+        
 
     

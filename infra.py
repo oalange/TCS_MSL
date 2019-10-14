@@ -176,30 +176,48 @@ class excelWB:
 # *************************************************
     
 class labIDs:
-    
+ # !!!
     def __init__(self, IDsFile):
         self.dictIDs = {'allIDs': []} # all template-based generated IDs
         self.matchGenIDs = {'generated_ids':[]} # all template-based generated IDs that match IDsFile
         self.unmatchGenIDs = {'generated_ids':[]} # all template-based generated IDs that do not match IDsFile
         self.IDsFile = IDsFile
+        self.labs = loadJSONFromFile(self.IDsFile)
 
 
-    def readLabIdentifier(self, labName):
+    def readLabIdentifier(self, labNames): # labNames is now a list of possible candidate strings
         # we know there are occasionally double spaces encountered
         labId = ''
-        if labName != '':
-            print(labName)
-            labNameStripped = labName.replace('  ', ' ')
-            labNameStripped = labNameStripped.replace('"', '')
-            labNameStripped = labNameStripped.replace(',', '')
-            labs = loadJSONFromFile(self.IDsFile)
-            for lab in labs:
-                name = lab["name"].replace('  ', ' ')
-                name = name.replace('"', '')
-                name = name.replace(',', '')
-                if name.find(labNameStripped) != -1:
-                    # when the name provided in the template is a non-empty substring then we have a hit
-                    labId = lab["id"]
+        NotFound = True
+        for labName in labNames:
+            if labName != '' and NotFound:
+                print(labName)
+                labNameStripped = labName.replace('  ', ' ')
+                labNameStripped = labNameStripped.replace('"', '')
+                labNameStripped = labNameStripped.replace(',', '')
+                labNameStripped = labNameStripped.lower()
+                
+                for lab in self.labs:
+                    name = lab["inputstring"].replace('  ', ' ')
+                    name = name.replace('"', '')
+                    name = name.replace(',', '')
+                    name = name.lower()
+                    if name.find(labNameStripped) != -1:
+                        # when the name provided in the template is a non-empty substring then we have a hit
+                        labId = lab["id"]
+                        NotFound = False
+                        
+                if NotFound: # we do a check on the labname field
+                    for lab in self.labs:
+                        name = lab["labname"].replace('  ', ' ')
+                        name = name.replace('"', '')
+                        name = name.replace(',', '')
+                        name = name.lower()
+                        if name.find(labNameStripped) != -1:
+                            # when the name provided in the template is a non-empty substring then we have a hit
+                            labId = lab["id"]
+                            NotFound = False
+                        
         return labId
     
     def generateLabIdentifier(self, labName):
@@ -211,6 +229,7 @@ class labIDs:
 class lab:
     
     def __init__(self, labWb, research_field, subdomain, templateWb, IDs):
+        self.ckan = tcs_portal.TCS_PortalRequests()
         self.labWb = labWb
         self.sheet = labWb.activeSheet
         self.research_field = research_field
@@ -219,6 +238,7 @@ class lab:
         self.IDs = IDs
         self.labInfo = {}
         self.readLabInfo()
+        self.labID = ''
 
     def fillGeneralLabInfo(self):
     
@@ -273,42 +293,43 @@ class lab:
         #***************************************
         # Procedure for choosing identifiers:
         #
-        # 1) check on FacilityName in IDsFile
-        # 2) if not found then generateID with inputstring = labName + (RI, City)
+        # 1) check on FacilityName or FacilityNameOther in IDsFile:inputstring
+        # 2) if not found then generateID with inputstring = labName + ('Affiliation of Facility contact person', City)
         # 3) append new id with inputstring, labname, id to IDsFile
         #
         # generate check on identifiersexport CKAN, connect them to IDsFile for retrieval of original oinputstrings
         # second check with generation of identifiers and compare to #ids in CKAN
         #
         #***************************************
+
+        labNamesForIdRetrieval = []
+        labNamesForIdRetrieval.append(self.labWb.getFieldValue('Facility Name',self.templateWb.activeSheet))
+        labNamesForIdRetrieval.append(self.labWb.getFieldValue('Facility Name (if other)',self.templateWb.activeSheet))
+
         
-        labNameForIdRetrieval = self.labWb.getFieldValue('Facility Name',self.templateWb.activeSheet)
-        if labNameForIdRetrieval.lower() in ['other', '']:
-            labNameForIdRetrieval = self.labWb.getFieldValue('Facility Name (if other)',self.templateWb.activeSheet)
-        labName = labName.replace('  ', ' ') # remove possible double spaces
-        labNameForIdRetrieval = labNameForIdRetrieval.replace('  ', ' ') # remove possible double spaces
-        labId = self.labWb.getFieldValue('Facility ID',self.templateWb.activeSheet)
-        if labId in ['will be assigned later', '']:
+        self.labID = self.labWb.getFieldValue('Facility ID',self.templateWb.activeSheet)
+        if self.labID in ['will be assigned later', '']:
             # if not already provided
-            labId = self.IDs.readLabIdentifier(labNameForIdRetrieval)
+            self.labID = self.IDs.readLabIdentifier(labNamesForIdRetrieval)
+        
         # links to the MSL CKAN catalogue portal
         # We use the TCS Portal Webservice to check whether this lab has data publications already:
         
-        numOfPublications = tcs_portal.retrieveNumberOfLabPublications(labId)
+        numOfPublications = self.ckan.retrieveNumberOfLabPublications(self.labID)
         if numOfPublications > 0:
             dataServices = [{'service_type': 'data_publications_access',
                              'link_label' : 'Go to data publications from this lab (MSL TCS catalogue portal)',
-                             'URL': 'https://epos-msl.uu.nl/organization/' + labId},
+                             'URL': 'https://epos-msl.uu.nl/organization/' + self.labID},
                           {'service_type': 'data_publications_get',
                            'link_label': 'Retrieve data publications from this lab',
-                           'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab=' + labId,
+                           'URL': 'https://epos-msl.uu.nl/ics/api.php?Lab=' + self.labID,
                            'payload' : 'json'}]
         else:
             dataServices = []
         
         dataServices.append({'service_type': 'TCS_portal_redirection',
                         'link_label': 'More facility information',
-                        'URL': 'https://epos-msl.uu.nl/organization/about/' + labId})
+                        'URL': 'https://epos-msl.uu.nl/organization/about/' + self.labID})
                 
         if tna != '':
             dataServices.append({'service_type': 'TNA_redirection',
@@ -316,14 +337,18 @@ class lab:
                                  'URL': tna})
     
     
-        if labId == '':
-            log = {'Missing identifier for' : fileName + ' (labName = ' + labNameForIdRetrieval + ')'}
+        if self.labID == '':
+            log = {'Missing identifier for' : fileName + ' (labName = ' + labNamesForIdRetrieval[0] + ')'}
             logIdentifiers.append(log)
+        else:
+            if not self.ckan.identifierInPortal(self.labID):
+                log = {'Identifier ' + self.labID + ' for' : fileName + ' (labName = ' + labNamesForIdRetrieval[0] + ') not in portal'}
+                logIdentifiers.append(log)
             
         riName = self.labWb.getFieldValue('RI name',self.templateWb.activeSheet)
     
         facility = {'facility' : {'type' : 'laboratory',
-                    'lab_id' : labId,
+                    'lab_id' : self.labID,
                     'research_infrastructure_name' : riName,
                     'facility_name' : labName,
                     'address' : address,
@@ -334,12 +359,12 @@ class lab:
                     }
             #'contact_person' : contact_person,
             # 'general_description' : getFieldValue(sheet,'Lab information',templateSheet),
-        # generate test identifiers file
-        genID = self.IDs.generateLabIdentifier(labNameForIdRetrieval)
-        if genID == labId:
-            self.IDs.matchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
+        # TODO generate test identifiers file 
+        genIDs = [self.IDs.generateLabIdentifier(labNamesForIdRetrieval[0]),self.IDs.generateLabIdentifier(labNamesForIdRetrieval[0])]
+        if self.labID in genIDs:
+            self.IDs.matchGenIDs['generated_ids'].append({'name':labNamesForIdRetrieval[0], 'id': genIDs})
         else:
-            self.IDs.unmatchGenIDs['generated_ids'].append({'name':labNameForIdRetrieval, 'id': genID})
+            self.IDs.unmatchGenIDs['generated_ids'].append({'name':labNamesForIdRetrieval[0], 'id': genIDs})
         return facility
 
     def fillLabServices(self):
@@ -450,8 +475,8 @@ class lab:
         else:
             measurementTypes = []
         
-        returnValue = {'research_field': research_field, 
-                          'subdomain': [subdomain],
+        returnValue = {'research_field': self.research_field, 
+                          'subdomain': [self.subdomain],
                           'equipment' : equipmentTypes,
                           'measurement' : measurementTypes}
         
@@ -495,8 +520,18 @@ def getSources(root):
 
 # running the conversion script with special parameters from the jupyter notebook:
 
-def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
-                  ANALYTICALTEMPLATE, ANALYTICALFILES, IDS_FILE,JSONOUTPUT,JSONOUTPUT_ISSUES):
+def runConversion(PALEOTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.2/TEMPLATE_Laboratory description_paleomagnetism_V6.2.xlsx',
+                  PALEOFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.2/',
+                  ROCKTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Rock physics/Updated_Rock_Physics_Lab_Description_V3.2/TEMPLATE_Laboratory description_rock physics_V3.2.xlsx',
+                  ROCKFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Rock physics/Updated_Rock_Physics_Lab_Description_V3.2/',
+                  ANALYTICALTEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analytical&Microscopy/Updated_Analytical&Microscopy_Lab_Description_V3.1/TEMPLATE_Laboratory description_analytical labs_V3.1.xlsx',
+                  ANALYTICALFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analytical&Microscopy/Updated_Analytical&Microscopy_Lab_Description_V3.1/',
+                  ANALOGUETEMPLATE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analogue modelling/Updated_Analogue_Lab_Description_V3/TEMPLATE_Laboratory description_analogue modelling_V3.xlsx',
+                  ANALOGUEFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analogue modelling/Updated_Analogue_Lab_Description_V3/',
+                  IDENTIFIERSFILE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/lab_identifiers.json',
+                  JSONOUTPUT = '/Users/otto/GitLab/inframsl/labs.json',
+                  JSONOUTPUT_ISSUES = '/Users/otto/GitLab/inframsl/labs_issues.json'):
+    
     domains = [{'research_field': 'Paleomagnetism',
                 'subdomain': 'Paleomagnetic and magnetic data',
                 'sourceDir' : PALEOFILES,
@@ -511,9 +546,13 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
                 'subdomain': 'Analytical and microscopy data',
                 'sourceDir' : ANALYTICALFILES,
                 'sourceFiles': getSources(ANALYTICALFILES),
-                'template': ANALYTICALTEMPLATE}]
-    
-    IDENTIFIERSFILE = IDS_FILE
+                'template': ANALYTICALTEMPLATE},
+          {'research_field': 'Analogue modelling',
+                'subdomain': 'Analogue modelling of geologic processes',
+                'sourceDir' : ANALOGUEFILES,
+                'sourceFiles': getSources(ANALOGUEFILES),
+                'template': ANALOGUETEMPLATE}]
+
     
     # we create an object for manipulating lab IDs:
     allIDs = labIDs(IDENTIFIERSFILE)
@@ -558,7 +597,7 @@ def runConversion(PALEOTEMPLATE,PALEOFILES,ROCKTEMPLATE,ROCKFILES,
     log = []
     log.append(logIdentifiers)
     log.append(logInfo)
-    # writeJSONFile(outputDir + '/log.json',log)
+    writeJSONFile('./log.json',log)
     infraStructures = {'infrastructures' : allLabsExport}
     # writeJSONFile(outputDir + '/allpaleomagLabs_v6.1.json', infraStructures)
     # and write the new source for the service:
@@ -588,7 +627,7 @@ if __name__ == "__main__":
     ANALOGUEFILES = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Analogue modelling/Updated_Analogue_Lab_Description_V3/'
     
     IDENTIFIERSFILE = '/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/lab_identifiers.json'
-    
+
     # we create an object for manipulating lab IDs:
     allIDs = labIDs(IDENTIFIERSFILE)
     
