@@ -1,0 +1,37 @@
+[
+    {
+        "domain": "Analytical and microscopy data",
+        "inputstring": "Electron Microscopy Laboratory (University of Liverpool, UK)",
+        "labname": "Electron Microscopy Laboratory",
+        "affiliation": "University of Liverpool, UK",
+        "id": "1f9441ee30e9c0a73ef438dc97487997"
+    },
+    {
+        "domain": "Analytical and microscopy data",
+        "inputstring": "Potsdam Imaging and Spectral Analysis (PISA) Facility (GFZ, Germany)",
+        "labname": "Potsdam Imaging and Spectral Analysis (PISA) Facility",
+        "affiliation": "GFZ Potsdam, Germany",
+        "id": "6bbcefeb5044068ce59644e8bb97b558"
+    },
+    {
+        "domain": "Analytical and microscopy data",
+        "inputstring": "Laboratory of Geochemistry and Stable Isotopes - Pisa (IGG-CNR, Italy)",
+        "labname": "Laboratory of Geochemistry and Stable Isotopes",
+        "affiliation": "IGG-CNR, Italy",
+        "id": "d9e0646a4881501415b21134e4fa039b"
+    },
+    {
+        "domain": "Analytical and microscopy data",
+        "inputstring": "Micro-CT laboratory (INGV, Italy)",
+        "labname": "Micro-CT laboratory",
+        "affiliation": "INGV, Italy",
+        "id": "ce5d8e47870f8569af48c8fd17a563c5"
+    },
+    {
+        "domain": "Analogue modelling of geologic processes",
+        "inputstring": "Eurotank Flume Laboratory (Utrecht University, The Netherlands)",
+        "labname": "Eurotank Flume Laboratory",
+        "affiliation": "Utrecht University, The Netherlands",
+        "id": "8843bd50fa372f59ddc97d1a6f21f12f"
+    }
+]

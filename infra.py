@@ -226,6 +226,18 @@ class labIDs:
         idBaseName = idBaseName.lower()
         return hashlib.md5(idBaseName.encode()).hexdigest()
     
+    def addLabIdentifiers(self, idFile):
+        # expects a valid identifiersFile and fills/updates the id-fields
+        output = []
+        entries = loadJSONFromFile(idFile)
+        for entry in entries:
+            updatedEntry = entry
+            updatedEntry.update({'id': self.generateLabIdentifier(entry['inputstring'])})
+            output.append(updatedEntry)
+        writeJSONFile('out_' + idFile, output)
+            
+        
+    
 class lab:
     
     def __init__(self, labWb, research_field, subdomain, templateWb, IDs):
@@ -263,7 +275,7 @@ class lab:
         tna = self.labWb.getFieldValue('Facility participates to TNA call? Add TNA call website if YES',self.templateWb.activeSheet)
         
         # affiliation
-        # Currently not further elaborated upon.
+        # Currently not further elaborated on.
         # The Excel template does not currently request address and PIC e.g.
         affiliation = self.labWb.getFieldValue('Affiliation of Facility contact person',self.templateWb.activeSheet)
         affiliation = {'legal_name': affiliation,

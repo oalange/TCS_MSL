@@ -1,1 +1,9 @@
+
 .DS_Store
+.DS_Store
+docs/.DS_Store
+*.pyc
+.idea/
+bin/
+lib/python3.7/site-packages/
+.ipynb_checkpoints/
