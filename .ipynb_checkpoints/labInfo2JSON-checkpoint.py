@@ -22,7 +22,7 @@ Version 0.2
 
 import xlrd
 import glob
-import tcs_portal
+from infra_msl.msl_portal import tcs_portal
 
 try:
     import simplejson as json

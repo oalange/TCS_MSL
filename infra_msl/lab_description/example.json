@@ -1,0 +1,7 @@
+{
+  "template_excel_wb": "/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.2/New_Labs/TEMPLATE_Laboratory description_paleomagnetism_V6.3.xlsx",
+  "lab_excel_wb" : "/Users/otto/ownCloud - EPOS/WP16/LABS description service/Lab info collected/Paleomag/Updated_Paleomag_Lab_Description_V6.2/New_Labs/Laboratory description_paleomagnetism_Liverpool_V6.3.xlsx",
+  "research_field" : "Paleomagnetism",
+  "subdomain" : "Paleomagnetic and magnetic data",
+  "ids_file" : "/Users/otto/GitHub/TCS_MSL_env/labnames_new.json"
+}
